@@ -1,0 +1,26 @@
+1. Naive strategy:
+
+
+Take all the hetero-assemblies that are on hold.
+For each hetero-assembly:
+   Take the sequences and assign them to a PDB 50 % sequence-cluster. Collect all the sequence-clusters thus assigned.
+   For each sequence-cluster:
+      Gather the list of PDB entries that belong to it. 
+   If there is any PDB entry that is in *all* the lists, the hetero-assembly is redundant. If not, it is a potential CAPRI target.
+   
+
+2. Sameer's query to identify on-hold targets
+(Aug 30: query result is stored in on-hold-targets.json, using wget -O)
+
+https://www.ebi.ac.uk/pdbe/search/pdb/select?group=true&group.field=pdb_id&group.ngroups=true&json.nl=map&fl=*&rows=10000&start=0&q=(q_status%3Ahpub)%20OR%20(q_status%3Ahold)&fq=molecule_sequence:*&fq=number_of_polymer_entities:[2%20TO%20*]&group.limit=20&wt=json
+
+3. Sameer's query to identify related sequences and their alignments
+using phmmer:
+
+https://www.ebi.ac.uk/pdbe/search/pdb/select?group=true&group.field=pdb_id&group.ngroups=true&json.nl=map&fl=pdb_id%2Ccitation_title%2Ccitation_authors%2Ctitle%2Cexperimental_method%2Centry_authors%2Cpubmed_id%2Ccitation_year%2Cjournal%2Corganism_scientific_name%2Cassembly_composition%2Cinteracting_ligands%2Ctax_id%2Cresolution%2Cstatus%2Crelease_date%2Cprefered_assembly_id%2Centry_author_list%2Centry_organism_scientific_name%2Cdata_quality%2Cmodel_quality%2Cexperiment_data_available%2Cdeposition_date%2Crelease_year%2Cmolecule_type%2Cpfam_name%2Cuniprot_coverage%2Ccompound_id%2Cbound_compound_id%2Cmodified_compound_id%2Cuniprot_accession_best%2Cinteracting_uniprot_accession&rows=10000&start=0&sort=phmmer(e_value)%20asc&xjoin_phmmer.fl=*&xjoin_phmmer=true&xjoin_phmmer.external.sequence=IVGGYTCGANTVPYQVSLNSGYHFCGGSLINSQWVVSAAHCYKSGIQVRLGEDNINVVEGNEQFISASKSIVHPSYNSNTLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGKLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN&q=*:*&fq={!xjoin}xjoin_phmmer&group.limit=100&wt=json
+
+
+(Aug 30: query result is stored in search-pdb-example.json, using wget -O)
+(Another example search-pdb-6MYO.json using 6MYO, sequence
+GSSKAASLHWTSERAVSALLLGLLPAAYLYPGPAVDYSLAAALTLHGHWGLGQVITDYVHGDTPIKVANTGLYVLSAITFTGLCYFNYYDVGICKAVAMLWSI
+
