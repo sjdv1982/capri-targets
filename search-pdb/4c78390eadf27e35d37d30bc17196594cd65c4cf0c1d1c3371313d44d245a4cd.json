@@ -1,0 +1,3245 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 2170,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "AGIQNDSTGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 32,
+      "ngroups": 25,
+      "groups": [
+        {
+          "groupValue": "3kzj",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Bhattacharjee A",
+                  "Lehtinen MJ",
+                  "Kajander T",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "citation_title": "Both domain 19 and domain 20 of factor H are involved in binding to complement C3b and C3d.",
+                "citation_year": 2010,
+                "compound_id": [
+                  "SO4"
+                ],
+                "data_quality": 36.92,
+                "deposition_date": "2009-12-08T01:00:00Z",
+                "entry_author_list": [
+                  "Bhattacharjee A, Lehtinen MJ, Kajander T, Goldman A, Jokiranta TS"
+                ],
+                "entry_authors": [
+                  "Bhattacharjee A",
+                  "Lehtinen MJ",
+                  "Kajander T",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "journal": "Mol. Immunol.",
+                "model_quality": 94.28,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "3kzj",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "20378178",
+                "release_date": "2010-05-19T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 1.65,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of complement Factor H variant R1203A",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.11
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3kxv",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Bhattacharjee A",
+                  "Lehtinen MJ",
+                  "Kajander T",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "citation_title": "Both domain 19 and domain 20 of factor H are involved in binding to complement C3b and C3d.",
+                "citation_year": 2010,
+                "compound_id": [
+                  "SO4"
+                ],
+                "data_quality": 58.9,
+                "deposition_date": "2009-12-04T01:00:00Z",
+                "entry_author_list": [
+                  "Bhattacharjee A, Lehtinen MJ, Kajander T, Goldman A, Jokiranta TS"
+                ],
+                "entry_authors": [
+                  "Bhattacharjee A",
+                  "Lehtinen MJ",
+                  "Kajander T",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "journal": "Mol. Immunol.",
+                "model_quality": 83.92,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "3kxv",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "20378178",
+                "release_date": "2010-05-19T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 2.004,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of complement Factor H variant Q1139A",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.11
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2xqw",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kajander T",
+                  "Lehtinen MJ",
+                  "Hyvarinen S",
+                  "Bhattacharjee A",
+                  "Leung E",
+                  "Isenman DE",
+                  "Meri S",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "citation_title": "Dual interaction of factor H with C3d and glycosaminoglycans in host-nonhost discrimination by complement.",
+                "citation_year": 2011,
+                "data_quality": 39.91,
+                "deposition_date": "2010-09-07T01:00:00Z",
+                "entry_author_list": [
+                  "Kajander T, Lehtinen MJ, Hyvarinen S, Bhattacharjee A, Leung E, Isenman DE, Meri S, Jokiranta TS, Goldman A"
+                ],
+                "entry_authors": [
+                  "Kajander T",
+                  "Lehtinen MJ",
+                  "Hyvarinen S",
+                  "Bhattacharjee A",
+                  "Leung E",
+                  "Isenman DE",
+                  "Meri S",
+                  "Jokiranta TS",
+                  "Goldman A"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P01024"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 15.15,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2xqw",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21285368",
+                "release_date": "2011-02-02T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.306,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of Factor H domains 19-20 in complex with complement C3d",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.11
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kajander T",
+                  "Lehtinen MJ",
+                  "Hyvarinen S",
+                  "Bhattacharjee A",
+                  "Leung E",
+                  "Isenman DE",
+                  "Meri S",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "citation_title": "Dual interaction of factor H with C3d and glycosaminoglycans in host-nonhost discrimination by complement.",
+                "citation_year": 2011,
+                "data_quality": 39.91,
+                "deposition_date": "2010-09-07T01:00:00Z",
+                "entry_author_list": [
+                  "Kajander T, Lehtinen MJ, Hyvarinen S, Bhattacharjee A, Leung E, Isenman DE, Meri S, Jokiranta TS, Goldman A"
+                ],
+                "entry_authors": [
+                  "Kajander T",
+                  "Lehtinen MJ",
+                  "Hyvarinen S",
+                  "Bhattacharjee A",
+                  "Leung E",
+                  "Isenman DE",
+                  "Meri S",
+                  "Jokiranta TS",
+                  "Goldman A"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P08603"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 15.15,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2xqw",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21285368",
+                "release_date": "2011-02-02T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.306,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of Factor H domains 19-20 in complex with complement C3d",
+                "uniprot_accession_best": [
+                  "P01024"
+                ],
+                "uniprot_coverage": [
+                  0.18
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5nbq",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila T",
+                  "Postis VLG",
+                  "Jokiranta TS",
+                  "Goldman A",
+                  "Meri T"
+                ],
+                "citation_title": "Crystal structure of a tripartite complex between C3dg, C-terminal domains of factor H and OspE of Borrelia burgdorferi.",
+                "citation_year": 2017,
+                "data_quality": 44.57,
+                "deposition_date": "2017-03-02T01:00:00Z",
+                "entry_author_list": [
+                  "Kolodziejczyk R, Mikula KM, Kotila TM, Postis VLG, Sakari JT, Meri T"
+                ],
+                "entry_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila TM",
+                  "Postis VLG",
+                  "Sakari JT",
+                  "Meri T"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606",
+                  "Borreliella burgdorferi|139"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P08603",
+                  "P01024"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 47.95,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Borreliella burgdorferi"
+                ],
+                "pdb_id": "5nbq",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "29190743",
+                "release_date": "2017-12-06T01:00:00Z",
+                "release_year": 2017,
+                "resolution": 3.18,
+                "status": "REL",
+                "tax_id": [
+                  139
+                ],
+                "title": "The structure of the tripartite complex between OspE, the C-terminal domains of factor H and C3dg",
+                "uniprot_accession_best": [
+                  "Q45001"
+                ],
+                "uniprot_coverage": [
+                  0.75
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila T",
+                  "Postis VLG",
+                  "Jokiranta TS",
+                  "Goldman A",
+                  "Meri T"
+                ],
+                "citation_title": "Crystal structure of a tripartite complex between C3dg, C-terminal domains of factor H and OspE of Borrelia burgdorferi.",
+                "citation_year": 2017,
+                "data_quality": 44.57,
+                "deposition_date": "2017-03-02T01:00:00Z",
+                "entry_author_list": [
+                  "Kolodziejczyk R, Mikula KM, Kotila TM, Postis VLG, Sakari JT, Meri T"
+                ],
+                "entry_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila TM",
+                  "Postis VLG",
+                  "Sakari JT",
+                  "Meri T"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606",
+                  "Borreliella burgdorferi|139"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P08603",
+                  "Q45001"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 47.95,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "5nbq",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "29190743",
+                "release_date": "2017-12-06T01:00:00Z",
+                "release_year": 2017,
+                "resolution": 3.18,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "The structure of the tripartite complex between OspE, the C-terminal domains of factor H and C3dg",
+                "uniprot_accession_best": [
+                  "P01024"
+                ],
+                "uniprot_coverage": [
+                  0.18
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila T",
+                  "Postis VLG",
+                  "Jokiranta TS",
+                  "Goldman A",
+                  "Meri T"
+                ],
+                "citation_title": "Crystal structure of a tripartite complex between C3dg, C-terminal domains of factor H and OspE of Borrelia burgdorferi.",
+                "citation_year": 2017,
+                "data_quality": 44.57,
+                "deposition_date": "2017-03-02T01:00:00Z",
+                "entry_author_list": [
+                  "Kolodziejczyk R, Mikula KM, Kotila TM, Postis VLG, Sakari JT, Meri T"
+                ],
+                "entry_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila TM",
+                  "Postis VLG",
+                  "Sakari JT",
+                  "Meri T"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606",
+                  "Borreliella burgdorferi|139"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P01024",
+                  "Q45001"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 47.95,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "5nbq",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "29190743",
+                "release_date": "2017-12-06T01:00:00Z",
+                "release_year": 2017,
+                "resolution": 3.18,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "The structure of the tripartite complex between OspE, the C-terminal domains of factor H and C3dg",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              },
+              {
+                "citation_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila T",
+                  "Postis VLG",
+                  "Jokiranta TS",
+                  "Goldman A",
+                  "Meri T"
+                ],
+                "citation_title": "Crystal structure of a tripartite complex between C3dg, C-terminal domains of factor H and OspE of Borrelia burgdorferi.",
+                "citation_year": 2017,
+                "data_quality": 44.57,
+                "deposition_date": "2017-03-02T01:00:00Z",
+                "entry_author_list": [
+                  "Kolodziejczyk R, Mikula KM, Kotila TM, Postis VLG, Sakari JT, Meri T"
+                ],
+                "entry_authors": [
+                  "Kolodziejczyk R",
+                  "Mikula KM",
+                  "Kotila TM",
+                  "Postis VLG",
+                  "Sakari JT",
+                  "Meri T"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606",
+                  "Borreliella burgdorferi|139"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 47.95,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Borreliella burgdorferi"
+                ],
+                "pdb_id": "5nbq",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "29190743",
+                "release_date": "2017-12-06T01:00:00Z",
+                "release_year": 2017,
+                "resolution": 3.18,
+                "status": "REL",
+                "tax_id": [
+                  139
+                ],
+                "title": "The structure of the tripartite complex between OspE, the C-terminal domains of factor H and C3dg",
+                "uniprot_accession_best": [
+                  "Q45001"
+                ],
+                "uniprot_coverage": [
+                  0.75
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2bzm",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Herbert AP",
+                  "Uhrin D",
+                  "Lyon M",
+                  "Pangburn MK",
+                  "Barlow PN"
+                ],
+                "citation_title": "Disease-associated sequence variations congregate in a polyanion recognition patch on human factor H revealed in three-dimensional structure.",
+                "citation_year": 2006,
+                "data_quality": -1.0,
+                "deposition_date": "2005-08-18T01:00:00Z",
+                "entry_author_list": [
+                  "Herbert AP, Uhrin D, Lyon M, Pangburn MK, Barlow PN"
+                ],
+                "entry_authors": [
+                  "Herbert AP",
+                  "Uhrin D",
+                  "Lyon M",
+                  "Pangburn MK",
+                  "Barlow PN"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 1.97,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2bzm",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16533809",
+                "release_date": "2006-03-22T01:00:00Z",
+                "release_year": 2006,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Solution structure of the primary host recognition region of complement factor H",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4j38",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Bhattacharjee A",
+                  "Oeemig JS",
+                  "Kolodziejczyk R",
+                  "Meri T",
+                  "Kajander T",
+                  "Lehtinen MJ",
+                  "Iwai H",
+                  "Jokiranta TS",
+                  "Goldman A"
+                ],
+                "citation_title": "Structural Basis for Complement Evasion by Lyme Disease Pathogen Borrelia burgdorferi.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "SO4"
+                ],
+                "data_quality": 44.24,
+                "deposition_date": "2013-02-05T01:00:00Z",
+                "entry_author_list": [
+                  "Bhattacharjee A, Kolodziejczyk R, Kajander T, Goldman A, Jokiranta TS"
+                ],
+                "entry_authors": [
+                  "Bhattacharjee A",
+                  "Kolodziejczyk R",
+                  "Kajander T",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Borreliella burgdorferi N40|521007",
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "interacting_uniprot_accession": [
+                  "P08603"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 7.61,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Borreliella burgdorferi N40"
+                ],
+                "pdb_id": "4j38",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23658013",
+                "release_date": "2013-05-15T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 2.83,
+                "status": "REL",
+                "tax_id": [
+                  521007
+                ],
+                "title": "Structure of Borrelia burgdorferi Outer surface protein E in complex with Factor H domains 19-20"
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Bhattacharjee A",
+                  "Oeemig JS",
+                  "Kolodziejczyk R",
+                  "Meri T",
+                  "Kajander T",
+                  "Lehtinen MJ",
+                  "Iwai H",
+                  "Jokiranta TS",
+                  "Goldman A"
+                ],
+                "citation_title": "Structural Basis for Complement Evasion by Lyme Disease Pathogen Borrelia burgdorferi.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "SO4"
+                ],
+                "data_quality": 44.24,
+                "deposition_date": "2013-02-05T01:00:00Z",
+                "entry_author_list": [
+                  "Bhattacharjee A, Kolodziejczyk R, Kajander T, Goldman A, Jokiranta TS"
+                ],
+                "entry_authors": [
+                  "Bhattacharjee A",
+                  "Kolodziejczyk R",
+                  "Kajander T",
+                  "Goldman A",
+                  "Jokiranta TS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Borreliella burgdorferi N40|521007",
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 7.61,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4j38",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23658013",
+                "release_date": "2013-05-15T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 2.83,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of Borrelia burgdorferi Outer surface protein E in complex with Factor H domains 19-20",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.11
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2g7i",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Jokiranta TS",
+                  "Jaakola V-P",
+                  "Lehtinen MJ",
+                  "Parepalo M",
+                  "Meri S",
+                  "Goldman A"
+                ],
+                "citation_title": "Structure of complement factor H carboxyl-terminus reveals molecular basis of atypical haemolytic uremic syndrome.",
+                "citation_year": 2006,
+                "data_quality": 4.98,
+                "deposition_date": "2006-02-28T01:00:00Z",
+                "entry_author_list": [
+                  "Jaakola V-P, Jokiranta TS, Goldman A"
+                ],
+                "entry_authors": [
+                  "Jaakola V-P",
+                  "Jokiranta TS",
+                  "Goldman A"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "EMBO J.",
+                "model_quality": 67.06,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2g7i",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16601698",
+                "release_date": "2006-05-23T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 1.75,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of Human Complement Factor H Carboxyl Terminal Domains 19-20: a Basis for Atypical Hemolytic Uremic Syndrome",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3rj3",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Herbert AP",
+                  "Kavanagh D",
+                  "Johansson C",
+                  "Morgan HP",
+                  "Blaum BS",
+                  "Hannan JP",
+                  "Barlow PN",
+                  "Uhrin D"
+                ],
+                "citation_title": "Structural and functional characterization of the product of disease-related factor H gene conversion.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "GOL"
+                ],
+                "data_quality": 32.1,
+                "deposition_date": "2011-04-15T01:00:00Z",
+                "entry_author_list": [
+                  "Morgan HP, Hannan JP"
+                ],
+                "entry_authors": [
+                  "Morgan HP",
+                  "Hannan JP"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P01024"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 31.83,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "3rj3",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "3",
+                "pubmed_id": "22320225",
+                "release_date": "2012-03-14T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.35,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Complement components factor H CCP19-20 (S1191L mutant) and C3D in complex",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Herbert AP",
+                  "Kavanagh D",
+                  "Johansson C",
+                  "Morgan HP",
+                  "Blaum BS",
+                  "Hannan JP",
+                  "Barlow PN",
+                  "Uhrin D"
+                ],
+                "citation_title": "Structural and functional characterization of the product of disease-related factor H gene conversion.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "GOL"
+                ],
+                "data_quality": 32.1,
+                "deposition_date": "2011-04-15T01:00:00Z",
+                "entry_author_list": [
+                  "Morgan HP, Hannan JP"
+                ],
+                "entry_authors": [
+                  "Morgan HP",
+                  "Hannan JP"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "GOL : GLYCEROL"
+                ],
+                "interacting_uniprot_accession": [
+                  "P08603"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 31.83,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "3rj3",
+                "prefered_assembly_id": "3",
+                "pubmed_id": "22320225",
+                "release_date": "2012-03-14T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.35,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Complement components factor H CCP19-20 (S1191L mutant) and C3D in complex",
+                "uniprot_accession_best": [
+                  "P01024"
+                ],
+                "uniprot_coverage": [
+                  0.19
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3r62",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Morgan HP",
+                  "Jiang J",
+                  "Herbert AP",
+                  "Kavanagh D",
+                  "Uhran D",
+                  "Barlow PN",
+                  "Hannan JP"
+                ],
+                "citation_title": "Crystallographic determination of the disease-associated T1184R variant of the complement Factor H.",
+                "citation_year": 2011,
+                "compound_id": [
+                  "GOL"
+                ],
+                "data_quality": 58.83,
+                "deposition_date": "2011-03-21T01:00:00Z",
+                "entry_author_list": [
+                  "Morgan HP, Jiang J, Herbert AP, Kavanagh D, Uhran D, Barlow PN, Hannan JP"
+                ],
+                "entry_authors": [
+                  "Morgan HP",
+                  "Jiang J",
+                  "Herbert AP",
+                  "Kavanagh D",
+                  "Uhran D",
+                  "Barlow PN",
+                  "Hannan JP"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "GOL : GLYCEROL"
+                ],
+                "journal": "Acta Crystallogr. D Biol. Crystallogr.",
+                "model_quality": 35.58,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "3r62",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2011-06-29T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 1.52,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of complement regulator Factor H mutant, T1184R.",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4muc",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Bhattacharjee A",
+                  "Reuter S",
+                  "Trojnar E",
+                  "Kolodziejczyk R",
+                  "Seeberger H",
+                  "Hyvarinen S",
+                  "Uzonyi B",
+                  "Szilagyi A",
+                  "Prohaszka Z",
+                  "Goldman A",
+                  "Jozsi M",
+                  "Jokiranta TS"
+                ],
+                "citation_title": "The major autoantibody epitope on Factor H in atypical Hemolytic Uremic Syndrome is structurally different from its homologous site in Factor H related protein 1 supporting a novel model for induction of autoimmunity in this disease.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "SO4"
+                ],
+                "data_quality": 31.52,
+                "deposition_date": "2013-09-21T01:00:00Z",
+                "entry_author_list": [
+                  "Bhattacharjee A, Goldman A, Kolodziejczyk R, Jokiranta TS"
+                ],
+                "entry_authors": [
+                  "Bhattacharjee A",
+                  "Goldman A",
+                  "Kolodziejczyk R",
+                  "Jokiranta TS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 35.06,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4muc",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25659429",
+                "release_date": "2015-02-18T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 2.897,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "The 4th and 5th C-terminal domains of Factor H related protein 1",
+                "uniprot_accession_best": [
+                  "Q03591"
+                ],
+                "uniprot_coverage": [
+                  0.4
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3zd1",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "EDO"
+                ],
+                "citation_authors": [
+                  "Goicoechea De Jorge E",
+                  "Caesar JJE",
+                  "Malik TH",
+                  "Patel M",
+                  "Colledge M",
+                  "Johnson S",
+                  "Hakobyan S",
+                  "Morgan BP",
+                  "Harris CL",
+                  "Pickering MC",
+                  "Lea SM"
+                ],
+                "citation_title": "Dimerization of complement factor H-related proteins modulates complement activation in vivo.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "EDO"
+                ],
+                "data_quality": 51.14,
+                "deposition_date": "2012-11-23T01:00:00Z",
+                "entry_author_list": [
+                  "Caesar JJE, Goicoechea de Jorge E, Pickering MC, Lea SM"
+                ],
+                "entry_authors": [
+                  "Caesar JJE",
+                  "Goicoechea de Jorge E",
+                  "Pickering MC",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "EDO : 1,2-ETHANEDIOL"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 92.44,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "3zd1",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23487775",
+                "release_date": "2013-03-13T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 2.0,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "STRUCTURE OF THE TWO C-TERMINAL DOMAINS OF COMPLEMENT FACTOR H RELATED PROTEIN 2",
+                "uniprot_accession_best": [
+                  "P36980"
+                ],
+                "uniprot_coverage": [
+                  0.49
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1vvc",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Wiles AP",
+                  "Shaw G",
+                  "Bright J",
+                  "Perczel A",
+                  "Campbell ID",
+                  "Barlow PN"
+                ],
+                "citation_title": "NMR studies of a viral protein that mimics the regulators of complement activation.",
+                "citation_year": 1997,
+                "data_quality": -1.0,
+                "deposition_date": "1997-06-25T01:00:00Z",
+                "entry_author_list": [
+                  "Wiles A, Campbell ID, Barlow PN"
+                ],
+                "entry_authors": [
+                  "Wiles A",
+                  "Campbell ID",
+                  "Barlow PN"
+                ],
+                "entry_organism_scientific_name": [
+                  "Vaccinia virus|10245"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 0.45,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Vaccinia virus"
+                ],
+                "pdb_id": "1vvc",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "9299352",
+                "release_date": "1997-12-03T01:00:00Z",
+                "release_year": 1997,
+                "status": "REL",
+                "tax_id": [
+                  10245
+                ],
+                "title": "C-TERMINAL HALF OF VACCINIA VIRUS COMPLEMENT CONTROL PROTEIN, NMR, MINIMIZED AVERAGE STRUCTURE",
+                "uniprot_accession_best": [
+                  "P68638"
+                ],
+                "uniprot_coverage": [
+                  0.48
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4b2r",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Makou E",
+                  "Mertens HDT",
+                  "Maciejewski M",
+                  "Soares DC",
+                  "Matis I",
+                  "Schmidt CQ",
+                  "Herbert AP",
+                  "Svergun DI",
+                  "Barlow PN"
+                ],
+                "citation_title": "Solution Structure of CCP Modules 10-12 Illuminates Functional Architecture of the Complement Regulator, Factor H.",
+                "citation_year": 2012,
+                "data_quality": -1.0,
+                "deposition_date": "2012-07-17T01:00:00Z",
+                "entry_author_list": [
+                  "Makou E, Mertens HDT, Maciejewski M, Soares DC, Matis I, Schmidt CQ, Herbert AP, Svergun DI, Barlow PN"
+                ],
+                "entry_authors": [
+                  "Makou E",
+                  "Mertens HDT",
+                  "Maciejewski M",
+                  "Soares DC",
+                  "Matis I",
+                  "Schmidt CQ",
+                  "Herbert AP",
+                  "Svergun DI",
+                  "Barlow PN"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 14.39,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4b2r",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23017427",
+                "release_date": "2012-10-10T01:00:00Z",
+                "release_year": 2012,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Solution structure of CCP modules 10-11 of complement factor H",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5wtb",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Zhang Y",
+                  "Wu M",
+                  "Hang T",
+                  "Wang C",
+                  "Yang Y",
+                  "Pan W",
+                  "Zang J",
+                  "Zhang M",
+                  "Zhang X"
+                ],
+                "citation_title": "Staphylococcus aureus SdrE captures complement factor H's C-terminus via a novel 'close, dock, lock and latch' mechanism for complement evasion.",
+                "citation_year": 2017,
+                "data_quality": 23.69,
+                "deposition_date": "2016-12-10T01:00:00Z",
+                "entry_author_list": [
+                  "Wu M, Zhang Y, Hang T, Wang C, Yang Y, Zang J, Zhang M, Zhang X"
+                ],
+                "entry_authors": [
+                  "Wu M",
+                  "Zhang Y",
+                  "Hang T",
+                  "Wang C",
+                  "Yang Y",
+                  "Zang J",
+                  "Zhang M",
+                  "Zhang X"
+                ],
+                "entry_organism_scientific_name": [
+                  "Staphylococcus aureus subsp. aureus Mu50|158878",
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P08603"
+                ],
+                "journal": "Biochem. J.",
+                "model_quality": 13.92,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Staphylococcus aureus subsp. aureus Mu50"
+                ],
+                "pdb_id": "5wtb",
+                "pfam_name": [
+                  "Big_8",
+                  "SdrG_C_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "28258151",
+                "release_date": "2017-07-19T01:00:00Z",
+                "release_year": 2017,
+                "resolution": 3.3,
+                "status": "REL",
+                "tax_id": [
+                  158878
+                ],
+                "title": "Complex Structure of Staphylococcus aureus SdrE with human complement factor H",
+                "uniprot_accession_best": [
+                  "Q932F7"
+                ],
+                "uniprot_coverage": [
+                  0.3
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Zhang Y",
+                  "Wu M",
+                  "Hang T",
+                  "Wang C",
+                  "Yang Y",
+                  "Pan W",
+                  "Zang J",
+                  "Zhang M",
+                  "Zhang X"
+                ],
+                "citation_title": "Staphylococcus aureus SdrE captures complement factor H's C-terminus via a novel 'close, dock, lock and latch' mechanism for complement evasion.",
+                "citation_year": 2017,
+                "data_quality": 23.69,
+                "deposition_date": "2016-12-10T01:00:00Z",
+                "entry_author_list": [
+                  "Wu M, Zhang Y, Hang T, Wang C, Yang Y, Zang J, Zhang M, Zhang X"
+                ],
+                "entry_authors": [
+                  "Wu M",
+                  "Zhang Y",
+                  "Hang T",
+                  "Wang C",
+                  "Yang Y",
+                  "Zang J",
+                  "Zhang M",
+                  "Zhang X"
+                ],
+                "entry_organism_scientific_name": [
+                  "Staphylococcus aureus subsp. aureus Mu50|158878",
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q932F7"
+                ],
+                "journal": "Biochem. J.",
+                "model_quality": 13.92,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "5wtb",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "28258151",
+                "release_date": "2017-07-19T01:00:00Z",
+                "release_year": 2017,
+                "resolution": 3.3,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Complex Structure of Staphylococcus aureus SdrE with human complement factor H",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.02
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4jhs",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Bonanno JB",
+                  "Toro R",
+                  "Gizzi A",
+                  "Chan MK",
+                  "Garrett-Thomson SC",
+                  "Patel H",
+                  "Lim S",
+                  "Matikainen B",
+                  "Celikgil A",
+                  "Garforth S",
+                  "Hillerich B",
+                  "Seidel R",
+                  "Rand JH",
+                  "Almo SC"
+                ],
+                "citation_title": "Crystal structure of a C-terminal two domain fragment of human beta-2-glycoprotein 1",
+                "compound_id": [
+                  "SO4"
+                ],
+                "data_quality": 44.24,
+                "deposition_date": "2013-03-05T01:00:00Z",
+                "entry_author_list": [
+                  "Bonanno JB, Toro R, Gizzi A, Chan MK, Garrett-Thomson SC, Patel H, Lim S, Matikainen B, Celikgil A, Garforth S, Hillerich B, Seidel R, Rand JH, Almo SC, New York Structural Genomics Research Consortium (NYSGRC), Atoms-to-Animals: The Immune Function Network (IFN)"
+                ],
+                "entry_authors": [
+                  "Bonanno JB",
+                  "Toro R",
+                  "Gizzi A",
+                  "Chan MK",
+                  "Garrett-Thomson SC",
+                  "Patel H",
+                  "Lim S",
+                  "Matikainen B",
+                  "Celikgil A",
+                  "Garforth S",
+                  "Hillerich B",
+                  "Seidel R",
+                  "Rand JH",
+                  "Almo SC",
+                  "New York Structural Genomics Research Consortium (NYSGRC)",
+                  "Atoms-to-Animals: The Immune Function Network (IFN)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "journal": "To be published",
+                "model_quality": 13.07,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4jhs",
+                "pfam_name": [
+                  "Sushi",
+                  "Sushi_2"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2013-04-24T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 3.0,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of a C-terminal two domain fragment of human beta-2-glycoprotein 1",
+                "uniprot_accession_best": [
+                  "P02749"
+                ],
+                "uniprot_coverage": [
+                  0.44
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1hfi",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Barlow PN",
+                  "Steinkasserer A",
+                  "Norman DG",
+                  "Kieffer B",
+                  "Wiles AP",
+                  "Sim RB",
+                  "Campbell ID"
+                ],
+                "citation_title": "Solution structure of a pair of complement modules by nuclear magnetic resonance.",
+                "citation_year": 1993,
+                "data_quality": -1.0,
+                "deposition_date": "1993-02-23T01:00:00Z",
+                "entry_author_list": [
+                  "Barlow PN, Steinkasserer A, Norman DG, Kieffer B, Wiles AP, Sim RB, Campbell ID"
+                ],
+                "entry_authors": [
+                  "Barlow PN",
+                  "Steinkasserer A",
+                  "Norman DG",
+                  "Kieffer B",
+                  "Wiles AP",
+                  "Sim RB",
+                  "Campbell ID"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 2.01,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "1hfi",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "8331663",
+                "release_date": "1993-07-15T01:00:00Z",
+                "release_year": 1993,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "SOLUTION STRUCTURE OF A PAIR OF COMPLEMENT MODULES BY NUCLEAR MAGNETIC RESONANCE",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.05
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1ntl",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Aslam M",
+                  "Guthridge JM",
+                  "Hack BK",
+                  "Quigg RJ",
+                  "Holers VM",
+                  "Perkins SJ"
+                ],
+                "citation_title": "The extended multidomain solution structures of the complement protein Crry and its chimeric conjugate Crry-Ig by scattering, analytical ultracentrifugation and constrained modelling: implications for function and therapy.",
+                "citation_year": 2003,
+                "data_quality": -1.0,
+                "deposition_date": "2003-01-30T01:00:00Z",
+                "entry_author_list": [
+                  "Aslam M, Guthridge JM, Hack BK, Quigg RJ, Holers VM, Perkins SJ"
+                ],
+                "entry_authors": [
+                  "Aslam M",
+                  "Guthridge JM",
+                  "Hack BK",
+                  "Quigg RJ",
+                  "Holers VM",
+                  "Perkins SJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mus musculus|10090"
+                ],
+                "experimental_method": [
+                  "X-ray solution scattering"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 38.2,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mus musculus"
+                ],
+                "pdb_id": "1ntl",
+                "pfam_name": [
+                  "C1-set"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "12767833",
+                "release_date": "2004-02-03T01:00:00Z",
+                "release_year": 2004,
+                "resolution": 30.0,
+                "status": "REL",
+                "tax_id": [
+                  10090
+                ],
+                "title": "Model of mouse Crry-Ig determined by solution scattering, curve fitting and homology modelling",
+                "uniprot_accession_best": [
+                  "P01868"
+                ],
+                "uniprot_coverage": [
+                  0.7
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2kms",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Schmidt CQ",
+                  "Herbert AP",
+                  "Mertens HDT",
+                  "Guariento M",
+                  "Soares DC",
+                  "Uhrin D",
+                  "Rowe AJ",
+                  "Svergun DI",
+                  "Barlow PN"
+                ],
+                "citation_title": "The central portion of factor H (modules 10-15) is compact and contains a structurally deviant CCP module.",
+                "citation_year": 2010,
+                "data_quality": -1.0,
+                "deposition_date": "2009-08-04T01:00:00Z",
+                "entry_author_list": [
+                  "Schmidt CQ, Herbert AP, Guariento M, Mertens HDT, Soares DC, Uhrin D, Rowe AJ, Svergun DI, Barlow PN"
+                ],
+                "entry_authors": [
+                  "Schmidt CQ",
+                  "Herbert AP",
+                  "Guariento M",
+                  "Mertens HDT",
+                  "Soares DC",
+                  "Uhrin D",
+                  "Rowe AJ",
+                  "Svergun DI",
+                  "Barlow PN"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 12.04,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2kms",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "19835885",
+                "release_date": "2009-11-03T01:00:00Z",
+                "release_year": 2009,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Combined high- and low-resolution techniques reveal compact structure in central portion of factor H despite long inter-modular linkers",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.09
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2yby",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "EDO"
+                ],
+                "citation_authors": [
+                  "Johnson S",
+                  "Tan L",
+                  "Van Der Veen S",
+                  "Caesar J",
+                  "Goicoechea De Jorge E",
+                  "Harding RJ",
+                  "Bai X",
+                  "Exley RM",
+                  "Ward PN",
+                  "Ruivo N",
+                  "Trivedi K",
+                  "Cumber E",
+                  "Jones R",
+                  "Newham L",
+                  "Staunton D",
+                  "Ufret-Vincenty R",
+                  "Borrow R",
+                  "Pickering MC",
+                  "Lea SM",
+                  "Tang CM"
+                ],
+                "citation_title": "Design and Evaluation of Meningococcal Vaccines through Structure-Based Modification of Host and Pathogen Molecules.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "EDO"
+                ],
+                "data_quality": 41.9,
+                "deposition_date": "2011-03-30T01:00:00Z",
+                "entry_author_list": [
+                  "Everett RJ, Caesar JJE, Johnson SJ, Tang CM, Lea SM"
+                ],
+                "entry_authors": [
+                  "Everett RJ",
+                  "Caesar JJE",
+                  "Johnson SJ",
+                  "Tang CM",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mus musculus|10090"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "EDO : 1,2-ETHANEDIOL"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 81.29,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mus musculus"
+                ],
+                "pdb_id": "2yby",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23133374",
+                "release_date": "2012-04-18T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 1.58,
+                "status": "REL",
+                "tax_id": [
+                  10090
+                ],
+                "title": "Structure of domains 6 and 7 of the mouse complement regulator Factor H",
+                "uniprot_accession_best": [
+                  "P06909"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2rlq",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Hocking HG",
+                  "Herbert AP",
+                  "Kavanagh D",
+                  "Soares DC",
+                  "Ferreira VP",
+                  "Pangburn MK",
+                  "Uhrin D",
+                  "Barlow PN"
+                ],
+                "citation_title": "Structure of the N-terminal region of complement factor H and conformational implications of disease-linked sequence variations.",
+                "citation_year": 2008,
+                "data_quality": -1.0,
+                "deposition_date": "2007-07-29T01:00:00Z",
+                "entry_author_list": [
+                  "Hocking HG, Herbert AP, Pangburn MK, Kavanagh D, Barlow PN, Uhrin D"
+                ],
+                "entry_authors": [
+                  "Hocking HG",
+                  "Herbert AP",
+                  "Pangburn MK",
+                  "Kavanagh D",
+                  "Barlow PN",
+                  "Uhrin D"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 37.7,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2rlq",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "18252712",
+                "release_date": "2008-02-19T01:00:00Z",
+                "release_year": 2008,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "NMR structure of CCP modules 2-3 of complement factor H",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2rlp",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Hocking HG",
+                  "Herbert AP",
+                  "Kavanagh D",
+                  "Soares DC",
+                  "Ferreira VP",
+                  "Pangburn MK",
+                  "Uhrin D",
+                  "Barlow PN"
+                ],
+                "citation_title": "Structure of the N-terminal region of complement factor H and conformational implications of disease-linked sequence variations.",
+                "citation_year": 2008,
+                "data_quality": -1.0,
+                "deposition_date": "2007-07-28T01:00:00Z",
+                "entry_author_list": [
+                  "Hocking HG, Herbert AP, Pangburn MK, Kavanagh D, Barlow PN, Uhrin D"
+                ],
+                "entry_authors": [
+                  "Hocking HG",
+                  "Herbert AP",
+                  "Pangburn MK",
+                  "Kavanagh D",
+                  "Barlow PN",
+                  "Uhrin D"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 31.95,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2rlp",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "18252712",
+                "release_date": "2008-02-19T01:00:00Z",
+                "release_year": 2008,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "NMR structure of CCP modules 1-2 of complement factor H",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.1
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1hcc",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Norman DG",
+                  "Barlow PN",
+                  "Baron M",
+                  "Day AJ",
+                  "Sim RB",
+                  "Campbell ID"
+                ],
+                "citation_title": "Three-dimensional structure of a complement control protein module in solution.",
+                "citation_year": 1991,
+                "data_quality": -1.0,
+                "deposition_date": "1990-11-28T01:00:00Z",
+                "entry_author_list": [
+                  "Norman DG, Barlow PB, Campbell IDC"
+                ],
+                "entry_authors": [
+                  "Norman DG",
+                  "Barlow PB",
+                  "Campbell IDC"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 8.81,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "1hcc",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "1829116",
+                "release_date": "1992-04-15T01:00:00Z",
+                "release_year": 1992,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "THREE-DIMENSIONAL STRUCTURE OF A COMPLEMENT CONTROL PROTEIN MODULE IN SOLUTION",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.05
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2uwn",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "SCR",
+                  "SO4",
+                  "ACT",
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Prosser BE",
+                  "Johnson S",
+                  "Roversi P",
+                  "Herbert AP",
+                  "Blaum BS",
+                  "Tyrrell J",
+                  "Jowitt TA",
+                  "Clark SJ",
+                  "Tarelli E",
+                  "Uhrin D",
+                  "Barlow PN",
+                  "Sim RB",
+                  "Day AJ",
+                  "Lea SM"
+                ],
+                "citation_title": "Structural basis for complement factor H linked age-related macular degeneration.",
+                "citation_year": 2007,
+                "compound_id": [
+                  "SCR",
+                  "SO4",
+                  "ACT",
+                  "CL"
+                ],
+                "data_quality": 12.94,
+                "deposition_date": "2007-03-22T01:00:00Z",
+                "entry_author_list": [
+                  "Prosser BE, Johnson S, Roversi P, Herbert AP, Blaum BS, Tyrrell J, Jowitt TA, Clark SJ, Terelli E, Uhrin D, Barlow PN, Sim RB, Day AJ, Lea SM"
+                ],
+                "entry_authors": [
+                  "Prosser BE",
+                  "Johnson S",
+                  "Roversi P",
+                  "Herbert AP",
+                  "Blaum BS",
+                  "Tyrrell J",
+                  "Jowitt TA",
+                  "Clark SJ",
+                  "Terelli E",
+                  "Uhrin D",
+                  "Barlow PN",
+                  "Sim RB",
+                  "Day AJ",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SCR : SUCROSE OCTASULFATE",
+                  "ACT : ACETATE ION",
+                  "SO4 : SULFATE ION",
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "J. Exp. Med.",
+                "model_quality": 17.86,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2uwn",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "17893204",
+                "release_date": "2007-10-02T01:00:00Z",
+                "release_year": 2007,
+                "resolution": 2.35,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of Human Complement Factor H, SCR domains 6-8 (H402 risk variant), in complex with ligand.",
+                "uniprot_accession_best": [
+                  "P08603"
+                ],
+                "uniprot_coverage": [
+                  0.15
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2qzd",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Hafenstein S",
+                  "Bowman VD",
+                  "Chipman PR",
+                  "Bator Kelly CM",
+                  "Lin F",
+                  "Medof ME",
+                  "Rossmann MG"
+                ],
+                "citation_title": "Interaction of decay-accelerating factor with coxsackievirus B3.",
+                "citation_year": 2007,
+                "data_quality": -1.0,
+                "deposition_date": "2007-08-16T01:00:00Z",
+                "entry_author_list": [
+                  "Hafenstein S, Bowman VD, Chipman PR, Bator Kelly CM, Lin F, Medof ME, Rossmann MG"
+                ],
+                "entry_authors": [
+                  "Hafenstein S",
+                  "Bowman VD",
+                  "Chipman PR",
+                  "Bator Kelly CM",
+                  "Lin F",
+                  "Medof ME",
+                  "Rossmann MG"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "journal": "J. Virol.",
+                "model_quality": 49.6,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "2qzd",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "17804498",
+                "release_date": "2007-10-30T01:00:00Z",
+                "release_year": 2007,
+                "resolution": 14.0,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Fitted structure of SCR4 of DAF into cryoEM density",
+                "uniprot_accession_best": [
+                  "P08174"
+                ],
+                "uniprot_coverage": [
+                  0.18
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1srz",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Blein S",
+                  "Ginham R",
+                  "Uhrin D",
+                  "Smith BO",
+                  "Soares DC",
+                  "Veltel S",
+                  "McIlhinney RA",
+                  "White JH",
+                  "Barlow PN"
+                ],
+                "citation_title": "Structural analysis of the complement control protein (CCP) modules of GABA(B) receptor 1a: only one of the two CCP modules is compactly folded.",
+                "citation_year": 2004,
+                "data_quality": -1.0,
+                "deposition_date": "2004-03-23T01:00:00Z",
+                "entry_author_list": [
+                  "Blein S, Uhrin D, Smith BO, White JH, Barlow PN"
+                ],
+                "entry_authors": [
+                  "Blein S",
+                  "Uhrin D",
+                  "Smith BO",
+                  "White JH",
+                  "Barlow PN"
+                ],
+                "entry_organism_scientific_name": [
+                  "Rattus norvegicus|10116"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 3.85,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Rattus norvegicus"
+                ],
+                "pdb_id": "1srz",
+                "pfam_name": [
+                  "Sushi"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "15304491",
+                "release_date": "2004-10-12T01:00:00Z",
+                "release_year": 2004,
+                "status": "REL",
+                "tax_id": [
+                  10116
+                ],
+                "title": "Solution structure of the second complement control protein (CCP) module of the GABA(B)R1a receptor, Pro-119 trans conformer",
+                "uniprot_accession_best": [
+                  "Q9Z0U4"
+                ],
+                "uniprot_coverage": [
+                  0.07
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 25,
+    "num_entries": 25,
+    "external": [
+      {
+        "joinId": "3kzj",
+        "doc": {
+          "score": 308.3,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.3e-91,
+          "e_value_ind": 1.5e-91,
+          "e_value_cond": 2.6e-95,
+          "bit_score": 308.196228027344,
+          "species": "Homo sapiens",
+          "query_sequence": "agiqndstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 1,
+          "query_sequence_end": 133,
+          "target_sequence": "AGIQKDSTGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKAGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 133,
+          "target_envelope_start": 1,
+          "target_envelope_end": 133,
+          "posterior_probability": "7***********************************************************************************************************************************8",
+          "bias": 2.8,
+          "identity_percent": 98.4962406015038,
+          "identity_count": 131,
+          "similarity_percent": 98.4962406015038,
+          "similarity_count": 131,
+          "match": "agiq dstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvck gyrlssrshtlrttcwdgkleyptcakr",
+          "description": "Complement factor H",
+          "target": "3kzj_A"
+        }
+      },
+      {
+        "joinId": "3kxv",
+        "doc": {
+          "score": 308.3,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.4e-91,
+          "e_value_ind": 1.5e-91,
+          "e_value_cond": 2.6e-95,
+          "bit_score": 308.172424316406,
+          "species": "Homo sapiens",
+          "query_sequence": "agiqndstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 1,
+          "query_sequence_end": 133,
+          "target_sequence": "AGIQKDSTGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCANLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 133,
+          "target_envelope_start": 1,
+          "target_envelope_end": 133,
+          "posterior_probability": "7***********************************************************************************************************************************8",
+          "bias": 2.82,
+          "identity_percent": 98.4962406015038,
+          "identity_count": 131,
+          "similarity_percent": 98.4962406015038,
+          "similarity_count": 131,
+          "match": "agiq dstgkcgppppidngditsfplsvyapassveyqc nlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "description": "Complement factor H",
+          "target": "3kxv_A"
+        }
+      },
+      {
+        "joinId": "2xqw",
+        "doc": {
+          "score": 305.0,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.5e-90,
+          "e_value_ind": 1.6e-90,
+          "e_value_cond": 2.8e-94,
+          "bit_score": 304.838439941406,
+          "species": "Homo sapiens",
+          "query_sequence": "agiqndstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 1,
+          "query_sequence_end": 133,
+          "target_sequence": "AGIQKDSTGKCGPPPPIDNGGITSFPLSVYAPASSVEYQCANLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 133,
+          "target_envelope_start": 1,
+          "target_envelope_end": 133,
+          "posterior_probability": "7***********************************************************************************************************************************8",
+          "bias": 2.95,
+          "identity_percent": 97.74436090225561,
+          "identity_count": 130,
+          "similarity_percent": 97.74436090225561,
+          "similarity_count": 130,
+          "match": "agiq dstgkcgppppidng itsfplsvyapassveyqc nlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "description": "COMPLEMENT FACTOR H",
+          "target": "2xqw_C"
+        }
+      },
+      {
+        "joinId": "5nbq",
+        "doc": {
+          "score": 299.7,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 6.1e-89,
+          "e_value_ind": 6.7e-89,
+          "e_value_cond": 1.2e-92,
+          "bit_score": 299.595428466797,
+          "species": "Homo sapiens",
+          "query_sequence": "dstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcak",
+          "query_sequence_start": 6,
+          "query_sequence_end": 132,
+          "target_sequence": "DSTGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAK",
+          "target_sequence_start": 1,
+          "target_sequence_end": 127,
+          "target_envelope_start": 1,
+          "target_envelope_end": 127,
+          "posterior_probability": "89***************************************************************************************************************************98",
+          "bias": 3.44,
+          "identity_percent": 100.0,
+          "identity_count": 127,
+          "similarity_percent": 100.0,
+          "similarity_count": 127,
+          "match": "dstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcak",
+          "description": "Complement factor H",
+          "target": "5nbq_D"
+        }
+      },
+      {
+        "joinId": "2bzm",
+        "doc": {
+          "score": 296.8,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 5.1e-88,
+          "e_value_ind": 5.5e-88,
+          "e_value_cond": 9.6e-92,
+          "bit_score": 296.635406494141,
+          "species": "Homo sapiens",
+          "query_sequence": "tgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 8,
+          "query_sequence_end": 133,
+          "target_sequence": "FGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 4,
+          "target_sequence_end": 129,
+          "target_envelope_start": 1,
+          "target_envelope_end": 129,
+          "posterior_probability": "59***************************************************************************************************************************8",
+          "bias": 3.16,
+          "identity_percent": 99.2063492063492,
+          "identity_count": 125,
+          "similarity_percent": 99.2063492063492,
+          "similarity_count": 125,
+          "match": " gkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "description": "COMPLEMENT FACTOR H",
+          "target": "2bzm_A"
+        }
+      },
+      {
+        "joinId": "4j38",
+        "doc": {
+          "score": 296.7,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 5.3e-88,
+          "e_value_ind": 5.8e-88,
+          "e_value_cond": 1e-91,
+          "bit_score": 296.550140380859,
+          "species": "Homo sapiens",
+          "query_sequence": "dstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 6,
+          "query_sequence_end": 133,
+          "target_sequence": "DSTGKCGPPPPIDNGGITSFPLSVYAPASSVEYQCANLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 2,
+          "target_sequence_end": 129,
+          "target_envelope_start": 1,
+          "target_envelope_end": 129,
+          "posterior_probability": "9******************************************************************************************************************************8",
+          "bias": 3.56,
+          "identity_percent": 98.4375,
+          "identity_count": 126,
+          "similarity_percent": 98.4375,
+          "similarity_count": 126,
+          "match": "dstgkcgppppidng itsfplsvyapassveyqc nlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "description": "Complement factor H",
+          "target": "4j38_B"
+        }
+      },
+      {
+        "joinId": "2g7i",
+        "doc": {
+          "score": 295.1,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.6e-87,
+          "e_value_ind": 1.8e-87,
+          "e_value_cond": 3.1e-91,
+          "bit_score": 294.975067138672,
+          "species": "Homo sapiens",
+          "query_sequence": "gkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 9,
+          "query_sequence_end": 133,
+          "target_sequence": "GKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 125,
+          "target_envelope_start": 1,
+          "target_envelope_end": 125,
+          "posterior_probability": "8***************************************************************************************************************************8",
+          "bias": 3.7,
+          "identity_percent": 100.0,
+          "identity_count": 125,
+          "similarity_percent": 100.0,
+          "similarity_count": 125,
+          "match": "gkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "description": "Complement factor H",
+          "target": "2g7i_A"
+        }
+      },
+      {
+        "joinId": "3rj3",
+        "doc": {
+          "score": 294.3,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.9e-87,
+          "e_value_ind": 3.2e-87,
+          "e_value_cond": 5.6e-91,
+          "bit_score": 294.15966796875,
+          "species": "Homo sapiens",
+          "query_sequence": "tgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 8,
+          "query_sequence_end": 133,
+          "target_sequence": "FGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYLRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 4,
+          "target_sequence_end": 129,
+          "target_envelope_start": 1,
+          "target_envelope_end": 129,
+          "posterior_probability": "59***************************************************************************************************************************8",
+          "bias": 2.88,
+          "identity_percent": 98.41269841269839,
+          "identity_count": 124,
+          "similarity_percent": 98.41269841269839,
+          "similarity_count": 124,
+          "match": " gkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqkly rtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "description": "Complement Factor H-related protein 1",
+          "target": "3rj3_D"
+        }
+      },
+      {
+        "joinId": "3r62",
+        "doc": {
+          "score": 294.0,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.6e-87,
+          "e_value_ind": 3.9e-87,
+          "e_value_cond": 6.8e-91,
+          "bit_score": 293.880310058594,
+          "species": "Homo sapiens",
+          "query_sequence": "tgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "query_sequence_start": 8,
+          "query_sequence_end": 133,
+          "target_sequence": "FGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWRAKQKLYSRTGESVEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAKR",
+          "target_sequence_start": 4,
+          "target_sequence_end": 129,
+          "target_envelope_start": 1,
+          "target_envelope_end": 129,
+          "posterior_probability": "59***************************************************************************************************************************8",
+          "bias": 3.16,
+          "identity_percent": 98.41269841269839,
+          "identity_count": 124,
+          "similarity_percent": 98.41269841269839,
+          "similarity_count": 124,
+          "match": " gkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrw akqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcakr",
+          "description": "Complement factor H",
+          "target": "3r62_A"
+        }
+      },
+      {
+        "joinId": "4muc",
+        "doc": {
+          "score": 290.8,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.4e-86,
+          "e_value_ind": 3.7e-86,
+          "e_value_cond": 6.5e-90,
+          "bit_score": 290.697601318359,
+          "species": "Homo sapiens",
+          "query_sequence": "tgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcak",
+          "query_sequence_start": 8,
+          "query_sequence_end": 132,
+          "target_sequence": "TGKCGPPPPIDNGDITSFPLSVYAPASSVEYQCQNLYQLEGNKRITCRNGQWSEPPKCLHPCVISREIMENYNIALRWTAKQKLYLRTGESAEFVCKRGYRLSSRSHTLRTTCWDGKLEYPTCAK",
+          "target_sequence_start": 1,
+          "target_sequence_end": 125,
+          "target_envelope_start": 1,
+          "target_envelope_end": 125,
+          "posterior_probability": "8**************************************************************************************************************************98",
+          "bias": 3.45,
+          "identity_percent": 98.4,
+          "identity_count": 123,
+          "similarity_percent": 98.4,
+          "similarity_count": 123,
+          "match": "tgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqkly rtges efvckrgyrlssrshtlrttcwdgkleyptcak",
+          "description": "Complement factor H-related protein 1",
+          "target": "4muc_A"
+        }
+      },
+      {
+        "joinId": "3zd1",
+        "doc": {
+          "score": 220.2,
+          "accuracy": 0.97,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.1e-64,
+          "e_value_ind": 2.3e-64,
+          "e_value_cond": 4e-68,
+          "bit_score": 220.107086181641,
+          "species": "Homo sapiens",
+          "query_sequence": "kcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcak",
+          "query_sequence_start": 10,
+          "query_sequence_end": 132,
+          "target_sequence": "KCGPPPPIDNGDITSFLLSVYAPGSSVEYQCQNLYQLEGNNQITCRNGQWSEPPKCLDPCVISQEIMEKYNIKLKWTNQQKLYSRTGDIVEFVCKSGYHP-TKSHSFRAMCQNGKLVYPSCEE",
+          "target_sequence_start": 4,
+          "target_sequence_end": 125,
+          "target_envelope_start": 1,
+          "target_envelope_end": 126,
+          "posterior_probability": "9*************************************************************************************************95.79******************76",
+          "bias": 2.09,
+          "identity_percent": 77.04918032786881,
+          "identity_count": 94,
+          "similarity_percent": 87.7049180327869,
+          "similarity_count": 107,
+          "match": "kcgppppidngditsf lsvyap ssveyqcqnlyqlegn +itcrngqwseppkcl pcvis+eime yni l+wt +qklysrtg+ vefvck gy+  ++sh++r  c +gkl yp+c +",
+          "description": "COMPLEMENT FACTOR H-RELATED PROTEIN 2",
+          "target": "3zd1_A"
+        }
+      },
+      {
+        "joinId": "1vvc",
+        "doc": {
+          "score": 54.0,
+          "accuracy": 0.78,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 4e-13,
+          "e_value_ind": 1.7e-11,
+          "e_value_cond": 3e-15,
+          "bit_score": 48.7528762817383,
+          "species": "Vaccinia virus",
+          "query_sequence": "kcgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptca",
+          "query_sequence_start": 10,
+          "query_sequence_end": 131,
+          "target_sequence": "KCQSPPSISNGRHNGYE-DFYTDGSVVTYSCNSGYSLIGNSGVLCSGGEWSDPPTCQIVKCPHPTISNGY-LS---SGFKRSYSY-NDNVDFKCKYGYKLSGSSSSTCSPGNTWKPELPKCV",
+          "target_sequence_start": 2,
+          "target_sequence_end": 117,
+          "target_envelope_start": 1,
+          "target_envelope_end": 118,
+          "posterior_probability": "8***********99996.79**********************************9965433334444444.43...344567875.689***********9888654444444466777775",
+          "bias": 6.68,
+          "identity_percent": 34.4827586206897,
+          "identity_count": 40,
+          "similarity_percent": 49.137931034482804,
+          "similarity_count": 57,
+          "match": "kc  pp i ng    +    y   s v y c + y l gn  + c  g+ws+pp c         i   y ++   +  ++ ys  +++v+f ck gy+ls  s +  +     k e p c ",
+          "description": "VACCINIA VIRUS COMPLEMENT CONTROL PROTEIN",
+          "target": "1vvc_A"
+        }
+      },
+      {
+        "joinId": "4b2r",
+        "doc": {
+          "score": 40.5,
+          "accuracy": 0.78,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 5.9e-09,
+          "e_value_ind": 1200.0,
+          "e_value_cond": 0.21,
+          "bit_score": 3.84629154205322,
+          "species": "Homo sapiens",
+          "query_sequence": "klysrtgesvefvckrgyrls",
+          "query_sequence_start": 90,
+          "query_sequence_end": 110,
+          "target_sequence": "KDQYKVGEVLKFSCKPGFTIV",
+          "target_sequence_start": 23,
+          "target_sequence_end": 43,
+          "target_envelope_start": 9,
+          "target_envelope_end": 64,
+          "posterior_probability": "444589***********9875",
+          "bias": 0.02,
+          "identity_percent": 33.3333333333333,
+          "identity_count": 7,
+          "similarity_percent": 57.142857142857096,
+          "similarity_count": 12,
+          "match": "k   + ge ++f ck g+ + ",
+          "description": "COMPLEMENT FACTOR H",
+          "target": "4b2r_A"
+        }
+      },
+      {
+        "joinId": "5wtb",
+        "doc": {
+          "score": 39.3,
+          "accuracy": 0.98,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.4e-08,
+          "e_value_ind": 1.4e-08,
+          "e_value_cond": 2.5e-12,
+          "bit_score": 39.2956733703613,
+          "species": "Homo sapiens",
+          "query_sequence": "rlssrshtlrttcwdgkleyp",
+          "query_sequence_start": 108,
+          "query_sequence_end": 128,
+          "target_sequence": "RLSSRSHTLRTTCWDGKLEYP",
+          "target_sequence_start": 1,
+          "target_sequence_end": 21,
+          "target_envelope_start": 1,
+          "target_envelope_end": 21,
+          "posterior_probability": "89******************9",
+          "bias": 0.22,
+          "identity_percent": 100.0,
+          "identity_count": 21,
+          "similarity_percent": 100.0,
+          "similarity_count": 21,
+          "match": "rlssrshtlrttcwdgkleyp",
+          "description": "Peptide from Complement factor H",
+          "target": "5wtb_E"
+        }
+      },
+      {
+        "joinId": "4jhs",
+        "doc": {
+          "score": 35.2,
+          "accuracy": 0.74,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.6e-07,
+          "e_value_ind": 3.3e-07,
+          "e_value_cond": 5.9e-11,
+          "bit_score": 34.8355979919434,
+          "species": "Homo sapiens",
+          "query_sequence": "tgkcgppppidngditsfpls..vyapassveyqcqnlyqlegnkritc.rngqwseppkclhpcvis..reimenynialrwtakqklysrtgesvefvckrgyrlssrshtlrttcwdgkleyptcak",
+          "query_sequence_start": 8,
+          "query_sequence_end": 132,
+          "target_sequence": "GVKCPFPSRPDNGFVN-YPAKptLY-YKDKATFGCHDGYSLDGPEEIECtKLGNWSAMPSCKASCKVPvkKATVVYQGERVKIQEKFKNGMLHGDKVSFFCKNKEK--KCSYTEDAQCIDGTIEVPKCFK",
+          "target_sequence_start": 37,
+          "target_sequence_end": 162,
+          "target_envelope_start": 32,
+          "target_envelope_end": 163,
+          "posterior_probability": "4589888889999764.55431133.3466789****************446*************8752133333333445555666666778*********9766..557899999***********87",
+          "bias": 1.06,
+          "identity_percent": 28.799999999999997,
+          "identity_count": 36,
+          "similarity_percent": 44.0,
+          "similarity_count": 55,
+          "match": "  kc  p   dng +  +p    +y       + c + y l+g ++i c + g ws  p c   c +   +  +      ++   k k     g+ v f ck+  +    s+t    c dg +e p c k",
+          "description": "Beta-2-glycoprotein 1",
+          "target": "4jhs_A"
+        }
+      },
+      {
+        "joinId": "1hfi",
+        "doc": {
+          "score": 32.7,
+          "accuracy": 0.91,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.5e-06,
+          "e_value_ind": 1.7e-06,
+          "e_value_cond": 3e-10,
+          "bit_score": 32.5189819335938,
+          "species": "Homo sapiens",
+          "query_sequence": "cgppppidngditsfpls..vyapassveyqcqnlyqlegnkritcrngqwseppkc",
+          "query_sequence_start": 11,
+          "query_sequence_end": 65,
+          "target_sequence": "CSQPPQIEHGTINSSRSSqeSYAHGTKLSYTCEGGFRISEENETTCYMGKWSSPPQC",
+          "target_sequence_start": 5,
+          "target_sequence_end": 61,
+          "target_envelope_start": 2,
+          "target_envelope_end": 62,
+          "posterior_probability": "99**********998765227999********************************9",
+          "bias": 0.63,
+          "identity_percent": 36.363636363636395,
+          "identity_count": 20,
+          "similarity_percent": 58.1818181818182,
+          "similarity_count": 32,
+          "match": "c+ pp i++g i s   s   ya  + + y c+  +++    + tc  g+ws pp+c",
+          "description": "FACTOR H, 15TH C-MODULE PAIR",
+          "target": "1hfi_A"
+        }
+      },
+      {
+        "joinId": "1ntl",
+        "doc": {
+          "score": 31.8,
+          "accuracy": 0.62,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.8e-06,
+          "e_value_ind": 350.0,
+          "e_value_cond": 0.062,
+          "bit_score": 5.59371137619019,
+          "species": "Mus musculus",
+          "query_sequence": "pidngditsfplsvyapassveyqcqnlyqlegnkritcrn.gqwse.ppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrshtl",
+          "query_sequence_start": 16,
+          "query_sequence_end": 116,
+          "target_sequence": "PINLTDESMFPIGTY-----LLYECLPGY-IKRQFSITCKQdSTWTSaEDKCIRKQCKTPSDPENGLVHVHT-G-----IEFGSRINYTCNQGYRLIGSSSAV",
+          "target_sequence_start": 14,
+          "target_sequence_end": 104,
+          "target_envelope_start": 5,
+          "target_envelope_end": 124,
+          "posterior_probability": "566666666666666.....457777766.556677888751567541568887655556666776555442.2.....34688899********97666543",
+          "bias": 0.39,
+          "identity_percent": 26.3736263736264,
+          "identity_count": 24,
+          "similarity_percent": 49.4505494505495,
+          "similarity_count": 45,
+          "match": "pi+  d + fp+  y     + y+c   y ++    itc+  + w+    kc++    +    en  + ++         + g  + + c +gyrl   s  +",
+          "description": "Complement component receptor 1-like protein,Ig gamma-1 chain C region secreted form",
+          "target": "1ntl_A"
+        }
+      },
+      {
+        "joinId": "2kms",
+        "doc": {
+          "score": 30.2,
+          "accuracy": 0.68,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 8.9e-06,
+          "e_value_ind": 8.3e-05,
+          "e_value_cond": 1.5e-08,
+          "bit_score": 27.0682010650635,
+          "species": "Homo sapiens",
+          "query_sequence": "cgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvc",
+          "query_sequence_start": 11,
+          "query_sequence_end": 103,
+          "target_sequence": "CGDIPELEHGWAQ-LSSPPYYYGDSVEFNCSESFTMIGHRSITCIHGVWTQLPQCVAIDKLKKCKSSNL-IILEEHLKNKKEFDHNSNIRYRC",
+          "target_sequence_start": 2,
+          "target_sequence_end": 92,
+          "target_envelope_start": 1,
+          "target_envelope_end": 110,
+          "posterior_probability": "9999999999643.33334566799******************************97665554444443.33444444443333344455544",
+          "bias": 1.22,
+          "identity_percent": 25.274725274725302,
+          "identity_count": 23,
+          "similarity_percent": 48.3516483516484,
+          "similarity_count": 44,
+          "match": "cg  p +++g    +    y    sve+ c   + + g++ itc +g w++ p+c+    + +    n  i l+   k k     + ++ + c",
+          "description": "Complement factor H",
+          "target": "2kms_A"
+        }
+      },
+      {
+        "joinId": "2yby",
+        "doc": {
+          "score": 28.1,
+          "accuracy": 0.66,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.9e-05,
+          "e_value_ind": 6400.0,
+          "e_value_cond": 1.1,
+          "bit_score": 1.52266216278076,
+          "species": "Mus musculus",
+          "query_sequence": "fplsvyapassveyqcqnlyqlegn...kritcrngqwseppkclhpcvi",
+          "query_sequence_start": 25,
+          "query_sequence_end": 71,
+          "target_sequence": "FPVSI---GNKYSYKCDNGFSPPSGyswDYLRCTAQGWEPEVPCVRKCVF",
+          "target_sequence_start": 25,
+          "target_sequence_end": 71,
+          "target_envelope_start": 20,
+          "target_envelope_end": 73,
+          "posterior_probability": "55555...355678888877654431223577887788877889999985",
+          "bias": 0.43,
+          "identity_percent": 23.404255319148902,
+          "identity_count": 11,
+          "similarity_percent": 44.6808510638298,
+          "similarity_count": 21,
+          "match": "fp+s+    +   y+c n +   +      + c    w     c++ cv+",
+          "description": "COMPLEMENT FACTOR H",
+          "target": "2yby_A"
+        }
+      },
+      {
+        "joinId": "2rlq",
+        "doc": {
+          "score": 27.4,
+          "accuracy": 0.74,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 6.7e-05,
+          "e_value_ind": 0.0025,
+          "e_value_cond": 4.4e-07,
+          "bit_score": 22.288366317749,
+          "species": "Homo sapiens",
+          "query_sequence": "dstgkcgppppidngditsfplsvyapassveyqcqnlyqlegnkri.tcrngqw.seppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrlssrs",
+          "query_sequence_start": 6,
+          "query_sequence_end": 113,
+          "target_sequence": "EAAGPCGHPGDTPFGTFTLTGGNVFEYGVKAVYTCNEGYQLLGEINYrECDTDGWtNDIPICEVVKCLPVTAPENGKIVSSAMEPDREY-HFGQAVRFVCNSGYKIEGDE",
+          "target_sequence_start": 3,
+          "target_sequence_end": 111,
+          "target_envelope_start": 1,
+          "target_envelope_end": 129,
+          "posterior_probability": "57899999999999999999999999999999999999999885433156666661567999766666777889999988877777777.57999999999999997543",
+          "bias": 1.07,
+          "identity_percent": 25.925925925925903,
+          "identity_count": 28,
+          "similarity_percent": 39.814814814814795,
+          "similarity_count": 43,
+          "match": "++ g cg p     g +t    +v+       y c   yql g  +   c    w ++ p c     +     en  i        + y + g++v fvc  gy++    ",
+          "description": "Complement factor H",
+          "target": "2rlq_A"
+        }
+      },
+      {
+        "joinId": "2rlp",
+        "doc": {
+          "score": 23.5,
+          "accuracy": 0.82,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0011,
+          "e_value_ind": 0.031,
+          "e_value_cond": 5.4e-06,
+          "bit_score": 18.7611122131348,
+          "species": "Homo sapiens",
+          "query_sequence": "dstgkcgppppidngdit..sfplsvyapassveyqcqnlyqlegnkritcrngqwse",
+          "query_sequence_start": 6,
+          "query_sequence_end": 61,
+          "target_sequence": "EAAGDCNELPPRRNTEILtgSWSDQTYPEGTQAIYKCRPGYRSLGNVIMVCRKGEWVA",
+          "target_sequence_start": 3,
+          "target_sequence_end": 60,
+          "target_envelope_start": 1,
+          "target_envelope_end": 73,
+          "posterior_probability": "6789***********99623566679999999************************64",
+          "bias": 0.3,
+          "identity_percent": 30.3571428571429,
+          "identity_count": 17,
+          "similarity_percent": 50.0,
+          "similarity_count": 28,
+          "match": "++ g c+  pp  n +i   s+    y   +   y+c+  y+  gn  + cr g+w  ",
+          "description": "Complement factor H",
+          "target": "2rlp_A"
+        }
+      },
+      {
+        "joinId": "1hcc",
+        "doc": {
+          "score": 22.5,
+          "accuracy": 0.91,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0022,
+          "e_value_ind": 0.0025,
+          "e_value_cond": 4.4e-07,
+          "bit_score": 22.2747039794922,
+          "species": "Homo sapiens",
+          "query_sequence": "cgppppidngditsfplsvyapassveyqcqnlyqlegnkritcrngqwseppkcl",
+          "query_sequence_start": 11,
+          "query_sequence_end": 66,
+          "target_sequence": "CKSPPEISHGVVAHMS-DSYQYGEEVTYKCFEGFGIDGPAIAKCLGEKWSHPPSCI",
+          "target_sequence_start": 5,
+          "target_sequence_end": 59,
+          "target_envelope_start": 2,
+          "target_envelope_end": 59,
+          "posterior_probability": "999******9887665.669999********************************6",
+          "bias": 0.2,
+          "identity_percent": 29.0909090909091,
+          "identity_count": 16,
+          "similarity_percent": 45.454545454545496,
+          "similarity_count": 25,
+          "match": "c  pp i +g +  +    y     v y+c   + ++g     c   +ws pp c+",
+          "description": "16TH COMPLEMENT CONTROL PROTEIN",
+          "target": "1hcc_A"
+        }
+      },
+      {
+        "joinId": "2uwn",
+        "doc": {
+          "score": 22.2,
+          "accuracy": 0.67,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0026,
+          "e_value_ind": 190.0,
+          "e_value_cond": 0.033,
+          "bit_score": 6.47725582122803,
+          "species": "Homo sapiens",
+          "query_sequence": "eyqcqnlyqlegn...kritcrngqwseppkclhpcvisreimenynialrwtakqklysrtgesvefvckrgyrls",
+          "query_sequence_start": 37,
+          "query_sequence_end": 110,
+          "target_sequence": "SYYCDEHFETPSGsywDHIHCTQDGWSPAVPCLRKCYFPY-LENGYNQ----NHGRKF--VQGKSIDVACHPGYALP",
+          "target_sequence_start": 35,
+          "target_sequence_end": 104,
+          "target_envelope_start": 18,
+          "target_envelope_end": 109,
+          "posterior_probability": "56676666654331224799**99************9853.3344653....233343..35889999999999886",
+          "bias": 0.49,
+          "identity_percent": 25.7142857142857,
+          "identity_count": 18,
+          "similarity_percent": 42.8571428571429,
+          "similarity_count": 30,
+          "match": " y c   ++  +     +i c    ws    cl+ c +   +   yn        +k+    g+s++  c  gy l ",
+          "description": "HUMAN COMPLEMENT FACTOR H",
+          "target": "2uwn_A"
+        }
+      },
+      {
+        "joinId": "2qzd",
+        "doc": {
+          "score": 21.4,
+          "accuracy": 0.82,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0048,
+          "e_value_ind": 0.0055,
+          "e_value_cond": 9.6e-07,
+          "bit_score": 21.1858978271484,
+          "species": "Homo sapiens",
+          "query_sequence": "cgppppidngditsfplsvyapassveyqcqnlyqlegnkritcr....ngqwsepp.kc",
+          "query_sequence_start": 11,
+          "query_sequence_end": 65,
+          "target_sequence": "CPAPPQIDNGIIQG-ERDHYGYRQSVTYACNKGFTMIGEHSIYCTvnndEGEWSGPPpEC",
+          "target_sequence_start": 4,
+          "target_sequence_end": 62,
+          "target_envelope_start": 2,
+          "target_envelope_end": 65,
+          "posterior_probability": "889*******8765.6799**********************9995433359***876145",
+          "bias": 0.82,
+          "identity_percent": 40.0,
+          "identity_count": 22,
+          "similarity_percent": 47.2727272727273,
+          "similarity_count": 26,
+          "match": "c  pp idng i       y    sv y c   + + g   i c      g+ws pp +c",
+          "description": "Complement decay-accelerating factor",
+          "target": "2qzd_A"
+        }
+      },
+      {
+        "joinId": "1srz",
+        "doc": {
+          "score": 20.5,
+          "accuracy": 0.81,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0086,
+          "e_value_ind": 0.0094,
+          "e_value_cond": 1.6e-06,
+          "bit_score": 20.4184856414795,
+          "species": "Rattus norvegicus",
+          "query_sequence": "assveyqcqnlyqlegnkritcrngqwsep.pkc",
+          "query_sequence_start": 33,
+          "query_sequence_end": 65,
+          "target_sequence": "GARVEFRCDPDFHLVGSSRSVCSQGQWSTPkPHC",
+          "target_sequence_start": 32,
+          "target_sequence_end": 65,
+          "target_envelope_start": 7,
+          "target_envelope_end": 67,
+          "posterior_probability": "5689************************984555",
+          "bias": 0.02,
+          "identity_percent": 42.4242424242424,
+          "identity_count": 14,
+          "similarity_percent": 57.5757575757576,
+          "similarity_count": 19,
+          "match": " + ve++c   + l g+ r  c  gqws p p c",
+          "description": "Gamma-aminobutyric acid type B receptor, subunit 1",
+          "target": "1srz_A"
+        }
+      }
+    ]
+  }
+}

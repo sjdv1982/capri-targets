@@ -1,0 +1,1145 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 636,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "METSKEKTITSPGPYIVRLLNSSLNGCEFPLLTGRTLFVVGQSDALTASGQLPDIPADSFFIPLDHGGVNFEIQVDTDATEIILHELKEGNSESRSVQLNTPIQVGELLILIRPESEPWVPEQPEKLETSAKKNEPRFKNGIVAALAGFFILGIGTVGTLWILNSPQRQAAELDSLLGQEKERFQVLPGRDKMLYVAAQNERDTLWARQVLARGDYDKNARVINENEENKRISIWLDTYYPQLAYYRIHFDEPRKPVFWLSRQRNTMSKKELEVLSQKLRALMPYADSVNITLMDDVTAAGQAEAGLKQQALPYSRRNHKGGVTFVIQGALDDVEILRARQFVDSYYRTWGGRYVQFAIELKDDWLKGRSFQYGAEGYIKMSPGHWYFPSPL",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 12,
+      "ngroups": 8,
+      "groups": [
+        {
+          "groupValue": "3j6d",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Bergeron JR",
+                  "Worrall LJ",
+                  "De S",
+                  "Sgourakis NG",
+                  "Cheung AH",
+                  "Lameignere E",
+                  "Okon M",
+                  "Wasney GA",
+                  "Baker D",
+                  "McIntosh LP",
+                  "Strynadka NC"
+                ],
+                "citation_title": "The Modular Structure of the Inner-Membrane Ring Component PrgK Facilitates Assembly of the Type III Secretion System Basal Body.",
+                "citation_year": 2015,
+                "data_quality": -1.0,
+                "deposition_date": "2014-02-14T01:00:00Z",
+                "entry_author_list": [
+                  "Bergeron JRC, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Bergeron JRC",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2|99287"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41783"
+                ],
+                "journal": "Structure",
+                "model_quality": 68.74,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
+                ],
+                "pdb_id": "3j6d",
+                "pfam_name": [
+                  "YscJ_FliF"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25533490",
+                "release_date": "2015-01-14T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 11.7,
+                "status": "REL",
+                "tax_id": [
+                  99287
+                ],
+                "title": "Model of the PrgH-PrgK periplasmic rings",
+                "uniprot_accession_best": [
+                  "P41786"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Bergeron JR",
+                  "Worrall LJ",
+                  "De S",
+                  "Sgourakis NG",
+                  "Cheung AH",
+                  "Lameignere E",
+                  "Okon M",
+                  "Wasney GA",
+                  "Baker D",
+                  "McIntosh LP",
+                  "Strynadka NC"
+                ],
+                "citation_title": "The Modular Structure of the Inner-Membrane Ring Component PrgK Facilitates Assembly of the Type III Secretion System Basal Body.",
+                "citation_year": 2015,
+                "data_quality": -1.0,
+                "deposition_date": "2014-02-14T01:00:00Z",
+                "entry_author_list": [
+                  "Bergeron JRC, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Bergeron JRC",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2|99287"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41786"
+                ],
+                "journal": "Structure",
+                "model_quality": 68.74,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
+                ],
+                "pdb_id": "3j6d",
+                "pfam_name": [
+                  "PrgH"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25533490",
+                "release_date": "2015-01-14T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 11.7,
+                "status": "REL",
+                "tax_id": [
+                  99287
+                ],
+                "title": "Model of the PrgH-PrgK periplasmic rings",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6duz",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Hu J",
+                  "Worrall LJ",
+                  "Hong C",
+                  "Vuckovic M",
+                  "Atkinson CE",
+                  "Caveney N",
+                  "Yu Z",
+                  "Strynadka NCJ"
+                ],
+                "citation_title": "Cryo-EM analysis of the T3S injectisome reveals the structure of the needle and open secretin.",
+                "citation_year": 2018,
+                "data_quality": -1.0,
+                "deposition_date": "2018-06-22T01:00:00Z",
+                "entry_author_list": [
+                  "Hu J, Worrall LJ, Vuckovic M, Atkinson CE, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Hu J",
+                  "Worrall LJ",
+                  "Vuckovic M",
+                  "Atkinson CE",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41783"
+                ],
+                "journal": "Nat Commun",
+                "model_quality": 56.15,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "6duz",
+                "pfam_name": [
+                  "YscJ_FliF"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30242280",
+                "release_date": "2018-10-03T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 3.6,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "Structure of the periplasmic domains of PrgH and PrgK from the assembled Salmonella type III secretion injectisome needle complex",
+                "uniprot_accession_best": [
+                  "P41786"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Hu J",
+                  "Worrall LJ",
+                  "Hong C",
+                  "Vuckovic M",
+                  "Atkinson CE",
+                  "Caveney N",
+                  "Yu Z",
+                  "Strynadka NCJ"
+                ],
+                "citation_title": "Cryo-EM analysis of the T3S injectisome reveals the structure of the needle and open secretin.",
+                "citation_year": 2018,
+                "data_quality": -1.0,
+                "deposition_date": "2018-06-22T01:00:00Z",
+                "entry_author_list": [
+                  "Hu J, Worrall LJ, Vuckovic M, Atkinson CE, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Hu J",
+                  "Worrall LJ",
+                  "Vuckovic M",
+                  "Atkinson CE",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41786"
+                ],
+                "journal": "Nat Commun",
+                "model_quality": 56.15,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "6duz",
+                "pfam_name": [
+                  "PrgH"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30242280",
+                "release_date": "2018-10-03T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 3.6,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "Structure of the periplasmic domains of PrgH and PrgK from the assembled Salmonella type III secretion injectisome needle complex",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5tcp",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Worrall LJ",
+                  "Hong C",
+                  "Vuckovic M",
+                  "Deng W",
+                  "Bergeron JR",
+                  "Majewski DD",
+                  "Huang RK",
+                  "Spreter T",
+                  "Finlay BB",
+                  "Yu Z",
+                  "Strynadka NC"
+                ],
+                "citation_title": "Near-atomic-resolution cryo-EM analysis of the Salmonella T3S injectisome basal body.",
+                "citation_year": 2016,
+                "data_quality": -1.0,
+                "deposition_date": "2016-09-15T01:00:00Z",
+                "entry_author_list": [
+                  "Worrall LJ, Hong C, Vuckovic M, Bergeron JRC, Huang RK, Yu Z, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Worrall LJ",
+                  "Hong C",
+                  "Vuckovic M",
+                  "Bergeron JRC",
+                  "Huang RK",
+                  "Yu Z",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41786"
+                ],
+                "journal": "Nature",
+                "model_quality": 43.12,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "5tcp",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "27974800",
+                "release_date": "2016-12-21T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 4.3,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "Near-atomic resolution cryo-EM structure of the periplasmic domains of PrgH and PrgK",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  0.67
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Worrall LJ",
+                  "Hong C",
+                  "Vuckovic M",
+                  "Deng W",
+                  "Bergeron JR",
+                  "Majewski DD",
+                  "Huang RK",
+                  "Spreter T",
+                  "Finlay BB",
+                  "Yu Z",
+                  "Strynadka NC"
+                ],
+                "citation_title": "Near-atomic-resolution cryo-EM analysis of the Salmonella T3S injectisome basal body.",
+                "citation_year": 2016,
+                "data_quality": -1.0,
+                "deposition_date": "2016-09-15T01:00:00Z",
+                "entry_author_list": [
+                  "Worrall LJ, Hong C, Vuckovic M, Bergeron JRC, Huang RK, Yu Z, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Worrall LJ",
+                  "Hong C",
+                  "Vuckovic M",
+                  "Bergeron JRC",
+                  "Huang RK",
+                  "Yu Z",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41783"
+                ],
+                "journal": "Nature",
+                "model_quality": 43.12,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "5tcp",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "27974800",
+                "release_date": "2016-12-21T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 4.3,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "Near-atomic resolution cryo-EM structure of the periplasmic domains of PrgH and PrgK",
+                "uniprot_accession_best": [
+                  "P41786"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4g1i",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "1PE",
+                  "PO4"
+                ],
+                "citation_authors": [
+                  "Bergeron JR",
+                  "Worrall LJ",
+                  "Sgourakis NG",
+                  "Dimaio F",
+                  "Pfuetzner RA",
+                  "Felise HB",
+                  "Vuckovic M",
+                  "Yu AC",
+                  "Miller SI",
+                  "Baker D",
+                  "Strynadka NC"
+                ],
+                "citation_title": "A Refined Model of the Prototypical Salmonella SPI-1 T3SS Basal Body Reveals the Molecular Basis for Its Assembly.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "1PE",
+                  "PO4"
+                ],
+                "data_quality": 64.85,
+                "deposition_date": "2012-07-10T01:00:00Z",
+                "entry_author_list": [
+                  "Bergeron JRC, Worrall LJ, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Bergeron JRC",
+                  "Worrall LJ",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "1PE : PENTAETHYLENE GLYCOL",
+                  "PO4 : PHOSPHATE ION"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 49.66,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "4g1i",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23633951",
+                "release_date": "2013-05-08T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 1.85,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "Structure of the PrgH periplasmic domain",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  0.57
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3j1x",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Bergeron JR",
+                  "Worrall LJ",
+                  "Sgourakis NG",
+                  "Dimaio F",
+                  "Pfuetzner RA",
+                  "Felise HB",
+                  "Vuckovic M",
+                  "Yu AC",
+                  "Miller SI",
+                  "Baker D",
+                  "Strynadka NC"
+                ],
+                "citation_title": "A Refined Model of the Prototypical Salmonella SPI-1 T3SS Basal Body Reveals the Molecular Basis for Its Assembly.",
+                "citation_year": 2013,
+                "data_quality": -1.0,
+                "deposition_date": "2012-07-10T01:00:00Z",
+                "entry_author_list": [
+                  "Sgourakis NG, Bergeron JRC, Worrall LJ, Strynadka NCJ, Baker D"
+                ],
+                "entry_authors": [
+                  "Sgourakis NG",
+                  "Bergeron JRC",
+                  "Worrall LJ",
+                  "Strynadka NCJ",
+                  "Baker D"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 59.63,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "3j1x",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23633951",
+                "release_date": "2013-05-22T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 11.7,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "A refined model of the prototypical Salmonella typhimurium T3SS basal body reveals the molecular basis for its assembly",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  0.49
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2y9j",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Schraidt O",
+                  "Marlovits TC"
+                ],
+                "citation_title": "Three-dimensional model of Salmonella's needle complex at subnanometer resolution.",
+                "citation_year": 2011,
+                "data_quality": -1.0,
+                "deposition_date": "2011-02-15T01:00:00Z",
+                "entry_author_list": [
+                  "Schraidt O, Marlovits TC"
+                ],
+                "entry_authors": [
+                  "Schraidt O",
+                  "Marlovits TC"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41786"
+                ],
+                "journal": "Science",
+                "model_quality": 7.51,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "2y9j",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21385715",
+                "release_date": "2011-03-23T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 6.4,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "THREE-DIMENSIONAL MODEL OF SALMONELLA'S NEEDLE COMPLEX AT SUBNANOMETER RESOLUTION",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  0.47
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Schraidt O",
+                  "Marlovits TC"
+                ],
+                "citation_title": "Three-dimensional model of Salmonella's needle complex at subnanometer resolution.",
+                "citation_year": 2011,
+                "data_quality": -1.0,
+                "deposition_date": "2011-02-15T01:00:00Z",
+                "entry_author_list": [
+                  "Schraidt O, Marlovits TC"
+                ],
+                "entry_authors": [
+                  "Schraidt O",
+                  "Marlovits TC"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P41783"
+                ],
+                "journal": "Science",
+                "model_quality": 7.51,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "2y9j",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21385715",
+                "release_date": "2011-03-23T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 6.4,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "THREE-DIMENSIONAL MODEL OF SALMONELLA'S NEEDLE COMPLEX AT SUBNANOMETER RESOLUTION",
+                "uniprot_accession_best": [
+                  "P41786"
+                ],
+                "uniprot_coverage": [
+                  0.72
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4g2s",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CA"
+                ],
+                "citation_authors": [
+                  "Bergeron JR",
+                  "Worrall LJ",
+                  "Sgourakis NG",
+                  "Dimaio F",
+                  "Pfuetzner RA",
+                  "Felise HB",
+                  "Vuckovic M",
+                  "Yu AC",
+                  "Miller SI",
+                  "Baker D",
+                  "Strynadka NC"
+                ],
+                "citation_title": "A Refined Model of the Prototypical Salmonella SPI-1 T3SS Basal Body Reveals the Molecular Basis for Its Assembly.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "CA"
+                ],
+                "data_quality": 0.79,
+                "deposition_date": "2012-07-12T01:00:00Z",
+                "entry_author_list": [
+                  "Worrall LJ, Vuckovic M, Strynadka NCJ"
+                ],
+                "entry_authors": [
+                  "Worrall LJ",
+                  "Vuckovic M",
+                  "Strynadka NCJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CA : CALCIUM ION"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 31.29,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "4g2s",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23633951",
+                "release_date": "2013-05-15T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 1.858,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "Crystal structure of a Salmonella type III secretion system protein",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  0.28
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3j1w",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Bergeron JR",
+                  "Worrall LJ",
+                  "Sgourakis NG",
+                  "Dimaio F",
+                  "Pfuetzner RA",
+                  "Felise HB",
+                  "Vuckovic M",
+                  "Yu AC",
+                  "Miller SI",
+                  "Baker D",
+                  "Strynadka NC"
+                ],
+                "citation_title": "A Refined Model of the Prototypical Salmonella SPI-1 T3SS Basal Body Reveals the Molecular Basis for Its Assembly.",
+                "citation_year": 2013,
+                "data_quality": -1.0,
+                "deposition_date": "2012-07-10T01:00:00Z",
+                "entry_author_list": [
+                  "Sgourakis NG, Worrall LJ, Strynadka NCJ, Baker D"
+                ],
+                "entry_authors": [
+                  "Sgourakis NG",
+                  "Worrall LJ",
+                  "Strynadka NCJ",
+                  "Baker D"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 26.89,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "3j1w",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23633951",
+                "release_date": "2013-05-22T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 11.7,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "A refined model of the prototypical Salmonella typhimurium T3SS basal body reveals the molecular basis for its assembly",
+                "uniprot_accession_best": [
+                  "P41783"
+                ],
+                "uniprot_coverage": [
+                  0.27
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 8,
+    "num_entries": 8,
+    "external": [
+      {
+        "joinId": "3j6d",
+        "doc": {
+          "accuracy": 1.0,
+          "score": 893.6,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.9e-268,
+          "e_value_ind": 3.3e-268,
+          "e_value_cond": 6.2e-273,
+          "bit_score": 893.411437988281,
+          "species": "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)",
+          "query_sequence": "metskektitspgpyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepwvpeqpekletsakkneprfkngivaalagffilgigtvgtlwilnspqrqaaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 392,
+          "target_sequence": "METSKEKTITSPGPYIVRLLNSSLNGCEFPLLTGRTLFVVGQSDALTASGQLPDIPADSFFIPLDHGGVNFEIQVDTDATEIILHELKEGNSESRSVQLNTPIQVGELLILIRPESEPWVPEQPEKLETSAKKNEPRFKNGIVAALAGFFILGIGTVGTLWILNSPQRQAAELDSLLGQEKERFQVLPGRDKMLYVAAQNERDTLWARQVLARGDYDKNARVINENEENKRISIWLDTYYPQLAYYRIHFDEPRKPVFWLSRQRNTMSKKELEVLSQKLRALMPYADSVNITLMDDVTAAGQAEAGLKQQALPYSRRNHKGGVTFVIQGALDDVEILRARQFVDSYYRTWGGRYVQFAIELKDDWLKGRSFQYGAEGYIKMSPGHWYFPSPL",
+          "target_sequence_start": 1,
+          "target_sequence_end": 392,
+          "target_envelope_start": 1,
+          "target_envelope_end": 392,
+          "posterior_probability": "8******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************7",
+          "bias": 0.33,
+          "identity_percent": 100.0,
+          "identity_count": 392,
+          "similarity_percent": 100.0,
+          "similarity_count": 392,
+          "match": "metskektitspgpyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepwvpeqpekletsakkneprfkngivaalagffilgigtvgtlwilnspqrqaaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "description": "Protein PrgH",
+          "target": "3j6d_A"
+        }
+      },
+      {
+        "joinId": "6duz",
+        "doc": {
+          "accuracy": 1.0,
+          "score": 893.6,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.9e-268,
+          "e_value_ind": 3.3e-268,
+          "e_value_cond": 6.2e-273,
+          "bit_score": 893.411437988281,
+          "species": "Salmonella typhimurium",
+          "query_sequence": "metskektitspgpyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepwvpeqpekletsakkneprfkngivaalagffilgigtvgtlwilnspqrqaaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 392,
+          "target_sequence": "METSKEKTITSPGPYIVRLLNSSLNGCEFPLLTGRTLFVVGQSDALTASGQLPDIPADSFFIPLDHGGVNFEIQVDTDATEIILHELKEGNSESRSVQLNTPIQVGELLILIRPESEPWVPEQPEKLETSAKKNEPRFKNGIVAALAGFFILGIGTVGTLWILNSPQRQAAELDSLLGQEKERFQVLPGRDKMLYVAAQNERDTLWARQVLARGDYDKNARVINENEENKRISIWLDTYYPQLAYYRIHFDEPRKPVFWLSRQRNTMSKKELEVLSQKLRALMPYADSVNITLMDDVTAAGQAEAGLKQQALPYSRRNHKGGVTFVIQGALDDVEILRARQFVDSYYRTWGGRYVQFAIELKDDWLKGRSFQYGAEGYIKMSPGHWYFPSPL",
+          "target_sequence_start": 1,
+          "target_sequence_end": 392,
+          "target_envelope_start": 1,
+          "target_envelope_end": 392,
+          "posterior_probability": "8******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************7",
+          "bias": 0.33,
+          "identity_percent": 100.0,
+          "identity_count": 392,
+          "similarity_percent": 100.0,
+          "similarity_count": 392,
+          "match": "metskektitspgpyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepwvpeqpekletsakkneprfkngivaalagffilgigtvgtlwilnspqrqaaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "description": "Protein PrgH",
+          "target": "6duz_A"
+        }
+      },
+      {
+        "joinId": "5tcp",
+        "doc": {
+          "accuracy": 1.0,
+          "score": 598.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.3e-178,
+          "e_value_ind": 1.4e-178,
+          "e_value_cond": 2.7e-183,
+          "bit_score": 598.331115722656,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium",
+          "query_sequence": "sakkneprfkngivaalagffilgigtvgtlwilnspqrqaaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "query_sequence_start": 130,
+          "query_sequence_end": 392,
+          "target_sequence": "SAKKNEPRFKNGIVAALAGFFILGIGTVGTLWILNSPQRQAAELDSLLGQEKERFQVLPGRDKMLYVAAQNERDTLWARQVLARGDYDKNARVINENEENKRISIWLDTYYPQLAYYRIHFDEPRKPVFWLSRQRNTMSKKELEVLSQKLRALMPYADSVNITLMDDVTAAGQAEAGLKQQALPYSRRNHKGGVTFVIQGALDDVEILRARQFVDSYYRTWGGRYVQFAIELKDDWLKGRSFQYGAEGYIKMSPGHWYFPSPL",
+          "target_sequence_start": 1,
+          "target_sequence_end": 263,
+          "target_envelope_start": 1,
+          "target_envelope_end": 263,
+          "posterior_probability": "79********************************************************************************************************************************************************************************************************************************************************************7",
+          "bias": 1.56,
+          "identity_percent": 100.0,
+          "identity_count": 263,
+          "similarity_percent": 100.0,
+          "similarity_count": 263,
+          "match": "sakkneprfkngivaalagffilgigtvgtlwilnspqrqaaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "description": "Protein PrgH",
+          "target": "5tcp_1"
+        }
+      },
+      {
+        "joinId": "4g1i",
+        "doc": {
+          "accuracy": 0.99,
+          "score": 507.9,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 4.3e-151,
+          "e_value_ind": 4.7e-151,
+          "e_value_cond": 8.9e-156,
+          "bit_score": 507.728302001953,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium",
+          "query_sequence": "rqaaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "query_sequence_start": 168,
+          "query_sequence_end": 392,
+          "target_sequence": "HMAAELDSLLGQEKERFQVLPGRDKMLYVAAQNERDTLWARQVLARGDYDKNARVINENEENKRISIWLDTYYPQLAYYRIHFDEPRKPVFWLSRQRNTMSKKELEVLSQKLRALMPYADSVNITLMDDVTAAGQAEAGLKQQALPYSRRNHKGGVTFVIQGALDDVEILRARQFVDSYYRTWGGRYVQFAIELKDDWLKGRSFQYGAEGYIKMSPGHWYFPSPL",
+          "target_sequence_start": 3,
+          "target_sequence_end": 227,
+          "target_envelope_start": 1,
+          "target_envelope_end": 227,
+          "posterior_probability": "579*****************************************************************************************************************************************************************************************************************************7",
+          "bias": 2.07,
+          "identity_percent": 99.1111111111111,
+          "identity_count": 223,
+          "similarity_percent": 99.5555555555556,
+          "similarity_count": 224,
+          "match": "+ aaeldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkddwlkgrsfqygaegyikmspghwyfpspl",
+          "description": "Protein prgH",
+          "target": "4g1i_A"
+        }
+      },
+      {
+        "joinId": "3j1x",
+        "doc": {
+          "accuracy": 1.0,
+          "score": 423.4,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2e-125,
+          "e_value_ind": 2.2e-125,
+          "e_value_cond": 4.2e-130,
+          "bit_score": 423.212097167969,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium",
+          "query_sequence": "ldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkd",
+          "query_sequence_start": 173,
+          "query_sequence_end": 363,
+          "target_sequence": "LDSLLGQEKERFQVLPGRDKMLYVAAQNERDTLWARQVLARGDYDKNARVINENEENKRISIWLDTYYPQLAYYRIHFDEPRKPVFWLSRQRNTMSKKELEVLSQKLRALMPYADSVNITLMDDVTAAGQAEAGLKQQALPYSRRNHKGGVTFVIQGALDDVEILRARQFVDSYYRTWGGRYVQFAIELKD",
+          "target_sequence_start": 1,
+          "target_sequence_end": 191,
+          "target_envelope_start": 1,
+          "target_envelope_end": 191,
+          "posterior_probability": "7*********************************************************************************************************************************************************************************************8",
+          "bias": 1.42,
+          "identity_percent": 100.0,
+          "identity_count": 191,
+          "similarity_percent": 100.0,
+          "similarity_count": 191,
+          "match": "ldsllgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielkd",
+          "description": "Protein PrgH",
+          "target": "3j1x_A"
+        }
+      },
+      {
+        "joinId": "2y9j",
+        "doc": {
+          "accuracy": 1.0,
+          "score": 412.9,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3e-122,
+          "e_value_ind": 3.3e-122,
+          "e_value_cond": 6.3e-127,
+          "bit_score": 412.757049560547,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium",
+          "query_sequence": "lgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielk",
+          "query_sequence_start": 177,
+          "query_sequence_end": 362,
+          "target_sequence": "LGQEKERFQVLPGRDKMLYVAAQNERDTLWARQVLARGDYDKNARVINENEENKRISIWLDTYYPQLAYYRIHFDEPRKPVFWLSRQRNTMSKKELEVLSQKLRALMPYADSVNITLMDDVTAAGQAEAGLKQQALPYSRRNHKGGVTFVIQGALDDVEILRARQFVDSYYRTWGGRYVQFAIELK",
+          "target_sequence_start": 1,
+          "target_sequence_end": 186,
+          "target_envelope_start": 1,
+          "target_envelope_end": 186,
+          "posterior_probability": "7***************************************************************************************************************************************************************************************98",
+          "bias": 1.41,
+          "identity_percent": 100.0,
+          "identity_count": 186,
+          "similarity_percent": 100.0,
+          "similarity_count": 186,
+          "match": "lgqekerfqvlpgrdkmlyvaaqnerdtlwarqvlargdydknarvineneenkrisiwldtyypqlayyrihfdeprkpvfwlsrqrntmskkelevlsqklralmpyadsvnitlmddvtaagqaeaglkqqalpysrrnhkggvtfviqgalddveilrarqfvdsyyrtwggryvqfaielk",
+          "description": "PROTEIN PRGH",
+          "target": "2y9j_A"
+        }
+      },
+      {
+        "joinId": "4g2s",
+        "doc": {
+          "accuracy": 0.99,
+          "score": 232.7,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.7e-67,
+          "e_value_ind": 1.9e-67,
+          "e_value_cond": 3.5e-72,
+          "bit_score": 232.52799987793,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium",
+          "query_sequence": "tspgpyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepw",
+          "query_sequence_start": 10,
+          "query_sequence_end": 119,
+          "target_sequence": "SSPGPYIVRLLNSSLNGCEFPLLTGRTLFVVGQSDALTASGQLPDIPADSFFIPLDHGGVNFEIQVDTDATEIILHELKEGNSESRSVQLNTPIQVGELLILIRPESEPW",
+          "target_sequence_start": 2,
+          "target_sequence_end": 111,
+          "target_envelope_start": 1,
+          "target_envelope_end": 111,
+          "posterior_probability": "59************************************************************************************************************",
+          "bias": 0.32,
+          "identity_percent": 99.0909090909091,
+          "identity_count": 109,
+          "similarity_percent": 100.0,
+          "similarity_count": 110,
+          "match": "+spgpyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepw",
+          "description": "Protein prgH",
+          "target": "4g2s_A"
+        }
+      },
+      {
+        "joinId": "3j1w",
+        "doc": {
+          "accuracy": 1.0,
+          "score": 223.9,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 7.9e-65,
+          "e_value_ind": 8.8e-65,
+          "e_value_cond": 1.7e-69,
+          "bit_score": 223.729141235352,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium",
+          "query_sequence": "pyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepw",
+          "query_sequence_start": 14,
+          "query_sequence_end": 119,
+          "target_sequence": "PYIVRLLNSSLNGCEFPLLTGRTLFVVGQSDALTASGQLPDIPADSFFIPLDHGGVNFEIQVDTDATEIILHELKEGNSESRSVQLNTPIQVGELLILIRPESEPW",
+          "target_sequence_start": 1,
+          "target_sequence_end": 106,
+          "target_envelope_start": 1,
+          "target_envelope_end": 106,
+          "posterior_probability": "9*********************************************************************************************************",
+          "bias": 0.21,
+          "identity_percent": 100.0,
+          "identity_count": 106,
+          "similarity_percent": 100.0,
+          "similarity_count": 106,
+          "match": "pyivrllnsslngcefplltgrtlfvvgqsdaltasgqlpdipadsffipldhggvnfeiqvdtdateiilhelkegnsesrsvqlntpiqvgellilirpesepw",
+          "description": "Protein PrgH",
+          "target": "3j1w_A"
+        }
+      }
+    ]
+  }
+}

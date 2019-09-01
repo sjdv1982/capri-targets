@@ -1,0 +1,891 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 4542,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MSSVIADSQQPAVSEENANKIILDEEKAVIQCNERYKTENDEKGDEETVSWCRKAAKSGNAEAQYLFGMLVYDGRGVQQDNCVAMLWWMKAAEQNHAKALVMLGNLHRKGQCIAENYPKAIAYWKRAAVQNNVWAYHNLGTAYYDGIGVDKNPHEAVRWWKKAAELGFPESQNNLGALYNDGNGVDRDYQEAVFWYRKSALQGDELGQYNLGVAYYYGRGIKKDFSEAVSWYKKSAEQDYAQAQHNLGVTYYEGEGIKKDYAKAVYWWKKAAEQGIPQSQYNLGIAYEEGWGAEKNPENAVFWYRKAAEQGHADAQNRLGIAYRYGTGVRKNPALSVKWLEKAAKQGLARAQFNLGKTFYIGAGINKNTDKAVYWFIKAANQGFTEAQAYIGMIYFKGKYVAKNEKKGFYWLKKAAEKDSAKAQAFLGALYIAGNEVKPNIKEGVALTKKAALQGNYEAQTLLGFCYENGLEVKKDLIAAYALYLSASPHFDFAEKARLDLERKLSEQEIAKAISVNTAKLFE",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 8,
+      "ngroups": 8,
+      "groups": [
+        {
+          "groupValue": "6deh",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "PEG",
+                  "NI",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Voth KA",
+                  "Chung IYW",
+                  "van Straaten K",
+                  "Li L",
+                  "Boniecki MT",
+                  "Cygler M"
+                ],
+                "citation_title": "The structure of Legionella effector protein LpnE provides insights into its interaction with Oculocerebrorenal syndrome of Lowe (OCRL) protein.",
+                "citation_year": 2018,
+                "compound_id": [
+                  "PEG",
+                  "NI",
+                  "GOL"
+                ],
+                "data_quality": 53.96,
+                "deposition_date": "2018-05-11T01:00:00Z",
+                "entry_author_list": [
+                  "Voth K, Chung IYW, van Straaten KE, Cygler M"
+                ],
+                "entry_authors": [
+                  "Voth K",
+                  "Chung IYW",
+                  "van Straaten KE",
+                  "Cygler M"
+                ],
+                "entry_organism_scientific_name": [
+                  "Legionella pneumophila subsp. pneumophila str. Philadelphia 1|272624"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "GOL : GLYCEROL",
+                  "NI : NICKEL (II) ION"
+                ],
+                "journal": "FEBS J.",
+                "model_quality": 35.65,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Legionella pneumophila subsp. pneumophila str. Philadelphia 1"
+                ],
+                "pdb_id": "6deh",
+                "pfam_name": [
+                  "Sel1"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30479037",
+                "release_date": "2018-12-19T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 1.8,
+                "status": "REL",
+                "tax_id": [
+                  272624
+                ],
+                "title": "Structure of LpnE Effector Protein from Legionella pneumophila (sp. Philadelphia)",
+                "uniprot_accession_best": [
+                  "Q5ZTE0"
+                ],
+                "uniprot_coverage": [
+                  0.86
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5b26",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Jeong H",
+                  "Sim HJ",
+                  "Song EK",
+                  "Lee H",
+                  "Ha SC",
+                  "Jun Y",
+                  "Park TJ",
+                  "Lee C"
+                ],
+                "citation_title": "Crystal structure of SEL1L: Insight into the roles of SLR motifs in ERAD pathway.",
+                "citation_year": 2016,
+                "data_quality": 24.04,
+                "deposition_date": "2016-01-09T01:00:00Z",
+                "entry_author_list": [
+                  "Jeong H, Lee C"
+                ],
+                "entry_authors": [
+                  "Jeong H",
+                  "Lee C"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mus musculus|10090"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "Sci Rep",
+                "model_quality": 62.01,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mus musculus"
+                ],
+                "pdb_id": "5b26",
+                "pfam_name": [
+                  "Sel1"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "27064360",
+                "release_date": "2016-04-27T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 2.6,
+                "status": "REL",
+                "tax_id": [
+                  10090
+                ],
+                "title": "Crystal structure of mouse SEL1L",
+                "uniprot_accession_best": [
+                  "Q9Z2G6"
+                ],
+                "uniprot_coverage": [
+                  0.24
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5jjo",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "AU"
+                ],
+                "citation_authors": [
+                  "Yang XY",
+                  "Li ZQ",
+                  "She Z",
+                  "Geng Z",
+                  "Xu JH",
+                  "Gao ZQ",
+                  "Dong YH"
+                ],
+                "citation_title": "Structural analysis of Pseudomonas aeruginosa H3-T6SS immunity proteins.",
+                "citation_year": 2016,
+                "compound_id": [
+                  "AU"
+                ],
+                "data_quality": 62.64,
+                "deposition_date": "2016-04-24T01:00:00Z",
+                "entry_author_list": [
+                  "Li ZQ, Gao ZQ, She Z, Dong YH"
+                ],
+                "entry_authors": [
+                  "Li ZQ",
+                  "Gao ZQ",
+                  "She Z",
+                  "Dong YH"
+                ],
+                "entry_organism_scientific_name": [
+                  "Pseudomonas aeruginosa PAO1|208964"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "AU : GOLD ION"
+                ],
+                "journal": "FEBS Lett.",
+                "model_quality": 90.14,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Pseudomonas aeruginosa PAO1"
+                ],
+                "pdb_id": "5jjo",
+                "pfam_name": [
+                  "Sel1"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "27397502",
+                "release_date": "2016-08-31T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 2.002,
+                "status": "REL",
+                "tax_id": [
+                  208964
+                ],
+                "title": "The crystal structure of immunity protein PA5088 from Pseudomonas aeruginosa",
+                "uniprot_accession_best": [
+                  "Q9HU95"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5jkp",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Yang XY",
+                  "Li ZQ",
+                  "She Z",
+                  "Geng Z",
+                  "Xu JH",
+                  "Gao ZQ",
+                  "Dong YH"
+                ],
+                "citation_title": "Structural analysis of Pseudomonas aeruginosa H3-T6SS immunity proteins.",
+                "citation_year": 2016,
+                "data_quality": 46.54,
+                "deposition_date": "2016-04-26T01:00:00Z",
+                "entry_author_list": [
+                  "Li ZQ, Gao ZQ, She Z, Dong YH"
+                ],
+                "entry_authors": [
+                  "Li ZQ",
+                  "Gao ZQ",
+                  "She Z",
+                  "Dong YH"
+                ],
+                "entry_organism_scientific_name": [
+                  "Pseudomonas aeruginosa PAO1|208964"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "FEBS Lett.",
+                "model_quality": 34.47,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Pseudomonas aeruginosa PAO1"
+                ],
+                "pdb_id": "5jkp",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "27397502",
+                "release_date": "2016-08-31T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 2.106,
+                "status": "REL",
+                "tax_id": [
+                  208964
+                ],
+                "title": "Crystal structure of immunity protein Pa5087 from Pseudomonas aeruginosa",
+                "uniprot_accession_best": [
+                  "Q9HU96"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1klx",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Luthy L",
+                  "Grutter MG",
+                  "Mittl PR"
+                ],
+                "citation_title": "The crystal structure of Helicobacter pylori cysteine-rich protein B reveals a novel fold for a penicillin-binding protein.",
+                "citation_year": 2002,
+                "data_quality": 54.15,
+                "deposition_date": "2001-12-13T01:00:00Z",
+                "entry_author_list": [
+                  "Luethy L, Gruetter MG, Mittl PRE"
+                ],
+                "entry_authors": [
+                  "Luethy L",
+                  "Gruetter MG",
+                  "Mittl PRE"
+                ],
+                "entry_organism_scientific_name": [
+                  "Helicobacter pylori|210"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 70.54,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Helicobacter pylori"
+                ],
+                "pdb_id": "1klx",
+                "pfam_name": [
+                  "Sel1"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "11777911",
+                "release_date": "2002-09-11T01:00:00Z",
+                "release_year": 2002,
+                "resolution": 1.95,
+                "status": "REL",
+                "tax_id": [
+                  210
+                ],
+                "title": "Helicobacter pylori cysteine rich protein B (hcpB)",
+                "uniprot_accession_best": [
+                  "O25103"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6if6",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "PO4",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Sakuma M",
+                  "Nishikawa S",
+                  "Inaba S",
+                  "Nishigaki T",
+                  "Kojima S",
+                  "Homma M",
+                  "Imada K"
+                ],
+                "citation_title": "Structure of the periplasmic domain of SflA involved in spatial regulation of the flagellar biogenesis of Vibrio reveals a TPR/SLR -like fold.",
+                "citation_year": 2019,
+                "compound_id": [
+                  "PO4",
+                  "GOL"
+                ],
+                "data_quality": 7.2,
+                "deposition_date": "2018-09-18T01:00:00Z",
+                "entry_author_list": [
+                  "Nishikawa S, Sakuma M, Kojima S, Homma M, Imada K"
+                ],
+                "entry_authors": [
+                  "Nishikawa S",
+                  "Sakuma M",
+                  "Kojima S",
+                  "Homma M",
+                  "Imada K"
+                ],
+                "entry_organism_scientific_name": [
+                  "Vibrio alginolyticus|663"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "GOL : GLYCEROL",
+                  "PO4 : PHOSPHATE ION"
+                ],
+                "journal": "J. Biochem.",
+                "model_quality": 67.87,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Vibrio alginolyticus"
+                ],
+                "pdb_id": "6if6",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30989194",
+                "release_date": "2019-05-01T01:00:00Z",
+                "release_year": 2019,
+                "resolution": 1.9,
+                "status": "REL",
+                "tax_id": [
+                  663
+                ],
+                "title": "Structure of the periplasmic domain of SflA",
+                "uniprot_accession_best": [
+                  "A0A1W6TB41"
+                ],
+                "uniprot_coverage": [
+                  0.43
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3e4b",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CL",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Keiski CL",
+                  "Harwich M",
+                  "Jain S",
+                  "Neculai AM",
+                  "Yip P",
+                  "Robinson H",
+                  "Whitney JC",
+                  "Riley L",
+                  "Burrows LL",
+                  "Ohman DE",
+                  "Howell PL"
+                ],
+                "citation_title": "AlgK is a TPR-containing protein and the periplasmic component of a novel exopolysaccharide secretin.",
+                "citation_year": 2010,
+                "compound_id": [
+                  "CL",
+                  "GOL"
+                ],
+                "data_quality": 22.69,
+                "deposition_date": "2008-08-11T01:00:00Z",
+                "entry_author_list": [
+                  "Keiski C-L, Harwich M, Jain S, Neculai AM, Yip P, Robinson H, Whitney JC, Burrows LL, Ohman DE, Howell PL"
+                ],
+                "entry_authors": [
+                  "Keiski C-L",
+                  "Harwich M",
+                  "Jain S",
+                  "Neculai AM",
+                  "Yip P",
+                  "Robinson H",
+                  "Whitney JC",
+                  "Burrows LL",
+                  "Ohman DE",
+                  "Howell PL"
+                ],
+                "entry_organism_scientific_name": [
+                  "Pseudomonas fluorescens|294"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CL : CHLORIDE ION",
+                  "GOL : GLYCEROL"
+                ],
+                "journal": "Structure",
+                "model_quality": 31.64,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Pseudomonas fluorescens"
+                ],
+                "pdb_id": "3e4b",
+                "prefered_assembly_id": "3",
+                "pubmed_id": "20159471",
+                "release_date": "2009-08-25T01:00:00Z",
+                "release_year": 2009,
+                "resolution": 2.5,
+                "status": "REL",
+                "tax_id": [
+                  294
+                ],
+                "title": "Crystal structure of AlgK from Pseudomonas fluorescens WCS374r"
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3rjv",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "EDO"
+                ],
+                "citation_authors": [
+                  "Joint Center for Structural Genomics (JCSG)"
+                ],
+                "citation_title": "Crystal structure of a Putative Sel1 repeat protein (KPN_04481) from Klebsiella pneumoniae subsp. pneumoniae MGH 78578 at 1.65 A resolution",
+                "compound_id": [
+                  "EDO",
+                  "MSE"
+                ],
+                "data_quality": 43.7,
+                "deposition_date": "2011-04-15T01:00:00Z",
+                "entry_author_list": [
+                  "Joint Center for Structural Genomics (JCSG)"
+                ],
+                "entry_authors": [
+                  "Joint Center for Structural Genomics (JCSG)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Klebsiella pneumoniae subsp. pneumoniae MGH 78578|272620"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "EDO : 1,2-ETHANEDIOL"
+                ],
+                "journal": "To be published",
+                "model_quality": 65.45,
+                "modified_compound_id": [
+                  "MSE"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Klebsiella pneumoniae subsp. pneumoniae MGH 78578"
+                ],
+                "pdb_id": "3rjv",
+                "pfam_name": [
+                  "Sel1"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2011-05-04T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 1.65,
+                "status": "REL",
+                "tax_id": [
+                  272620
+                ],
+                "title": "Crystal structure of a putative sel1 repeat protein (kpn_04481) from Klebsiella pneumoniae subsp. pneumoniae at 1.65 a resolution",
+                "uniprot_accession_best": [
+                  "A6TH02"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 8,
+    "num_entries": 8,
+    "external": [
+      {
+        "joinId": "6deh",
+        "doc": {
+          "score": 169.9,
+          "accuracy": 0.93,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.8e-48,
+          "e_value_ind": 3.5e-47,
+          "e_value_cond": 9.2e-52,
+          "bit_score": 165.589080810547,
+          "species": "Legionella pneumophila subsp. pneumophila str. Philadelphia 1",
+          "query_sequence": "qnnvwayhnlgtayydgigvdknpheavrwwkkaaelgfpesqnnlgalyndgngvdrdyqeavfwyrksalqgdelgqynlgvayyygrgikkdfseavswykksaeqdyaqaqhnlgvtyyegegikkdyakavywwkkaaeqgipqsqynlgiayeegwgaeknpenavfwyrkaaeqghadaqnrlgiayrygtgvrknpalsvkwlekaakqglaraqfnlgktfyigaginkntdkavywfikaanqgfteaq",
+          "query_sequence_start": 130,
+          "query_sequence_end": 388,
+          "target_sequence": "QGNVDAQVLL-AGFYWYLNTPEGYKKAFEWYQKAADQNNADGQYGLGYMYDTGTGVPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDTGTGVKKDKTQALNWYAKAADLGNASAQYNLGLMYEQGDGVPKDYQKAAEYFEKAANQGHAKSQLELGYLYDSGKLGKSDLQKAAFWYQKSADLGNANAQFNLADMYFYGDGVGKSLEQSVYWMQKAAEQGYGKAQNQLGIYYRDGIGVAADPVKAYAWFTAAKNNGFEKAA",
+          "target_sequence_start": 37,
+          "target_sequence_end": 294,
+          "target_envelope_start": 33,
+          "target_envelope_end": 301,
+          "posterior_probability": "5666665444.4566678888888999***************************************************************************************************************************************9999*************************************************************9999************************9886",
+          "bias": 28.44,
+          "identity_percent": 39.534883720930196,
+          "identity_count": 102,
+          "similarity_percent": 61.62790697674419,
+          "similarity_count": 159,
+          "match": "q nv a   l   +y  ++  +   +a +w++kaa+ +  + q  lg +y+ g gv ++   a+ wy+k+a qg+  +   +g  y  g g+kkd ++a++wy k+a+   a aq+nlg+ y +g+g+ kdy ka  +++kaa qg  +sq  lg  y+ g   + + + a fwy+k+a+ g+a+aq +l+  y yg gv k+   sv w++kaa+qg  +aq  lg  +  g g+  +  ka  wf  a n gf +a ",
+          "description": "TPR repeat protein, protein-protein interaction",
+          "target": "6deh_A"
+        }
+      },
+      {
+        "joinId": "5b26",
+        "doc": {
+          "score": 88.5,
+          "accuracy": 0.92,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 8.3e-24,
+          "e_value_ind": 1.1e-23,
+          "e_value_cond": 2.9e-28,
+          "bit_score": 88.0823669433594,
+          "species": "Mus musculus",
+          "query_sequence": "iaywkraavqnnvwayhnlgtay.ydgigvdknpheavrwwkkaaelgfpesqnnlgalyndgngv.drdyqeavfwyrksalqgdelgqynlgvayyygrgikkdfseavswykksaeqdyaqaqhnlgvtyyegegikkdyakavywwkkaaeqgipqsqynlgiayeegwga",
+          "query_sequence_start": 121,
+          "query_sequence_end": 293,
+          "target_sequence": "IQYYQFLAEKGDVQAQVGLGQLHlHGGRGVEQNHQRAFDYFNLAANAGNSHAMAFLGKMYSEGSDIvPQSNETALHYFKKAADMGNPVGQSGLGMAYLYGRGVQVNYDLALKYFQKAAEQGWVDGQLQLGSMYYNGIGVKRDYKQALKYFNLASQGGHILAFYNLAQMHASGTGV",
+          "target_sequence_start": 10,
+          "target_sequence_end": 184,
+          "target_envelope_start": 5,
+          "target_envelope_end": 186,
+          "posterior_probability": "78999999999*********98736789***********************************986156677788999999**************************************************************************9*999*****9999888875",
+          "bias": 5.16,
+          "identity_percent": 32.369942196531795,
+          "identity_count": 56,
+          "similarity_percent": 60.1156069364162,
+          "similarity_count": 104,
+          "match": "i y++  a + +v a   lg  + + g gv++n + a  ++  aa  g   +   lg +y++g+ +  +  + a+ +++k+a  g+ +gq  lg+ay ygrg++ ++  a+ +++k+aeq +   q  lg  yy g g+k+dy +a+ ++  a++ g   + ynl+  +  g g ",
+          "description": "Protein sel-1 homolog 1",
+          "target": "5b26_A"
+        }
+      },
+      {
+        "joinId": "5jjo",
+        "doc": {
+          "score": 47.9,
+          "accuracy": 0.88,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.6e-11,
+          "e_value_ind": 2.1e-11,
+          "e_value_cond": 5.5e-16,
+          "bit_score": 47.5407600402832,
+          "species": "Pseudomonas aeruginosa PAO1",
+          "query_sequence": "fseavswykksaeqdyaqaqhnlgvtyyeg..egikkdyakavywwkkaaeqgipqsqynlgiayeegwgaeknp.enavfwyrkaaeqghadaqnrlgiayrygtgvrknpalsvkwlekaakqglaraqfnlgktfyigaginkntdkavywfikaanqgfteaqayigmiyfk",
+          "query_sequence_start": 225,
+          "query_sequence_end": 397,
+          "target_sequence": "WDRIVDLYSKAVERGHWKAMHNLASLYRTGwpGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRAGV-KNPaTDGLTFLDKAASLGNPPALTELGRLYIYVAGQ---DELGLKYTNCAAGQGYAPANYELAMYYRL---VAHNYPKAAGYYLLAASQGNDDAAFFMSGVFDK",
+          "target_sequence_start": 42,
+          "target_sequence_end": 210,
+          "target_envelope_start": 25,
+          "target_envelope_end": 217,
+          "posterior_probability": "5677899********************9985559***************************9888777776.666256788899********************8885...679********************976665...457999**************9999888777655",
+          "bias": 0.65,
+          "identity_percent": 30.1775147928994,
+          "identity_count": 51,
+          "similarity_percent": 52.6627218934911,
+          "similarity_count": 89,
+          "match": "+   v  y k+ e+ + +a hnl+  y  g   g++kd  ka+  ++k  +  +pq  y+++       g  knp  + + +  kaa  g+  a  +lg  y y  g      l +k+   aa qg a a + l+  + +   +  n  ka  +++ aa+qg  +a  +++ ++ k",
+          "description": "Uncharacterized protein",
+          "target": "5jjo_A"
+        }
+      },
+      {
+        "joinId": "5jkp",
+        "doc": {
+          "score": 45.9,
+          "accuracy": 0.86,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 6.8e-11,
+          "e_value_ind": 9e-11,
+          "e_value_cond": 2.4e-15,
+          "bit_score": 45.4660301208496,
+          "species": "Pseudomonas aeruginosa PAO1",
+          "query_sequence": "seavswykksaeqdyaqaqhnlgvtyyeg..egikkdyakavywwkkaaeqgipqsqynlgiayeegwgaeknp.enavfwyrkaaeqghadaqnrlgiayrygtgvrknpalsvkwlekaakqglaraqfnlgktfyigaginkntdkavywfikaanqgfteaqayigmiyfk",
+          "query_sequence_start": 226,
+          "query_sequence_end": 397,
+          "target_sequence": "GRIVEIYSKAVERGHWKAMHNLANLYRTGwpGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRAGV-KNPaTDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPASYELGSYYEL---VENNYPKALSYYQVSVSQGGRSAAFFLSRVFGK",
+          "target_sequence_start": 40,
+          "target_sequence_end": 207,
+          "target_envelope_start": 19,
+          "target_envelope_end": 226,
+          "posterior_probability": "5678889999999999*****99999988545999******99999999***********9988887776.56615678888999999**********99999...67888999999999999**********986654...778999999999999999999999888888755",
+          "bias": 1.9,
+          "identity_percent": 29.761904761904802,
+          "identity_count": 50,
+          "similarity_percent": 51.1904761904762,
+          "similarity_count": 86,
+          "match": "   v  y k+ e+ + +a hnl+  y  g   g++kd  ka+  ++k  +  +pq  y++g       g  knp  + + +  kaa  g+  a  +lg  y y   v k   l + +   a+ qg a a + lg  + +   +  n  ka+ ++  + +qg   a  +++ ++ k",
+          "description": "Uncharacterized protein",
+          "target": "5jkp_A"
+        }
+      },
+      {
+        "joinId": "1klx",
+        "doc": {
+          "score": 31.2,
+          "accuracy": 0.68,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.9e-06,
+          "e_value_ind": 1.5e-05,
+          "e_value_cond": 3.8e-10,
+          "bit_score": 28.2729511260986,
+          "species": "Helicobacter pylori (GCA_000827025)",
+          "query_sequence": "lwwmkaaeqnhakalvmlgnlhrkgqciaenypkaiaywkraavqnnvwayhnlgtayydgigvdknpheavrwwkkaaelgfp",
+          "query_sequence_start": 86,
+          "query_sequence_end": 169,
+          "target_sequence": "QYLSKACELNSGNGCRFLGDFYENGKYVKKDLRKAAQYYSKACGLNDQDGCLILGYKQYAGKGVVKNEKQAVKTFEKACRLGSE",
+          "target_sequence_start": 46,
+          "target_sequence_end": 129,
+          "target_envelope_start": 22,
+          "target_envelope_end": 137,
+          "posterior_probability": "344577777777777777777777777777777777777777777777777777777777777777777777777777777754",
+          "bias": 0.05,
+          "identity_percent": 30.952380952381,
+          "identity_count": 26,
+          "similarity_percent": 51.1904761904762,
+          "similarity_count": 43,
+          "match": " +  ka e n      +lg++++ g+ + ++  ka  y+ +a   n+      lg   y g gv kn  +av+ ++ka  lg  ",
+          "description": "Cysteine Rich Protein B",
+          "target": "1klx_A"
+        }
+      },
+      {
+        "joinId": "6if6",
+        "doc": {
+          "score": 28.3,
+          "accuracy": 0.84,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.4e-05,
+          "e_value_ind": 1.6e-05,
+          "e_value_cond": 4.1e-10,
+          "bit_score": 28.1708240509033,
+          "species": "Vibrio alginolyticus",
+          "query_sequence": "avywfikaanqgfteaqayigmiyfkgkyvaknekkgfywlkkaaekdsakaqaflgalyiagnevkpnikegvaltkkaalqgn",
+          "query_sequence_start": 372,
+          "query_sequence_end": 456,
+          "target_sequence": "TRYWLEQSANQGYLPAQKQLANDFAKGINGEKNETQALYWLTSIALNDPT-DQGFLLANFIQRNQDKVTTSQLTEALYQMASQHN",
+          "target_sequence_start": 31,
+          "target_sequence_end": 114,
+          "target_envelope_start": 14,
+          "target_envelope_end": 129,
+          "posterior_probability": "56******************************************999875.69***********999877765554455555555",
+          "bias": 0.08,
+          "identity_percent": 33.3333333333333,
+          "identity_count": 28,
+          "similarity_percent": 50.0,
+          "similarity_count": 42,
+          "match": "  yw+ ++anqg+  aq  ++  + kg    kne +++ywl   a  d    q fl a +i  n+ k    +      + a q n",
+          "description": "Protein SflA",
+          "target": "6if6_A"
+        }
+      },
+      {
+        "joinId": "3e4b",
+        "doc": {
+          "score": 23.0,
+          "accuracy": 0.63,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.00056,
+          "e_value_ind": 1200.0,
+          "e_value_cond": 0.03,
+          "bit_score": 2.21398019790649,
+          "species": "Pseudomonas fluorescens",
+          "query_sequence": "kaanqgfteaqayigmiyfkgkyvaknekkgfywlkkaaekdsakaqaflgalyiag.nevkpnikegvaltkkaalqgnyeaqtl",
+          "query_sequence_start": 378,
+          "query_sequence_end": 462,
+          "target_sequence": "QLAELGYSEAQVGLADIQVGTRDPAQIKQ-AEA-TYRAAADTSPRAQARLGRLLAAKpGATEAEHHEAESLLKKAFANG--EGNTL",
+          "target_sequence_start": 28,
+          "target_sequence_end": 109,
+          "target_envelope_start": 15,
+          "target_envelope_end": 121,
+          "posterior_probability": "55677777777777777666555554433.222.335566678888888888877641345566677778888876655..44444",
+          "bias": 0.05,
+          "identity_percent": 31.7073170731707,
+          "identity_count": 26,
+          "similarity_percent": 50.0,
+          "similarity_count": 41,
+          "match": "+ a  g++eaq  ++ i    +  a+ ++ +     +aa   s +aqa lg l  a     +    e+ +l kka   g  e  tl",
+          "description": "AlgK",
+          "target": "3e4b_A"
+        }
+      },
+      {
+        "joinId": "3rjv",
+        "doc": {
+          "score": 22.2,
+          "accuracy": 0.83,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.00098,
+          "e_value_ind": 0.0017,
+          "e_value_cond": 4.5e-08,
+          "bit_score": 21.4454746246338,
+          "species": "Klebsiella pneumoniae subsp. pneumoniae MGH 78578",
+          "query_sequence": "kaakqglaraqfnlgktfyigaginkntdkavywfikaanqgfteaqayigmiyfkgkyvaknekkgfywlkkaaekdsakaqaflgalyiagnevkpnikegvaltkkaalqgn....yeaqtllgfcyenglevkkdliaayaly",
+          "query_sequence_start": 342,
+          "query_sequence_end": 484,
+          "target_sequence": "QQAEAGDRRAQYYLADTW-VSSG---DYQKAEYWAQKAAAQGDGDALALLAQLKIRNPQQADY-PQARQLAEKAVEAGSKSGEIVLARVLVNRQAGATDVAHAITLLQDAARDSEsdaaVDAQMLLGLIYASGVHGPEDDVKASEYF",
+          "target_sequence_start": 11,
+          "target_sequence_end": 152,
+          "target_envelope_start": 5,
+          "target_envelope_end": 165,
+          "posterior_probability": "56888999******9996.5666...56799*************************9998865.45677899*******999*999999999888999*********9999876512226789***********9999988776544",
+          "bias": 0.7,
+          "identity_percent": 26.056338028169,
+          "identity_count": 37,
+          "similarity_percent": 52.112676056338,
+          "similarity_count": 74,
+          "match": "+ a+ g  raq+ l+ t+ +++g   +  ka yw  kaa qg  +a a ++++ +++   a    ++    +ka e  s   +  l+ + +       ++  ++ l + aa  +      +aq llg+ y +g+   +d + a   +",
+          "description": "Putative Sel1 repeat protein",
+          "target": "3rjv_A"
+        }
+      }
+    ]
+  }
+}

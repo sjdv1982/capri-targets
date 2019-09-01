@@ -1,0 +1,35 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 543,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MNVDPHFDKFMESGIRHVYMLFENKSVESSEQFYSFMRTTYKNDPCSSDFECIERGAEMAQSYARIMNIKLETE",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 0,
+      "ngroups": 0,
+      "groups": []
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 0,
+    "num_entries": 0,
+    "external": []
+  }
+}

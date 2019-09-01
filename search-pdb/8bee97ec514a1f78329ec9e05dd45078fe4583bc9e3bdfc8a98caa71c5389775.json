@@ -1,0 +1,3422 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 447,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MATTAKEEMARFWEXNTKSSRPLSPHISIYKWSLPMAMSITHRGTGVALSLGVSLFSLAALLLPEQFPHYVAVVKSLSLSPALIYSAKFALVFPLSYHTWNGIRHLVWDMGKGFKLSQVEQSGVVVLILTLLSSAAIAAM",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 32,
+      "ngroups": 8,
+      "groups": [
+        {
+          "groupValue": "2h88",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "citation_title": "Crystallographic studies of the binding of ligands to the dicarboxylate site of Complex II, and the identity of the ligand in the \"oxaloacetate-inhibited\" state.",
+                "compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 72.53,
+                "deposition_date": "2006-06-06T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Shen JT, Wang AC, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9YHT2",
+                  "D0VWW3",
+                  "Q9YHT1"
+                ],
+                "journal": "Biochim. Biophys. Acta",
+                "model_quality": 62.67,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2h88",
+                "prefered_assembly_id": "2",
+                "pubmed_id": "16935256",
+                "release_date": "2006-06-20T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 1.74,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian Mitochondrial Respiratory Complex II at 1.8 Angstrom Resolution",
+                "uniprot_accession_best": [
+                  "Q5ZIS0"
+                ],
+                "uniprot_coverage": [
+                  0.66
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "citation_title": "Crystallographic studies of the binding of ligands to the dicarboxylate site of Complex II, and the identity of the ligand in the \"oxaloacetate-inhibited\" state.",
+                "compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 72.53,
+                "deposition_date": "2006-06-06T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Shen JT, Wang AC, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9YHT2",
+                  "Q5ZIS0",
+                  "Q9YHT1"
+                ],
+                "journal": "Biochim. Biophys. Acta",
+                "model_quality": 62.67,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2h88",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "2",
+                "pubmed_id": "16935256",
+                "release_date": "2006-06-20T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 1.74,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian Mitochondrial Respiratory Complex II at 1.8 Angstrom Resolution",
+                "uniprot_accession_best": [
+                  "D0VWW3"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "citation_title": "Crystallographic studies of the binding of ligands to the dicarboxylate site of Complex II, and the identity of the ligand in the \"oxaloacetate-inhibited\" state.",
+                "compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 72.53,
+                "deposition_date": "2006-06-06T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Shen JT, Wang AC, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "D0VWW3",
+                  "Q5ZIS0",
+                  "Q9YHT1"
+                ],
+                "journal": "Biochim. Biophys. Acta",
+                "model_quality": 62.67,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2h88",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "2",
+                "pubmed_id": "16935256",
+                "release_date": "2006-06-20T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 1.74,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian Mitochondrial Respiratory Complex II at 1.8 Angstrom Resolution",
+                "uniprot_accession_best": [
+                  "Q9YHT2"
+                ],
+                "uniprot_coverage": [
+                  0.87
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "citation_title": "Crystallographic studies of the binding of ligands to the dicarboxylate site of Complex II, and the identity of the ligand in the \"oxaloacetate-inhibited\" state.",
+                "compound_id": [
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 72.53,
+                "deposition_date": "2006-06-06T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Shen JT, Wang AC, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Shen JT",
+                  "Wang AC",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9YHT2",
+                  "D0VWW3",
+                  "Q5ZIS0"
+                ],
+                "journal": "Biochim. Biophys. Acta",
+                "model_quality": 62.67,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2h88",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "2",
+                "pubmed_id": "16935256",
+                "release_date": "2006-06-20T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 1.74,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian Mitochondrial Respiratory Complex II at 1.8 Angstrom Resolution",
+                "uniprot_accession_best": [
+                  "Q9YHT1"
+                ],
+                "uniprot_coverage": [
+                  0.93
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1yq3",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang L",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 68.82,
+                "deposition_date": "2005-02-01T01:00:00Z",
+                "entry_author_list": [
+                  "Huang L, Cobessi D, Tung EY, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang L",
+                  "Cobessi D",
+                  "Tung EY",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9YHT1",
+                  "D0VWW3",
+                  "Q5ZIS0"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 33.92,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "1yq3",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex ii with oxaloacetate and ubiquinone",
+                "uniprot_accession_best": [
+                  "Q9YHT2"
+                ],
+                "uniprot_coverage": [
+                  0.87
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang L",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 68.82,
+                "deposition_date": "2005-02-01T01:00:00Z",
+                "entry_author_list": [
+                  "Huang L, Cobessi D, Tung EY, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang L",
+                  "Cobessi D",
+                  "Tung EY",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9YHT1",
+                  "Q9YHT2",
+                  "Q5ZIS0"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 33.92,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "1yq3",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex ii with oxaloacetate and ubiquinone",
+                "uniprot_accession_best": [
+                  "D0VWW3"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang L",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 68.82,
+                "deposition_date": "2005-02-01T01:00:00Z",
+                "entry_author_list": [
+                  "Huang L, Cobessi D, Tung EY, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang L",
+                  "Cobessi D",
+                  "Tung EY",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9YHT1",
+                  "Q9YHT2",
+                  "D0VWW3"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 33.92,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "1yq3",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex ii with oxaloacetate and ubiquinone",
+                "uniprot_accession_best": [
+                  "Q5ZIS0"
+                ],
+                "uniprot_coverage": [
+                  0.66
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang L",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "HEM",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "UNL",
+                  "JZR",
+                  "UQ",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 68.82,
+                "deposition_date": "2005-02-01T01:00:00Z",
+                "entry_author_list": [
+                  "Huang L, Cobessi D, Tung EY, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang L",
+                  "Cobessi D",
+                  "Tung EY",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9YHT2",
+                  "D0VWW3",
+                  "Q5ZIS0"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 33.92,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "1yq3",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex ii with oxaloacetate and ubiquinone",
+                "uniprot_accession_best": [
+                  "Q9YHT1"
+                ],
+                "uniprot_coverage": [
+                  0.93
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2fbw",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 66.93,
+                "deposition_date": "2005-12-10T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Sun G, Cobessi D, Wang AC, Shen JT, Tung EY, Anderson VE, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "D0VWW3",
+                  "Q5ZIS0",
+                  "Q9YHT1"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 49.43,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2fbw",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex II with carboxin bound",
+                "uniprot_accession_best": [
+                  "Q9YHT2"
+                ],
+                "uniprot_coverage": [
+                  0.87
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 66.93,
+                "deposition_date": "2005-12-10T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Sun G, Cobessi D, Wang AC, Shen JT, Tung EY, Anderson VE, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q5ZIS0",
+                  "Q9YHT2",
+                  "Q9YHT1"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 49.43,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2fbw",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex II with carboxin bound",
+                "uniprot_accession_best": [
+                  "D0VWW3"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 66.93,
+                "deposition_date": "2005-12-10T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Sun G, Cobessi D, Wang AC, Shen JT, Tung EY, Anderson VE, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "D0VWW3",
+                  "Q9YHT2",
+                  "Q9YHT1"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 49.43,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2fbw",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex II with carboxin bound",
+                "uniprot_accession_best": [
+                  "Q5ZIS0"
+                ],
+                "uniprot_coverage": [
+                  0.66
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "citation_title": "3-nitropropionic acid is a suicide inhibitor of mitochondrial respiration that, upon oxidation by complex II, forms a covalent adduct with a catalytic base arginine in the active site of the enzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "AZI",
+                  "K",
+                  "PEE",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "BHG",
+                  "TEO",
+                  "UNL",
+                  "FAD",
+                  "GOL"
+                ],
+                "data_quality": 66.93,
+                "deposition_date": "2005-12-10T01:00:00Z",
+                "entry_author_list": [
+                  "Huang LS, Sun G, Cobessi D, Wang AC, Shen JT, Tung EY, Anderson VE, Berry EA"
+                ],
+                "entry_authors": [
+                  "Huang LS",
+                  "Sun G",
+                  "Cobessi D",
+                  "Wang AC",
+                  "Shen JT",
+                  "Tung EY",
+                  "Anderson VE",
+                  "Berry EA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Gallus gallus|9031"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "D0VWW3",
+                  "Q5ZIS0",
+                  "Q9YHT2"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 49.43,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Gallus gallus"
+                ],
+                "pdb_id": "2fbw",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16371358",
+                "release_date": "2005-12-20T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  9031
+                ],
+                "title": "Avian respiratory complex II with carboxin bound",
+                "uniprot_accession_best": [
+                  "Q9YHT1"
+                ],
+                "uniprot_coverage": [
+                  0.93
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1zoy",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "citation_title": "Crystal structure of mitochondrial respiratory membrane protein complex II.",
+                "citation_year": 2005,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "data_quality": 20.02,
+                "deposition_date": "2005-05-15T01:00:00Z",
+                "entry_author_list": [
+                  "Sun F, Huo X, Zhai Y, Wang A, Xu J, Su D, Bartlam M, Rao Z"
+                ],
+                "entry_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "UQ1 : UBIQUINONE-1",
+                  "EPH : L-ALPHA-PHOSPHATIDYL-BETA-OLEOYL-GAMMA-PALMITOYL-PHOSPHATIDYLETHANOLAMINE"
+                ],
+                "interacting_uniprot_accession": [
+                  "D0VWV4",
+                  "Q0QF01",
+                  "Q007T0"
+                ],
+                "journal": "Cell",
+                "model_quality": 7.33,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "1zoy",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "15989954",
+                "release_date": "2005-07-12T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.4,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "Crystal Structure of Mitochondrial Respiratory Complex II from porcine heart at 2.4 Angstroms",
+                "uniprot_accession_best": [
+                  "A5GZW8"
+                ],
+                "uniprot_coverage": [
+                  0.65
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "citation_title": "Crystal structure of mitochondrial respiratory membrane protein complex II.",
+                "citation_year": 2005,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "data_quality": 20.02,
+                "deposition_date": "2005-05-15T01:00:00Z",
+                "entry_author_list": [
+                  "Sun F, Huo X, Zhai Y, Wang A, Xu J, Su D, Bartlam M, Rao Z"
+                ],
+                "entry_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "FAD : FLAVIN-ADENINE DINUCLEOTIDE"
+                ],
+                "interacting_uniprot_accession": [
+                  "D0VWV4",
+                  "A5GZW8",
+                  "Q007T0"
+                ],
+                "journal": "Cell",
+                "model_quality": 7.33,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "1zoy",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "15989954",
+                "release_date": "2005-07-12T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.4,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "Crystal Structure of Mitochondrial Respiratory Complex II from porcine heart at 2.4 Angstroms",
+                "uniprot_accession_best": [
+                  "Q0QF01"
+                ],
+                "uniprot_coverage": [
+                  0.94
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "citation_title": "Crystal structure of mitochondrial respiratory membrane protein complex II.",
+                "citation_year": 2005,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "data_quality": 20.02,
+                "deposition_date": "2005-05-15T01:00:00Z",
+                "entry_author_list": [
+                  "Sun F, Huo X, Zhai Y, Wang A, Xu J, Su D, Bartlam M, Rao Z"
+                ],
+                "entry_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "UQ1 : UBIQUINONE-1",
+                  "EPH : L-ALPHA-PHOSPHATIDYL-BETA-OLEOYL-GAMMA-PALMITOYL-PHOSPHATIDYLETHANOLAMINE"
+                ],
+                "interacting_uniprot_accession": [
+                  "A5GZW8",
+                  "Q0QF01",
+                  "Q007T0"
+                ],
+                "journal": "Cell",
+                "model_quality": 7.33,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "1zoy",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "15989954",
+                "release_date": "2005-07-12T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.4,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "Crystal Structure of Mitochondrial Respiratory Complex II from porcine heart at 2.4 Angstroms",
+                "uniprot_accession_best": [
+                  "D0VWV4"
+                ],
+                "uniprot_coverage": [
+                  0.83
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "citation_title": "Crystal structure of mitochondrial respiratory membrane protein complex II.",
+                "citation_year": 2005,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "EPH",
+                  "UQ1",
+                  "FAD"
+                ],
+                "data_quality": 20.02,
+                "deposition_date": "2005-05-15T01:00:00Z",
+                "entry_author_list": [
+                  "Sun F, Huo X, Zhai Y, Wang A, Xu J, Su D, Bartlam M, Rao Z"
+                ],
+                "entry_authors": [
+                  "Sun F",
+                  "Huo X",
+                  "Zhai Y",
+                  "Wang A",
+                  "Xu J",
+                  "Su D",
+                  "Bartlam M",
+                  "Rao Z"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SF4 : IRON/SULFUR CLUSTER",
+                  "F3S : FE3-S4 CLUSTER",
+                  "UQ1 : UBIQUINONE-1",
+                  "FES : FE2/S2 (INORGANIC) CLUSTER"
+                ],
+                "interacting_uniprot_accession": [
+                  "D0VWV4",
+                  "A5GZW8",
+                  "Q0QF01"
+                ],
+                "journal": "Cell",
+                "model_quality": 7.33,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "1zoy",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "15989954",
+                "release_date": "2005-07-12T01:00:00Z",
+                "release_year": 2005,
+                "resolution": 2.4,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "Crystal Structure of Mitochondrial Respiratory Complex II from porcine heart at 2.4 Angstroms",
+                "uniprot_accession_best": [
+                  "Q007T0"
+                ],
+                "uniprot_coverage": [
+                  0.9
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4ytp",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Sato D",
+                  "Balogun EO",
+                  "Sasaki T",
+                  "Nagahama M",
+                  "Oda M",
+                  "Matsuoka S",
+                  "Ohmori J",
+                  "Honma T",
+                  "Inoue M",
+                  "Kita K",
+                  "Harada S"
+                ],
+                "citation_title": "Structural Insights into the Molecular Design of Flutolanil Derivatives Targeted for Fumarate Respiration of Parasite Mitochondria.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "data_quality": 32.8,
+                "deposition_date": "2015-03-18T01:00:00Z",
+                "entry_author_list": [
+                  "Harada S, Shiba T, Sato D, Yamamoto A, Nagahama M, Yone A, Inaoka DK, Sakamoto K, Inoue M, Honma T, Kita K"
+                ],
+                "entry_authors": [
+                  "Harada S",
+                  "Shiba T",
+                  "Sato D",
+                  "Yamamoto A",
+                  "Nagahama M",
+                  "Yone A",
+                  "Inaoka DK",
+                  "Sakamoto K",
+                  "Inoue M",
+                  "Honma T",
+                  "Kita K"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "FES : FE2/S2 (INORGANIC) CLUSTER",
+                  "F3S : FE3-S4 CLUSTER",
+                  "SF4 : IRON/SULFUR CLUSTER",
+                  "E23 : N-(4-tert-butylbenzyl)-2-(trifluoromethyl)benzamide"
+                ],
+                "interacting_uniprot_accession": [
+                  "A5GZW8",
+                  "Q0QF01",
+                  "D0VWV4"
+                ],
+                "journal": "Int J Mol Sci",
+                "model_quality": 17.18,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "4ytp",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26198225",
+                "release_date": "2015-08-05T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 3.1,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "CRYSTAL STRUCTURE OF PORCINE HEART MITOCHONDRIAL COMPLEX II BOUND WITH N-[(4-tert-butylphenyl)methyl]-2-(trifluoromethyl)benzamide",
+                "uniprot_accession_best": [
+                  "Q007T0"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Sato D",
+                  "Balogun EO",
+                  "Sasaki T",
+                  "Nagahama M",
+                  "Oda M",
+                  "Matsuoka S",
+                  "Ohmori J",
+                  "Honma T",
+                  "Inoue M",
+                  "Kita K",
+                  "Harada S"
+                ],
+                "citation_title": "Structural Insights into the Molecular Design of Flutolanil Derivatives Targeted for Fumarate Respiration of Parasite Mitochondria.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "data_quality": 32.8,
+                "deposition_date": "2015-03-18T01:00:00Z",
+                "entry_author_list": [
+                  "Harada S, Shiba T, Sato D, Yamamoto A, Nagahama M, Yone A, Inaoka DK, Sakamoto K, Inoue M, Honma T, Kita K"
+                ],
+                "entry_authors": [
+                  "Harada S",
+                  "Shiba T",
+                  "Sato D",
+                  "Yamamoto A",
+                  "Nagahama M",
+                  "Yone A",
+                  "Inaoka DK",
+                  "Sakamoto K",
+                  "Inoue M",
+                  "Honma T",
+                  "Kita K"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "E23 : N-(4-tert-butylbenzyl)-2-(trifluoromethyl)benzamide",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE"
+                ],
+                "interacting_uniprot_accession": [
+                  "A5GZW8",
+                  "Q0QF01",
+                  "Q007T0"
+                ],
+                "journal": "Int J Mol Sci",
+                "model_quality": 17.18,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "4ytp",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26198225",
+                "release_date": "2015-08-05T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 3.1,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "CRYSTAL STRUCTURE OF PORCINE HEART MITOCHONDRIAL COMPLEX II BOUND WITH N-[(4-tert-butylphenyl)methyl]-2-(trifluoromethyl)benzamide",
+                "uniprot_accession_best": [
+                  "D0VWV4"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Sato D",
+                  "Balogun EO",
+                  "Sasaki T",
+                  "Nagahama M",
+                  "Oda M",
+                  "Matsuoka S",
+                  "Ohmori J",
+                  "Honma T",
+                  "Inoue M",
+                  "Kita K",
+                  "Harada S"
+                ],
+                "citation_title": "Structural Insights into the Molecular Design of Flutolanil Derivatives Targeted for Fumarate Respiration of Parasite Mitochondria.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "data_quality": 32.8,
+                "deposition_date": "2015-03-18T01:00:00Z",
+                "entry_author_list": [
+                  "Harada S, Shiba T, Sato D, Yamamoto A, Nagahama M, Yone A, Inaoka DK, Sakamoto K, Inoue M, Honma T, Kita K"
+                ],
+                "entry_authors": [
+                  "Harada S",
+                  "Shiba T",
+                  "Sato D",
+                  "Yamamoto A",
+                  "Nagahama M",
+                  "Yone A",
+                  "Inaoka DK",
+                  "Sakamoto K",
+                  "Inoue M",
+                  "Honma T",
+                  "Kita K"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "E23 : N-(4-tert-butylbenzyl)-2-(trifluoromethyl)benzamide",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q0QF01",
+                  "Q007T0",
+                  "D0VWV4"
+                ],
+                "journal": "Int J Mol Sci",
+                "model_quality": 17.18,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "4ytp",
+                "pfam_name": [
+                  "CybS"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26198225",
+                "release_date": "2015-08-05T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 3.1,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "CRYSTAL STRUCTURE OF PORCINE HEART MITOCHONDRIAL COMPLEX II BOUND WITH N-[(4-tert-butylphenyl)methyl]-2-(trifluoromethyl)benzamide",
+                "uniprot_accession_best": [
+                  "A5GZW8"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Sato D",
+                  "Balogun EO",
+                  "Sasaki T",
+                  "Nagahama M",
+                  "Oda M",
+                  "Matsuoka S",
+                  "Ohmori J",
+                  "Honma T",
+                  "Inoue M",
+                  "Kita K",
+                  "Harada S"
+                ],
+                "citation_title": "Structural Insights into the Molecular Design of Flutolanil Derivatives Targeted for Fumarate Respiration of Parasite Mitochondria.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "E23",
+                  "F3S",
+                  "FES",
+                  "FAD"
+                ],
+                "data_quality": 32.8,
+                "deposition_date": "2015-03-18T01:00:00Z",
+                "entry_author_list": [
+                  "Harada S, Shiba T, Sato D, Yamamoto A, Nagahama M, Yone A, Inaoka DK, Sakamoto K, Inoue M, Honma T, Kita K"
+                ],
+                "entry_authors": [
+                  "Harada S",
+                  "Shiba T",
+                  "Sato D",
+                  "Yamamoto A",
+                  "Nagahama M",
+                  "Yone A",
+                  "Inaoka DK",
+                  "Sakamoto K",
+                  "Inoue M",
+                  "Honma T",
+                  "Kita K"
+                ],
+                "entry_organism_scientific_name": [
+                  "Sus scrofa|9823"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "FAD : FLAVIN-ADENINE DINUCLEOTIDE"
+                ],
+                "interacting_uniprot_accession": [
+                  "A5GZW8",
+                  "Q007T0",
+                  "D0VWV4"
+                ],
+                "journal": "Int J Mol Sci",
+                "model_quality": 17.18,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Sus scrofa"
+                ],
+                "pdb_id": "4ytp",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26198225",
+                "release_date": "2015-08-05T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 3.1,
+                "status": "REL",
+                "tax_id": [
+                  9823
+                ],
+                "title": "CRYSTAL STRUCTURE OF PORCINE HEART MITOCHONDRIAL COMPLEX II BOUND WITH N-[(4-tert-butylphenyl)methyl]-2-(trifluoromethyl)benzamide",
+                "uniprot_accession_best": [
+                  "Q0QF01"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3vr8",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Shimizu H",
+                  "Osanai A",
+                  "Sakamoto K",
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Harada S",
+                  "Kita K"
+                ],
+                "citation_title": "Crystal structure of mitochondrial quinol-fumarate reductase from the parasitic nematode Ascaris suum.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "data_quality": 5.8,
+                "deposition_date": "2012-04-07T01:00:00Z",
+                "entry_author_list": [
+                  "Shimizu H, Shiba T, Inaoka DK, Osanai A, Kita K, Sakamoto K, Harada S"
+                ],
+                "entry_authors": [
+                  "Shimizu H",
+                  "Shiba T",
+                  "Inaoka DK",
+                  "Osanai A",
+                  "Kita K",
+                  "Sakamoto K",
+                  "Harada S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Ascaris suum|6253"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "FAD : FLAVIN-ADENINE DINUCLEOTIDE",
+                  "MLI : MALONATE ION"
+                ],
+                "interacting_uniprot_accession": [
+                  "O44074",
+                  "P92506",
+                  "P92507"
+                ],
+                "journal": "J. Biochem.",
+                "model_quality": 4.73,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Ascaris suum"
+                ],
+                "pdb_id": "3vr8",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22577165",
+                "release_date": "2012-07-11T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.81,
+                "status": "REL",
+                "tax_id": [
+                  6253
+                ],
+                "title": "Mitochondrial rhodoquinol-fumarate reductase from the parasitic nematode Ascaris suum",
+                "uniprot_accession_best": [
+                  "Q33862"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Shimizu H",
+                  "Osanai A",
+                  "Sakamoto K",
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Harada S",
+                  "Kita K"
+                ],
+                "citation_title": "Crystal structure of mitochondrial quinol-fumarate reductase from the parasitic nematode Ascaris suum.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "data_quality": 5.8,
+                "deposition_date": "2012-04-07T01:00:00Z",
+                "entry_author_list": [
+                  "Shimizu H, Shiba T, Inaoka DK, Osanai A, Kita K, Sakamoto K, Harada S"
+                ],
+                "entry_authors": [
+                  "Shimizu H",
+                  "Shiba T",
+                  "Inaoka DK",
+                  "Osanai A",
+                  "Kita K",
+                  "Sakamoto K",
+                  "Harada S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Ascaris suum|6253"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SF4 : IRON/SULFUR CLUSTER",
+                  "FES : FE2/S2 (INORGANIC) CLUSTER",
+                  "F3S : FE3-S4 CLUSTER",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "RQX : 2-amino-3-methoxy-6-methyl-5-[(2E)-3-methylhex-2-en-1-yl]cyclohexa-2,5-diene-1,4-dione"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q33862",
+                  "P92506",
+                  "P92507"
+                ],
+                "journal": "J. Biochem.",
+                "model_quality": 4.73,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Ascaris suum"
+                ],
+                "pdb_id": "3vr8",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22577165",
+                "release_date": "2012-07-11T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.81,
+                "status": "REL",
+                "tax_id": [
+                  6253
+                ],
+                "title": "Mitochondrial rhodoquinol-fumarate reductase from the parasitic nematode Ascaris suum",
+                "uniprot_accession_best": [
+                  "O44074"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Shimizu H",
+                  "Osanai A",
+                  "Sakamoto K",
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Harada S",
+                  "Kita K"
+                ],
+                "citation_title": "Crystal structure of mitochondrial quinol-fumarate reductase from the parasitic nematode Ascaris suum.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "data_quality": 5.8,
+                "deposition_date": "2012-04-07T01:00:00Z",
+                "entry_author_list": [
+                  "Shimizu H, Shiba T, Inaoka DK, Osanai A, Kita K, Sakamoto K, Harada S"
+                ],
+                "entry_authors": [
+                  "Shimizu H",
+                  "Shiba T",
+                  "Inaoka DK",
+                  "Osanai A",
+                  "Kita K",
+                  "Sakamoto K",
+                  "Harada S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Ascaris suum|6253"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "EPH : L-ALPHA-PHOSPHATIDYL-BETA-OLEOYL-GAMMA-PALMITOYL-PHOSPHATIDYLETHANOLAMINE",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "RQX : 2-amino-3-methoxy-6-methyl-5-[(2E)-3-methylhex-2-en-1-yl]cyclohexa-2,5-diene-1,4-dione"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q33862",
+                  "O44074",
+                  "P92506"
+                ],
+                "journal": "J. Biochem.",
+                "model_quality": 4.73,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Ascaris suum"
+                ],
+                "pdb_id": "3vr8",
+                "pfam_name": [
+                  "CybS"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22577165",
+                "release_date": "2012-07-11T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.81,
+                "status": "REL",
+                "tax_id": [
+                  6253
+                ],
+                "title": "Mitochondrial rhodoquinol-fumarate reductase from the parasitic nematode Ascaris suum",
+                "uniprot_accession_best": [
+                  "P92507"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Shimizu H",
+                  "Osanai A",
+                  "Sakamoto K",
+                  "Inaoka DK",
+                  "Shiba T",
+                  "Harada S",
+                  "Kita K"
+                ],
+                "citation_title": "Crystal structure of mitochondrial quinol-fumarate reductase from the parasitic nematode Ascaris suum.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "RQX",
+                  "EPH",
+                  "MLI",
+                  "FAD"
+                ],
+                "data_quality": 5.8,
+                "deposition_date": "2012-04-07T01:00:00Z",
+                "entry_author_list": [
+                  "Shimizu H, Shiba T, Inaoka DK, Osanai A, Kita K, Sakamoto K, Harada S"
+                ],
+                "entry_authors": [
+                  "Shimizu H",
+                  "Shiba T",
+                  "Inaoka DK",
+                  "Osanai A",
+                  "Kita K",
+                  "Sakamoto K",
+                  "Harada S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Ascaris suum|6253"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "EPH : L-ALPHA-PHOSPHATIDYL-BETA-OLEOYL-GAMMA-PALMITOYL-PHOSPHATIDYLETHANOLAMINE",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "RQX : 2-amino-3-methoxy-6-methyl-5-[(2E)-3-methylhex-2-en-1-yl]cyclohexa-2,5-diene-1,4-dione"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q33862",
+                  "O44074",
+                  "P92507"
+                ],
+                "journal": "J. Biochem.",
+                "model_quality": 4.73,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Ascaris suum"
+                ],
+                "pdb_id": "3vr8",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22577165",
+                "release_date": "2012-07-11T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.81,
+                "status": "REL",
+                "tax_id": [
+                  6253
+                ],
+                "title": "Mitochondrial rhodoquinol-fumarate reductase from the parasitic nematode Ascaris suum",
+                "uniprot_accession_best": [
+                  "P92506"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1nek",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "citation_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "citation_title": "Architecture of succinate dehydrogenase and reactive oxygen species generation.",
+                "citation_year": 2003,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "data_quality": -1.0,
+                "deposition_date": "2002-12-11T01:00:00Z",
+                "entry_author_list": [
+                  "Yankovskaya V, Horsefield R, Tornroth S, Luna-Chavez C, Miyoshi H, Leger C, Byrne B, Cecchini G, Iwata S"
+                ],
+                "entry_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "F3S : FE3-S4 CLUSTER",
+                  "UQ2 : UBIQUINONE-2",
+                  "CA : CALCIUM ION",
+                  "SF4 : IRON/SULFUR CLUSTER",
+                  "FES : FE2/S2 (INORGANIC) CLUSTER",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE"
+                ],
+                "interacting_uniprot_accession": [
+                  "P69054",
+                  "P0AC41",
+                  "P0AC44"
+                ],
+                "journal": "Science",
+                "model_quality": 5.71,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "1nek",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "12560550",
+                "release_date": "2003-02-25T01:00:00Z",
+                "release_year": 2003,
+                "resolution": 2.6,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Complex II (Succinate Dehydrogenase) From E. Coli with ubiquinone bound",
+                "uniprot_accession_best": [
+                  "P07014"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "citation_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "citation_title": "Architecture of succinate dehydrogenase and reactive oxygen species generation.",
+                "citation_year": 2003,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "data_quality": -1.0,
+                "deposition_date": "2002-12-11T01:00:00Z",
+                "entry_author_list": [
+                  "Yankovskaya V, Horsefield R, Tornroth S, Luna-Chavez C, Miyoshi H, Leger C, Byrne B, Cecchini G, Iwata S"
+                ],
+                "entry_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CA : CALCIUM ION",
+                  "FAD : FLAVIN-ADENINE DINUCLEOTIDE",
+                  "OAA : OXALOACETATE ION"
+                ],
+                "interacting_uniprot_accession": [
+                  "P07014",
+                  "P69054",
+                  "P0AC44"
+                ],
+                "journal": "Science",
+                "model_quality": 5.71,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "1nek",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "12560550",
+                "release_date": "2003-02-25T01:00:00Z",
+                "release_year": 2003,
+                "resolution": 2.6,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Complex II (Succinate Dehydrogenase) From E. Coli with ubiquinone bound",
+                "uniprot_accession_best": [
+                  "P0AC41"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "citation_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "citation_title": "Architecture of succinate dehydrogenase and reactive oxygen species generation.",
+                "citation_year": 2003,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "data_quality": -1.0,
+                "deposition_date": "2002-12-11T01:00:00Z",
+                "entry_author_list": [
+                  "Yankovskaya V, Horsefield R, Tornroth S, Luna-Chavez C, Miyoshi H, Leger C, Byrne B, Cecchini G, Iwata S"
+                ],
+                "entry_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "UQ2 : UBIQUINONE-2",
+                  "CDN : CARDIOLIPIN",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "EPH : L-ALPHA-PHOSPHATIDYL-BETA-OLEOYL-GAMMA-PALMITOYL-PHOSPHATIDYLETHANOLAMINE"
+                ],
+                "interacting_uniprot_accession": [
+                  "P07014",
+                  "P0AC41",
+                  "P0AC44"
+                ],
+                "journal": "Science",
+                "model_quality": 5.71,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "1nek",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "12560550",
+                "release_date": "2003-02-25T01:00:00Z",
+                "release_year": 2003,
+                "resolution": 2.6,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Complex II (Succinate Dehydrogenase) From E. Coli with ubiquinone bound",
+                "uniprot_accession_best": [
+                  "P69054"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "citation_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "citation_title": "Architecture of succinate dehydrogenase and reactive oxygen species generation.",
+                "citation_year": 2003,
+                "compound_id": [
+                  "HEM",
+                  "SF4",
+                  "UQ2",
+                  "F3S",
+                  "FES",
+                  "CA",
+                  "CDN",
+                  "EPH",
+                  "FAD",
+                  "OAA"
+                ],
+                "data_quality": -1.0,
+                "deposition_date": "2002-12-11T01:00:00Z",
+                "entry_author_list": [
+                  "Yankovskaya V, Horsefield R, Tornroth S, Luna-Chavez C, Miyoshi H, Leger C, Byrne B, Cecchini G, Iwata S"
+                ],
+                "entry_authors": [
+                  "Yankovskaya V",
+                  "Horsefield R",
+                  "Tornroth S",
+                  "Luna-Chavez C",
+                  "Miyoshi H",
+                  "Leger C",
+                  "Byrne B",
+                  "Cecchini G",
+                  "Iwata S"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "UQ2 : UBIQUINONE-2",
+                  "CDN : CARDIOLIPIN",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE"
+                ],
+                "interacting_uniprot_accession": [
+                  "P07014",
+                  "P69054",
+                  "P0AC41"
+                ],
+                "journal": "Science",
+                "model_quality": 5.71,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "1nek",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "12560550",
+                "release_date": "2003-02-25T01:00:00Z",
+                "release_year": 2003,
+                "resolution": 2.6,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Complex II (Succinate Dehydrogenase) From E. Coli with ubiquinone bound",
+                "uniprot_accession_best": [
+                  "P0AC44"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2wu2",
+          "doclist": {
+            "numFound": 4,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "citation_title": "Crystal Structure of the E. Coli Succinate:Quinone Oxidoreductase (Sqr) Sdhc His84met Mutant",
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "data_quality": 28.31,
+                "deposition_date": "2009-09-28T01:00:00Z",
+                "entry_author_list": [
+                  "Ruprecht J, Yankovskaya V, Maklashina E, Iwata S, Cecchini G"
+                ],
+                "entry_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "CBE : 2-METHYL-N-PHENYL-5,6-DIHYDRO-1,4-OXATHIINE-3-CARBOXAMIDE"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0AC41",
+                  "P0AC44",
+                  "P07014"
+                ],
+                "journal": "To be published",
+                "model_quality": 58.3,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2wu2",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2010-08-25T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 2.5,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhC His84Met mutant",
+                "uniprot_accession_best": [
+                  "P69054"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "citation_title": "Crystal Structure of the E. Coli Succinate:Quinone Oxidoreductase (Sqr) Sdhc His84met Mutant",
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "data_quality": 28.31,
+                "deposition_date": "2009-09-28T01:00:00Z",
+                "entry_author_list": [
+                  "Ruprecht J, Yankovskaya V, Maklashina E, Iwata S, Cecchini G"
+                ],
+                "entry_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "CBE : 2-METHYL-N-PHENYL-5,6-DIHYDRO-1,4-OXATHIINE-3-CARBOXAMIDE"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0AC41",
+                  "P07014",
+                  "P69054"
+                ],
+                "journal": "To be published",
+                "model_quality": 58.3,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2wu2",
+                "pfam_name": [
+                  "Sdh_cyt"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2010-08-25T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 2.5,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhC His84Met mutant",
+                "uniprot_accession_best": [
+                  "P0AC44"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "citation_title": "Crystal Structure of the E. Coli Succinate:Quinone Oxidoreductase (Sqr) Sdhc His84met Mutant",
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "data_quality": 28.31,
+                "deposition_date": "2009-09-28T01:00:00Z",
+                "entry_author_list": [
+                  "Ruprecht J, Yankovskaya V, Maklashina E, Iwata S, Cecchini G"
+                ],
+                "entry_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "TEO : MALATE LIKE INTERMEDIATE",
+                  "FAD : FLAVIN-ADENINE DINUCLEOTIDE",
+                  "NA : SODIUM ION"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0AC44",
+                  "P07014",
+                  "P69054"
+                ],
+                "journal": "To be published",
+                "model_quality": 58.3,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2wu2",
+                "pfam_name": [
+                  "FAD_binding_2",
+                  "Succ_DH_flav_C"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2010-08-25T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 2.5,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhC His84Met mutant",
+                "uniprot_accession_best": [
+                  "P0AC41"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "citation_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "citation_title": "Crystal Structure of the E. Coli Succinate:Quinone Oxidoreductase (Sqr) Sdhc His84met Mutant",
+                "compound_id": [
+                  "CBE",
+                  "HEM",
+                  "SF4",
+                  "F3S",
+                  "FES",
+                  "TEO",
+                  "NA",
+                  "FAD"
+                ],
+                "data_quality": 28.31,
+                "deposition_date": "2009-09-28T01:00:00Z",
+                "entry_author_list": [
+                  "Ruprecht J, Yankovskaya V, Maklashina E, Iwata S, Cecchini G"
+                ],
+                "entry_authors": [
+                  "Ruprecht J",
+                  "Yankovskaya V",
+                  "Maklashina E",
+                  "Iwata S",
+                  "Cecchini G"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "F3S : FE3-S4 CLUSTER",
+                  "FES : FE2/S2 (INORGANIC) CLUSTER",
+                  "HEM : PROTOPORPHYRIN IX CONTAINING FE",
+                  "SF4 : IRON/SULFUR CLUSTER",
+                  "CBE : 2-METHYL-N-PHENYL-5,6-DIHYDRO-1,4-OXATHIINE-3-CARBOXAMIDE"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0AC41",
+                  "P0AC44",
+                  "P69054"
+                ],
+                "journal": "To be published",
+                "model_quality": 58.3,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2wu2",
+                "pfam_name": [
+                  "Fer2_3",
+                  "Fer4_17"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2010-08-25T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 2.5,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhC His84Met mutant",
+                "uniprot_accession_best": [
+                  "P07014"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 8,
+    "num_entries": 8,
+    "external": [
+      {
+        "joinId": "2h88",
+        "doc": {
+          "score": 291.0,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.6e-86,
+          "e_value_ind": 2.8e-86,
+          "e_value_cond": 5.4e-91,
+          "bit_score": 290.817687988281,
+          "species": "Gallus gallus",
+          "query_sequence": "mattakeemarfwexntkssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssaaiaa",
+          "query_sequence_start": 1,
+          "query_sequence_end": 139,
+          "target_sequence": "MATTAKEEMARFWEKNTKSSRPLSPHISIYKWSLPMAMSITHRGTGVALSLGVSLFSLAALLLPEQFPHYVAVVKSLSLSPALIYSAKFALVFPLSYHTWNGIRHLVWDMGKGFKLSQVEQSGVVVLILTLLSSAAIAS",
+          "target_sequence_start": 1,
+          "target_sequence_end": 139,
+          "target_envelope_start": 1,
+          "target_envelope_end": 140,
+          "posterior_probability": "89***************************************************************************************************************************************96",
+          "bias": 4.37,
+          "identity_percent": 98.56115107913669,
+          "identity_count": 137,
+          "similarity_percent": 100.0,
+          "similarity_count": 139,
+          "match": "mattakeemarfwe+ntkssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssaaia+",
+          "description": "SUCCINATE DEHYDROGENASE CYTOCHROME B, LARGE SUBUNIT",
+          "target": "2h88_C"
+        }
+      },
+      {
+        "joinId": "1yq3",
+        "doc": {
+          "score": 290.5,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.5e-86,
+          "e_value_ind": 3.9e-86,
+          "e_value_cond": 7.4e-91,
+          "bit_score": 290.371124267578,
+          "species": "Gallus gallus",
+          "query_sequence": "mattakeemarfwexntkssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssaaiaa",
+          "query_sequence_start": 1,
+          "query_sequence_end": 139,
+          "target_sequence": "MATTAKEEMARFWEKNTKSSRPLSPHISIYKWSLPMAMSITHRGTGVALSLGVSLFSLAALLLPEQFPHYVAVVKSLSLSPALIYSAKFALVFPLSYHTWNGIRHLVWDMGKGFKLSQVEQSGVVVLILTLLSSAGIAA",
+          "target_sequence_start": 1,
+          "target_sequence_end": 139,
+          "target_envelope_start": 1,
+          "target_envelope_end": 140,
+          "posterior_probability": "89***************************************************************************************************************************************98",
+          "bias": 4.42,
+          "identity_percent": 98.56115107913669,
+          "identity_count": 137,
+          "similarity_percent": 99.2805755395683,
+          "similarity_count": 138,
+          "match": "mattakeemarfwe+ntkssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssa iaa",
+          "description": "SUCCINATE DEHYDROGENASE CYTOCHROME B, LARGE SUBUNIT",
+          "target": "1yq3_C"
+        }
+      },
+      {
+        "joinId": "2fbw",
+        "doc": {
+          "score": 289.3,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 8.7e-86,
+          "e_value_ind": 9.7e-86,
+          "e_value_cond": 1.8e-90,
+          "bit_score": 289.104278564453,
+          "species": "Gallus gallus",
+          "query_sequence": "mattakeemarfwexntkssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssaaiaa",
+          "query_sequence_start": 1,
+          "query_sequence_end": 139,
+          "target_sequence": "MATTAKEEMARFWEKNTKSSRPLSPHISIYKWSLPMAMSITHRGTGVALSLGVSLFSVAALLLPEQFPHYVAVVKSLSLSPALIYSAKFALVFPLSYHTWNGIRHLVWDMGKGFKLSQVEQSGVVVLILTLLSSAGIAA",
+          "target_sequence_start": 1,
+          "target_sequence_end": 139,
+          "target_envelope_start": 1,
+          "target_envelope_end": 140,
+          "posterior_probability": "89***************************************************************************************************************************************98",
+          "bias": 4.31,
+          "identity_percent": 97.84172661870501,
+          "identity_count": 136,
+          "similarity_percent": 99.2805755395683,
+          "similarity_count": 138,
+          "match": "mattakeemarfwe+ntkssrplsphisiykwslpmamsithrgtgvalslgvslfs+aalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssa iaa",
+          "description": "Succinate dehydrogenase cytochrome B, large subunit",
+          "target": "2fbw_C"
+        }
+      },
+      {
+        "joinId": "1zoy",
+        "doc": {
+          "score": 217.5,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.3e-63,
+          "e_value_ind": 1.5e-63,
+          "e_value_cond": 2.8e-68,
+          "bit_score": 217.382263183594,
+          "species": "Sus scrofa",
+          "query_sequence": "attakeemarfwexntkssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssaaiaam",
+          "query_sequence_start": 2,
+          "query_sequence_end": 140,
+          "target_sequence": "GTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM",
+          "target_sequence_start": 2,
+          "target_sequence_end": 140,
+          "target_envelope_start": 1,
+          "target_envelope_end": 140,
+          "posterior_probability": "79***************************************************************************************************************************************98",
+          "bias": 1.02,
+          "identity_percent": 70.5035971223022,
+          "identity_count": 98,
+          "similarity_percent": 83.4532374100719,
+          "similarity_count": 116,
+          "match": " ttakeem rfw +n  s+rplsphi+iy+wslpmamsi hrgtg+als gvslf l+alllp  f  ++ +vksl l p liy+akf +vfpl yhtwngirhl+wd+gkg+ + q+ qsgvvvlilt+lss  +aam",
+          "description": "Large cytochrome binding protein",
+          "target": "1zoy_C"
+        }
+      },
+      {
+        "joinId": "4ytp",
+        "doc": {
+          "score": 216.6,
+          "accuracy": 0.99,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.5e-63,
+          "e_value_ind": 3e-63,
+          "e_value_cond": 5.6e-68,
+          "bit_score": 216.385589599609,
+          "species": "Sus scrofa",
+          "query_sequence": "attakeemarfwexntkssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssaaiaam",
+          "query_sequence_start": 2,
+          "query_sequence_end": 140,
+          "target_sequence": "GTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM",
+          "target_sequence_start": 31,
+          "target_sequence_end": 169,
+          "target_envelope_start": 30,
+          "target_envelope_end": 169,
+          "posterior_probability": "79***************************************************************************************************************************************98",
+          "bias": 1.02,
+          "identity_percent": 70.5035971223022,
+          "identity_count": 98,
+          "similarity_percent": 83.4532374100719,
+          "similarity_count": 116,
+          "match": " ttakeem rfw +n  s+rplsphi+iy+wslpmamsi hrgtg+als gvslf l+alllp  f  ++ +vksl l p liy+akf +vfpl yhtwngirhl+wd+gkg+ + q+ qsgvvvlilt+lss  +aam",
+          "description": "Succinate dehydrogenase cytochrome b560 subunit, mitochondrial",
+          "target": "4ytp_C"
+        }
+      },
+      {
+        "joinId": "3vr8",
+        "doc": {
+          "score": 66.4,
+          "accuracy": 0.92,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 7.3e-17,
+          "e_value_ind": 1e-16,
+          "e_value_cond": 2e-21,
+          "bit_score": 65.8806686401367,
+          "species": "Ascaris suum",
+          "query_sequence": "ssrplsphisiykwslpmamsithrgtgvalslgvslfslaalllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqveqsgvvvliltllssaaia",
+          "query_sequence_start": 19,
+          "query_sequence_end": 138,
+          "target_sequence": "LKRPIAPHLTIYKPQMTWMVSGLHRVTGCAMAGTLLIGGVGFSVLPLDFTTFVEFIRGLGIPWVILDTFKFIIAFPIAFHTLNGIRFIGFDMAKGTDIPSIYRGAYLVLGLAALISLAVV",
+          "target_sequence_start": 52,
+          "target_sequence_end": 171,
+          "target_envelope_start": 29,
+          "target_envelope_end": 173,
+          "posterior_probability": "479****************************988888899999******************999****************************************9999999888877764",
+          "bias": 0.44,
+          "identity_percent": 31.6666666666667,
+          "identity_count": 38,
+          "similarity_percent": 58.3333333333333,
+          "similarity_count": 70,
+          "match": "  rp++ph++iyk  +   +s  hr tg a++  + +  +   +lp  f  +v  ++ l +   ++ + kf + fp+++ht ngir + +dm+kg  +  + + + +vl l  l s a+ ",
+          "description": "Cytochrome b-large subunit",
+          "target": "3vr8_C"
+        }
+      },
+      {
+        "joinId": "1nek",
+        "doc": {
+          "score": 28.8,
+          "accuracy": 0.73,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.1e-05,
+          "e_value_ind": 3.8e-05,
+          "e_value_cond": 7.2e-10,
+          "bit_score": 28.4833106994629,
+          "species": "Escherichia coli",
+          "query_sequence": "xntkssrplsphisiykwslpmamsithrgtgva..lslgvslfsla.alllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqv.eqsgvvvliltll",
+          "query_sequence_start": 15,
+          "query_sequence_end": 132,
+          "target_sequence": "RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVItfVAVGILLWLLGtSLSSPEGFEQASAIMGSFFVK-----FIMWGILTALAYHVVVGIRHMMMDFGYLEETFEAgKRSAKISFVITVV",
+          "target_sequence_start": 3,
+          "target_sequence_end": 119,
+          "target_envelope_start": 1,
+          "target_envelope_end": 128,
+          "posterior_probability": "5899****************************97336789999999725678*****999998887543.....4457888999**************996443333213333333333333",
+          "bias": 0.62,
+          "identity_percent": 25.6410256410256,
+          "identity_count": 30,
+          "similarity_percent": 56.4102564102564,
+          "similarity_count": 66,
+          "match": " n k  rp++  +   ++ +    si hr +gv   +++g+ l+ l  +l  pe f +  a++ s+ +         + ++  l+yh   girh++ d+g   +  +  ++s+ + +++t++",
+          "description": "Succinate dehydrogenase cytochrome b-556 subunit",
+          "target": "1nek_C"
+        }
+      },
+      {
+        "joinId": "2wu2",
+        "doc": {
+          "score": 24.3,
+          "accuracy": 0.73,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.00077,
+          "e_value_ind": 0.00093,
+          "e_value_cond": 1.8e-08,
+          "bit_score": 23.9991245269775,
+          "species": "Escherichia coli",
+          "query_sequence": "xntkssrplsphisiykwslpmamsithrgtgva..lslgvslfsla.alllpeqfphyvavvkslslspaliysakfalvfplsyhtwngirhlvwdmgkgfklsqv.eqsgvvvliltll",
+          "query_sequence_start": 15,
+          "query_sequence_end": 132,
+          "target_sequence": "RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVItfVAVGILLWLLGtSLSSPEGFEQASAIMGSFFVK-----FIMWGILTALAYMVVVGIRHMMMDFGYLEETFEAgKRSAKISFVITVV",
+          "target_sequence_start": 3,
+          "target_sequence_end": 119,
+          "target_envelope_start": 1,
+          "target_envelope_end": 128,
+          "posterior_probability": "5899****************************97336789999999725678*****999998887553.....44577888899999**********996443333213333333333333",
+          "bias": 0.6,
+          "identity_percent": 24.7863247863248,
+          "identity_count": 29,
+          "similarity_percent": 55.5555555555556,
+          "similarity_count": 65,
+          "match": " n k  rp++  +   ++ +    si hr +gv   +++g+ l+ l  +l  pe f +  a++ s+ +         + ++  l+y    girh++ d+g   +  +  ++s+ + +++t++",
+          "description": "SUCCINATE DEHYDROGENASE CYTOCHROME B556 SUBUNIT",
+          "target": "2wu2_C"
+        }
+      }
+    ]
+  }
+}

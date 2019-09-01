@@ -1,0 +1,528 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 498,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MDDLVFAGNKALYLVLILSGWPTIVATIIGLLVGLFQTVTQLQEQTLPFGIKLLGVCLCLFLLSGWYGEVLLSYGRQVIFLALAKG",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 6,
+      "ngroups": 2,
+      "groups": [
+        {
+          "groupValue": "6r6b",
+          "doclist": {
+            "numFound": 3,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Deme JC",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "citation_title": "The Structure of an Injectisome Export Gate Demonstrates Conservation of Architecture in the Core Export Gate between Flagellar and Virulence Type III Secretion Systems.",
+                "citation_year": 2019,
+                "data_quality": -1.0,
+                "deposition_date": "2019-03-26T01:00:00Z",
+                "entry_author_list": [
+                  "Johnson S, Kuhlen L, Deme JC, Abrusci P, Lea SM"
+                ],
+                "entry_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Deme JC",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Shigella flexneri|623"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0A1M6",
+                  "P0A1L3"
+                ],
+                "journal": "MBio",
+                "model_quality": 49.79,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Shigella flexneri"
+                ],
+                "pdb_id": "6r6b",
+                "pfam_name": [
+                  "Bac_export_3"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "31239376",
+                "release_date": "2019-05-29T01:00:00Z",
+                "release_year": 2019,
+                "resolution": 3.5,
+                "status": "REL",
+                "tax_id": [
+                  623
+                ],
+                "title": "Structure of the core Shigella flexneri type III secretion system export gate complex SctRST (Spa24/Spa9/Spa29).",
+                "uniprot_accession_best": [
+                  "P0A1M4"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Deme JC",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "citation_title": "The Structure of an Injectisome Export Gate Demonstrates Conservation of Architecture in the Core Export Gate between Flagellar and Virulence Type III Secretion Systems.",
+                "citation_year": 2019,
+                "data_quality": -1.0,
+                "deposition_date": "2019-03-26T01:00:00Z",
+                "entry_author_list": [
+                  "Johnson S, Kuhlen L, Deme JC, Abrusci P, Lea SM"
+                ],
+                "entry_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Deme JC",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Shigella flexneri|623"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0A1M4",
+                  "P0A1L3"
+                ],
+                "journal": "MBio",
+                "model_quality": 49.79,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Shigella flexneri"
+                ],
+                "pdb_id": "6r6b",
+                "pfam_name": [
+                  "Bac_export_1"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "31239376",
+                "release_date": "2019-05-29T01:00:00Z",
+                "release_year": 2019,
+                "resolution": 3.5,
+                "status": "REL",
+                "tax_id": [
+                  623
+                ],
+                "title": "Structure of the core Shigella flexneri type III secretion system export gate complex SctRST (Spa24/Spa9/Spa29).",
+                "uniprot_accession_best": [
+                  "P0A1M6"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Deme JC",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "citation_title": "The Structure of an Injectisome Export Gate Demonstrates Conservation of Architecture in the Core Export Gate between Flagellar and Virulence Type III Secretion Systems.",
+                "citation_year": 2019,
+                "data_quality": -1.0,
+                "deposition_date": "2019-03-26T01:00:00Z",
+                "entry_author_list": [
+                  "Johnson S, Kuhlen L, Deme JC, Abrusci P, Lea SM"
+                ],
+                "entry_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Deme JC",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Shigella flexneri|623"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0A1M6",
+                  "P0A1M4"
+                ],
+                "journal": "MBio",
+                "model_quality": 49.79,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Shigella flexneri"
+                ],
+                "pdb_id": "6r6b",
+                "pfam_name": [
+                  "FliP"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "31239376",
+                "release_date": "2019-05-29T01:00:00Z",
+                "release_year": 2019,
+                "resolution": 3.5,
+                "status": "REL",
+                "tax_id": [
+                  623
+                ],
+                "title": "Structure of the core Shigella flexneri type III secretion system export gate complex SctRST (Spa24/Spa9/Spa29).",
+                "uniprot_accession_best": [
+                  "P0A1L3"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6f2d",
+          "doclist": {
+            "numFound": 3,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kuhlen L",
+                  "Abrusci P",
+                  "Johnson S",
+                  "Gault J",
+                  "Deme J",
+                  "Caesar J",
+                  "Dietsche T",
+                  "Mebrhatu MT",
+                  "Ganief T",
+                  "Macek B",
+                  "Wagner S",
+                  "Robinson CV",
+                  "Lea SM"
+                ],
+                "citation_title": "Structure of the core of the type III secretion system export apparatus.",
+                "citation_year": 2018,
+                "data_quality": -1.0,
+                "deposition_date": "2017-11-24T01:00:00Z",
+                "entry_author_list": [
+                  "Johnson S, Kuhlen L, Abrusci P, Lea SM"
+                ],
+                "entry_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica|28901"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P54700",
+                  "P54702"
+                ],
+                "journal": "Nat. Struct. Mol. Biol.",
+                "model_quality": 18.37,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica"
+                ],
+                "pdb_id": "6f2d",
+                "pfam_name": [
+                  "Bac_export_3"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "29967543",
+                "release_date": "2018-07-04T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 4.2,
+                "status": "REL",
+                "tax_id": [
+                  28901
+                ],
+                "title": "A FliPQR complex forms the core of the Salmonella type III secretion system export apparatus.",
+                "uniprot_accession_best": [
+                  "P0A1L5"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kuhlen L",
+                  "Abrusci P",
+                  "Johnson S",
+                  "Gault J",
+                  "Deme J",
+                  "Caesar J",
+                  "Dietsche T",
+                  "Mebrhatu MT",
+                  "Ganief T",
+                  "Macek B",
+                  "Wagner S",
+                  "Robinson CV",
+                  "Lea SM"
+                ],
+                "citation_title": "Structure of the core of the type III secretion system export apparatus.",
+                "citation_year": 2018,
+                "data_quality": -1.0,
+                "deposition_date": "2017-11-24T01:00:00Z",
+                "entry_author_list": [
+                  "Johnson S, Kuhlen L, Abrusci P, Lea SM"
+                ],
+                "entry_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica|28901"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P54700",
+                  "P0A1L5"
+                ],
+                "journal": "Nat. Struct. Mol. Biol.",
+                "model_quality": 18.37,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica"
+                ],
+                "pdb_id": "6f2d",
+                "pfam_name": [
+                  "Bac_export_1"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "29967543",
+                "release_date": "2018-07-04T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 4.2,
+                "status": "REL",
+                "tax_id": [
+                  28901
+                ],
+                "title": "A FliPQR complex forms the core of the Salmonella type III secretion system export apparatus.",
+                "uniprot_accession_best": [
+                  "P54702"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kuhlen L",
+                  "Abrusci P",
+                  "Johnson S",
+                  "Gault J",
+                  "Deme J",
+                  "Caesar J",
+                  "Dietsche T",
+                  "Mebrhatu MT",
+                  "Ganief T",
+                  "Macek B",
+                  "Wagner S",
+                  "Robinson CV",
+                  "Lea SM"
+                ],
+                "citation_title": "Structure of the core of the type III secretion system export apparatus.",
+                "citation_year": 2018,
+                "data_quality": -1.0,
+                "deposition_date": "2017-11-24T01:00:00Z",
+                "entry_author_list": [
+                  "Johnson S, Kuhlen L, Abrusci P, Lea SM"
+                ],
+                "entry_authors": [
+                  "Johnson S",
+                  "Kuhlen L",
+                  "Abrusci P",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica|28901"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "interacting_uniprot_accession": [
+                  "P54702",
+                  "P0A1L5"
+                ],
+                "journal": "Nat. Struct. Mol. Biol.",
+                "model_quality": 18.37,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica"
+                ],
+                "pdb_id": "6f2d",
+                "pfam_name": [
+                  "FliP"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "29967543",
+                "release_date": "2018-07-04T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 4.2,
+                "status": "REL",
+                "tax_id": [
+                  28901
+                ],
+                "title": "A FliPQR complex forms the core of the Salmonella type III secretion system export apparatus.",
+                "uniprot_accession_best": [
+                  "P54700"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 2,
+    "num_entries": 2,
+    "external": [
+      {
+        "joinId": "6r6b",
+        "doc": {
+          "score": 116.2,
+          "accuracy": 0.97,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.3e-32,
+          "e_value_ind": 1.5e-32,
+          "e_value_cond": 7e-38,
+          "bit_score": 116.106483459473,
+          "species": "Shigella flexneri",
+          "query_sequence": "mddlvfagnkalylvlilsgwptivatiigllvglfqtvtqlqeqtlpfgikllgvclclfllsgwygevllsygrqvifla",
+          "query_sequence_start": 1,
+          "query_sequence_end": 82,
+          "target_sequence": "MSDIVYMGNKALYLILIFSLWPVGIATVIGLSIGLLQTVTQLQEQTLPFGIKLIGVSISLLLLSGWYGEVLLSFCHEIMFLI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 82,
+          "target_envelope_start": 1,
+          "target_envelope_end": 85,
+          "posterior_probability": "78******************************************************************************95",
+          "bias": 5.55,
+          "identity_percent": 68.2926829268293,
+          "identity_count": 56,
+          "similarity_percent": 87.8048780487805,
+          "similarity_count": 72,
+          "match": "m d+v+ gnkalyl+li+s wp  +at+igl +gl+qtvtqlqeqtlpfgikl+gv + l+llsgwygevlls+ ++++fl ",
+          "description": "Surface presentation of antigens protein SpaQ",
+          "target": "6r6b_I"
+        }
+      },
+      {
+        "joinId": "6f2d",
+        "doc": {
+          "score": 36.2,
+          "accuracy": 0.93,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.6e-07,
+          "e_value_ind": 1.9e-07,
+          "e_value_cond": 9e-13,
+          "bit_score": 35.9416885375977,
+          "species": "Salmonella enterica",
+          "query_sequence": "lvfagnkalylvlilsgwptivatiigllvglfqtvtqlqeqtlpfgikllgvclclfllsgwygevllsygrqv",
+          "query_sequence_start": 4,
+          "query_sequence_end": 78,
+          "target_sequence": "VMMMGTEAMKVALALAAPLLLVALITGLIISILQAATQINEMTLSFIPKIVAVFIAIIVAGPWMLNLLLDYVRTL",
+          "target_sequence_start": 6,
+          "target_sequence_end": 80,
+          "target_envelope_start": 3,
+          "target_envelope_end": 85,
+          "posterior_probability": "677899**********99999**************************************************9864",
+          "bias": 1.21,
+          "identity_percent": 30.666666666666696,
+          "identity_count": 23,
+          "similarity_percent": 64.0,
+          "similarity_count": 48,
+          "match": "+++ g +a+ + l l++   +va i gl+++++q  tq+ e tl f  k+++v +++++   w   +ll y r +",
+          "description": "Flagellar biosynthetic protein FliQ",
+          "target": "6f2d_G"
+        }
+      }
+    ]
+  }
+}

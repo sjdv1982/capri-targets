@@ -1,0 +1,381 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 438,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MPKPYVAINMAELKNEPKTFEMFASVGPKVXMVTARHPGFVGFQNHIQIGILPFGNRYGGAKMDMTKESSTVRVLQYTFWKDWKDHEEMHRQNWSYLFRLXYSXASQMIWGPWEPIYEIIYANMPINTEMTDFTAVVGKKFAEGKPLDIPVISQPYGKRVVAFAEHSVIPGKEKQFEDAIVRTLEMLKKAPGFLGAMVLKEIGVSGIGSMQFGAKGFHQVLENPGSLEPDPNNVMYSVPEAKNTPQQYIVHVEWANTDALMFGMGRVLLYPELRQVHDEVLDTLVYGPYIRILNPMMEGTFWREYLNENAWRHPQFGG",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 3,
+      "ngroups": 3,
+      "groups": [
+        {
+          "groupValue": "2yav",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "FE",
+                  "ACT",
+                  "ZN",
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Veith A",
+                  "Urich T",
+                  "Seyfarth K",
+                  "Protze J",
+                  "Frazao C",
+                  "Kletzin A"
+                ],
+                "citation_title": "Substrate pathways and mechanisms of inhibition in the sulfur oxygenase reductase of acidianus ambivalens.",
+                "citation_year": 2011,
+                "compound_id": [
+                  "FE",
+                  "ACT",
+                  "ZN",
+                  "CL",
+                  "CSS"
+                ],
+                "data_quality": 88.58,
+                "deposition_date": "2011-02-25T01:00:00Z",
+                "entry_author_list": [
+                  "Veith A, Urich T, Seyfarth K, Protze J, Frazao C, Kletzin A"
+                ],
+                "entry_authors": [
+                  "Veith A",
+                  "Urich T",
+                  "Seyfarth K",
+                  "Protze J",
+                  "Frazao C",
+                  "Kletzin A"
+                ],
+                "entry_organism_scientific_name": [
+                  "Acidianus ambivalens|2283"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "ACT : ACETATE ION",
+                  "ZN : ZINC ION",
+                  "FE : FE (III) ION",
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "Front Microbiol",
+                "model_quality": 79.92,
+                "modified_compound_id": [
+                  "CSS"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Acidianus ambivalens"
+                ],
+                "pdb_id": "2yav",
+                "pfam_name": [
+                  "SOR"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21747782",
+                "release_date": "2011-12-21T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 1.701,
+                "status": "REL",
+                "tax_id": [
+                  2283
+                ],
+                "title": "ZN INHIBITED SULFUR OXYGENASE REDUCTASE",
+                "uniprot_accession_best": [
+                  "P29082"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2cb2",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "FE"
+                ],
+                "citation_authors": [
+                  "Urich T",
+                  "Gomes CM",
+                  "Kletzin A",
+                  "Frazao C"
+                ],
+                "citation_title": "X-ray Structure of a self-compartmentalizing sulfur cycle metalloenzyme.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "FE",
+                  "CSS"
+                ],
+                "data_quality": 70.71,
+                "deposition_date": "2005-12-28T01:00:00Z",
+                "entry_author_list": [
+                  "Urich T, Gomes CM, Kletzin A, Frazao C"
+                ],
+                "entry_authors": [
+                  "Urich T",
+                  "Gomes CM",
+                  "Kletzin A",
+                  "Frazao C"
+                ],
+                "entry_organism_scientific_name": [
+                  "Acidianus ambivalens|2283"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "Science",
+                "model_quality": 79.71,
+                "modified_compound_id": [
+                  "CSS"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Acidianus ambivalens"
+                ],
+                "pdb_id": "2cb2",
+                "pfam_name": [
+                  "SOR"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16484493",
+                "release_date": "2006-02-24T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 1.7,
+                "status": "REL",
+                "tax_id": [
+                  2283
+                ],
+                "title": "Sulfur Oxygenase Reductase from Acidianus Ambivalens",
+                "uniprot_accession_best": [
+                  "P29082"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3bxv",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "FE"
+                ],
+                "citation_authors": [
+                  "Li M",
+                  "Chen Z",
+                  "Zhang P",
+                  "Pan X",
+                  "Jiang C",
+                  "An X",
+                  "Liu S",
+                  "Chang W"
+                ],
+                "citation_title": "Crystal structure studies on sulfur oxygenase reductase from Acidianus tengchongensis.",
+                "citation_year": 2008,
+                "compound_id": [
+                  "FE"
+                ],
+                "data_quality": 83.52,
+                "deposition_date": "2008-01-14T01:00:00Z",
+                "entry_author_list": [
+                  "Chang WR, Li M"
+                ],
+                "entry_authors": [
+                  "Chang WR",
+                  "Li M"
+                ],
+                "entry_organism_scientific_name": [
+                  "Acidianus tengchongensis|146920"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "FE : FE (III) ION"
+                ],
+                "journal": "Biochem. Biophys. Res. Commun.",
+                "model_quality": 12.78,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Acidianus tengchongensis"
+                ],
+                "pdb_id": "3bxv",
+                "pfam_name": [
+                  "SOR"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "18329378",
+                "release_date": "2009-01-20T01:00:00Z",
+                "release_year": 2009,
+                "resolution": 2.7,
+                "status": "REL",
+                "tax_id": [
+                  146920
+                ],
+                "title": "Crystal structure studies on sulfur oxygenase reductase from Acidianus tengchongensis",
+                "uniprot_accession_best": [
+                  "Q977W3"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 3,
+    "num_entries": 3,
+    "external": [
+      {
+        "joinId": "2yav",
+        "doc": {
+          "score": 738.0,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.9e-221,
+          "e_value_ind": 2.1e-221,
+          "e_value_cond": 1.5e-226,
+          "bit_score": 737.821594238281,
+          "species": "Acidianus ambivalens",
+          "query_sequence": "mpkpyvainmaelknepktfemfasvgpkvxmvtarhpgfvgfqnhiqigilpfgnryggakmdmtkesstvrvlqytfwkdwkdheemhrqnwsylfrlxysxasqmiwgpwepiyeiiyanmpintemtdftavvgkkfaegkpldipvisqpygkrvvafaehsvipgkekqfedaivrtlemlkkapgflgamvlkeigvsgigsmqfgakgfhqvlenpgslepdpnnvmysvpeakntpqqyivhvewantdalmfgmgrvllypelrqvhdevldtlvygpyirilnpmmegtfwreylnenawrhpqfgg",
+          "query_sequence_start": 1,
+          "query_sequence_end": 318,
+          "target_sequence": "MPKPYVAINMAELKNEPKTFEMFASVGPKVCMVTARHPGFVGFQNHIQIGILPFGNRYGGAKMDMTKESSTVRVLQYTFWKDWKDHEEMHRQNWSYLFRLCYSCASQMIWGPWEPIYEIIYANMPINTEMTDFTAVVGKKFAEGKPLDIPVISQPYGKRVVAFAEHSVIPGKEKQFEDAIVRTLEMLKKAPGFLGAMVLKEIGVSGIGSMQFGAKGFHQVLENPGSLEPDPNNVMYSVPEAKNTPQQYIVHVEWANTDALMFGMGRVLLYPELRQVHDEVLDTLVYGPYIRILNPMMEGTFWREYLNENAWRHPQFGG",
+          "target_sequence_start": 1,
+          "target_sequence_end": 318,
+          "target_envelope_start": 1,
+          "target_envelope_end": 318,
+          "posterior_probability": "8****************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 3.65,
+          "identity_percent": 99.0566037735849,
+          "identity_count": 315,
+          "similarity_percent": 99.0566037735849,
+          "similarity_count": 315,
+          "match": "mpkpyvainmaelknepktfemfasvgpkv mvtarhpgfvgfqnhiqigilpfgnryggakmdmtkesstvrvlqytfwkdwkdheemhrqnwsylfrl ys asqmiwgpwepiyeiiyanmpintemtdftavvgkkfaegkpldipvisqpygkrvvafaehsvipgkekqfedaivrtlemlkkapgflgamvlkeigvsgigsmqfgakgfhqvlenpgslepdpnnvmysvpeakntpqqyivhvewantdalmfgmgrvllypelrqvhdevldtlvygpyirilnpmmegtfwreylnenawrhpqfgg",
+          "description": "SULFUR OXYGENASE/REDUCTASE",
+          "target": "2yav_A"
+        }
+      },
+      {
+        "joinId": "2cb2",
+        "doc": {
+          "score": 735.2,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.3e-220,
+          "e_value_ind": 1.4e-220,
+          "e_value_cond": 1e-225,
+          "bit_score": 735.073791503906,
+          "species": "Acidianus ambivalens",
+          "query_sequence": "mpkpyvainmaelknepktfemfasvgpkvxmvtarhpgfvgfqnhiqigilpfgnryggakmdmtkesstvrvlqytfwkdwkdheemhrqnwsylfrlxysxasqmiwgpwepiyeiiyanmpintemtdftavvgkkfaegkpldipvisqpygkrvvafaehsvipgkekqfedaivrtlemlkkapgflgamvlkeigvsgigsmqfgakgfhqvlenpgslepdpnnvmysvpeakntpqqyivhvewantdalmfgmgrvllypelrqvhdevldtlvygpyirilnpmmegtfwreylnenawrhpqfgg",
+          "query_sequence_start": 1,
+          "query_sequence_end": 318,
+          "target_sequence": "MPKPYVAINMAELKNEPKTFEMFASVGPKVCMVTARHPGFVGFQNHIQIGILPFGNRYGGAKMDMTKESSTVRVLQYTFWKDWKDHEEMHRQNWSYLFRLCYSCASQMIWGPWEPIYEIIYANMPINTEMTDFTAVVGKKFAEGKPLDIPVISQPYGKRVVAFAEHSVIPGKEKQFEDAIVRTLEMLKKAPGFLGAMVLKEIGVSGIGSMQFGAKGFHQVLENPGSLEPDPNNVMYSVPEAKNTPQQYIVHVEWANTDALMFGMGRVLLYPELRQVHDEVLDTLVYGPYIRILNPMMEGTFWREYLNEQAWRHPQFGG",
+          "target_sequence_start": 1,
+          "target_sequence_end": 318,
+          "target_envelope_start": 1,
+          "target_envelope_end": 318,
+          "posterior_probability": "8****************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 3.65,
+          "identity_percent": 98.74213836477989,
+          "identity_count": 314,
+          "similarity_percent": 98.74213836477989,
+          "similarity_count": 314,
+          "match": "mpkpyvainmaelknepktfemfasvgpkv mvtarhpgfvgfqnhiqigilpfgnryggakmdmtkesstvrvlqytfwkdwkdheemhrqnwsylfrl ys asqmiwgpwepiyeiiyanmpintemtdftavvgkkfaegkpldipvisqpygkrvvafaehsvipgkekqfedaivrtlemlkkapgflgamvlkeigvsgigsmqfgakgfhqvlenpgslepdpnnvmysvpeakntpqqyivhvewantdalmfgmgrvllypelrqvhdevldtlvygpyirilnpmmegtfwreylne awrhpqfgg",
+          "description": "SULFUR OXYGENASE REDUCTASE",
+          "target": "2cb2_A"
+        }
+      },
+      {
+        "joinId": "3bxv",
+        "doc": {
+          "score": 642.6,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2e-192,
+          "e_value_ind": 2.2e-192,
+          "e_value_cond": 1.6e-197,
+          "bit_score": 642.449340820312,
+          "species": "Acidianus tengchongensis",
+          "query_sequence": "mpkpyvainmaelknepktfemfasvgpkvxmvtarhpgfvgfqnhiqigilpfgnryggakmdmtkesstvrvlqytfwkdwkdheemhrqnwsylfrlxysxasqmiwgpwepiyeiiyanmpintemtdftavvgkkfaegkpldipvisqpygkrvvafaehsvipgkekqfedaivrtlemlkkapgflgamvlkeigvsgigsmqfgakgfhqvlenpgslepdpnnvmysvpeakntpqqyivhvewantdalmfgmgrvllypelrqvhdevldtlvygpyirilnpmmegtfwreylne",
+          "query_sequence_start": 1,
+          "query_sequence_end": 308,
+          "target_sequence": "MPKPYIAINMADLKNEPKTFEMFSAVGPKVCMVTARHPGFVGFQNHVQIGVLPFGERFGGAKMDMTKESSTVRVLQYTMWKDWKDHEEMHRQNWSYLFRLCYSCASQMVWGPWEPIYEIKYADMPINTEMTDFTAVVGKKFAEGKPLEIPVISQPYGKRVVAFGEHTVIPGKEEQFEDAIIKTLEMFKRAPGFLGAMLLKEIGVSGIGSFQFGSKGFHQLLESPGSLEPDPNNVMYQAPEAKPTPPQYIVHVEWANLDALQFGMGRVLLSPEYREVHDEALDTLIYGPYIRIINPVMEGTFWREYLNE",
+          "target_sequence_start": 1,
+          "target_sequence_end": 308,
+          "target_envelope_start": 1,
+          "target_envelope_end": 308,
+          "posterior_probability": "8******************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 2.62,
+          "identity_percent": 86.6883116883117,
+          "identity_count": 267,
+          "similarity_percent": 95.4545454545455,
+          "similarity_count": 294,
+          "match": "mpkpy+ainma+lknepktfemf++vgpkv mvtarhpgfvgfqnh+qig+lpfg r+ggakmdmtkesstvrvlqyt+wkdwkdheemhrqnwsylfrl ys asqm+wgpwepiyei ya+mpintemtdftavvgkkfaegkpl+ipvisqpygkrvvaf eh+vipgke+qfedai++tlem+k+apgflgam+lkeigvsgigs+qfg+kgfhq+le+pgslepdpnnvmy  peak tp qyivhvewan dal+fgmgrvll pe r+vhde ldtl+ygpyiri+np+megtfwreylne",
+          "description": "Sulfur oxygenase/reductase",
+          "target": "3bxv_A"
+        }
+      }
+    ]
+  }
+}

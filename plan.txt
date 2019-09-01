@@ -18,9 +18,82 @@ https://www.ebi.ac.uk/pdbe/search/pdb/select?group=true&group.field=pdb_id&group
 using phmmer:
 
 https://www.ebi.ac.uk/pdbe/search/pdb/select?group=true&group.field=pdb_id&group.ngroups=true&json.nl=map&fl=pdb_id%2Ccitation_title%2Ccitation_authors%2Ctitle%2Cexperimental_method%2Centry_authors%2Cpubmed_id%2Ccitation_year%2Cjournal%2Corganism_scientific_name%2Cassembly_composition%2Cinteracting_ligands%2Ctax_id%2Cresolution%2Cstatus%2Crelease_date%2Cprefered_assembly_id%2Centry_author_list%2Centry_organism_scientific_name%2Cdata_quality%2Cmodel_quality%2Cexperiment_data_available%2Cdeposition_date%2Crelease_year%2Cmolecule_type%2Cpfam_name%2Cuniprot_coverage%2Ccompound_id%2Cbound_compound_id%2Cmodified_compound_id%2Cuniprot_accession_best%2Cinteracting_uniprot_accession&rows=10000&start=0&sort=phmmer(e_value)%20asc&xjoin_phmmer.fl=*&xjoin_phmmer=true&xjoin_phmmer.external.sequence=IVGGYTCGANTVPYQVSLNSGYHFCGGSLINSQWVVSAAHCYKSGIQVRLGEDNINVVEGNEQFISASKSIVHPSYNSNTLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGKLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN&q=*:*&fq={!xjoin}xjoin_phmmer&group.limit=100&wt=json
-
+(or generalized to $seq)
+'https://www.ebi.ac.uk/pdbe/search/pdb/select?group=true&group.field=pdb_id&group.ngroups=true&json.nl=map&fl=pdb_id%2Ccitation_title%2Ccitation_authors%2Ctitle%2Cexperimental_method%2Centry_authors%2Cpubmed_id%2Ccitation_year%2Cjournal%2Corganism_scientific_name%2Cassembly_composition%2Cinteracting_ligands%2Ctax_id%2Cresolution%2Cstatus%2Crelease_date%2Cprefered_assembly_id%2Centry_author_list%2Centry_organism_scientific_name%2Cdata_quality%2Cmodel_quality%2Cexperiment_data_available%2Cdeposition_date%2Crelease_year%2Cmolecule_type%2Cpfam_name%2Cuniprot_coverage%2Ccompound_id%2Cbound_compound_id%2Cmodified_compound_id%2Cuniprot_accession_best%2Cinteracting_uniprot_accession&rows=10000&start=0&sort=phmmer(e_value)%20asc&xjoin_phmmer.fl=*&xjoin_phmmer=true&xjoin_phmmer.external.sequence='$seq'&q=*:*&fq={!xjoin}xjoin_phmmer&group.limit=100&wt=json'
 
 (Aug 30: query result is stored in search-pdb-example.json, using wget -O)
-(Another example search-pdb-6MYO.json using 6MYO, sequence
-GSSKAASLHWTSERAVSALLLGLLPAAYLYPGPAVDYSLAAALTLHGHWGLGQVITDYVHGDTPIKVANTGLYVLSAITFTGLCYFNYYDVGICKAVAMLWSI
+(Another example search-pdb-6myo_[1=4].json using 6MYO, sequence
+entry_entity molecule_sequence
+6myo_1: STKVSDSISTQYPVVDHEFDAVVVGAGGAGLRAAFGLSEAGFNTACVTKLFPTRSHTVAAQGGINAALGNMEDDNWRWHFYDTVKGSDWLGDQDAIHYMTEQAPAAVIELENYGMPFSRTEEGKIYQRAFGGQSLQFGKGGQAHRCCCVADRTGHSLLHTLYGRSLRYDTSYFVEYFALDLLMENGECRGVIALCIEDGTIHRFRAKNTVIATGGYGRTYFSCTSAHTSTGDGTAMVTRAGLPCQDLEFVQFHPTGIYGAGCLITEGCRGEGGILINSQGERFMERYAPVAKDLASRDVVSRSMTIEIREGRGCGPEKDHVYLQLHHLPPQQLATRLPGISETAMIFAGVDVTKEPIPVLPTVHYNMGGIPTNYKGQVITHVNGEDKVVPGLYACGEAASASVHGANRLGANSLLDLVVFGRACALTIAETCKPGEPVPSIKPNAGEESVANLDKLRFADGTIRTSEARLNMQKTMQSHAAVFRTGSILQEGCEKLSQIYRDLAHLKTFDRGIVWNTDLVETLELQNLMLCALQTIYGAEARKESRGAHAREDYKLRIDEFDYSKPLQGQQKRPFEEHWRKHTLSYVDVKSGKVTLKYRPVIDRTLNEEDCSSVPPAIRSY
+6myo_2: AQTAAAATSRIKKFSIYRWDPDKPGDKPRMQTYEVDLNKCGPMVLDALIKIKNELDSTLTFRRSCREGICGSCAMNIAGGNTLACTKKIDPDLSKTTKIYPLPHMYVVKDLVPDLSNFYAQYKSIEPYLKKKDESKQGKEQYLQSIEDRQKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDYTEERLAQLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIKKMMATYKEKAAAA
+6myo_3: MATTAKEEMARFWE(MLZ)NTKSSRPLSPHISIYKWSLPMAMSITHRGTGVALSLGVSLFSLAALLLPEQFPHYVAVVKSLSLSPALIYSAKFALVFPLSYHTWNGIRHLVWDMGKGFKLSQVEQSGVVVLILTLLSSAAIAAM
+6myo_4: GSSKAASLHWTSERAVSALLLGLLPAAYLYPGPAVDYSLAAALTLHGHWGLGQVITDYVHGDTPIKVANTGLYVLSAITFTGLCYFNYYDVGICKAVAMLWSI
 
+NOTE: modified amino acids (such as MTZ) need to be replaced in the query, e.g. by X
+
+
+Detailed plan
+====================
+Obtain candidate targets using the on-hold entries in the PDB (query 1)
+
+For every entity in every target, classify the entity:
+   - Take molecule_sequence
+   - Count all residues between (). These are nucleic acids or modified amino acids.
+     However, first replace  "MSE" by M, ["HIE", "HIP", "HSD", "HSE"] by H
+   - Classify the sequence as follows:      
+      - length < 6, modified aa >= 50 % (cofactor (incl. sugars)) 
+      - length >= 6, modified aa >= 50 % (nucleic acid)      
+      - length < 30, modified aa 20-50 % (unnatural peptide)            
+      - length <= 10, modified aa < 20 % (small peptide)
+      - length 11-30, modified aa < 20 % (large peptide)
+      - length > 30, modified aa 10-50 % (unnatural protein)
+      - length > 30, modified aa 10-50 % (protein)
+   - Filter the targets:
+      - Remove all targets with nucleic acids, unnatural proteins and unnatural peptides
+      - For now, remove all targets with large peptides (needs separate strategy)
+      - Ignore all entities that are cofactors or small peptides (small peptides need separate strategy)
+      - Remove all targets with less than two remaining entities
+   
+For each remaining target:
+   For each entity:
+      Identify related sequences using the sequence (query 2). 
+      For each match:
+         Reject all values with e>0.05
+         Identify the region ("query_sequence_start/end")
+         Classify them based on the seqid ("identity_percent")
+          into "close" and "remote". For now, use 40% as the threshold.
+      Merge all regions of all matches. Classify the coverage of the entity:
+      - Complete: One contiguous region of more than 20 aa. 
+         N- and C-ter gaps <= 50 aa each.
+      - Contiguous: One contiguous region. N- and/or C-ter gap >50 aa.
+      - Multi-domain: Multiple contiguous regions. 
+         Gaps between them are <= 20 aa each.  
+      - Bad:
+          No region of more than 20 aa. 
+          OR: Multiple contiguous regions. 
+            with gaps in the middle of more than 20 aa each, 
+
+   Reject any target with any entity with bad coverage.
+   For now, also reject multi-domain coverage (requires separate strategy)
+   For now, treat contiguous coverage as complete. Inquiry with the experimental
+    group is necessary to make sure that no important domain is missing.
+
+   For each pair of matches:
+      Check if they are compatible. Matches are compatible if:
+      - They have the same PDB ID ("joinId")
+      - They are superimposable, because their region shares at least 20 amino acids
+      NOTE: This strategy will not work if there is internal homology *within* the target.
+      In that case, two regions will match the same region in the matching PDB.
+      This could be detected, but I do not know of a correct strategy once this happens
+
+   Merge all compatible close matches into groups. A group consist of 
+   regions for one or more entities, and one or more PDB ids.
+   
+   A target is trivial if at least one PDB or group contains a continuous 20 amino acid region 
+    for all entities.
+   
+   Else, merge all compatible close and non-close matches into groups. If there is only
+    one group, classify the target as "template-based", else as "ab initio".
+   If there are more than two groups, classify the target as "multi-body".
+
+   

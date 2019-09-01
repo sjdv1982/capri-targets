@@ -1,0 +1,2095 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 525,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTAAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKXDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRFFTARFDYI",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 18,
+      "ngroups": 17,
+      "groups": [
+        {
+          "groupValue": "2tpl",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CS",
+                  "HPP"
+                ],
+                "citation_authors": [
+                  "Sundararaju B",
+                  "Antson AA",
+                  "Phillips RS",
+                  "Demidkina TV",
+                  "Barbolina MV",
+                  "Gollnick P",
+                  "Dodson GG",
+                  "Wilson KS"
+                ],
+                "citation_title": "The crystal structure of Citrobacter freundii tyrosine phenol-lyase complexed with 3-(4'-hydroxyphenyl)propionic acid, together with site-directed mutagenesis and kinetic analysis, demonstrates that arginine 381 is required for substrate specificity.",
+                "citation_year": 1997,
+                "compound_id": [
+                  "CS",
+                  "HPP",
+                  "LLP"
+                ],
+                "data_quality": 50.4,
+                "deposition_date": "1997-01-23T01:00:00Z",
+                "entry_author_list": [
+                  "Antson AA, Demidkina TV, Wilson KS"
+                ],
+                "entry_authors": [
+                  "Antson AA",
+                  "Demidkina TV",
+                  "Wilson KS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CS : CESIUM ION",
+                  "HPP : HYDROXYPHENYL PROPIONIC ACID"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 30.21,
+                "modified_compound_id": [
+                  "LLP"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "2tpl",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "9174368",
+                "release_date": "1997-04-01T01:00:00Z",
+                "release_year": 1997,
+                "resolution": 2.5,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "TYROSINE PHENOL-LYASE FROM CITROBACTER INTERMEDIUS COMPLEX WITH 3-(4'-HYDROXYPHENYL)PROPIONIC ACID, PYRIDOXAL-5'-PHOSPHATE AND CS+ ION",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1tpl",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Antson AA",
+                  "Demidkina TV",
+                  "Gollnick P",
+                  "Dauter Z",
+                  "von Tersch RL",
+                  "Long J",
+                  "Berezhnoy SN",
+                  "Phillips RS",
+                  "Harutyunyan EH",
+                  "Wilson KS"
+                ],
+                "citation_title": "Three-dimensional structure of tyrosine phenol-lyase.",
+                "citation_year": 1993,
+                "compound_id": [
+                  "SO4"
+                ],
+                "data_quality": -1.0,
+                "deposition_date": "1992-11-25T01:00:00Z",
+                "entry_author_list": [
+                  "Antson A, Demidkina T, Dauter Z, Harutyunyan E, Wilson K"
+                ],
+                "entry_authors": [
+                  "Antson A",
+                  "Demidkina T",
+                  "Dauter Z",
+                  "Harutyunyan E",
+                  "Wilson K"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter intermedius|66695"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 20.28,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter intermedius"
+                ],
+                "pdb_id": "1tpl",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "7916622",
+                "release_date": "1993-10-31T01:00:00Z",
+                "release_year": 1993,
+                "resolution": 2.3,
+                "status": "REL",
+                "tax_id": [
+                  66695
+                ],
+                "title": "THE THREE-DIMENSIONAL STRUCTURE OF TYROSINE PHENOL-LYASE",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6dur",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "K",
+                  "PGE",
+                  "P33",
+                  "P70",
+                  "P71"
+                ],
+                "citation_authors": [
+                  "Phillips RS",
+                  "Craig S"
+                ],
+                "citation_title": "Crystal Structures of Wild-type and F448A Mutant Citrobacter freundii Tyrosine Phenol-lyase Complexed with Substrate and Inhibitors: Implications for the Reaction Mechanism.",
+                "citation_year": 2018,
+                "compound_id": [
+                  "K",
+                  "PGE",
+                  "P33",
+                  "P70",
+                  "P71"
+                ],
+                "data_quality": 49.41,
+                "deposition_date": "2018-06-21T01:00:00Z",
+                "entry_author_list": [
+                  "Phillips RS"
+                ],
+                "entry_authors": [
+                  "Phillips RS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "P70 : (E)-N-({3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]pyridin-4-yl}methylidene)-L-phenylalanine",
+                  "P33 : 3,6,9,12,15,18-HEXAOXAICOSANE-1,20-DIOL",
+                  "P71 : (2E)-2-{[(Z)-{3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]pyridin-4(1H)-ylidene}methyl]imino}-3-phenylpropanoic acid",
+                  "PGE : TRIETHYLENE GLYCOL",
+                  "K : POTASSIUM ION"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 61.34,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "6dur",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30260636",
+                "release_date": "2018-10-10T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 1.8,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "Citrobacter freundii tyrosine phenol-lyase complexed with L-phenylalanine",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2ez1",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "K"
+                ],
+                "citation_authors": [
+                  "Milic D",
+                  "Matkovic-Calogovic D",
+                  "Demidkina TV",
+                  "Kulikova VV",
+                  "Sinitzina NI",
+                  "Antson AA"
+                ],
+                "citation_title": "Structures of apo- and holo-tyrosine phenol-lyase reveal a catalytically critical closed conformation and suggest a mechanism for activation by K+ ions.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "K",
+                  "LLP"
+                ],
+                "data_quality": 69.8,
+                "deposition_date": "2005-11-10T01:00:00Z",
+                "entry_author_list": [
+                  "Milic D, Matkovic-Calogovic D, Demidkina TV, Antson AA"
+                ],
+                "entry_authors": [
+                  "Milic D",
+                  "Matkovic-Calogovic D",
+                  "Demidkina TV",
+                  "Antson AA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "K : POTASSIUM ION"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 68.4,
+                "modified_compound_id": [
+                  "LLP"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "2ez1",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16768450",
+                "release_date": "2006-07-25T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 1.9,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "Holo tyrosine phenol-lyase from Citrobacter freundii at pH 8.0",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6dvx",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "K",
+                  "P33",
+                  "P70",
+                  "P71"
+                ],
+                "citation_authors": [
+                  "Phillips RS",
+                  "Craig S"
+                ],
+                "citation_title": "Crystal Structures of Wild-type and F448A Mutant Citrobacter freundii Tyrosine Phenol-lyase Complexed with Substrate and Inhibitors: Implications for the Reaction Mechanism.",
+                "citation_year": 2018,
+                "compound_id": [
+                  "K",
+                  "P33",
+                  "P70",
+                  "P71"
+                ],
+                "data_quality": 16.55,
+                "deposition_date": "2018-06-25T01:00:00Z",
+                "entry_author_list": [
+                  "Phillips RS"
+                ],
+                "entry_authors": [
+                  "Phillips RS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "P71 : (2E)-2-{[(Z)-{3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]pyridin-4(1H)-ylidene}methyl]imino}-3-phenylpropanoic acid",
+                  "P33 : 3,6,9,12,15,18-HEXAOXAICOSANE-1,20-DIOL",
+                  "K : POTASSIUM ION",
+                  "P70 : (E)-N-({3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]pyridin-4-yl}methylidene)-L-phenylalanine"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 54.93,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "6dvx",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30260636",
+                "release_date": "2018-10-10T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 2.27,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "Citrobacter freundii tyrosine phenol-lyase F448A mutant complexed with L-phenylalanine",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2ycn",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "PEG",
+                  "K",
+                  "P61",
+                  "PG4"
+                ],
+                "citation_authors": [
+                  "Milic D",
+                  "Demidkina TV",
+                  "Faleev NG",
+                  "Phillips RS",
+                  "Matkovic-Calogovic D",
+                  "Antson AA"
+                ],
+                "citation_title": "Crystallographic snapshots of tyrosine phenol-lyase show that substrate strain plays a role in C-C bond cleavage.",
+                "citation_year": 2011,
+                "compound_id": [
+                  "PEG",
+                  "K",
+                  "P61",
+                  "PG4"
+                ],
+                "data_quality": 48.5,
+                "deposition_date": "2011-03-16T01:00:00Z",
+                "entry_author_list": [
+                  "Milic D, Demidkina TV, Faleev NG, Phillips RS, Matkovic-Calogovic D, Antson AA"
+                ],
+                "entry_authors": [
+                  "Milic D",
+                  "Demidkina TV",
+                  "Faleev NG",
+                  "Phillips RS",
+                  "Matkovic-Calogovic D",
+                  "Antson AA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "PEG : DI(HYDROXYETHYL)ETHER",
+                  "PG4 : TETRAETHYLENE GLYCOL",
+                  "P61 : (2E)-3-(3-fluoro-4-hydroxyphenyl)-2-{[(Z)-{3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]pyridin-4(1H)-ylidene}methyl]imino}propanoic acid",
+                  "K : POTASSIUM ION"
+                ],
+                "journal": "J. Am. Chem. Soc.",
+                "model_quality": 58.22,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "2ycn",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21899319",
+                "release_date": "2011-09-14T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.04,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "Y71F mutant of tyrosine phenol-lyase from Citrobacter freundii in complex with quinonoid intermediate formed with 3-fluoro-L-tyrosine",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2ycp",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "EDO",
+                  "PEG",
+                  "1PE",
+                  "K",
+                  "P61",
+                  "PGE",
+                  "P33",
+                  "PG4"
+                ],
+                "citation_authors": [
+                  "Milic D",
+                  "Demidkina TV",
+                  "Faleev NG",
+                  "Phillips RS",
+                  "Matkovic-Calogovic D",
+                  "Antson AA"
+                ],
+                "citation_title": "Crystallographic snapshots of tyrosine phenol-lyase show that substrate strain plays a role in C-C bond cleavage.",
+                "citation_year": 2011,
+                "compound_id": [
+                  "EDO",
+                  "PEG",
+                  "1PE",
+                  "K",
+                  "P61",
+                  "PGE",
+                  "P33",
+                  "PG4"
+                ],
+                "data_quality": 89.6,
+                "deposition_date": "2011-03-16T01:00:00Z",
+                "entry_author_list": [
+                  "Milic D, Demidkina TV, Faleev NG, Phillips RS, Matkovic-Calogovic D, Antson AA"
+                ],
+                "entry_authors": [
+                  "Milic D",
+                  "Demidkina TV",
+                  "Faleev NG",
+                  "Phillips RS",
+                  "Matkovic-Calogovic D",
+                  "Antson AA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "PEG : DI(HYDROXYETHYL)ETHER",
+                  "1PE : PENTAETHYLENE GLYCOL",
+                  "PGE : TRIETHYLENE GLYCOL",
+                  "P61 : (2E)-3-(3-fluoro-4-hydroxyphenyl)-2-{[(Z)-{3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]pyridin-4(1H)-ylidene}methyl]imino}propanoic acid",
+                  "PG4 : TETRAETHYLENE GLYCOL",
+                  "K : POTASSIUM ION",
+                  "P33 : 3,6,9,12,15,18-HEXAOXAICOSANE-1,20-DIOL",
+                  "EDO : 1,2-ETHANEDIOL"
+                ],
+                "journal": "J. Am. Chem. Soc.",
+                "model_quality": 83.83,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "2ycp",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21899319",
+                "release_date": "2011-09-14T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.0,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "F448H mutant of tyrosine phenol-lyase from Citrobacter freundii in complex with quinonoid intermediate formed with 3-fluoro-L-tyrosine",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6dxv",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "K"
+                ],
+                "citation_authors": [
+                  "Phillips RS",
+                  "Craig S"
+                ],
+                "citation_title": "Crystal Structures of Wild-type and F448A Mutant Citrobacter freundii Tyrosine Phenol-lyase Complexed with Substrate and Inhibitors: Implications for the Reaction Mechanism.",
+                "citation_year": 2018,
+                "compound_id": [
+                  "K",
+                  "LLP"
+                ],
+                "data_quality": 10.36,
+                "deposition_date": "2018-07-01T01:00:00Z",
+                "entry_author_list": [
+                  "Phillips RS"
+                ],
+                "entry_authors": [
+                  "Phillips RS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "K : POTASSIUM ION"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 64.36,
+                "modified_compound_id": [
+                  "LLP"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "6dxv",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30260636",
+                "release_date": "2018-10-10T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "Citrobacter freundii tyrosine phenol-lyase F448A mutant",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2yhk",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "PEG",
+                  "K",
+                  "P33",
+                  "PLP",
+                  "PG4"
+                ],
+                "citation_authors": [
+                  "Milic D",
+                  "Demidkina TV",
+                  "Zakomirdina LN",
+                  "Matkovic-Calogovic D",
+                  "Antson AA"
+                ],
+                "citation_title": "Crystal Structure of Citrobacter Freundii Asp214Ala Tyrosine Phenol-Lyase Reveals that Asp214 is Critical for Maintaining a Strain in the Internal Aldimine",
+                "citation_year": 2012,
+                "compound_id": [
+                  "PEG",
+                  "K",
+                  "P33",
+                  "PLP",
+                  "PG4"
+                ],
+                "data_quality": 76.63,
+                "deposition_date": "2011-05-03T01:00:00Z",
+                "entry_author_list": [
+                  "Milic D, Demidkina TV, Matkovic-Calogovic D, Antson AA"
+                ],
+                "entry_authors": [
+                  "Milic D",
+                  "Demidkina TV",
+                  "Matkovic-Calogovic D",
+                  "Antson AA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Citrobacter freundii|546"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "PEG : DI(HYDROXYETHYL)ETHER",
+                  "K : POTASSIUM ION",
+                  "PLP : PYRIDOXAL-5'-PHOSPHATE",
+                  "PG4 : TETRAETHYLENE GLYCOL",
+                  "P33 : 3,6,9,12,15,18-HEXAOXAICOSANE-1,20-DIOL"
+                ],
+                "journal": "Croatica Chemica Acta",
+                "model_quality": 75.31,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Citrobacter freundii"
+                ],
+                "pdb_id": "2yhk",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2012-05-02T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 1.91,
+                "status": "REL",
+                "tax_id": [
+                  546
+                ],
+                "title": "D214A mutant of tyrosine phenol-lyase from Citrobacter freundii",
+                "uniprot_accession_best": [
+                  "P31013"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1c7g",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "PLP"
+                ],
+                "citation_authors": [
+                  "Mikami B",
+                  "Yamamoto Y",
+                  "Katayama T",
+                  "Suzuki H",
+                  "Kumagai H"
+                ],
+                "citation_title": "The Structure of Tyrosine Phenol-Lyase from Erwinia Herbicola",
+                "compound_id": [
+                  "PLP"
+                ],
+                "data_quality": -1.0,
+                "deposition_date": "2000-02-18T01:00:00Z",
+                "entry_author_list": [
+                  "Mikami B, Yamamoto Y, Katayama T, Suzuki H"
+                ],
+                "entry_authors": [
+                  "Mikami B",
+                  "Yamamoto Y",
+                  "Katayama T",
+                  "Suzuki H"
+                ],
+                "entry_organism_scientific_name": [
+                  "Pantoea agglomerans pv. gypsophilae|48984"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "PLP : PYRIDOXAL-5'-PHOSPHATE"
+                ],
+                "journal": "To be published",
+                "model_quality": 13.53,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Pantoea agglomerans pv. gypsophilae"
+                ],
+                "pdb_id": "1c7g",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2003-12-09T01:00:00Z",
+                "release_year": 2003,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  48984
+                ],
+                "title": "TYROSINE PHENOL-LYASE FROM ERWINIA HERBICOLA",
+                "uniprot_accession_best": [
+                  "P31011"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "1ax4",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "K"
+                ],
+                "citation_authors": [
+                  "Isupov MN",
+                  "Antson AA",
+                  "Dodson EJ",
+                  "Dodson GG",
+                  "Dementieva IS",
+                  "Zakomirdina LN",
+                  "Wilson KS",
+                  "Dauter Z",
+                  "Lebedev AA",
+                  "Harutyunyan EH"
+                ],
+                "citation_title": "Crystal structure of tryptophanase.",
+                "citation_year": 1998,
+                "compound_id": [
+                  "K",
+                  "LLP"
+                ],
+                "data_quality": 36.83,
+                "deposition_date": "1997-10-28T01:00:00Z",
+                "entry_author_list": [
+                  "Isupov MN, Antson AA, Dodson EJ, Dodson GG, Dementieva IS, Zakomirdina LN, Wilson KS, Dauter Z, Lebedev AA, Harutyunyan EH"
+                ],
+                "entry_authors": [
+                  "Isupov MN",
+                  "Antson AA",
+                  "Dodson EJ",
+                  "Dodson GG",
+                  "Dementieva IS",
+                  "Zakomirdina LN",
+                  "Wilson KS",
+                  "Dauter Z",
+                  "Lebedev AA",
+                  "Harutyunyan EH"
+                ],
+                "entry_organism_scientific_name": [
+                  "Proteus vulgaris|585"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "K : POTASSIUM ION"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 42.11,
+                "modified_compound_id": [
+                  "LLP"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Proteus vulgaris"
+                ],
+                "pdb_id": "1ax4",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "9551100",
+                "release_date": "1998-01-28T01:00:00Z",
+                "release_year": 1998,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  585
+                ],
+                "title": "TRYPTOPHANASE FROM PROTEUS VULGARIS",
+                "uniprot_accession_best": [
+                  "P28796"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5d8g",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "EPE",
+                  "CA",
+                  "MG",
+                  "CL",
+                  "NA"
+                ],
+                "citation_authors": [
+                  "Green K",
+                  "Qasim N",
+                  "Gdaelvsky G",
+                  "Kogan A",
+                  "Goldgur Y",
+                  "Parola AH",
+                  "Lotan O",
+                  "Almog O"
+                ],
+                "citation_title": "A structural view of the dissociation of Escherichia coli tryptophanase.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "EPE",
+                  "CA",
+                  "MG",
+                  "CL",
+                  "NA",
+                  "CME"
+                ],
+                "data_quality": 62.84,
+                "deposition_date": "2015-08-17T01:00:00Z",
+                "entry_author_list": [
+                  "Almog O"
+                ],
+                "entry_authors": [
+                  "Almog O"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli K-12|83333"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "MG : MAGNESIUM ION",
+                  "EPE : 4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID",
+                  "CA : CALCIUM ION",
+                  "NA : SODIUM ION",
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "Acta Crystallogr. D Biol. Crystallogr.",
+                "model_quality": 41.98,
+                "modified_compound_id": [
+                  "CME"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli K-12"
+                ],
+                "pdb_id": "5d8g",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26627645",
+                "release_date": "2015-12-09T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 1.89,
+                "status": "REL",
+                "tax_id": [
+                  83333
+                ],
+                "title": "A structural view on the dissociation of E. coli Tryptophanase",
+                "uniprot_accession_best": [
+                  "P0A853"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2c44",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "K",
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Ku S-Y",
+                  "Yip P",
+                  "Howell PL"
+                ],
+                "citation_title": "Structure of Escherichia coli tryptophanase.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "K",
+                  "SO4"
+                ],
+                "data_quality": 70.71,
+                "deposition_date": "2005-10-15T01:00:00Z",
+                "entry_author_list": [
+                  "Ku S-Y, Yip P, Howell PL"
+                ],
+                "entry_authors": [
+                  "Ku S-Y",
+                  "Yip P",
+                  "Howell PL"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION",
+                  "K : POTASSIUM ION"
+                ],
+                "journal": "Acta Crystallogr. D Biol. Crystallogr.",
+                "model_quality": 33.17,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2c44",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16790938",
+                "release_date": "2006-06-28T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 2.8,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal Structure of E. coli Tryptophanase",
+                "uniprot_accession_best": [
+                  "P0A853"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2oqx",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "EPE",
+                  "MG",
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Tsesin N",
+                  "Kogan A",
+                  "Gdalevsky GY",
+                  "Himanen JP",
+                  "Cohen-Luria R",
+                  "Parola AH",
+                  "Goldgur Y",
+                  "Almog O"
+                ],
+                "citation_title": "The structure of apo tryptophanase from Escherichia coli reveals a wide-open conformation.",
+                "citation_year": 2007,
+                "compound_id": [
+                  "EPE",
+                  "MG",
+                  "CL",
+                  "CME"
+                ],
+                "data_quality": 27.99,
+                "deposition_date": "2007-02-01T01:00:00Z",
+                "entry_author_list": [
+                  "Goldgur Y, Kogan A, Gdalevsky G, Parola A, Cohen-Luria R, Almog O"
+                ],
+                "entry_authors": [
+                  "Goldgur Y",
+                  "Kogan A",
+                  "Gdalevsky G",
+                  "Parola A",
+                  "Cohen-Luria R",
+                  "Almog O"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "Acta Crystallogr. D Biol. Crystallogr.",
+                "model_quality": 45.1,
+                "modified_compound_id": [
+                  "CME"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2oqx",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "17704565",
+                "release_date": "2007-02-20T01:00:00Z",
+                "release_year": 2007,
+                "resolution": 1.9,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal Structure of the apo form of E. coli tryptophanase at 1.9 A resolution",
+                "uniprot_accession_best": [
+                  "Q5UES8"
+                ],
+                "uniprot_coverage": [
+                  0.98
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4w1y",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Kogan A",
+                  "Raznov L",
+                  "Gdalevsky GY",
+                  "Cohen-Luria R",
+                  "Almog O",
+                  "Parola AH",
+                  "Goldgur Y"
+                ],
+                "citation_title": "Structures of Escherichia coli tryptophanase in holo and `semi-holo' forms.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "SO4",
+                  "LLP"
+                ],
+                "data_quality": 15.56,
+                "deposition_date": "2014-08-13T01:00:00Z",
+                "entry_author_list": [
+                  "Goldgur Y"
+                ],
+                "entry_authors": [
+                  "Goldgur Y"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli K-12|83333"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SO4 : SULFATE ION"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0A853"
+                ],
+                "journal": "Acta Crystallogr F Struct Biol Commun",
+                "model_quality": 0.99,
+                "modified_compound_id": [
+                  "LLP"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli K-12"
+                ],
+                "pdb_id": "4w1y",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25760702",
+                "release_date": "2014-12-17T01:00:00Z",
+                "release_year": 2014,
+                "resolution": 3.2,
+                "status": "REL",
+                "tax_id": [
+                  83333
+                ],
+                "title": "Crystal structure of Escherichia coli Tryptophanase in 'semi-holo' form",
+                "uniprot_accession_best": [
+                  "P0A853"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "SO4"
+                ],
+                "citation_authors": [
+                  "Kogan A",
+                  "Raznov L",
+                  "Gdalevsky GY",
+                  "Cohen-Luria R",
+                  "Almog O",
+                  "Parola AH",
+                  "Goldgur Y"
+                ],
+                "citation_title": "Structures of Escherichia coli tryptophanase in holo and `semi-holo' forms.",
+                "citation_year": 2015,
+                "compound_id": [
+                  "SO4",
+                  "LLP"
+                ],
+                "data_quality": 15.56,
+                "deposition_date": "2014-08-13T01:00:00Z",
+                "entry_author_list": [
+                  "Goldgur Y"
+                ],
+                "entry_authors": [
+                  "Goldgur Y"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli K-12|83333"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P0A853"
+                ],
+                "journal": "Acta Crystallogr F Struct Biol Commun",
+                "model_quality": 0.99,
+                "modified_compound_id": [
+                  "LLP"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli K-12"
+                ],
+                "pdb_id": "4w1y",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25760702",
+                "release_date": "2014-12-17T01:00:00Z",
+                "release_year": 2014,
+                "resolution": 3.2,
+                "status": "REL",
+                "tax_id": [
+                  83333
+                ],
+                "title": "Crystal structure of Escherichia coli Tryptophanase in 'semi-holo' form",
+                "uniprot_accession_best": [
+                  "P0A853"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2v0y",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "MG",
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Kogan A",
+                  "Gdalevsky GY",
+                  "Cohen-Luria R",
+                  "Goldgur Y",
+                  "Phillips RS",
+                  "Parola AH",
+                  "Almog O"
+                ],
+                "citation_title": "Conformational changes and loose packing promote E. coli Tryptophanase cold lability.",
+                "citation_year": 2009,
+                "compound_id": [
+                  "MG",
+                  "CL",
+                  "CME"
+                ],
+                "data_quality": 10.8,
+                "deposition_date": "2007-05-21T01:00:00Z",
+                "entry_author_list": [
+                  "Kogan A, Gdalevsky GY, Cohen-Luria R, Goldgur Y, Parola AH, Almog O"
+                ],
+                "entry_authors": [
+                  "Kogan A",
+                  "Gdalevsky GY",
+                  "Cohen-Luria R",
+                  "Goldgur Y",
+                  "Parola AH",
+                  "Almog O"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "BMC Struct. Biol.",
+                "model_quality": 30.89,
+                "modified_compound_id": [
+                  "CME"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2v0y",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "19814824",
+                "release_date": "2008-06-10T01:00:00Z",
+                "release_year": 2008,
+                "resolution": 2.0,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal structure of apo C298S tryptophanase from E.coli",
+                "uniprot_accession_best": [
+                  "P0A853"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2v1p",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "MG",
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Kogan A",
+                  "Gdalevsky GY",
+                  "Cohen-Luria R",
+                  "Goldgur Y",
+                  "Phillips RS",
+                  "Parola AH",
+                  "Almog O"
+                ],
+                "citation_title": "Conformational changes and loose packing promote E. coli Tryptophanase cold lability.",
+                "citation_year": 2009,
+                "compound_id": [
+                  "MG",
+                  "CL",
+                  "CME"
+                ],
+                "data_quality": 30.23,
+                "deposition_date": "2007-05-28T01:00:00Z",
+                "entry_author_list": [
+                  "Kogan A, Gdalevsky GY, Cohen-Luria R, Goldgur Y, Parola AH, Almog O"
+                ],
+                "entry_authors": [
+                  "Kogan A",
+                  "Gdalevsky GY",
+                  "Cohen-Luria R",
+                  "Goldgur Y",
+                  "Parola AH",
+                  "Almog O"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "BMC Struct. Biol.",
+                "model_quality": 40.29,
+                "modified_compound_id": [
+                  "CME"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "2v1p",
+                "pfam_name": [
+                  "Beta_elim_lyase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "19814824",
+                "release_date": "2008-06-10T01:00:00Z",
+                "release_year": 2008,
+                "resolution": 1.9,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal Structure of the apo form of Y74F mutant E. coli tryptophanase",
+                "uniprot_accession_best": [
+                  "P0A853"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 17,
+    "num_entries": 17,
+    "external": [
+      {
+        "joinId": "2tpl",
+        "doc": {
+          "score": 1038.2,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 6.9e-312,
+          "e_value_ind": 7.7e-312,
+          "e_value_cond": 4e-316,
+          "bit_score": 1038.02673339844,
+          "species": "Citrobacter freundii",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTAAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRFFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 1.92,
+          "identity_percent": 99.780701754386,
+          "identity_count": 455,
+          "similarity_percent": 100.0,
+          "similarity_count": 456,
+          "match": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "description": "TYROSINE PHENOL-LYASE",
+          "target": "2tpl_A"
+        }
+      },
+      {
+        "joinId": "1tpl",
+        "doc": {
+          "score": 1038.2,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 6.9e-312,
+          "e_value_ind": 7.7e-312,
+          "e_value_cond": 4e-316,
+          "bit_score": 1038.02673339844,
+          "species": "Citrobacter intermedius",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTAAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRFFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 1.92,
+          "identity_percent": 99.780701754386,
+          "identity_count": 455,
+          "similarity_percent": 100.0,
+          "similarity_count": 456,
+          "match": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "description": "TYROSINE PHENOL-LYASE",
+          "target": "1tpl_A"
+        }
+      },
+      {
+        "joinId": "6dur",
+        "doc": {
+          "score": 1035.9,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.4e-311,
+          "e_value_ind": 3.8e-311,
+          "e_value_cond": 2e-315,
+          "bit_score": 1035.724609375,
+          "species": "Citrobacter freundii",
+          "query_sequence": "nypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 2,
+          "query_sequence_end": 456,
+          "target_sequence": "NYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTAAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRFFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 455,
+          "target_envelope_start": 1,
+          "target_envelope_end": 455,
+          "posterior_probability": "8*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 1.85,
+          "identity_percent": 99.78021978021981,
+          "identity_count": 454,
+          "similarity_percent": 100.0,
+          "similarity_count": 455,
+          "match": "nypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "description": "Tyrosine phenol-lyase",
+          "target": "6dur_A"
+        }
+      },
+      {
+        "joinId": "2ez1",
+        "doc": {
+          "score": 1035.8,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.6e-311,
+          "e_value_ind": 4e-311,
+          "e_value_cond": 2.1e-315,
+          "bit_score": 1035.65417480469,
+          "species": "Citrobacter freundii",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTEAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRFFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 2.0,
+          "identity_percent": 99.56140350877189,
+          "identity_count": 454,
+          "similarity_percent": 99.780701754386,
+          "similarity_count": 455,
+          "match": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravrelt ahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "description": "Tyrosine phenol-lyase",
+          "target": "2ez1_A"
+        }
+      },
+      {
+        "joinId": "6dvx",
+        "doc": {
+          "score": 1034.5,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 9e-311,
+          "e_value_ind": 1e-310,
+          "e_value_cond": 5.3e-315,
+          "bit_score": 1034.34533691406,
+          "species": "Citrobacter freundii",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTAAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRAFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 1.93,
+          "identity_percent": 99.56140350877189,
+          "identity_count": 454,
+          "similarity_percent": 99.780701754386,
+          "similarity_count": 455,
+          "match": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlr ftarfdyi",
+          "description": "Tyrosine phenol-lyase",
+          "target": "6dvx_A"
+        }
+      },
+      {
+        "joinId": "2ycn",
+        "doc": {
+          "score": 1034.1,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.2e-310,
+          "e_value_ind": 1.3e-310,
+          "e_value_cond": 6.8e-315,
+          "bit_score": 1033.98669433594,
+          "species": "Citrobacter freundii",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAFAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTEAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRFFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 1.83,
+          "identity_percent": 99.3421052631579,
+          "identity_count": 453,
+          "similarity_percent": 99.780701754386,
+          "similarity_count": 455,
+          "match": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdea+agsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravrelt ahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "description": "TYROSINE PHENOL-LYASE",
+          "target": "2ycn_A"
+        }
+      },
+      {
+        "joinId": "2ycp",
+        "doc": {
+          "score": 1032.5,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.7e-310,
+          "e_value_ind": 4.1e-310,
+          "e_value_cond": 2.1e-314,
+          "bit_score": 1032.3388671875,
+          "species": "Citrobacter freundii",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTEAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRHFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 2.1,
+          "identity_percent": 99.3421052631579,
+          "identity_count": 453,
+          "similarity_percent": 99.56140350877189,
+          "similarity_count": 454,
+          "match": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravrelt ahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlr ftarfdyi",
+          "description": "TYROSINE PHENOL-LYASE",
+          "target": "2ycp_A"
+        }
+      },
+      {
+        "joinId": "6dxv",
+        "doc": {
+          "score": 1032.2,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 4.5e-310,
+          "e_value_ind": 5e-310,
+          "e_value_cond": 2.6e-314,
+          "bit_score": 1032.04248046875,
+          "species": "Citrobacter freundii",
+          "query_sequence": "nypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 2,
+          "query_sequence_end": 456,
+          "target_sequence": "NYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTAAHGIKVFYDATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRAFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 455,
+          "target_envelope_start": 1,
+          "target_envelope_end": 455,
+          "posterior_probability": "8*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 1.87,
+          "identity_percent": 99.56043956043959,
+          "identity_count": 453,
+          "similarity_percent": 99.78021978021981,
+          "similarity_count": 454,
+          "match": "nypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlr ftarfdyi",
+          "description": "Tyrosine phenol-lyase",
+          "target": "6dxv_A"
+        }
+      },
+      {
+        "joinId": "2yhk",
+        "doc": {
+          "score": 1032.1,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 4.7e-310,
+          "e_value_ind": 5.3e-310,
+          "e_value_cond": 2.7e-314,
+          "bit_score": 1031.98132324219,
+          "species": "Citrobacter freundii",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMIPRDERLKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMMGDEAYAGSENFYHLERTVQELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRYHQEKNGAVFVDIVRDEAHDAGLNIAFKGDIDLKKLQKLIDEKGAENIAYICLAVTVNLAGGQPVSMANMRAVRELTEAHGIKVFYAATRCVENAYFIKEQEQGFENKSIAEIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDDEMFSSAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLKAAGVPIVEPVGGHAVFLDARRFCEHLTQDEFPAQSLAASIYVETGVRSMERGIISAGRNNVTGEHHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLKFIYEPKQLRFFTARFDYI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************8",
+          "bias": 2.0,
+          "identity_percent": 99.3421052631579,
+          "identity_count": 453,
+          "similarity_percent": 99.56140350877189,
+          "similarity_count": 454,
+          "match": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravrelt ahgikvfy atrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgk+dclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "description": "TYROSINE PHENOL-LYASE",
+          "target": "2yhk_A"
+        }
+      },
+      {
+        "joinId": "1c7g",
+        "doc": {
+          "score": 954.5,
+          "accuracy": 1.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.7e-286,
+          "e_value_ind": 1.9e-286,
+          "e_value_cond": 9.7e-291,
+          "bit_score": 954.38134765625,
+          "species": "Pantoea agglomerans pv. gypsophilae",
+          "query_sequence": "mnypaepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarfdyi",
+          "query_sequence_start": 1,
+          "query_sequence_end": 456,
+          "target_sequence": "MNYPAEPFRIKSVETVSMISRDERVKKMQEAGYNTFLLNSKDIYIDLLTDSGTNAMSDKQWAGMMIGDEAYAGSENFYHLEKTVKELFGFKHIVPTHQGRGAENLLSQLAIKPGQYVAGNMYFTTTRFHQEKNGATFVDIVRDEAHDASLNLPFKGDIDLNKLATLIKEKGAENIAYICLAVTVNLAGGQPVSMANMRAVHEMASTYGIKIFYDATRCVENAYFIKEQEAGYENVSIKDIVHEMFSYADGCTMSGKKDCLVNIGGFLCMNDEEMFSAAKELVVVYEGMPSYGGLAGRDMEAMAIGLREAMQYEYIEHRVKQVRYLGDKLREAGVPIVEPTGGHAVFLDARRFCPHLTQDQFPAQSLAASIYMETGVRSMERGIVSAGRSKETGENHRPKLETVRLTIPRRVYTYAHMDVVADGIIKLYQHKEDIRGLTFVYEPKQLRFFTARFDFI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 456,
+          "target_envelope_start": 1,
+          "target_envelope_end": 456,
+          "posterior_probability": "8*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************97",
+          "bias": 1.28,
+          "identity_percent": 90.57017543859651,
+          "identity_count": 413,
+          "similarity_percent": 96.0526315789474,
+          "similarity_count": 438,
+          "match": "mnypaepfriksvetvsmi rder+kkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmm+gdeayagsenfyhle+tv+elfgfkhivpthqgrgaenllsqlaikpgqyvagnmyftttr+hqeknga fvdivrdeahda+ln+ fkgdidl kl  li ekgaeniayiclavtvnlaggqpvsmanmrav+e+ + +gik+fydatrcvenayfikeqe g+en si +ivhemfsyadgctmsgk+dclvniggflcmnd+emfs+akelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdkl+ agvpivep gghavfldarrfc hltqd+fpaqslaasiy+etgvrsmergi+sagr+  tge+hrpkletvrltiprrvytyahmdvvadgiiklyqhkedirgl f+yepkqlrfftarfd+i",
+          "description": "TYROSINE PHENOL-LYASE",
+          "target": "1c7g_A"
+        }
+      },
+      {
+        "joinId": "1ax4",
+        "doc": {
+          "score": 469.9,
+          "accuracy": 0.96,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.1e-139,
+          "e_value_ind": 2.5e-139,
+          "e_value_cond": 1.3e-143,
+          "bit_score": 469.598876953125,
+          "species": "Proteus vulgaris",
+          "query_sequence": "aepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgq........yvagnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnd.demfssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarf",
+          "query_sequence_start": 5,
+          "query_sequence_end": 453,
+          "target_sequence": "VEPFRIKMVEKIRVPSREEREAALKEAGYNPFLLPSSAVYIDLLTDSGTNAMSDHQWAAMITGDEAYAGSRNYYDLKDKAKELFNYDYIIPAHQGRGAENILFPVLLKYKQkegkaknpVFISNFHFDTTAAHVELNGCKAINIVTEKAFDSETYDDWKGDFDIKKLKENIAQHGADNIVAIVSTVTCNSAGGQPVSMSNLKEVYEIAKQHGIFVVMDSARFCENAYFIKARDPKYKNATIKEVIFDMYKYADALTMSAKKDPLLNIGGLVAIRDnEEIFTLARQRCVPMEGFVTYGGLAGRDMAAMVQGLEEGTEEEYLHYRIGQVKYLGDRLREAGIPIQYPTGGHAVFVDCKKLVPQIPGDQFPAQAVINALYLESGVRAVEIGSFLLGRDPATGEQKHADMEFMRLTIARRVYTNDHMDYIADALIGLKEKFATLKGLEFEYEPPVLRHFTARL",
+          "target_sequence_start": 6,
+          "target_sequence_end": 463,
+          "target_envelope_start": 3,
+          "target_envelope_end": 466,
+          "posterior_probability": "69***************************************************************************************************998887654411112222346899**************************************************************************************************************************************************99883579*********************************************************************************************************************************************************************************97",
+          "bias": 0.27,
+          "identity_percent": 49.8886414253898,
+          "identity_count": 224,
+          "similarity_percent": 72.16035634743871,
+          "similarity_count": 324,
+          "match": " epfrik ve + +  r+er   ++eagyn fll s  +yidlltdsgtnamsd qwa+m+ gdeayags n+y l+   +elf++ +i+p hqgrgaen+l  + +k  q           +n++f tt  h e ng   ++iv ++a d+     +kgd+d+kkl++ i + ga+ni  i   vt n aggqpvsm+n++ v e+   hgi v  d+ r  enayfik ++  ++n +i e++ +m+ yad+ tms+k+d l+nigg++++ d +e+f+ a++  v  eg+ +ygglagrdm am  gl+e  + ey+ +r+ qv+ylgd+l+ ag+pi  p gghavf+d +++  ++  d+fpaq++  ++y+e+gvr++e g +  gr+  tge+ +  +e +rlti rrvyt  hmd +ad++i l +    ++gl+f yep  lr ftar+",
+          "description": "TRYPTOPHANASE",
+          "target": "1ax4_A"
+        }
+      },
+      {
+        "joinId": "5d8g",
+        "doc": {
+          "score": 397.3,
+          "accuracy": 0.95,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.1e-117,
+          "e_value_ind": 2.5e-117,
+          "e_value_cond": 1.3e-121,
+          "bit_score": 397.105651855469,
+          "species": "Escherichia coli K-12",
+          "query_sequence": "aepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgq.........yva.gnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemf...ssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarf",
+          "query_sequence_start": 5,
+          "query_sequence_end": 453,
+          "target_sequence": "PEPFRIRVIEPVKRTTRAYREEAIIKSGMNPFLLDSEDVFIDLLTDSGTGAMTQSMQAAMMRGDEAYSGSRSYYALAESVKNIFGYQYTIPTHQGRGAEQIYIPVLIKKREqekgldrskMVAfSNYFFDTTQGHSQINGCTVRNVYIKEAFDTGVRYDFKGNFDLEGLERGIEEVGPNNVPYIVATITSNSAGGQPVSLANLKAMYSIAKKYDIPVVMDSARFAENAYFIKQREAEYKDWTIEQITRETYKYADMLAMSAKKDAMVPMGGLLCMKDDSFFdvyTECRTLCVVQEGFPTYGGLEGGAMERLAVGLYDGMNLDWLAYRIAQVQYLVDGLEEIGV-VCQQAGGHAAFVDAGKLLPHIPADQFPAQALACELYKVAGIRAVEIGSFLLGRDPKTGKQLPCPAELLRLTIPRATYTQTHMDFIIEAFKHVKENAANIKGLTFTYEPKVLRHFTAKL",
+          "target_sequence_start": 4,
+          "target_sequence_end": 464,
+          "target_envelope_start": 1,
+          "target_envelope_end": 467,
+          "posterior_probability": "59**************************************************************************************************998888876441111111214553588899****************************************************************************************************************************************************876222678889****************************************************9.67899*******************************************************9999****************************************************86",
+          "bias": 0.13,
+          "identity_percent": 43.652561247216,
+          "identity_count": 196,
+          "similarity_percent": 67.260579064588,
+          "similarity_count": 302,
+          "match": " epfri+ +e v    r  r + + ++g n fll+s+d++idlltdsgt am+    a+mm gdeay+gs ++y l ++v+ +fg+++ +pthqgrgae +   + ik  +          va +n +f tt+ h + ng    ++   ea d g+   fkg++dl+ l++ i+e g  n+ yi   +t n aggqpvs+an++a+  +   + i v  d+ r  enayfik++e  +++ +i +i +e + yad   ms+k+d++v +gg+lcm dd +f   +  + l vv eg+p+yggl g  me +a+gl + m  +++ +r+ qv+yl d l+  gv + +  ggha f+da ++  h+  d+fpaq+la  +y   g+r++e g +  gr+  tg++     e +rltipr  yt  hmd + +++  + ++  +i+gl f yepk lr fta++",
+          "description": "Tryptophanase",
+          "target": "5d8g_A"
+        }
+      },
+      {
+        "joinId": "2c44",
+        "doc": {
+          "score": 396.2,
+          "accuracy": 0.95,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 4.7e-117,
+          "e_value_ind": 5.9e-117,
+          "e_value_cond": 3.1e-121,
+          "bit_score": 395.869049072266,
+          "species": "Escherichia coli",
+          "query_sequence": "aepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgq.........yva.gnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemf...ssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarf",
+          "query_sequence_start": 5,
+          "query_sequence_end": 453,
+          "target_sequence": "PEPFRIRVIEPVKRTTRAYREEAIIKSGMNPFLLDSEDVFIDLLTDSGTGAVTQSMQAAMMRGDEAYSGSRSYYALAESVKNIFGYQYTIPTHQGRGAEQIYIPVLIKKREqekgldrskMVAfSNYFFDTTQGHSQINGCTVRNVYIKEAFDTGVRYDFKGNFDLEGLERGIEEVGPNNVPYIVATITSNSAGGQPVSLANLKAMYSIAKKYDIPVVMDSARFAENAYFIKQREAEYKDWTIEQITRETYKYADMLAMSAKKDAMVPMGGLLCMKDDSFFdvyTECRTLCVVQEGFPTYGGLEGGAMERLAVGLYDGMNLDWLAYRIAQVQYLVDGLEEIGV-VCQQAGGHAAFVDAGKLLPHIPADQFPAQALACELYKVAGIRAVEIGSFLLGRDPKTGKQLPCPAELLRLTIPRATYTQTHMDFIIEAFKHVKENASNIKGLTFTYEPKVLRHFTAKL",
+          "target_sequence_start": 8,
+          "target_sequence_end": 468,
+          "target_envelope_start": 4,
+          "target_envelope_end": 471,
+          "posterior_probability": "69**************************************************************************************************998888876441111111214553588899****************************************************************************************************************************************************876222678889****************************************************9.67899*******************************************************9999****************************************************86",
+          "bias": 0.12,
+          "identity_percent": 43.4298440979955,
+          "identity_count": 195,
+          "similarity_percent": 67.260579064588,
+          "similarity_count": 302,
+          "match": " epfri+ +e v    r  r + + ++g n fll+s+d++idlltdsgt a++    a+mm gdeay+gs ++y l ++v+ +fg+++ +pthqgrgae +   + ik  +          va +n +f tt+ h + ng    ++   ea d g+   fkg++dl+ l++ i+e g  n+ yi   +t n aggqpvs+an++a+  +   + i v  d+ r  enayfik++e  +++ +i +i +e + yad   ms+k+d++v +gg+lcm dd +f   +  + l vv eg+p+yggl g  me +a+gl + m  +++ +r+ qv+yl d l+  gv + +  ggha f+da ++  h+  d+fpaq+la  +y   g+r++e g +  gr+  tg++     e +rltipr  yt  hmd + +++  + ++  +i+gl f yepk lr fta++",
+          "description": "TRYPTOPHANASE",
+          "target": "2c44_A"
+        }
+      },
+      {
+        "joinId": "2oqx",
+        "doc": {
+          "score": 395.5,
+          "accuracy": 0.95,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 7.6e-117,
+          "e_value_ind": 8.9e-117,
+          "e_value_cond": 4.6e-121,
+          "bit_score": 395.273559570312,
+          "species": "Escherichia coli",
+          "query_sequence": "aepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgq.........yva.gnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemf...ssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarf",
+          "query_sequence_start": 5,
+          "query_sequence_end": 453,
+          "target_sequence": "PEPFRIRVIEPVKRTTRAYREEAIIKSGMNPFLLDSEDVFIDLLTDSGTGAVTQSMQAAMMRGDEAYSGSRSYYALAESVKNIFGYQYTIPTHQGRGAEQIYIPVLIKKREqekgldrskMVAfSNYFFDTTQGHSQINGCTVRNVYIKEAFDTGVRYDFKGNFDLEGLERGIEEVGPNNVPYIVATITSNSAGGQPVSLANLKAMYSIAKKYDIPVVMDSARFAENAYFIKQREAEYKDWTIEQITRETYKYADMLAMSAKKDAMVPMGGLLCMKDDSFFdvyTECRTLCVVQEGFPTYGGLEGGAMERLAVGLYDGMNLDWLAYRIAQVQYLVDGLEEIGV-VCQQAGGHAAFVDAGKLLPHIPADQFPAQALACELYKVAGIRAVEIGSFLLGRDPKTGKQLPCPAELLRLTIPRATYTQTHMDFIIEAFKHVKENAANIKGLTFTYEPKVLRHFTAKL",
+          "target_sequence_start": 4,
+          "target_sequence_end": 464,
+          "target_envelope_start": 1,
+          "target_envelope_end": 467,
+          "posterior_probability": "59**************************************************************************************************998888876441111111214553588899****************************************************************************************************************************************************876222678889****************************************************9.67899*******************************************************9999****************************************************86",
+          "bias": 0.13,
+          "identity_percent": 43.4298440979955,
+          "identity_count": 195,
+          "similarity_percent": 67.260579064588,
+          "similarity_count": 302,
+          "match": " epfri+ +e v    r  r + + ++g n fll+s+d++idlltdsgt a++    a+mm gdeay+gs ++y l ++v+ +fg+++ +pthqgrgae +   + ik  +          va +n +f tt+ h + ng    ++   ea d g+   fkg++dl+ l++ i+e g  n+ yi   +t n aggqpvs+an++a+  +   + i v  d+ r  enayfik++e  +++ +i +i +e + yad   ms+k+d++v +gg+lcm dd +f   +  + l vv eg+p+yggl g  me +a+gl + m  +++ +r+ qv+yl d l+  gv + +  ggha f+da ++  h+  d+fpaq+la  +y   g+r++e g +  gr+  tg++     e +rltipr  yt  hmd + +++  + ++  +i+gl f yepk lr fta++",
+          "description": "Tryptophanase",
+          "target": "2oqx_A"
+        }
+      },
+      {
+        "joinId": "4w1y",
+        "doc": {
+          "score": 395.5,
+          "accuracy": 0.95,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 7.6e-117,
+          "e_value_ind": 8.9e-117,
+          "e_value_cond": 4.6e-121,
+          "bit_score": 395.273559570312,
+          "species": "Escherichia coli K-12",
+          "query_sequence": "aepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgq.........yva.gnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemf...ssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarf",
+          "query_sequence_start": 5,
+          "query_sequence_end": 453,
+          "target_sequence": "PEPFRIRVIEPVKRTTRAYREEAIIKSGMNPFLLDSEDVFIDLLTDSGTGAVTQSMQAAMMRGDEAYSGSRSYYALAESVKNIFGYQYTIPTHQGRGAEQIYIPVLIKKREqekgldrskMVAfSNYFFDTTQGHSQINGCTVRNVYIKEAFDTGVRYDFKGNFDLEGLERGIEEVGPNNVPYIVATITSNSAGGQPVSLANLKAMYSIAKKYDIPVVMDSARFAENAYFIKQREAEYKDWTIEQITRETYKYADMLAMSAKKDAMVPMGGLLCMKDDSFFdvyTECRTLCVVQEGFPTYGGLEGGAMERLAVGLYDGMNLDWLAYRIAQVQYLVDGLEEIGV-VCQQAGGHAAFVDAGKLLPHIPADQFPAQALACELYKVAGIRAVEIGSFLLGRDPKTGKQLPCPAELLRLTIPRATYTQTHMDFIIEAFKHVKENAANIKGLTFTYEPKVLRHFTAKL",
+          "target_sequence_start": 4,
+          "target_sequence_end": 464,
+          "target_envelope_start": 1,
+          "target_envelope_end": 467,
+          "posterior_probability": "59**************************************************************************************************998888876441111111214553588899****************************************************************************************************************************************************876222678889****************************************************9.67899*******************************************************9999****************************************************86",
+          "bias": 0.13,
+          "identity_percent": 43.4298440979955,
+          "identity_count": 195,
+          "similarity_percent": 67.260579064588,
+          "similarity_count": 302,
+          "match": " epfri+ +e v    r  r + + ++g n fll+s+d++idlltdsgt a++    a+mm gdeay+gs ++y l ++v+ +fg+++ +pthqgrgae +   + ik  +          va +n +f tt+ h + ng    ++   ea d g+   fkg++dl+ l++ i+e g  n+ yi   +t n aggqpvs+an++a+  +   + i v  d+ r  enayfik++e  +++ +i +i +e + yad   ms+k+d++v +gg+lcm dd +f   +  + l vv eg+p+yggl g  me +a+gl + m  +++ +r+ qv+yl d l+  gv + +  ggha f+da ++  h+  d+fpaq+la  +y   g+r++e g +  gr+  tg++     e +rltipr  yt  hmd + +++  + ++  +i+gl f yepk lr fta++",
+          "description": "Tryptophanase",
+          "target": "4w1y_A"
+        }
+      },
+      {
+        "joinId": "2v0y",
+        "doc": {
+          "score": 395.0,
+          "accuracy": 0.95,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1e-116,
+          "e_value_ind": 1.2e-116,
+          "e_value_cond": 6.4e-121,
+          "bit_score": 394.810760498047,
+          "species": "Escherichia coli",
+          "query_sequence": "aepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgq.........yva.gnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemf...ssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarf",
+          "query_sequence_start": 5,
+          "query_sequence_end": 453,
+          "target_sequence": "PEPFRIRVIEPVKRTTRAYREEAIIKSGMNPFLLDSEDVFIDLLTDSGTGAVTQSMQAAMMRGDEAYSGSRSYYALAESVKNIFGYQYTIPTHQGRGAEQIYIPVLIKKREqekgldrskMVAfSNYFFDTTQGHSQINGCTVRNVYIKEAFDTGVRYDFKGNFDLEGLERGIEEVGPNNVPYIVATITSNSAGGQPVSLANLKAMYSIAKKYDIPVVMDSARFAENAYFIKQREAEYKDWTIEQITRETYKYADMLAMSAKKDAMVPMGGLLCMKDDSFFdvyTECRTLSVVQEGFPTYGGLEGGAMERLAVGLYDGMNLDWLAYRIAQVQYLVDGLEEIGV-VCQQAGGHAAFVDAGKLLPHIPADQFPAQALACELYKVAGIRAVEIGSFLLGRDPKTGKQLPCPAELLRLTIPRATYTQTHMDFIIEAFKHVKENAANIKGLTFTYEPKVLRHFTAKL",
+          "target_sequence_start": 4,
+          "target_sequence_end": 464,
+          "target_envelope_start": 1,
+          "target_envelope_end": 467,
+          "posterior_probability": "59**************************************************************************************************998888876441111111214553588899****************************************************************************************************************************************************876222578889****************************************************9.67899*******************************************************9999****************************************************86",
+          "bias": 0.14,
+          "identity_percent": 43.4298440979955,
+          "identity_count": 195,
+          "similarity_percent": 67.260579064588,
+          "similarity_count": 302,
+          "match": " epfri+ +e v    r  r + + ++g n fll+s+d++idlltdsgt a++    a+mm gdeay+gs ++y l ++v+ +fg+++ +pthqgrgae +   + ik  +          va +n +f tt+ h + ng    ++   ea d g+   fkg++dl+ l++ i+e g  n+ yi   +t n aggqpvs+an++a+  +   + i v  d+ r  enayfik++e  +++ +i +i +e + yad   ms+k+d++v +gg+lcm dd +f   +  + l vv eg+p+yggl g  me +a+gl + m  +++ +r+ qv+yl d l+  gv + +  ggha f+da ++  h+  d+fpaq+la  +y   g+r++e g +  gr+  tg++     e +rltipr  yt  hmd + +++  + ++  +i+gl f yepk lr fta++",
+          "description": "TRYPTOPHANASE",
+          "target": "2v0y_A"
+        }
+      },
+      {
+        "joinId": "2v1p",
+        "doc": {
+          "score": 393.7,
+          "accuracy": 0.95,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.7e-116,
+          "e_value_ind": 3.2e-116,
+          "e_value_cond": 1.6e-120,
+          "bit_score": 393.454742431641,
+          "species": "Escherichia coli",
+          "query_sequence": "aepfriksvetvsmiprderlkkmqeagyntfllnskdiyidlltdsgtnamsdkqwagmmmgdeayagsenfyhlertvqelfgfkhivpthqgrgaenllsqlaikpgq.........yva.gnmyftttryhqekngavfvdivrdeahdaglniafkgdidlkklqklidekgaeniayiclavtvnlaggqpvsmanmravreltaahgikvfydatrcvenayfikeqeqgfenksiaeivhemfsyadgctmsgkxdclvniggflcmnddemf...ssakelvvvyegmpsygglagrdmeamaiglreamqyeyiehrvkqvrylgdklkaagvpivepvgghavfldarrfcehltqdefpaqslaasiyvetgvrsmergiisagrnnvtgehhrpkletvrltiprrvytyahmdvvadgiiklyqhkedirglkfiyepkqlrfftarf",
+          "query_sequence_start": 5,
+          "query_sequence_end": 453,
+          "target_sequence": "PEPFRIRVIEPVKRTTRAYREEAIIKSGMNPFLLDSEDVFIDLLTDSGTGAVTQSMQAAMMRGDEAFSGSRSYYALAESVKNIFGYQYTIPTHQGRGAEQIYIPVLIKKREqekgldrskMVAfSNYFFDTTQGHSQINGCTVRNVYIKEAFDTGVRYDFKGNFDLEGLERGIEEVGPNNVPYIVATITSNSAGGQPVSLANLKAMYSIAKKYDIPVVMDSARFAENAYFIKQREAEYKDWTIEQITRETYKYADMLAMSAKKDAMVPMGGLLCMKDDSFFdvyTECRTLCVVQEGFPTYGGLEGGAMERLAVGLYDGMNLDWLAYRIAQVQYLVDGLEEIGV-VCQQAGGHAAFVDAGKLLPHIPADQFPAQALACELYKVAGIRAVEIGSFLLGRDPKTGKQLPCPAELLRLTIPRATYTQTHMDFIIEAFKHVKENAANIKGLTFTYEPKVLRHFTAKL",
+          "target_sequence_start": 4,
+          "target_sequence_end": 464,
+          "target_envelope_start": 1,
+          "target_envelope_end": 467,
+          "posterior_probability": "59**************************************************************************************************998888876441111111214553588899****************************************************************************************************************************************************876222678889****************************************************9.67899*******************************************************9999****************************************************86",
+          "bias": 0.11,
+          "identity_percent": 43.2071269487751,
+          "identity_count": 194,
+          "similarity_percent": 67.260579064588,
+          "similarity_count": 302,
+          "match": " epfri+ +e v    r  r + + ++g n fll+s+d++idlltdsgt a++    a+mm gdea++gs ++y l ++v+ +fg+++ +pthqgrgae +   + ik  +          va +n +f tt+ h + ng    ++   ea d g+   fkg++dl+ l++ i+e g  n+ yi   +t n aggqpvs+an++a+  +   + i v  d+ r  enayfik++e  +++ +i +i +e + yad   ms+k+d++v +gg+lcm dd +f   +  + l vv eg+p+yggl g  me +a+gl + m  +++ +r+ qv+yl d l+  gv + +  ggha f+da ++  h+  d+fpaq+la  +y   g+r++e g +  gr+  tg++     e +rltipr  yt  hmd + +++  + ++  +i+gl f yepk lr fta++",
+          "description": "TRYPTHOPANASE",
+          "target": "2v1p_A"
+        }
+      }
+    ]
+  }
+}

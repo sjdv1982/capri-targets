@@ -1,0 +1,3512 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 3273,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MAHHHHHHVDDDDKDLFNKNKKLDADLLKTLDNLLKTLDNNQKQALIYFKDKLQDKKYLNDLMEQQKSFLDNLQKKKEDPDLQDRLKKTLNSEYDESQFNKLLNELGNAKAKQFLQQLHIMLQSIKDGTLTSFSSSNFNDLQNLEQKKERALQYINGKLYVEYYFYINGISNADNFFETIMEYLKT",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 36,
+      "ngroups": 27,
+      "groups": [
+        {
+          "groupValue": "3zm7",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "MG",
+                  "ACP"
+                ],
+                "citation_authors": [
+                  "Agrawal A",
+                  "Roue M",
+                  "Spitzfaden C",
+                  "Petrella S",
+                  "Aubry A",
+                  "Hann MM",
+                  "Bax B",
+                  "Mayer C"
+                ],
+                "citation_title": "Mycobacterium tuberculosis DNA gyrase ATPase domain structures suggest a dissociative mechanism that explains how ATP hydrolysis is coupled to domain motion.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "MG",
+                  "ACP"
+                ],
+                "data_quality": 68.12,
+                "deposition_date": "2013-02-05T01:00:00Z",
+                "entry_author_list": [
+                  "Agrawal A, Roue M, Spitzfaden C, Petrella S, Aubry A, Volker C, Mossakowska D, Hann M, Bax B, Mayer C"
+                ],
+                "entry_authors": [
+                  "Agrawal A",
+                  "Roue M",
+                  "Spitzfaden C",
+                  "Petrella S",
+                  "Aubry A",
+                  "Volker C",
+                  "Mossakowska D",
+                  "Hann M",
+                  "Bax B",
+                  "Mayer C"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mycobacterium tuberculosis|1773"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "ACP : PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER",
+                  "MG : MAGNESIUM ION"
+                ],
+                "journal": "Biochem. J.",
+                "model_quality": 21.03,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mycobacterium tuberculosis"
+                ],
+                "pdb_id": "3zm7",
+                "pfam_name": [
+                  "DNA_gyraseB",
+                  "HATPase_c"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "24015710",
+                "release_date": "2013-09-18T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 3.3,
+                "status": "REL",
+                "tax_id": [
+                  1773
+                ],
+                "title": "CRYSTAL STRUCTURE OF THE ATPASE REGION OF Mycobacterium tuberculosis GyrB WITH AMPPCP",
+                "uniprot_accession_best": [
+                  "P9WG45"
+                ],
+                "uniprot_coverage": [
+                  0.63
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3qz0",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "SCN",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Miller DP",
+                  "Bell JK",
+                  "McDowell JV",
+                  "Conrad DH",
+                  "Burgner JW",
+                  "Heroux A",
+                  "Marconi RT"
+                ],
+                "citation_title": "Structure of factor H-binding protein B (FhbB) of the periopathogen, Treponema denticola: insights into progression of periodontal disease.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "SCN",
+                  "MSE",
+                  "GOL"
+                ],
+                "data_quality": 83.05,
+                "deposition_date": "2011-03-04T01:00:00Z",
+                "entry_author_list": [
+                  "Miller DP, McDowell JV, Heroux A, Bell JK, Marconi RT, Conrad DH, Burgner JW"
+                ],
+                "entry_authors": [
+                  "Miller DP",
+                  "McDowell JV",
+                  "Heroux A",
+                  "Bell JK",
+                  "Marconi RT",
+                  "Conrad DH",
+                  "Burgner JW"
+                ],
+                "entry_organism_scientific_name": [
+                  "Treponema denticola|158"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "SCN : THIOCYANATE ION",
+                  "GOL : GLYCEROL"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 82.52,
+                "modified_compound_id": [
+                  "MSE"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Treponema denticola"
+                ],
+                "pdb_id": "3qz0",
+                "prefered_assembly_id": "2",
+                "pubmed_id": "22371503",
+                "release_date": "2012-03-07T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 1.77,
+                "status": "REL",
+                "tax_id": [
+                  158
+                ],
+                "title": "Structure of Treponema denticola Factor H Binding protein (FhbB), selenomethionine derivative",
+                "uniprot_accession_best": [
+                  "Q73RI0"
+                ],
+                "uniprot_coverage": [
+                  0.98
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3h87",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "IMD",
+                  "BME",
+                  "MG",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Min AB",
+                  "Miallau L",
+                  "Sawaya MR",
+                  "Habel J",
+                  "Cascio D",
+                  "Eisenberg D"
+                ],
+                "citation_title": "The crystal structure of the Rv0301-Rv0300 VapBC-3 toxin-antitoxin complex from M. tuberculosis reveals a Mg(2+) ion in the active site and a putative RNA-binding site.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "IMD",
+                  "BME",
+                  "MG",
+                  "GOL"
+                ],
+                "data_quality": 94.0,
+                "deposition_date": "2009-04-28T01:00:00Z",
+                "entry_author_list": [
+                  "Min A, Sawaya MR, Cascio D, Eisenberg D, Integrated Center for Structure and Function Innovation (ISFI)"
+                ],
+                "entry_authors": [
+                  "Min A",
+                  "Sawaya MR",
+                  "Cascio D",
+                  "Eisenberg D",
+                  "Integrated Center for Structure and Function Innovation (ISFI)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mycobacterium tuberculosis H37Rv|83332"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "IMD : IMIDAZOLE",
+                  "GOL : GLYCEROL"
+                ],
+                "interacting_uniprot_accession": [
+                  "P9WFB9"
+                ],
+                "journal": "Protein Sci.",
+                "model_quality": 63.01,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mycobacterium tuberculosis H37Rv"
+                ],
+                "pdb_id": "3h87",
+                "pfam_name": [
+                  "RHH_1"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23011806",
+                "release_date": "2009-05-05T01:00:00Z",
+                "release_year": 2009,
+                "resolution": 1.49,
+                "status": "REL",
+                "tax_id": [
+                  83332
+                ],
+                "title": "Rv0301 Rv0300 Toxin Antitoxin Complex from Mycobacterium tuberculosis",
+                "uniprot_accession_best": [
+                  "O07227"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "IMD",
+                  "BME",
+                  "MG",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Min AB",
+                  "Miallau L",
+                  "Sawaya MR",
+                  "Habel J",
+                  "Cascio D",
+                  "Eisenberg D"
+                ],
+                "citation_title": "The crystal structure of the Rv0301-Rv0300 VapBC-3 toxin-antitoxin complex from M. tuberculosis reveals a Mg(2+) ion in the active site and a putative RNA-binding site.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "IMD",
+                  "BME",
+                  "MG",
+                  "GOL"
+                ],
+                "data_quality": 94.0,
+                "deposition_date": "2009-04-28T01:00:00Z",
+                "entry_author_list": [
+                  "Min A, Sawaya MR, Cascio D, Eisenberg D, Integrated Center for Structure and Function Innovation (ISFI)"
+                ],
+                "entry_authors": [
+                  "Min A",
+                  "Sawaya MR",
+                  "Cascio D",
+                  "Eisenberg D",
+                  "Integrated Center for Structure and Function Innovation (ISFI)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mycobacterium tuberculosis H37Rv|83332"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "IMD : IMIDAZOLE",
+                  "GOL : GLYCEROL",
+                  "BME : BETA-MERCAPTOETHANOL",
+                  "MG : MAGNESIUM ION"
+                ],
+                "interacting_uniprot_accession": [
+                  "O07227"
+                ],
+                "journal": "Protein Sci.",
+                "model_quality": 63.01,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mycobacterium tuberculosis H37Rv"
+                ],
+                "pdb_id": "3h87",
+                "pfam_name": [
+                  "PIN"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23011806",
+                "release_date": "2009-05-05T01:00:00Z",
+                "release_year": 2009,
+                "resolution": 1.49,
+                "status": "REL",
+                "tax_id": [
+                  83332
+                ],
+                "title": "Rv0301 Rv0300 Toxin Antitoxin Complex from Mycobacterium tuberculosis",
+                "uniprot_accession_best": [
+                  "P9WFB9"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5vix",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "NO3"
+                ],
+                "citation_authors": [
+                  "Abendroth J",
+                  "Mayclin SJ",
+                  "Lorimer DD",
+                  "Edwards TE"
+                ],
+                "citation_title": "Crystal structure of polyubiquitin with 3 ub domains, domains 1 and 2, from Naegleria fowleri ATCC 30863",
+                "compound_id": [
+                  "NO3"
+                ],
+                "data_quality": 60.8,
+                "deposition_date": "2017-04-17T01:00:00Z",
+                "entry_author_list": [
+                  "Seattle Structural Genomics Center for Infectious Disease (SSGCID)"
+                ],
+                "entry_authors": [
+                  "Seattle Structural Genomics Center for Infectious Disease (SSGCID)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Naegleria gruberi|5762"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "NO3 : NITRATE ION"
+                ],
+                "journal": "To be published",
+                "model_quality": 91.54,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Naegleria gruberi"
+                ],
+                "pdb_id": "5vix",
+                "pfam_name": [
+                  "ubiquitin"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2017-05-24T01:00:00Z",
+                "release_year": 2017,
+                "resolution": 1.55,
+                "status": "REL",
+                "tax_id": [
+                  5762
+                ],
+                "title": "Crystal structure of Polyubiquitin with 3 ub domains, domains 1 and 2, from Naegleria fowleri ATCC 30863",
+                "uniprot_accession_best": [
+                  "D2V6G7"
+                ],
+                "uniprot_coverage": [
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3ayr",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Tseng C-W",
+                  "Ko T-P",
+                  "Guo R-T",
+                  "Huang J-W",
+                  "Wang H-C",
+                  "Huang C-H",
+                  "Cheng Y-S",
+                  "Wang AH-J",
+                  "Liu J-R"
+                ],
+                "citation_title": "Substrate binding of a GH5 endoglucanase from the ruminal fungus Piromyces rhizinflata.",
+                "citation_year": 2011,
+                "data_quality": 31.62,
+                "deposition_date": "2011-05-16T01:00:00Z",
+                "entry_author_list": [
+                  "Tseng C-W, Ko T-P, Guo R-T, Liu J-R"
+                ],
+                "entry_authors": [
+                  "Tseng C-W",
+                  "Ko T-P",
+                  "Guo R-T",
+                  "Liu J-R"
+                ],
+                "entry_organism_scientific_name": [
+                  "Piromyces rhizinflatus|73428"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun.",
+                "model_quality": 47.15,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Piromyces rhizinflatus"
+                ],
+                "pdb_id": "3ayr",
+                "pfam_name": [
+                  "Cellulase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22102024",
+                "release_date": "2011-11-02T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.0,
+                "status": "REL",
+                "tax_id": [
+                  73428
+                ],
+                "title": "GH5 endoglucanase EglA from a ruminal fungus",
+                "uniprot_accession_best": [
+                  "Q9URH5"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3ays",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CT3"
+                ],
+                "citation_authors": [
+                  "Tseng C-W",
+                  "Ko T-P",
+                  "Guo R-T",
+                  "Huang J-W",
+                  "Wang H-C",
+                  "Huang C-H",
+                  "Cheng Y-S",
+                  "Wang AH-J",
+                  "Liu J-R"
+                ],
+                "citation_title": "Substrate binding of a GH5 endoglucanase from the ruminal fungus Piromyces rhizinflata.",
+                "citation_year": 2011,
+                "compound_id": [
+                  "CT3"
+                ],
+                "data_quality": 68.12,
+                "deposition_date": "2011-05-16T01:00:00Z",
+                "entry_author_list": [
+                  "Tseng C-W, Ko T-P, Guo R-T, Liu J-R"
+                ],
+                "entry_authors": [
+                  "Tseng C-W",
+                  "Ko T-P",
+                  "Guo R-T",
+                  "Liu J-R"
+                ],
+                "entry_organism_scientific_name": [
+                  "Piromyces rhizinflatus|73428"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CT3 : beta-D-glucopyranosyl-(1->4)-beta-D-glucopyranosyl-(1->4)-beta-D-glucopyranose"
+                ],
+                "journal": "Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun.",
+                "model_quality": 66.19,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Piromyces rhizinflatus"
+                ],
+                "pdb_id": "3ays",
+                "pfam_name": [
+                  "Cellulase"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22102024",
+                "release_date": "2011-11-02T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  73428
+                ],
+                "title": "GH5 endoglucanase from a ruminal fungus in complex with cellotriose",
+                "uniprot_accession_best": [
+                  "Q9URH5"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4cpg",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Darby JF",
+                  "Krysztofinska EM",
+                  "Simpson PJ",
+                  "Simon AC",
+                  "Leznicki P",
+                  "Sriskandarajah N",
+                  "Bishop DS",
+                  "Hale LR",
+                  "Alfano C",
+                  "Conte MR",
+                  "Martinez-Lumbreras S",
+                  "Thapaliya A",
+                  "High S",
+                  "Isaacson RL"
+                ],
+                "citation_title": "Solution Structure of the SGTA Dimerisation Domain and Investigation of Its Interactions with the Ubiquitin-Like Domains of BAG6 and UBL4A.",
+                "citation_year": 2014,
+                "data_quality": -1.0,
+                "deposition_date": "2014-02-06T01:00:00Z",
+                "entry_author_list": [
+                  "Darby JF, Krysztofinska EM, Simpson PJ, Isaacson RL"
+                ],
+                "entry_authors": [
+                  "Darby JF",
+                  "Krysztofinska EM",
+                  "Simpson PJ",
+                  "Isaacson RL"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 23.95,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4cpg",
+                "pfam_name": [
+                  "SGTA_dimer"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25415308",
+                "release_date": "2014-12-03T01:00:00Z",
+                "release_year": 2014,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Solution structure of the SGTA N-terminal domain",
+                "uniprot_accession_best": [
+                  "O43765"
+                ],
+                "uniprot_coverage": [
+                  0.22
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4lcd",
+          "doclist": {
+            "numFound": 3,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kamadurai HB",
+                  "Qiu Y",
+                  "Deng A",
+                  "Harrison JS",
+                  "Macdonald C",
+                  "Actis M",
+                  "Rodrigues P",
+                  "Miller DJ",
+                  "Souphron J",
+                  "Lewis SM",
+                  "Kurinov I",
+                  "Fujii N",
+                  "Hammel M",
+                  "Piper R",
+                  "Kuhlman B",
+                  "Schulman BA"
+                ],
+                "citation_title": "Mechanism of ubiquitin ligation and lysine prioritization by a HECT E3.",
+                "citation_year": 2013,
+                "data_quality": 10.1,
+                "deposition_date": "2013-06-21T01:00:00Z",
+                "entry_author_list": [
+                  "Kamadurai HB, Miller D, Schulman BA"
+                ],
+                "entry_authors": [
+                  "Kamadurai HB",
+                  "Miller D",
+                  "Schulman BA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606",
+                  "Saccharomyces cerevisiae S288C|559292"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P39940",
+                  "P14359"
+                ],
+                "journal": "Elife",
+                "model_quality": 19.32,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4lcd",
+                "pfam_name": [
+                  "ubiquitin"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23936628",
+                "release_date": "2013-08-14T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 3.1,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Structure of an Rsp5xUbxSna3 complex: Mechanism of ubiquitin ligation and lysine prioritization by a HECT E3",
+                "uniprot_accession_best": [
+                  "P0CG48"
+                ],
+                "uniprot_coverage": [
+                  0.11
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kamadurai HB",
+                  "Qiu Y",
+                  "Deng A",
+                  "Harrison JS",
+                  "Macdonald C",
+                  "Actis M",
+                  "Rodrigues P",
+                  "Miller DJ",
+                  "Souphron J",
+                  "Lewis SM",
+                  "Kurinov I",
+                  "Fujii N",
+                  "Hammel M",
+                  "Piper R",
+                  "Kuhlman B",
+                  "Schulman BA"
+                ],
+                "citation_title": "Mechanism of ubiquitin ligation and lysine prioritization by a HECT E3.",
+                "citation_year": 2013,
+                "data_quality": 10.1,
+                "deposition_date": "2013-06-21T01:00:00Z",
+                "entry_author_list": [
+                  "Kamadurai HB, Miller D, Schulman BA"
+                ],
+                "entry_authors": [
+                  "Kamadurai HB",
+                  "Miller D",
+                  "Schulman BA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606",
+                  "Saccharomyces cerevisiae S288C|559292"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P14359",
+                  "P0CG48"
+                ],
+                "journal": "Elife",
+                "model_quality": 19.32,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Saccharomyces cerevisiae S288C"
+                ],
+                "pdb_id": "4lcd",
+                "pfam_name": [
+                  "HECT",
+                  "WW"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23936628",
+                "release_date": "2013-08-14T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 3.1,
+                "status": "REL",
+                "tax_id": [
+                  559292
+                ],
+                "title": "Structure of an Rsp5xUbxSna3 complex: Mechanism of ubiquitin ligation and lysine prioritization by a HECT E3",
+                "uniprot_accession_best": [
+                  "P39940"
+                ],
+                "uniprot_coverage": [
+                  0.53
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Kamadurai HB",
+                  "Qiu Y",
+                  "Deng A",
+                  "Harrison JS",
+                  "Macdonald C",
+                  "Actis M",
+                  "Rodrigues P",
+                  "Miller DJ",
+                  "Souphron J",
+                  "Lewis SM",
+                  "Kurinov I",
+                  "Fujii N",
+                  "Hammel M",
+                  "Piper R",
+                  "Kuhlman B",
+                  "Schulman BA"
+                ],
+                "citation_title": "Mechanism of ubiquitin ligation and lysine prioritization by a HECT E3.",
+                "citation_year": 2013,
+                "data_quality": 10.1,
+                "deposition_date": "2013-06-21T01:00:00Z",
+                "entry_author_list": [
+                  "Kamadurai HB, Miller D, Schulman BA"
+                ],
+                "entry_authors": [
+                  "Kamadurai HB",
+                  "Miller D",
+                  "Schulman BA"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606",
+                  "Saccharomyces cerevisiae S288C|559292"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P39940",
+                  "P0CG48"
+                ],
+                "journal": "Elife",
+                "model_quality": 19.32,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Saccharomyces cerevisiae S288C"
+                ],
+                "pdb_id": "4lcd",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23936628",
+                "release_date": "2013-08-14T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 3.1,
+                "status": "REL",
+                "tax_id": [
+                  559292
+                ],
+                "title": "Structure of an Rsp5xUbxSna3 complex: Mechanism of ubiquitin ligation and lysine prioritization by a HECT E3",
+                "uniprot_accession_best": [
+                  "P14359"
+                ],
+                "uniprot_coverage": [
+                  0.18
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4lg2",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "RNA/protein complex"
+                ],
+                "citation_authors": [
+                  "Bale S",
+                  "Julien JP",
+                  "Bornholdt ZA",
+                  "Krois AS",
+                  "Wilson IA",
+                  "Saphire EO"
+                ],
+                "citation_title": "Ebolavirus VP35 also coats the backbone of dsRNA for interferon antagonism.",
+                "citation_year": 2013,
+                "data_quality": 19.11,
+                "deposition_date": "2013-06-27T01:00:00Z",
+                "entry_author_list": [
+                  "Bale S, Julien J-P, Bornholdt ZA, Krois AS, Wilson IA, Saphire EO"
+                ],
+                "entry_authors": [
+                  "Bale S",
+                  "Julien J-P",
+                  "Bornholdt ZA",
+                  "Krois AS",
+                  "Wilson IA",
+                  "Saphire EO"
+                ],
+                "entry_organism_scientific_name": [
+                  "Reston ebolavirus - Reston (1989)|386032",
+                  "Synthetic construct|-1"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q8JPY0"
+                ],
+                "journal": "J. Virol.",
+                "model_quality": 36.63,
+                "molecule_type": "RNA",
+                "pdb_id": "4lg2",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23824825",
+                "release_date": "2013-07-10T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 2.7,
+                "status": "REL",
+                "title": "Crystal structure of Reston Ebola virus VP35 RNA binding domain bound to 12-bp dsRNA"
+              },
+              {
+                "assembly_composition": [
+                  "RNA/protein complex"
+                ],
+                "citation_authors": [
+                  "Bale S",
+                  "Julien JP",
+                  "Bornholdt ZA",
+                  "Krois AS",
+                  "Wilson IA",
+                  "Saphire EO"
+                ],
+                "citation_title": "Ebolavirus VP35 also coats the backbone of dsRNA for interferon antagonism.",
+                "citation_year": 2013,
+                "data_quality": 19.11,
+                "deposition_date": "2013-06-27T01:00:00Z",
+                "entry_author_list": [
+                  "Bale S, Julien J-P, Bornholdt ZA, Krois AS, Wilson IA, Saphire EO"
+                ],
+                "entry_authors": [
+                  "Bale S",
+                  "Julien J-P",
+                  "Bornholdt ZA",
+                  "Krois AS",
+                  "Wilson IA",
+                  "Saphire EO"
+                ],
+                "entry_organism_scientific_name": [
+                  "Reston ebolavirus - Reston (1989)|386032",
+                  "Synthetic construct|-1"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "J. Virol.",
+                "model_quality": 36.63,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Reston ebolavirus - Reston (1989)"
+                ],
+                "pdb_id": "4lg2",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23824825",
+                "release_date": "2013-07-10T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 2.7,
+                "status": "REL",
+                "tax_id": [
+                  386032
+                ],
+                "title": "Crystal structure of Reston Ebola virus VP35 RNA binding domain bound to 12-bp dsRNA",
+                "uniprot_accession_best": [
+                  "Q8JPY0"
+                ],
+                "uniprot_coverage": [
+                  0.38
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5h9c",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Aydin H",
+                  "Smrke BM",
+                  "Lee JE"
+                ],
+                "citation_title": "Structural characterization of a fusion glycoprotein from a retrovirus that undergoes a hybrid 2-step entry mechanism.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "CL"
+                ],
+                "data_quality": 83.05,
+                "deposition_date": "2015-12-28T01:00:00Z",
+                "entry_author_list": [
+                  "Aydin H, Lee JE"
+                ],
+                "entry_authors": [
+                  "Aydin H",
+                  "Lee JE"
+                ],
+                "entry_organism_scientific_name": [
+                  "Rous sarcoma virus (strain Schmidt-Ruppin A)|269446"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "FASEB J.",
+                "model_quality": 97.15,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Rous sarcoma virus (strain Schmidt-Ruppin A)"
+                ],
+                "pdb_id": "5h9c",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "24036886",
+                "release_date": "2016-01-06T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 1.783,
+                "status": "REL",
+                "tax_id": [
+                  269446
+                ],
+                "title": "Crystal structure of the ASLV fusion protein core",
+                "uniprot_accession_best": [
+                  "P03397"
+                ],
+                "uniprot_coverage": [
+                  0.13
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4jpr",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Aydin H",
+                  "Smrke BM",
+                  "Lee JE"
+                ],
+                "citation_title": "Structural characterization of a fusion glycoprotein from a retrovirus that undergoes a hybrid 2-step entry mechanism.",
+                "citation_year": 2013,
+                "compound_id": [
+                  "CL"
+                ],
+                "data_quality": 57.34,
+                "deposition_date": "2013-03-19T01:00:00Z",
+                "entry_author_list": [
+                  "Aydin H, Smrke BM, Lee JE"
+                ],
+                "entry_authors": [
+                  "Aydin H",
+                  "Smrke BM",
+                  "Lee JE"
+                ],
+                "entry_organism_scientific_name": [
+                  "Rous sarcoma virus (strain Schmidt-Ruppin A)|269446"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "FASEB J.",
+                "model_quality": 23.25,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Rous sarcoma virus (strain Schmidt-Ruppin A)"
+                ],
+                "pdb_id": "4jpr",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "24036886",
+                "release_date": "2013-10-02T01:00:00Z",
+                "release_year": 2013,
+                "resolution": 2.001,
+                "status": "REL",
+                "tax_id": [
+                  269446
+                ],
+                "title": "Structure of the ASLV fusion subunit core",
+                "uniprot_accession_best": [
+                  "P03397"
+                ],
+                "uniprot_coverage": [
+                  0.13
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4d9o",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Zhang APP",
+                  "Bornholdt ZA",
+                  "Liu T",
+                  "Abelson DM",
+                  "Lee DE",
+                  "Li S",
+                  "Woods Jr VL",
+                  "Saphire EO"
+                ],
+                "citation_title": "The ebola virus interferon antagonist VP24 directly binds STAT1 and has a novel, pyramidal fold.",
+                "citation_year": 2012,
+                "data_quality": 30.89,
+                "deposition_date": "2012-01-11T01:00:00Z",
+                "entry_author_list": [
+                  "Zhang APP"
+                ],
+                "entry_authors": [
+                  "Zhang APP"
+                ],
+                "entry_organism_scientific_name": [
+                  "Reston ebolavirus - Reston|129003"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 35.06,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Reston ebolavirus - Reston"
+                ],
+                "pdb_id": "4d9o",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22383882",
+                "release_date": "2012-04-18T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.0,
+                "status": "REL",
+                "tax_id": [
+                  129003
+                ],
+                "title": "Structure of ebolavirus protein VP24 from Reston",
+                "uniprot_accession_best": [
+                  "Q91DD5"
+                ],
+                "uniprot_coverage": [
+                  0.88
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5xgo",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CL"
+                ],
+                "citation_authors": [
+                  "Cornell TA",
+                  "Srivastava Y",
+                  "Jauch R",
+                  "Fan R",
+                  "Orner BP"
+                ],
+                "citation_title": "The Crystal Structure of a Maxi/Mini-Ferritin Chimera Reveals Guiding Principles for the Assembly of Protein Cages.",
+                "citation_year": 2017,
+                "compound_id": [
+                  "CL"
+                ],
+                "data_quality": 79.54,
+                "deposition_date": "2017-04-14T01:00:00Z",
+                "entry_author_list": [
+                  "Cornell TA, Srivastava Y, Jauch R, Fan R, Orner BP"
+                ],
+                "entry_authors": [
+                  "Cornell TA",
+                  "Srivastava Y",
+                  "Jauch R",
+                  "Fan R",
+                  "Orner BP"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli K-12|83333"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CL : CHLORIDE ION"
+                ],
+                "journal": "Biochemistry",
+                "model_quality": 53.64,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli K-12"
+                ],
+                "pdb_id": "5xgo",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "28682051",
+                "release_date": "2018-02-28T01:00:00Z",
+                "release_year": 2018,
+                "resolution": 1.99,
+                "status": "REL",
+                "tax_id": [
+                  83333
+                ],
+                "title": "The Ferritin E-Domain: Toward Understanding Its Role in Protein Cage Assembly Through the Crystal Structure of a Maxi-/Mini-Ferritin Chimera",
+                "uniprot_accession_best": [
+                  "P0ABD3",
+                  "P0ABT2"
+                ],
+                "uniprot_coverage": [
+                  0.98,
+                  0.13,
+                  0.98,
+                  0.13
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6d5b",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "CA"
+                ],
+                "citation_authors": [
+                  "Conway JM",
+                  "Crosby JR",
+                  "Hren AP",
+                  "Southerland RT",
+                  "Lee LL",
+                  "Lunin VV",
+                  "Alahuhta PM",
+                  "Himmel ME",
+                  "Bomble YJ",
+                  "Adams MWW",
+                  "Kelly RM"
+                ],
+                "citation_title": "Novel multidomain, multifunctional glycoside hydrolases from highly lignocellulolytic Caldicellulosiruptor species",
+                "citation_year": 2019,
+                "compound_id": [
+                  "CA"
+                ],
+                "data_quality": 54.09,
+                "deposition_date": "2018-04-19T01:00:00Z",
+                "entry_author_list": [
+                  "Alahuhta PM, Lunin VV"
+                ],
+                "entry_authors": [
+                  "Alahuhta PM",
+                  "Lunin VV"
+                ],
+                "entry_organism_scientific_name": [
+                  "Caldicellulosiruptor danielii|1387557"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "CA : CALCIUM ION"
+                ],
+                "journal": "AIChE J.",
+                "model_quality": 43.99,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Caldicellulosiruptor danielii"
+                ],
+                "pdb_id": "6d5b",
+                "prefered_assembly_id": "1",
+                "release_date": "2019-04-24T01:00:00Z",
+                "release_year": 2019,
+                "resolution": 2.0,
+                "status": "REL",
+                "tax_id": [
+                  1387557
+                ],
+                "title": "Structure of Caldicellulosiruptor danielii CBM3 module of glycoside hydrolase WP_045175321"
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5dfk",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Pakharukova N",
+                  "Garnett JA",
+                  "Tuittila M",
+                  "Paavilainen S",
+                  "Diallo M",
+                  "Xu Y",
+                  "Matthews SJ",
+                  "Zavialov AV"
+                ],
+                "citation_title": "Structural Insight into Archaic and Alternative Chaperone-Usher Pathways Reveals a Novel Mechanism of Pilus Biogenesis.",
+                "citation_year": 2015,
+                "data_quality": 64.85,
+                "deposition_date": "2015-08-26T01:00:00Z",
+                "entry_author_list": [
+                  "Garnett JA, Diallo M, Matthews SJ"
+                ],
+                "entry_authors": [
+                  "Garnett JA",
+                  "Diallo M",
+                  "Matthews SJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli|562"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 65.66,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli"
+                ],
+                "pdb_id": "5dfk",
+                "pfam_name": [
+                  "EcpB_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26587649",
+                "release_date": "2015-11-04T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 2.4,
+                "status": "REL",
+                "tax_id": [
+                  562
+                ],
+                "title": "Crystal Structure of the Escherichia coli Common Pilus Chaperone, EcpB",
+                "uniprot_accession_best": [
+                  "P77188"
+                ],
+                "uniprot_coverage": [
+                  0.93
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3ig0",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Piton J",
+                  "Petrella S",
+                  "Delarue M",
+                  "Andre-Leroux G",
+                  "Jarlier V",
+                  "Aubry A",
+                  "Mayer C"
+                ],
+                "citation_title": "Structural insights into the quinolone resistance mechanism of Mycobacterium tuberculosis DNA gyrase.",
+                "citation_year": 2010,
+                "data_quality": 22.48,
+                "deposition_date": "2009-07-27T01:00:00Z",
+                "entry_author_list": [
+                  "Piton J, Aubry A, Delarue M, Mayer C"
+                ],
+                "entry_authors": [
+                  "Piton J",
+                  "Aubry A",
+                  "Delarue M",
+                  "Mayer C"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mycobacterium tuberculosis H37Rv|83332"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 5.18,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mycobacterium tuberculosis H37Rv"
+                ],
+                "pdb_id": "3ig0",
+                "pfam_name": [
+                  "Toprim",
+                  "DNA_gyraseB_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "20805881",
+                "release_date": "2010-07-28T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  83332
+                ],
+                "title": "crystal structure of the second part of the Mycobacterium tuberculosis DNA gyrase reaction core: the TOPRIM domain at 2.1 A resolution",
+                "uniprot_accession_best": [
+                  "P9WG45"
+                ],
+                "uniprot_coverage": [
+                  0.34
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3m4i",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "MPD"
+                ],
+                "citation_authors": [
+                  "Piton J",
+                  "Petrella S",
+                  "Delarue M",
+                  "Andre-Leroux G",
+                  "Jarlier V",
+                  "Aubry A",
+                  "Mayer C"
+                ],
+                "citation_title": "Structural insights into the quinolone resistance mechanism of Mycobacterium tuberculosis DNA gyrase.",
+                "citation_year": 2010,
+                "compound_id": [
+                  "MPD"
+                ],
+                "data_quality": 8.07,
+                "deposition_date": "2010-03-11T01:00:00Z",
+                "entry_author_list": [
+                  "Piton J, Petrella S, Aubry A, Mayer C"
+                ],
+                "entry_authors": [
+                  "Piton J",
+                  "Petrella S",
+                  "Aubry A",
+                  "Mayer C"
+                ],
+                "entry_organism_scientific_name": [
+                  "Mycobacterium tuberculosis|1773"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "MPD : (4S)-2-METHYL-2,4-PENTANEDIOL"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 87.62,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Mycobacterium tuberculosis"
+                ],
+                "pdb_id": "3m4i",
+                "pfam_name": [
+                  "Toprim",
+                  "DNA_gyraseB_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "20805881",
+                "release_date": "2010-09-29T01:00:00Z",
+                "release_year": 2010,
+                "resolution": 1.95,
+                "status": "REL",
+                "tax_id": [
+                  1773
+                ],
+                "title": "Crystal structure of the second part of the Mycobacterium tuberculosis DNA gyrase reaction core: the TOPRIM domain at 1.95 A resolution",
+                "uniprot_accession_best": [
+                  "P9WG45"
+                ],
+                "uniprot_coverage": [
+                  0.34
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4pck",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Singh M",
+                  "Wang Z",
+                  "Cascio D",
+                  "Feigon J"
+                ],
+                "citation_title": "Structure and interactions of the CS domain of human H/ACA RNP assembly protein Shq1.",
+                "citation_year": 2014,
+                "compound_id": [
+                  "GOL"
+                ],
+                "data_quality": 19.88,
+                "deposition_date": "2014-04-15T01:00:00Z",
+                "entry_author_list": [
+                  "Singh M, Wang Z, Cascio D, Feigon J"
+                ],
+                "entry_authors": [
+                  "Singh M",
+                  "Wang Z",
+                  "Cascio D",
+                  "Feigon J"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "GOL : GLYCEROL"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 45.91,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4pck",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25553844",
+                "release_date": "2015-01-14T01:00:00Z",
+                "release_year": 2015,
+                "resolution": 2.401,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of the P22S mutant of N-terminal CS domain of human Shq1",
+                "uniprot_accession_best": [
+                  "Q6PI26-2"
+                ],
+                "uniprot_coverage": [
+                  0.17
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4asv",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Simon AC",
+                  "Simpson PJ",
+                  "Goldstone RM",
+                  "Krysztofinska EM",
+                  "Murray JW",
+                  "High S",
+                  "Isaacson RL"
+                ],
+                "citation_title": "Structure of the Sgt2/Get5 complex provides insights into GET-mediated targeting of tail-anchored membrane proteins.",
+                "citation_year": 2013,
+                "data_quality": -1.0,
+                "deposition_date": "2012-05-03T01:00:00Z",
+                "entry_author_list": [
+                  "Simon AC, Simpson PJ, Goldstone RM, Krysztofinska EM, Murray JW, High S, Isaacson RL"
+                ],
+                "entry_authors": [
+                  "Simon AC",
+                  "Simpson PJ",
+                  "Goldstone RM",
+                  "Krysztofinska EM",
+                  "Murray JW",
+                  "High S",
+                  "Isaacson RL"
+                ],
+                "entry_organism_scientific_name": [
+                  "Saccharomyces cerevisiae|4932"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 65.85,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Saccharomyces cerevisiae"
+                ],
+                "pdb_id": "4asv",
+                "pfam_name": [
+                  "SGTA_dimer"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "23297211",
+                "release_date": "2013-01-16T01:00:00Z",
+                "release_year": 2013,
+                "status": "REL",
+                "tax_id": [
+                  4932
+                ],
+                "title": "Solution structure of the N-terminal dimerisation domain of Sgt2",
+                "uniprot_accession_best": [
+                  "Q12118"
+                ],
+                "uniprot_coverage": [
+                  0.23
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4euw",
+          "doclist": {
+            "numFound": 3,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "DNA/protein complex"
+                ],
+                "citation_authors": [
+                  "Joint Center for Structural Genomics (JCSG)",
+                  "Partnership for Stem Cell Biology"
+                ],
+                "citation_title": "Crystal structure of a HMG domain of transcription factor SOX-9 bound to DNA (SOX-9/DNA) from Homo sapiens at 2.77 A resolution",
+                "data_quality": 32.41,
+                "deposition_date": "2012-04-25T01:00:00Z",
+                "entry_author_list": [
+                  "Joint Center for Structural Genomics (JCSG), Partnership for Stem Cell Biology (STEMCELL)"
+                ],
+                "entry_authors": [
+                  "Joint Center for Structural Genomics (JCSG)",
+                  "Partnership for Stem Cell Biology (STEMCELL)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "To be published",
+                "model_quality": 93.82,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4euw",
+                "pfam_name": [
+                  "HMG_box"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2012-06-13T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.77,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of a HMG domain of transcription factor SOX-9 bound to DNA (SOX-9/DNA) from Homo sapiens at 2.77 A resolution",
+                "uniprot_accession_best": [
+                  "P48436"
+                ],
+                "uniprot_coverage": [
+                  0.17
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "DNA/protein complex"
+                ],
+                "citation_authors": [
+                  "Joint Center for Structural Genomics (JCSG)",
+                  "Partnership for Stem Cell Biology"
+                ],
+                "citation_title": "Crystal structure of a HMG domain of transcription factor SOX-9 bound to DNA (SOX-9/DNA) from Homo sapiens at 2.77 A resolution",
+                "data_quality": 32.41,
+                "deposition_date": "2012-04-25T01:00:00Z",
+                "entry_author_list": [
+                  "Joint Center for Structural Genomics (JCSG), Partnership for Stem Cell Biology (STEMCELL)"
+                ],
+                "entry_authors": [
+                  "Joint Center for Structural Genomics (JCSG)",
+                  "Partnership for Stem Cell Biology (STEMCELL)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P48436"
+                ],
+                "journal": "To be published",
+                "model_quality": 93.82,
+                "molecule_type": "DNA",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4euw",
+                "prefered_assembly_id": "1",
+                "release_date": "2012-06-13T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.77,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of a HMG domain of transcription factor SOX-9 bound to DNA (SOX-9/DNA) from Homo sapiens at 2.77 A resolution"
+              },
+              {
+                "assembly_composition": [
+                  "DNA/protein complex"
+                ],
+                "citation_authors": [
+                  "Joint Center for Structural Genomics (JCSG)",
+                  "Partnership for Stem Cell Biology"
+                ],
+                "citation_title": "Crystal structure of a HMG domain of transcription factor SOX-9 bound to DNA (SOX-9/DNA) from Homo sapiens at 2.77 A resolution",
+                "data_quality": 32.41,
+                "deposition_date": "2012-04-25T01:00:00Z",
+                "entry_author_list": [
+                  "Joint Center for Structural Genomics (JCSG), Partnership for Stem Cell Biology (STEMCELL)"
+                ],
+                "entry_authors": [
+                  "Joint Center for Structural Genomics (JCSG)",
+                  "Partnership for Stem Cell Biology (STEMCELL)"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P48436"
+                ],
+                "journal": "To be published",
+                "model_quality": 93.82,
+                "molecule_type": "DNA",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "4euw",
+                "prefered_assembly_id": "1",
+                "release_date": "2012-06-13T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.77,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of a HMG domain of transcription factor SOX-9 bound to DNA (SOX-9/DNA) from Homo sapiens at 2.77 A resolution"
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "6i3y",
+          "doclist": {
+            "numFound": 2,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "LMT",
+                  "P5S"
+                ],
+                "citation_authors": [
+                  "Miliara X",
+                  "Tatsuta T",
+                  "Berry JL",
+                  "Rouse SL",
+                  "Solak K",
+                  "Chorev DS",
+                  "Wu D",
+                  "Robinson CV",
+                  "Matthews S",
+                  "Langer T"
+                ],
+                "citation_title": "Structural determinants of lipid specificity within Ups/PRELI lipid transfer proteins.",
+                "citation_year": 2019,
+                "compound_id": [
+                  "LMT",
+                  "P5S"
+                ],
+                "data_quality": 13.01,
+                "deposition_date": "2018-11-08T01:00:00Z",
+                "entry_author_list": [
+                  "Miliara X, Berry J-L, Morgan RML, Matthews SJ"
+                ],
+                "entry_authors": [
+                  "Miliara X",
+                  "Berry J-L",
+                  "Morgan RML",
+                  "Matthews SJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "Q9Y255"
+                ],
+                "journal": "Nat Commun",
+                "model_quality": 8.23,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "6i3y",
+                "pfam_name": [
+                  "UPF0203"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30850607",
+                "release_date": "2019-03-20T01:00:00Z",
+                "release_year": 2019,
+                "resolution": 2.98,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of the human mitochondrial PRELID1K58V-TRIAP1 complex with PS",
+                "uniprot_accession_best": [
+                  "O43715"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "bound_compound_id": [
+                  "LMT",
+                  "P5S"
+                ],
+                "citation_authors": [
+                  "Miliara X",
+                  "Tatsuta T",
+                  "Berry JL",
+                  "Rouse SL",
+                  "Solak K",
+                  "Chorev DS",
+                  "Wu D",
+                  "Robinson CV",
+                  "Matthews S",
+                  "Langer T"
+                ],
+                "citation_title": "Structural determinants of lipid specificity within Ups/PRELI lipid transfer proteins.",
+                "citation_year": 2019,
+                "compound_id": [
+                  "LMT",
+                  "P5S"
+                ],
+                "data_quality": 13.01,
+                "deposition_date": "2018-11-08T01:00:00Z",
+                "entry_author_list": [
+                  "Miliara X, Berry J-L, Morgan RML, Matthews SJ"
+                ],
+                "entry_authors": [
+                  "Miliara X",
+                  "Berry J-L",
+                  "Morgan RML",
+                  "Matthews SJ"
+                ],
+                "entry_organism_scientific_name": [
+                  "Homo sapiens|9606"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "LMT : DODECYL-BETA-D-MALTOSIDE",
+                  "P5S : O-[(R)-{[(2R)-2,3-bis(octadecanoyloxy)propyl]oxy}(hydroxy)phosphoryl]-L-serine"
+                ],
+                "interacting_uniprot_accession": [
+                  "O43715"
+                ],
+                "journal": "Nat Commun",
+                "model_quality": 8.23,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Homo sapiens"
+                ],
+                "pdb_id": "6i3y",
+                "pfam_name": [
+                  "PRELI"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "30850607",
+                "release_date": "2019-03-20T01:00:00Z",
+                "release_year": 2019,
+                "resolution": 2.98,
+                "status": "REL",
+                "tax_id": [
+                  9606
+                ],
+                "title": "Crystal structure of the human mitochondrial PRELID1K58V-TRIAP1 complex with PS",
+                "uniprot_accession_best": [
+                  "Q9Y255"
+                ],
+                "uniprot_coverage": [
+                  0.79
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3q7b",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "PO4",
+                  "ZN"
+                ],
+                "citation_authors": [
+                  "Hastie KM",
+                  "Kimberlin CR",
+                  "Zandonatti MA",
+                  "Macrae IJ",
+                  "Saphire EO"
+                ],
+                "citation_title": "Structure of the Lassa virus nucleoprotein reveals a dsRNA-specific 3' to 5' exonuclease activity essential for immune suppression.",
+                "citation_year": 2011,
+                "compound_id": [
+                  "PO4",
+                  "ZN"
+                ],
+                "data_quality": 50.35,
+                "deposition_date": "2011-01-04T01:00:00Z",
+                "entry_author_list": [
+                  "Hastie KM, Kimberlin CR, Zandonatti MA, MacRae IJ, Saphire EO"
+                ],
+                "entry_authors": [
+                  "Hastie KM",
+                  "Kimberlin CR",
+                  "Zandonatti MA",
+                  "MacRae IJ",
+                  "Saphire EO"
+                ],
+                "entry_organism_scientific_name": [
+                  "Lassa virus Josiah|11622"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "PO4 : PHOSPHATE ION",
+                  "ZN : ZINC ION"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 77.67,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Lassa virus Josiah"
+                ],
+                "pdb_id": "3q7b",
+                "pfam_name": [
+                  "Arena_ncap_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "21262835",
+                "release_date": "2011-02-09T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.0,
+                "status": "REL",
+                "tax_id": [
+                  11622
+                ],
+                "title": "Exonuclease domain of Lassa virus nucleoprotein",
+                "uniprot_accession_best": [
+                  "P13699"
+                ],
+                "uniprot_coverage": [
+                  0.4
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3wjk",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Han X",
+                  "Chen CC",
+                  "Kuo CJ",
+                  "Huang CH",
+                  "Zheng Y",
+                  "Ko TP",
+                  "Zhu Z",
+                  "Feng X",
+                  "Wang K",
+                  "Oldfield E",
+                  "Wang AH",
+                  "Liang PH",
+                  "Guo RT",
+                  "Ma Y"
+                ],
+                "citation_title": "Crystal structures of ligand-bound octaprenyl pyrophosphate synthase from escherichia coli reveal the catalytic and chain-length determining mechanisms.",
+                "citation_year": 2014,
+                "data_quality": 20.51,
+                "deposition_date": "2013-10-11T01:00:00Z",
+                "entry_author_list": [
+                  "Han X, Chen CC, Kuo CJ, Huang CH, Zheng Y, Ko TP, Zhu Z, Feng X, Oldfield E, Liang PH, Guo RT, Ma YH"
+                ],
+                "entry_authors": [
+                  "Han X",
+                  "Chen CC",
+                  "Kuo CJ",
+                  "Huang CH",
+                  "Zheng Y",
+                  "Ko TP",
+                  "Zhu Z",
+                  "Feng X",
+                  "Oldfield E",
+                  "Liang PH",
+                  "Guo RT",
+                  "Ma YH"
+                ],
+                "entry_organism_scientific_name": [
+                  "Escherichia coli O104:H4 str. 2009EL-2071|1133853"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "Proteins",
+                "model_quality": 16.06,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Escherichia coli O104:H4 str. 2009EL-2071"
+                ],
+                "pdb_id": "3wjk",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "24895191",
+                "release_date": "2014-06-18T01:00:00Z",
+                "release_year": 2014,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  1133853
+                ],
+                "title": "Crystal structure of Octaprenyl Pyrophosphate synthase from Escherichia coli"
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "4fvu",
+          "doclist": {
+            "numFound": 3,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "RNA/protein complex"
+                ],
+                "bound_compound_id": [
+                  "MG",
+                  "ZN"
+                ],
+                "citation_authors": [
+                  "Hastie KM",
+                  "King LB",
+                  "Zandonatti MA",
+                  "Saphire EO"
+                ],
+                "citation_title": "Structural Basis for the dsRNA Specificity of the Lassa Virus NP Exonuclease.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "MG",
+                  "ZN"
+                ],
+                "data_quality": 33.61,
+                "deposition_date": "2012-06-29T01:00:00Z",
+                "entry_author_list": [
+                  "Hastie KM, King LB, Zandonatti MA, Saphire EO"
+                ],
+                "entry_authors": [
+                  "Hastie KM",
+                  "King LB",
+                  "Zandonatti MA",
+                  "Saphire EO"
+                ],
+                "entry_organism_scientific_name": [
+                  "Lassa virus Josiah|11622",
+                  "synthetic construct|32630"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "P13699"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 64.73,
+                "molecule_type": "RNA",
+                "organism_scientific_name": [
+                  "synthetic construct"
+                ],
+                "pdb_id": "4fvu",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22937163",
+                "release_date": "2012-09-19T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.91,
+                "status": "REL",
+                "tax_id": [
+                  32630
+                ],
+                "title": "Structural basis for the dsRNA specificity of the Lassa virus NP exonuclease"
+              },
+              {
+                "assembly_composition": [
+                  "RNA/protein complex"
+                ],
+                "bound_compound_id": [
+                  "MG",
+                  "ZN"
+                ],
+                "citation_authors": [
+                  "Hastie KM",
+                  "King LB",
+                  "Zandonatti MA",
+                  "Saphire EO"
+                ],
+                "citation_title": "Structural Basis for the dsRNA Specificity of the Lassa Virus NP Exonuclease.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "MG",
+                  "ZN"
+                ],
+                "data_quality": 33.61,
+                "deposition_date": "2012-06-29T01:00:00Z",
+                "entry_author_list": [
+                  "Hastie KM, King LB, Zandonatti MA, Saphire EO"
+                ],
+                "entry_authors": [
+                  "Hastie KM",
+                  "King LB",
+                  "Zandonatti MA",
+                  "Saphire EO"
+                ],
+                "entry_organism_scientific_name": [
+                  "Lassa virus Josiah|11622",
+                  "synthetic construct|32630"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "ZN : ZINC ION",
+                  "MG : MAGNESIUM ION"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 64.73,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Lassa virus Josiah"
+                ],
+                "pdb_id": "4fvu",
+                "pfam_name": [
+                  "Arena_ncap_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22937163",
+                "release_date": "2012-09-19T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.91,
+                "status": "REL",
+                "tax_id": [
+                  11622
+                ],
+                "title": "Structural basis for the dsRNA specificity of the Lassa virus NP exonuclease",
+                "uniprot_accession_best": [
+                  "P13699"
+                ],
+                "uniprot_coverage": [
+                  0.4
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "RNA/protein complex"
+                ],
+                "bound_compound_id": [
+                  "MG",
+                  "ZN"
+                ],
+                "citation_authors": [
+                  "Hastie KM",
+                  "King LB",
+                  "Zandonatti MA",
+                  "Saphire EO"
+                ],
+                "citation_title": "Structural Basis for the dsRNA Specificity of the Lassa Virus NP Exonuclease.",
+                "citation_year": 2012,
+                "compound_id": [
+                  "MG",
+                  "ZN"
+                ],
+                "data_quality": 33.61,
+                "deposition_date": "2012-06-29T01:00:00Z",
+                "entry_author_list": [
+                  "Hastie KM, King LB, Zandonatti MA, Saphire EO"
+                ],
+                "entry_authors": [
+                  "Hastie KM",
+                  "King LB",
+                  "Zandonatti MA",
+                  "Saphire EO"
+                ],
+                "entry_organism_scientific_name": [
+                  "Lassa virus Josiah|11622",
+                  "synthetic construct|32630"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "MG : MAGNESIUM ION"
+                ],
+                "interacting_uniprot_accession": [
+                  "P13699"
+                ],
+                "journal": "PLoS ONE",
+                "model_quality": 64.73,
+                "molecule_type": "RNA",
+                "organism_scientific_name": [
+                  "synthetic construct"
+                ],
+                "pdb_id": "4fvu",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22937163",
+                "release_date": "2012-09-19T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 2.91,
+                "status": "REL",
+                "tax_id": [
+                  32630
+                ],
+                "title": "Structural basis for the dsRNA specificity of the Lassa virus NP exonuclease"
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5dvb",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Nielsen MH",
+                  "Kidmose RT",
+                  "Jenner LB"
+                ],
+                "citation_title": "Structure of TSA2 reveals novel features of the active-site loop of peroxiredoxins.",
+                "citation_year": 2016,
+                "data_quality": 43.91,
+                "deposition_date": "2015-09-21T01:00:00Z",
+                "entry_author_list": [
+                  "Nielsen MH, Kidmose RT, Jenner LB"
+                ],
+                "entry_authors": [
+                  "Nielsen MH",
+                  "Kidmose RT",
+                  "Jenner LB"
+                ],
+                "entry_organism_scientific_name": [
+                  "Saccharomyces cerevisiae|4932"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "Acta Crystallogr D Struct Biol",
+                "model_quality": 66.3,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Saccharomyces cerevisiae"
+                ],
+                "pdb_id": "5dvb",
+                "pfam_name": [
+                  "AhpC-TSA",
+                  "1-cysPrx_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26894543",
+                "release_date": "2016-01-13T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 2.2,
+                "status": "REL",
+                "tax_id": [
+                  4932
+                ],
+                "title": "Crystal Structure of S. cerevisiae TSA2",
+                "uniprot_accession_best": [
+                  "Q04120"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "5ept",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Nielsen MH",
+                  "Kidmose RT",
+                  "Jenner LB"
+                ],
+                "citation_title": "Structure of TSA2 reveals novel features of the active-site loop of peroxiredoxins.",
+                "citation_year": 2016,
+                "data_quality": 0.96,
+                "deposition_date": "2015-11-12T01:00:00Z",
+                "entry_author_list": [
+                  "Nielsen MH, Kidmose RT, Jenner LB"
+                ],
+                "entry_authors": [
+                  "Nielsen MH",
+                  "Kidmose RT",
+                  "Jenner LB"
+                ],
+                "entry_organism_scientific_name": [
+                  "Saccharomyces cerevisiae|4932"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "Acta Crystallogr D Struct Biol",
+                "model_quality": 16.95,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Saccharomyces cerevisiae"
+                ],
+                "pdb_id": "5ept",
+                "pfam_name": [
+                  "AhpC-TSA",
+                  "1-cysPrx_C"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "26894543",
+                "release_date": "2016-01-13T01:00:00Z",
+                "release_year": 2016,
+                "resolution": 5.0,
+                "status": "REL",
+                "tax_id": [
+                  4932
+                ],
+                "title": "Crystal Structure of S. cerevisiae TSA2 in the disulfide state",
+                "uniprot_accession_best": [
+                  "Q04120"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3eud",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Singh M",
+                  "Gonzales FA",
+                  "Cascio D",
+                  "Heckmann N",
+                  "Chanfreau G",
+                  "Feigon J"
+                ],
+                "citation_title": "Structure and functional studies of the CS domain of the essential H/ACA ribonucleoparticle assembly protein SHQ1.",
+                "citation_year": 2009,
+                "compound_id": [
+                  "MSE"
+                ],
+                "data_quality": 55.96,
+                "deposition_date": "2008-10-09T01:00:00Z",
+                "entry_author_list": [
+                  "Singh M, Cascio D, Gonzales FA, Heckmann N, Chanfreau G, Feigon J"
+                ],
+                "entry_authors": [
+                  "Singh M",
+                  "Cascio D",
+                  "Gonzales FA",
+                  "Heckmann N",
+                  "Chanfreau G",
+                  "Feigon J"
+                ],
+                "entry_organism_scientific_name": [
+                  "Saccharomyces cerevisiae|4932"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "journal": "J. Biol. Chem.",
+                "model_quality": 25.4,
+                "modified_compound_id": [
+                  "MSE"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Saccharomyces cerevisiae"
+                ],
+                "pdb_id": "3eud",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "19019820",
+                "release_date": "2008-11-18T01:00:00Z",
+                "release_year": 2008,
+                "resolution": 2.4,
+                "status": "REL",
+                "tax_id": [
+                  4932
+                ],
+                "title": "Structure of the CS domain of the essential H/ACA RNP assembly protein Shq1p",
+                "uniprot_accession_best": [
+                  "P40486"
+                ],
+                "uniprot_coverage": [
+                  0.2
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 27,
+    "num_entries": 27,
+    "external": [
+      {
+        "joinId": "3zm7",
+        "doc": {
+          "accuracy": 0.78,
+          "score": 27.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 7.5e-05,
+          "e_value_ind": 0.0022,
+          "e_value_cond": 6.2e-07,
+          "bit_score": 22.762336730957,
+          "species": "Mycobacterium tuberculosis",
+          "query_sequence": "mahhhhhhvddddkdlfnknkklda",
+          "query_sequence_start": 1,
+          "query_sequence_end": 25,
+          "target_sequence": "MAHHHHHHVDDDDKVAAQKKKAQDE",
+          "target_sequence_start": 1,
+          "target_sequence_end": 25,
+          "target_envelope_start": 1,
+          "target_envelope_end": 51,
+          "posterior_probability": "89************99998887664",
+          "bias": 0.35,
+          "identity_percent": 68.0,
+          "identity_count": 17,
+          "similarity_percent": 68.0,
+          "similarity_count": 17,
+          "match": "mahhhhhhvddddk    k k  d ",
+          "description": "DNA GYRASE SUBUNIT B",
+          "target": "3zm7_A"
+        }
+      },
+      {
+        "joinId": "3qz0",
+        "doc": {
+          "accuracy": 0.75,
+          "score": 25.4,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.00034,
+          "e_value_ind": 0.00038,
+          "e_value_cond": 1.1e-07,
+          "bit_score": 25.2342319488525,
+          "species": "Treponema denticola",
+          "query_sequence": "mahhhhhhvddddkdl.fnknkklda.dllktldnllkt",
+          "query_sequence_start": 1,
+          "query_sequence_end": 37,
+          "target_sequence": "MAHHHHHHVDDDDKTFkMNTAQKAHYeKFINALENELKT",
+          "target_sequence_start": 1,
+          "target_sequence_end": 39,
+          "target_envelope_start": 1,
+          "target_envelope_end": 59,
+          "posterior_probability": "89***********97423444444431467778888887",
+          "bias": 2.53,
+          "identity_percent": 56.7567567567568,
+          "identity_count": 21,
+          "similarity_percent": 72.97297297297301,
+          "similarity_count": 27,
+          "match": "mahhhhhhvddddk + +n  +k     ++  l+n lkt",
+          "description": "Factor H binding protein",
+          "target": "3qz0_A"
+        }
+      },
+      {
+        "joinId": "3h87",
+        "doc": {
+          "accuracy": 0.77,
+          "score": 24.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.00063,
+          "e_value_ind": 0.00085,
+          "e_value_cond": 2.4e-07,
+          "bit_score": 24.1014728546143,
+          "species": "Mycobacterium tuberculosis H37Rv",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadllktl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 31,
+          "target_sequence": "MAHHHHHHVDDDDKMVTDQRWLIDKSALVRL",
+          "target_sequence_start": 1,
+          "target_sequence_end": 31,
+          "target_envelope_start": 1,
+          "target_envelope_end": 59,
+          "posterior_probability": "89************99999999987765444",
+          "bias": 0.76,
+          "identity_percent": 54.838709677419395,
+          "identity_count": 17,
+          "similarity_percent": 67.741935483871,
+          "similarity_count": 21,
+          "match": "mahhhhhhvddddk + ++   +d   l  l",
+          "description": "Putative uncharacterized protein",
+          "target": "3h87_A"
+        }
+      },
+      {
+        "joinId": "5vix",
+        "doc": {
+          "accuracy": 0.85,
+          "score": 23.7,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0011,
+          "e_value_ind": 0.0044,
+          "e_value_cond": 1.2e-06,
+          "bit_score": 21.7759819030762,
+          "species": "Naegleria gruberi",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadllktldnllktldnnq.....kqaliyfkdklqdkkylndlmeqqksfl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 70,
+          "target_sequence": "MAHHHHHHMQIFVKTLTGKTITLEVESNDTIENVKSKIQDKEgippdQQRLIFAGKQLEDGRTLSDYNIQKESTL",
+          "target_sequence_start": 1,
+          "target_sequence_end": 75,
+          "target_envelope_start": 1,
+          "target_envelope_end": 84,
+          "posterior_probability": "89*******************************98777655323333799999999**********999988877",
+          "bias": 0.53,
+          "identity_percent": 34.285714285714306,
+          "identity_count": 24,
+          "similarity_percent": 58.5714285714286,
+          "similarity_count": 41,
+          "match": "mahhhhhh+    k l  k   l+ +   t++n+   + + +     +q li+   +l+d + l+d   q++s l",
+          "description": "Polyubiquitin",
+          "target": "5vix_A"
+        }
+      },
+      {
+        "joinId": "3ayr",
+        "doc": {
+          "accuracy": 0.8,
+          "score": 23.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0013,
+          "e_value_ind": 0.0023,
+          "e_value_cond": 6.4e-07,
+          "bit_score": 22.7092533111572,
+          "species": "Piromyces rhizinflatus",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadllktldnllktldnnqkqaliyfkdkl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 53,
+          "target_sequence": "MAHHHHHHVDDDDKIRDISSKELIKEM-NFGWNLGNTMDAQCIEYLNYEKDQT",
+          "target_sequence_start": 1,
+          "target_sequence_end": 52,
+          "target_envelope_start": 1,
+          "target_envelope_end": 75,
+          "posterior_probability": "89***********98777788776665.4445888888888888888888875",
+          "bias": 1.11,
+          "identity_percent": 46.1538461538462,
+          "identity_count": 24,
+          "similarity_percent": 59.615384615384606,
+          "similarity_count": 31,
+          "match": "mahhhhhhvddddk     +k+l  ++     nl  t+d    + l y kd+ ",
+          "description": "Endoglucanase",
+          "target": "3ayr_A"
+        }
+      },
+      {
+        "joinId": "3ays",
+        "doc": {
+          "accuracy": 0.8,
+          "score": 23.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0013,
+          "e_value_ind": 0.0023,
+          "e_value_cond": 6.4e-07,
+          "bit_score": 22.7092533111572,
+          "species": "Piromyces rhizinflatus",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadllktldnllktldnnqkqaliyfkdkl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 53,
+          "target_sequence": "MAHHHHHHVDDDDKIRDISSKELIKEM-NFGWNLGNTMDAQCIEYLNYEKDQT",
+          "target_sequence_start": 1,
+          "target_sequence_end": 52,
+          "target_envelope_start": 1,
+          "target_envelope_end": 75,
+          "posterior_probability": "89***********98777788776665.4445888888888888888888875",
+          "bias": 1.11,
+          "identity_percent": 46.1538461538462,
+          "identity_count": 24,
+          "similarity_percent": 59.615384615384606,
+          "similarity_count": 31,
+          "match": "mahhhhhhvddddk     +k+l  ++     nl  t+d    + l y kd+ ",
+          "description": "Endoglucanase",
+          "target": "3ays_A"
+        }
+      },
+      {
+        "joinId": "4cpg",
+        "doc": {
+          "accuracy": 0.75,
+          "score": 23.3,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0015,
+          "e_value_ind": 0.0017,
+          "e_value_cond": 4.8e-07,
+          "bit_score": 23.1198139190674,
+          "species": "Homo sapiens",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadllktldn",
+          "query_sequence_start": 1,
+          "query_sequence_end": 33,
+          "target_sequence": "MAHHHHHHVDDDDK-MDNK-KRLAYAIIQFLHD",
+          "target_sequence_start": 1,
+          "target_sequence_end": 31,
+          "target_envelope_start": 1,
+          "target_envelope_end": 54,
+          "posterior_probability": "89**********99.4455.5566556666554",
+          "bias": 2.87,
+          "identity_percent": 61.290322580645196,
+          "identity_count": 19,
+          "similarity_percent": 80.64516129032259,
+          "similarity_count": 25,
+          "match": "mahhhhhhvddddk + nk k+l   +++ l +",
+          "description": "SMALL GLUTAMINE-RICH TETRATRICOPEPTIDE REPEAT-CONTAINING PROTEIN ALPHA",
+          "target": "4cpg_A"
+        }
+      },
+      {
+        "joinId": "4lcd",
+        "doc": {
+          "accuracy": 0.84,
+          "score": 23.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0018,
+          "e_value_ind": 0.0019,
+          "e_value_cond": 5.5e-07,
+          "bit_score": 22.9310874938965,
+          "species": "Homo sapiens",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadllktldnllktldnnq.....kqaliyfkdklqdkkylndlmeqqksfl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 70,
+          "target_sequence": "MGHHHHHHMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEgippdQQRLIFAGKQLEDGRTLSDYNIQKESTL",
+          "target_sequence_start": 1,
+          "target_sequence_end": 75,
+          "target_envelope_start": 1,
+          "target_envelope_end": 82,
+          "posterior_probability": "78*******************************97666554323333799999999**********999988877",
+          "bias": 0.2,
+          "identity_percent": 32.857142857142904,
+          "identity_count": 23,
+          "similarity_percent": 57.142857142857096,
+          "similarity_count": 40,
+          "match": "m hhhhhh+    k l  k   l+ +   t++n+   + + +     +q li+   +l+d + l+d   q++s l",
+          "description": "Ubiquitin",
+          "target": "4lcd_E"
+        }
+      },
+      {
+        "joinId": "4lg2",
+        "doc": {
+          "accuracy": 0.83,
+          "score": 22.8,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0022,
+          "e_value_ind": 0.0025,
+          "e_value_cond": 7e-07,
+          "bit_score": 22.591682434082,
+          "species": "Reston ebolavirus - Reston (1989)",
+          "query_sequence": "mahhhhhhvddddkd.lfnknk",
+          "query_sequence_start": 1,
+          "query_sequence_end": 21,
+          "target_sequence": "MAHHHHHHVDDDDKEnLYFQSK",
+          "target_sequence_start": 1,
+          "target_sequence_end": 22,
+          "target_envelope_start": 1,
+          "target_envelope_end": 71,
+          "posterior_probability": "89***********973554444",
+          "bias": 2.0,
+          "identity_percent": 76.1904761904762,
+          "identity_count": 16,
+          "similarity_percent": 95.2380952380952,
+          "similarity_count": 20,
+          "match": "mahhhhhhvddddk+ l+ ++k",
+          "description": "Polymerase cofactor",
+          "target": "4lg2_A"
+        }
+      },
+      {
+        "joinId": "5h9c",
+        "doc": {
+          "accuracy": 0.68,
+          "score": 22.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0025,
+          "e_value_ind": 0.0035,
+          "e_value_cond": 1e-06,
+          "bit_score": 22.0942859649658,
+          "species": "Rous sarcoma virus (strain Schmidt-Ruppin A)",
+          "query_sequence": "mahhhhhhvddddkd..l.fnknkkldadll",
+          "query_sequence_start": 1,
+          "query_sequence_end": 28,
+          "target_sequence": "MAHHHHHHVDDDDKSenLyFQGTANLTTSLL",
+          "target_sequence_start": 1,
+          "target_sequence_end": 31,
+          "target_envelope_start": 1,
+          "target_envelope_end": 56,
+          "posterior_probability": "89***********962231333444444444",
+          "bias": 2.29,
+          "identity_percent": 67.8571428571429,
+          "identity_count": 19,
+          "similarity_percent": 67.8571428571429,
+          "similarity_count": 19,
+          "match": "mahhhhhhvddddk   l f     l   ll",
+          "description": "Envelope glycoprotein gp95",
+          "target": "5h9c_A"
+        }
+      },
+      {
+        "joinId": "4jpr",
+        "doc": {
+          "accuracy": 0.72,
+          "score": 22.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0027,
+          "e_value_ind": 0.0037,
+          "e_value_cond": 1.1e-06,
+          "bit_score": 21.9993629455566,
+          "species": "Rous sarcoma virus (strain Schmidt-Ruppin A)",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadll",
+          "query_sequence_start": 1,
+          "query_sequence_end": 28,
+          "target_sequence": "MAHHHHHHVDDDDKMSENLYFQGTANLT",
+          "target_sequence_start": 1,
+          "target_sequence_end": 28,
+          "target_envelope_start": 1,
+          "target_envelope_end": 55,
+          "posterior_probability": "89***********976665555555554",
+          "bias": 2.41,
+          "identity_percent": 60.7142857142857,
+          "identity_count": 17,
+          "similarity_percent": 67.8571428571429,
+          "similarity_count": 19,
+          "match": "mahhhhhhvddddk   n   +  a+l ",
+          "description": "ASLV fusion TM",
+          "target": "4jpr_A"
+        }
+      },
+      {
+        "joinId": "4d9o",
+        "doc": {
+          "accuracy": 0.71,
+          "score": 22.3,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0029,
+          "e_value_ind": 0.0066,
+          "e_value_cond": 1.9e-06,
+          "bit_score": 21.2005233764648,
+          "species": "Reston ebolavirus - Reston",
+          "query_sequence": "mahhhhhhvddddkdlfnknkk",
+          "query_sequence_start": 1,
+          "query_sequence_end": 22,
+          "target_sequence": "MAHHHHHHVDDDDKMVPPKKDM",
+          "target_sequence_start": 1,
+          "target_sequence_end": 22,
+          "target_envelope_start": 1,
+          "target_envelope_end": 45,
+          "posterior_probability": "89***********977655443",
+          "bias": 1.02,
+          "identity_percent": 68.1818181818182,
+          "identity_count": 15,
+          "similarity_percent": 72.72727272727269,
+          "similarity_count": 16,
+          "match": "mahhhhhhvddddk +  k   ",
+          "description": "Membrane-associated protein VP24",
+          "target": "4d9o_A"
+        }
+      },
+      {
+        "joinId": "5xgo",
+        "doc": {
+          "accuracy": 0.72,
+          "score": 22.1,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0036,
+          "e_value_ind": 0.0069,
+          "e_value_cond": 2e-06,
+          "bit_score": 21.1280212402344,
+          "species": "Escherichia coli K-12",
+          "query_sequence": "mahhhhhhvddddkdlfnknkklda.dllktld",
+          "query_sequence_start": 1,
+          "query_sequence_end": 32,
+          "target_sequence": "MAHHHHHHVDDDDKMSTAKLVKSKAtNLLYTRN",
+          "target_sequence_start": 1,
+          "target_sequence_end": 33,
+          "target_envelope_start": 1,
+          "target_envelope_end": 60,
+          "posterior_probability": "89************8777665554414555543",
+          "bias": 2.04,
+          "identity_percent": 62.5,
+          "identity_count": 20,
+          "similarity_percent": 68.75,
+          "similarity_count": 22,
+          "match": "mahhhhhhvddddk    k  k  a +ll t +",
+          "description": "DNA protection during starvation protein,Bacterioferritin",
+          "target": "5xgo_A"
+        }
+      },
+      {
+        "joinId": "6d5b",
+        "doc": {
+          "accuracy": 0.86,
+          "score": 21.9,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0041,
+          "e_value_ind": 0.012,
+          "e_value_cond": 3.5e-06,
+          "bit_score": 20.3340015411377,
+          "species": "Caldicellulosiruptor danielii",
+          "query_sequence": "mahhhhhhvddddkd",
+          "query_sequence_start": 1,
+          "query_sequence_end": 15,
+          "target_sequence": "MAHHHHHHVDDDDKT",
+          "target_sequence_start": 1,
+          "target_sequence_end": 15,
+          "target_envelope_start": 1,
+          "target_envelope_end": 43,
+          "posterior_probability": "89***********96",
+          "bias": 1.04,
+          "identity_percent": 93.3333333333333,
+          "identity_count": 14,
+          "similarity_percent": 93.3333333333333,
+          "similarity_count": 14,
+          "match": "mahhhhhhvddddk ",
+          "description": "glycoside hydrolase WP_045175321",
+          "target": "6d5b_A"
+        }
+      },
+      {
+        "joinId": "5dfk",
+        "doc": {
+          "accuracy": 0.66,
+          "score": 21.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0054,
+          "e_value_ind": 0.011,
+          "e_value_cond": 3e-06,
+          "bit_score": 20.535795211792,
+          "species": "Escherichia coli",
+          "query_sequence": "mahhhhhhvddddkdlfn",
+          "query_sequence_start": 1,
+          "query_sequence_end": 18,
+          "target_sequence": "MAHHHHHHVDDDDKMLDV",
+          "target_sequence_start": 1,
+          "target_sequence_end": 18,
+          "target_envelope_start": 1,
+          "target_envelope_end": 59,
+          "posterior_probability": "89***********96632",
+          "bias": 2.28,
+          "identity_percent": 83.3333333333333,
+          "identity_count": 15,
+          "similarity_percent": 83.3333333333333,
+          "similarity_count": 15,
+          "match": "mahhhhhhvddddk l  ",
+          "description": "Probable fimbrial chaperone EcpB",
+          "target": "5dfk_A"
+        }
+      },
+      {
+        "joinId": "3ig0",
+        "doc": {
+          "accuracy": 0.89,
+          "score": 21.4,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0058,
+          "e_value_ind": 0.0084,
+          "e_value_cond": 2.4e-06,
+          "bit_score": 20.8536148071289,
+          "species": "Mycobacterium tuberculosis H37Rv",
+          "query_sequence": "mahhhhhhvddddkdlfn",
+          "query_sequence_start": 1,
+          "query_sequence_end": 18,
+          "target_sequence": "MAHHHHHHVDDDDKTDPR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 18,
+          "target_envelope_start": 1,
+          "target_envelope_end": 70,
+          "posterior_probability": "89***********97554",
+          "bias": 0.33,
+          "identity_percent": 77.7777777777778,
+          "identity_count": 14,
+          "similarity_percent": 77.7777777777778,
+          "similarity_count": 14,
+          "match": "mahhhhhhvddddk    ",
+          "description": "DNA gyrase subunit B",
+          "target": "3ig0_A"
+        }
+      },
+      {
+        "joinId": "3m4i",
+        "doc": {
+          "accuracy": 0.89,
+          "score": 21.4,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0058,
+          "e_value_ind": 0.0084,
+          "e_value_cond": 2.4e-06,
+          "bit_score": 20.8536148071289,
+          "species": "Mycobacterium tuberculosis",
+          "query_sequence": "mahhhhhhvddddkdlfn",
+          "query_sequence_start": 1,
+          "query_sequence_end": 18,
+          "target_sequence": "MAHHHHHHVDDDDKTDPR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 18,
+          "target_envelope_start": 1,
+          "target_envelope_end": 70,
+          "posterior_probability": "89***********97554",
+          "bias": 0.33,
+          "identity_percent": 77.7777777777778,
+          "identity_count": 14,
+          "similarity_percent": 77.7777777777778,
+          "similarity_count": 14,
+          "match": "mahhhhhhvddddk    ",
+          "description": "DNA gyrase subunit B",
+          "target": "3m4i_A"
+        }
+      },
+      {
+        "joinId": "4pck",
+        "doc": {
+          "accuracy": 0.83,
+          "score": 21.4,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0059,
+          "e_value_ind": 0.0076,
+          "e_value_cond": 2.2e-06,
+          "bit_score": 20.990930557251,
+          "species": "Homo sapiens",
+          "query_sequence": "mahhhhhhvddddkdlf",
+          "query_sequence_start": 1,
+          "query_sequence_end": 17,
+          "target_sequence": "MAHHHHHHVDDDDKMLT",
+          "target_sequence_start": 1,
+          "target_sequence_end": 17,
+          "target_envelope_start": 1,
+          "target_envelope_end": 39,
+          "posterior_probability": "89************875",
+          "bias": 2.19,
+          "identity_percent": 88.2352941176471,
+          "identity_count": 15,
+          "similarity_percent": 88.2352941176471,
+          "similarity_count": 15,
+          "match": "mahhhhhhvddddk l ",
+          "description": "Protein SHQ1 homolog",
+          "target": "4pck_A"
+        }
+      },
+      {
+        "joinId": "4asv",
+        "doc": {
+          "accuracy": 0.76,
+          "score": 21.3,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0062,
+          "e_value_ind": 0.0074,
+          "e_value_cond": 2.1e-06,
+          "bit_score": 21.0471591949463,
+          "species": "Saccharomyces cerevisiae",
+          "query_sequence": "mahhhhhhvddddkdlfnk",
+          "query_sequence_start": 1,
+          "query_sequence_end": 19,
+          "target_sequence": "MAHHHHHHVDDDDMMSASK",
+          "target_sequence_start": 1,
+          "target_sequence_end": 19,
+          "target_envelope_start": 1,
+          "target_envelope_end": 53,
+          "posterior_probability": "89*********98654444",
+          "bias": 1.21,
+          "identity_percent": 73.6842105263158,
+          "identity_count": 14,
+          "similarity_percent": 78.9473684210526,
+          "similarity_count": 15,
+          "match": "mahhhhhhvdddd    +k",
+          "description": "SMALL GLUTAMINE-RICH TETRATRICOPEPTIDE REPEAT-CONTAINING PROTEIN 2",
+          "target": "4asv_A"
+        }
+      },
+      {
+        "joinId": "4euw",
+        "doc": {
+          "accuracy": 0.83,
+          "score": 21.1,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.007,
+          "e_value_ind": 0.08,
+          "e_value_cond": 2.3e-05,
+          "bit_score": 17.679615020752,
+          "species": "Homo sapiens",
+          "query_sequence": "mahhhhhhvddddkdl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 16,
+          "target_sequence": "MAHHHHHHVDDDDKMS",
+          "target_sequence_start": 1,
+          "target_sequence_end": 16,
+          "target_envelope_start": 1,
+          "target_envelope_end": 35,
+          "posterior_probability": "89***********954",
+          "bias": 4.85,
+          "identity_percent": 87.5,
+          "identity_count": 14,
+          "similarity_percent": 87.5,
+          "similarity_count": 14,
+          "match": "mahhhhhhvddddk  ",
+          "description": "Transcription factor SOX-9",
+          "target": "4euw_A"
+        }
+      },
+      {
+        "joinId": "6i3y",
+        "doc": {
+          "accuracy": 0.83,
+          "score": 21.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0075,
+          "e_value_ind": 0.0096,
+          "e_value_cond": 2.7e-06,
+          "bit_score": 20.6741008758545,
+          "species": "Homo sapiens",
+          "query_sequence": "mahhhhhhvddddk",
+          "query_sequence_start": 1,
+          "query_sequence_end": 14,
+          "target_sequence": "MAHHHHHHVDDDDK",
+          "target_sequence_start": 1,
+          "target_sequence_end": 14,
+          "target_envelope_start": 1,
+          "target_envelope_end": 43,
+          "posterior_probability": "89**********99",
+          "bias": 1.89,
+          "identity_percent": 100.0,
+          "identity_count": 14,
+          "similarity_percent": 100.0,
+          "similarity_count": 14,
+          "match": "mahhhhhhvddddk",
+          "description": "TP53-regulated inhibitor of apoptosis 1",
+          "target": "6i3y_A"
+        }
+      },
+      {
+        "joinId": "3q7b",
+        "doc": {
+          "accuracy": 0.77,
+          "score": 20.9,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0081,
+          "e_value_ind": 0.0081,
+          "e_value_cond": 2.3e-06,
+          "bit_score": 20.9061317443848,
+          "species": "Lassa virus Josiah",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldad",
+          "query_sequence_start": 1,
+          "query_sequence_end": 26,
+          "target_sequence": "MAHHHHHHVDDDDR--MGKPQKADSN",
+          "target_sequence_start": 1,
+          "target_sequence_end": 24,
+          "target_envelope_start": 1,
+          "target_envelope_end": 72,
+          "posterior_probability": "89*********987..6777777764",
+          "bias": 0.46,
+          "identity_percent": 66.6666666666667,
+          "identity_count": 16,
+          "similarity_percent": 87.5,
+          "similarity_count": 21,
+          "match": "mahhhhhhvdddd+  + k +k d++",
+          "description": "Nucleoprotein",
+          "target": "3q7b_A"
+        }
+      },
+      {
+        "joinId": "3wjk",
+        "doc": {
+          "accuracy": 0.75,
+          "score": 20.9,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0083,
+          "e_value_ind": 0.015,
+          "e_value_cond": 4.1e-06,
+          "bit_score": 20.0825004577637,
+          "species": "Escherichia coli O104:H4 str. 2009EL-2071",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldadll",
+          "query_sequence_start": 1,
+          "query_sequence_end": 28,
+          "target_sequence": "MAHHHHHHVDDDDKMNLEKINELTAQDM",
+          "target_sequence_start": 1,
+          "target_sequence_end": 28,
+          "target_envelope_start": 1,
+          "target_envelope_end": 49,
+          "posterior_probability": "89************98888888777544",
+          "bias": 3.13,
+          "identity_percent": 60.7142857142857,
+          "identity_count": 17,
+          "similarity_percent": 71.4285714285714,
+          "similarity_count": 20,
+          "match": "mahhhhhhvddddk  + k  +l a  +",
+          "description": "Octaprenyl diphosphate synthase",
+          "target": "3wjk_A"
+        }
+      },
+      {
+        "joinId": "4fvu",
+        "doc": {
+          "accuracy": 0.79,
+          "score": 20.8,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0085,
+          "e_value_ind": 0.0085,
+          "e_value_cond": 2.4e-06,
+          "bit_score": 20.8386459350586,
+          "species": "Lassa virus Josiah",
+          "query_sequence": "mahhhhhhvddddkdlfnknkkldad",
+          "query_sequence_start": 1,
+          "query_sequence_end": 26,
+          "target_sequence": "MAHHHHHHVDDDDR--MGKPQKADSN",
+          "target_sequence_start": 1,
+          "target_sequence_end": 24,
+          "target_envelope_start": 1,
+          "target_envelope_end": 71,
+          "posterior_probability": "89*********987..6777777764",
+          "bias": 0.45,
+          "identity_percent": 66.6666666666667,
+          "identity_count": 16,
+          "similarity_percent": 87.5,
+          "similarity_count": 21,
+          "match": "mahhhhhhvdddd+  + k +k d++",
+          "description": "Nucleoprotein",
+          "target": "4fvu_A"
+        }
+      },
+      {
+        "joinId": "5dvb",
+        "doc": {
+          "accuracy": 0.85,
+          "score": 20.8,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.009,
+          "e_value_ind": 0.014,
+          "e_value_cond": 4.1e-06,
+          "bit_score": 20.1023921966553,
+          "species": "Saccharomyces cerevisiae",
+          "query_sequence": "mahhhhhhvddddkdl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 16,
+          "target_sequence": "MAHHHHHHVDDDDKEN",
+          "target_sequence_start": 1,
+          "target_sequence_end": 16,
+          "target_envelope_start": 1,
+          "target_envelope_end": 37,
+          "posterior_probability": "89***********974",
+          "bias": 1.87,
+          "identity_percent": 87.5,
+          "identity_count": 14,
+          "similarity_percent": 93.75,
+          "similarity_count": 15,
+          "match": "mahhhhhhvddddk+ ",
+          "description": "Tsa2p",
+          "target": "5dvb_H"
+        }
+      },
+      {
+        "joinId": "5ept",
+        "doc": {
+          "accuracy": 0.85,
+          "score": 20.7,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0091,
+          "e_value_ind": 0.014,
+          "e_value_cond": 4.1e-06,
+          "bit_score": 20.1023921966553,
+          "species": "Saccharomyces cerevisiae",
+          "query_sequence": "mahhhhhhvddddkdl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 16,
+          "target_sequence": "MAHHHHHHVDDDDKEN",
+          "target_sequence_start": 1,
+          "target_sequence_end": 16,
+          "target_envelope_start": 1,
+          "target_envelope_end": 37,
+          "posterior_probability": "89***********974",
+          "bias": 1.87,
+          "identity_percent": 87.5,
+          "identity_count": 14,
+          "similarity_percent": 93.75,
+          "similarity_count": 15,
+          "match": "mahhhhhhvddddk+ ",
+          "description": "Peroxiredoxin TSA2",
+          "target": "5ept_H"
+        }
+      },
+      {
+        "joinId": "3eud",
+        "doc": {
+          "accuracy": 0.88,
+          "score": 20.7,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 0.0097,
+          "e_value_ind": 0.0097,
+          "e_value_cond": 2.8e-06,
+          "bit_score": 20.6553421020508,
+          "species": "Saccharomyces cerevisiae",
+          "query_sequence": "mahhhhhhvddddkdl",
+          "query_sequence_start": 1,
+          "query_sequence_end": 16,
+          "target_sequence": "MAHHHHHHVDDDDKMI",
+          "target_sequence_start": 1,
+          "target_sequence_end": 16,
+          "target_envelope_start": 1,
+          "target_envelope_end": 38,
+          "posterior_probability": "89***********976",
+          "bias": 1.68,
+          "identity_percent": 87.5,
+          "identity_count": 14,
+          "similarity_percent": 93.75,
+          "similarity_count": 15,
+          "match": "mahhhhhhvddddk +",
+          "description": "Protein SHQ1",
+          "target": "3eud_A"
+        }
+      }
+    ]
+  }
+}

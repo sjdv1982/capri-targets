@@ -1,0 +1,1272 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 711,
+    "params": {
+      "json.nl": "map",
+      "xjoin_phmmer.fl": "*",
+      "fl": "pdb_id,citation_title,citation_authors,title,experimental_method,entry_authors,pubmed_id,citation_year,journal,organism_scientific_name,assembly_composition,interacting_ligands,tax_id,resolution,status,release_date,prefered_assembly_id,entry_author_list,entry_organism_scientific_name,data_quality,model_quality,experiment_data_available,deposition_date,release_year,molecule_type,pfam_name,uniprot_coverage,compound_id,bound_compound_id,modified_compound_id,uniprot_accession_best,interacting_uniprot_accession",
+      "group.limit": "100",
+      "start": "0",
+      "sort": "phmmer(e_value) asc",
+      "fq": "{!xjoin}xjoin_phmmer",
+      "group.ngroups": "true",
+      "rows": "10000",
+      "q": "*:*",
+      "xjoin_phmmer.external.sequence": "MATPWSGYLDDVSAKFDTGVDNLQTQVTEALDKLAAKPSDPALLAAYQSKLSEYNLYRNAQSNTVKVFKDIDAAIIQNFR",
+      "wt": "json",
+      "group.field": "pdb_id",
+      "group": "true",
+      "xjoin_phmmer": "true"
+    }
+  },
+  "grouped": {
+    "pdb_id": {
+      "matches": 12,
+      "ngroups": 10,
+      "groups": [
+        {
+          "groupValue": "2mex",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Loquet A",
+                  "Habenstein B",
+                  "Chevelkov V",
+                  "Vasa SK",
+                  "Giller K",
+                  "Becker S",
+                  "Lange A"
+                ],
+                "citation_title": "Atomic structure and handedness of the building block of a biological assembly.",
+                "citation_year": 2013,
+                "data_quality": -1.0,
+                "deposition_date": "2013-10-01T01:00:00Z",
+                "entry_author_list": [
+                  "Loquet A, Habenstein B, Chevelkov V, Giller K, Becker S, Lange A"
+                ],
+                "entry_authors": [
+                  "Loquet A",
+                  "Habenstein B",
+                  "Chevelkov V",
+                  "Giller K",
+                  "Becker S",
+                  "Lange A"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2|99287"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solid-state NMR"
+                ],
+                "journal": "J. Am. Chem. Soc.",
+                "model_quality": 15.27,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
+                ],
+                "pdb_id": "2mex",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "24328247",
+                "release_date": "2013-12-25T01:00:00Z",
+                "release_year": 2013,
+                "status": "REL",
+                "tax_id": [
+                  99287
+                ],
+                "title": "Structure of the tetrameric building block of the Salmonella Typhimurium PrgI Type three secretion system needle",
+                "uniprot_accession_best": [
+                  "P41784"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2lpz",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Loquet A",
+                  "Sgourakis NG",
+                  "Gupta R",
+                  "Giller K",
+                  "Riedel D",
+                  "Goosmann C",
+                  "Griesinger C",
+                  "Kolbe M",
+                  "Baker D",
+                  "Becker S",
+                  "Lange A"
+                ],
+                "citation_title": "Atomic model of the type III secretion system needle.",
+                "citation_year": 2012,
+                "data_quality": -1.0,
+                "deposition_date": "2012-02-21T01:00:00Z",
+                "entry_author_list": [
+                  "Loquet A, Sgourakis NG, Gupta R, Giller K, Riedel D, Goosmann C, Griesinger C, Kolbe MG, Baker D, Becker S, Lange A"
+                ],
+                "entry_authors": [
+                  "Loquet A",
+                  "Sgourakis NG",
+                  "Gupta R",
+                  "Giller K",
+                  "Riedel D",
+                  "Goosmann C",
+                  "Griesinger C",
+                  "Kolbe MG",
+                  "Baker D",
+                  "Becker S",
+                  "Lange A"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium|90371"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solid-state NMR"
+                ],
+                "journal": "Nature",
+                "model_quality": 96.79,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium"
+                ],
+                "pdb_id": "2lpz",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22699623",
+                "release_date": "2012-05-16T01:00:00Z",
+                "release_year": 2012,
+                "status": "REL",
+                "tax_id": [
+                  90371
+                ],
+                "title": "Atomic model of the Type-III Secretion System Needle",
+                "uniprot_accession_best": [
+                  "P41784"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2kv7",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Poyraz O",
+                  "Schmidt H",
+                  "Seidel K",
+                  "Delissen F",
+                  "Ader C",
+                  "Tenenboim H",
+                  "Goosmann C",
+                  "Laube B",
+                  "Thuenemann AF",
+                  "Zychlinski A",
+                  "Baldus M",
+                  "Lange A",
+                  "Griesinger C",
+                  "Kolbe M"
+                ],
+                "citation_title": "Protein refolding is required for assembly of the type three secretion needle",
+                "citation_year": 2010,
+                "data_quality": -1.0,
+                "deposition_date": "2010-03-09T01:00:00Z",
+                "entry_author_list": [
+                  "Schmidt H, Poyraz O, Seidel K, Delissen F, Ader C, Tenenboim H, Goosmann C, Laube B, Thuenemann AF, Zychlinski A, Baldus M, Lange A, Griesinger C, Kolbe M"
+                ],
+                "entry_authors": [
+                  "Schmidt H",
+                  "Poyraz O",
+                  "Seidel K",
+                  "Delissen F",
+                  "Ader C",
+                  "Tenenboim H",
+                  "Goosmann C",
+                  "Laube B",
+                  "Thuenemann AF",
+                  "Zychlinski A",
+                  "Baldus M",
+                  "Lange A",
+                  "Griesinger C",
+                  "Kolbe M"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344|216597"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "Nat. Struct. Mol. Biol.",
+                "model_quality": 3.22,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344"
+                ],
+                "pdb_id": "2kv7",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "1",
+                "release_date": "2010-06-16T01:00:00Z",
+                "release_year": 2010,
+                "status": "REL",
+                "tax_id": [
+                  216597
+                ],
+                "title": "NMR solution structure of a soluble PrgI mutant from Salmonella Typhimurium",
+                "uniprot_accession_best": [
+                  "P41784"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3zqb",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Lunelli M",
+                  "Hurwitz R",
+                  "Lambers J",
+                  "Kolbe M"
+                ],
+                "citation_title": "Crystal structure of PrgI-SipD: insight into a secretion competent state of the type three secretion system needle tip and its interaction with host ligands.",
+                "citation_year": 2011,
+                "compound_id": [
+                  "GOL"
+                ],
+                "data_quality": 28.47,
+                "deposition_date": "2011-06-08T01:00:00Z",
+                "entry_author_list": [
+                  "Lunelli M, Kolbe M"
+                ],
+                "entry_authors": [
+                  "Lunelli M",
+                  "Kolbe M"
+                ],
+                "entry_organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344|216597"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "GOL : GLYCEROL"
+                ],
+                "journal": "PLoS Pathog.",
+                "model_quality": 20.18,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344"
+                ],
+                "pdb_id": "3zqb",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "2",
+                "pubmed_id": "21829362",
+                "release_date": "2011-08-17T01:00:00Z",
+                "release_year": 2011,
+                "resolution": 2.4,
+                "status": "REL",
+                "tax_id": [
+                  216597
+                ],
+                "title": "PrgI-SipD from Salmonella typhimurium",
+                "uniprot_accession_best": [
+                  "P41784",
+                  "Q56026"
+                ],
+                "uniprot_coverage": [
+                  1.0,
+                  0.65,
+                  1.0,
+                  0.65
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "3j0r",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Fujii T",
+                  "Cheung M",
+                  "Blanco A",
+                  "Kato T",
+                  "Blocker AJ",
+                  "Namba K"
+                ],
+                "citation_title": "Structure of a type III secretion needle at 7-\u00c5 resolution provides insights into its assembly and signaling mechanisms.",
+                "citation_year": 2012,
+                "data_quality": -1.0,
+                "deposition_date": "2011-11-03T01:00:00Z",
+                "entry_author_list": [
+                  "Fujii T, Cheung M, Blanco A, Kato T, Blocker AJ, Namba K"
+                ],
+                "entry_authors": [
+                  "Fujii T",
+                  "Cheung M",
+                  "Blanco A",
+                  "Kato T",
+                  "Blocker AJ",
+                  "Namba K"
+                ],
+                "entry_organism_scientific_name": [
+                  "Shigella flexneri|623"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 0.59,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Shigella flexneri"
+                ],
+                "pdb_id": "3j0r",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "22388746",
+                "release_date": "2012-02-29T01:00:00Z",
+                "release_year": 2012,
+                "resolution": 7.7,
+                "status": "REL",
+                "tax_id": [
+                  623
+                ],
+                "title": "Model of a type III secretion system needle based on a 7 Angstrom resolution cryoEM map",
+                "uniprot_accession_best": [
+                  "P0A223"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2v6l",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Deane JE",
+                  "Roversi P",
+                  "Cordes FS",
+                  "Johnson S",
+                  "Kenjale R",
+                  "Daniell S",
+                  "Booy F",
+                  "Picking WD",
+                  "Picking WL",
+                  "Blocker AJ",
+                  "Lea SM"
+                ],
+                "citation_title": "Molecular model of a type III secretion system needle: Implications for host-cell sensing.",
+                "citation_year": 2006,
+                "data_quality": -1.0,
+                "deposition_date": "2007-07-19T01:00:00Z",
+                "entry_author_list": [
+                  "Deane JE, Roversi P, Cordes FS, Johnson S, Kenjale R, Daniell S, Booy F, Picking WL, Picking WD, Blocker AJ, Lea SM"
+                ],
+                "entry_authors": [
+                  "Deane JE",
+                  "Roversi P",
+                  "Cordes FS",
+                  "Johnson S",
+                  "Kenjale R",
+                  "Daniell S",
+                  "Booy F",
+                  "Picking WL",
+                  "Picking WD",
+                  "Blocker AJ",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Shigella flexneri|623"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Electron Microscopy"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 32.9,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Shigella flexneri"
+                ],
+                "pdb_id": "2v6l",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16888041",
+                "release_date": "2007-07-31T01:00:00Z",
+                "release_year": 2007,
+                "resolution": 16.0,
+                "status": "REL",
+                "tax_id": [
+                  623
+                ],
+                "title": "Molecular Model of a Type III Secretion System Needle",
+                "uniprot_accession_best": [
+                  "P0A223"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2mme",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Demers JP",
+                  "Habenstein B",
+                  "Loquet A",
+                  "Kumar Vasa S",
+                  "Giller K",
+                  "Becker S",
+                  "Baker D",
+                  "Lange A",
+                  "Sgourakis NG"
+                ],
+                "citation_title": "High-resolution structure of the Shigella type-III secretion needle by solid-state NMR and cryo-electron microscopy.",
+                "citation_year": 2014,
+                "data_quality": -1.0,
+                "deposition_date": "2014-03-14T01:00:00Z",
+                "entry_author_list": [
+                  "Demers JP, Habenstein B, Loquet A, Vasa SK, Becker S, Baker D, Lange A, Sgourakis NG"
+                ],
+                "entry_authors": [
+                  "Demers JP",
+                  "Habenstein B",
+                  "Loquet A",
+                  "Vasa SK",
+                  "Becker S",
+                  "Baker D",
+                  "Lange A",
+                  "Sgourakis NG"
+                ],
+                "entry_organism_scientific_name": [
+                  "Shigella flexneri|623"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solid-state NMR",
+                  "Electron Microscopy",
+                  "Hybrid"
+                ],
+                "journal": "Nat Commun",
+                "model_quality": 96.12,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Shigella flexneri"
+                ],
+                "pdb_id": "2mme",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "25264107",
+                "release_date": "2014-10-08T01:00:00Z",
+                "release_year": 2014,
+                "resolution": 7.7,
+                "status": "REL",
+                "tax_id": [
+                  623
+                ],
+                "title": "Hybrid structure of the Shigella flexneri MxiH Type three secretion system needle",
+                "uniprot_accession_best": [
+                  "Q6XVY0"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2ca5",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "bound_compound_id": [
+                  "IPA",
+                  "NA",
+                  "GOL"
+                ],
+                "citation_authors": [
+                  "Deane JE",
+                  "Roversi P",
+                  "Cordes FS",
+                  "Johnson S",
+                  "Kenjale R",
+                  "Daniell S",
+                  "Booy F",
+                  "Picking WL",
+                  "Picking WD",
+                  "Blocker AJ",
+                  "Lea SM"
+                ],
+                "citation_title": "Molecular model of a type III secretion system needle: Implications for host-cell sensing.",
+                "citation_year": 2006,
+                "compound_id": [
+                  "IPA",
+                  "NA",
+                  "GOL"
+                ],
+                "data_quality": 4.75,
+                "deposition_date": "2005-12-16T01:00:00Z",
+                "entry_author_list": [
+                  "Deane JE, Roversi P, Cordes FS, Johnson S, Kenjale R, Picking WL, Picking WD, Blocker AJ, Lea SM"
+                ],
+                "entry_authors": [
+                  "Deane JE",
+                  "Roversi P",
+                  "Cordes FS",
+                  "Johnson S",
+                  "Kenjale R",
+                  "Picking WL",
+                  "Picking WD",
+                  "Blocker AJ",
+                  "Lea SM"
+                ],
+                "entry_organism_scientific_name": [
+                  "Shigella flexneri|623"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_ligands": [
+                  "GOL : GLYCEROL",
+                  "NA : SODIUM ION",
+                  "IPA : ISOPROPYL ALCOHOL"
+                ],
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "model_quality": 16.1,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Shigella flexneri"
+                ],
+                "pdb_id": "2ca5",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16888041",
+                "release_date": "2006-08-07T01:00:00Z",
+                "release_year": 2006,
+                "resolution": 2.1,
+                "status": "REL",
+                "tax_id": [
+                  623
+                ],
+                "title": "MxiH needle protein of Shigella Flexneri (monomeric form, residues 1- 78)",
+                "uniprot_accession_best": [
+                  "P0A223"
+                ],
+                "uniprot_coverage": [
+                  0.98
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2g0u",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein structure"
+                ],
+                "citation_authors": [
+                  "Zhang L",
+                  "Wang Y",
+                  "Picking WL",
+                  "Picking WD",
+                  "De Guzman RN"
+                ],
+                "citation_title": "Solution structure of monomeric BsaL, the type III secretion needle protein of Burkholderia pseudomallei.",
+                "citation_year": 2006,
+                "data_quality": -1.0,
+                "deposition_date": "2006-02-13T01:00:00Z",
+                "entry_author_list": [
+                  "Zhang L, Wang Y, Picking WL, Picking WD, De Guzman RN"
+                ],
+                "entry_authors": [
+                  "Zhang L",
+                  "Wang Y",
+                  "Picking WL",
+                  "Picking WD",
+                  "De Guzman RN"
+                ],
+                "entry_organism_scientific_name": [
+                  "Burkholderia pseudomallei|28450"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "Solution NMR"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 36.12,
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Burkholderia pseudomallei"
+                ],
+                "pdb_id": "2g0u",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "16631790",
+                "release_date": "2006-05-23T01:00:00Z",
+                "release_year": 2006,
+                "status": "REL",
+                "tax_id": [
+                  28450
+                ],
+                "title": "Solution Structure of Monomeric BsaL, the Type III Secretion Needle Protein of Burkholderia pseudomallei",
+                "uniprot_accession_best": [
+                  "Q63K18"
+                ],
+                "uniprot_coverage": [
+                  0.94
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "2p58",
+          "doclist": {
+            "numFound": 3,
+            "start": 0,
+            "docs": [
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Sun P",
+                  "Tropea JE",
+                  "Austin BP",
+                  "Cherry S",
+                  "Waugh DS"
+                ],
+                "citation_title": "Structural characterization of the Yersinia pestis type III secretion system needle protein YscF in complex with its heterodimeric chaperone YscE/YscG.",
+                "citation_year": 2008,
+                "compound_id": [
+                  "MSE"
+                ],
+                "data_quality": 48.7,
+                "deposition_date": "2007-03-14T01:00:00Z",
+                "entry_author_list": [
+                  "Sun P, Austin BP, Tropea JE, Waugh DS"
+                ],
+                "entry_authors": [
+                  "Sun P",
+                  "Austin BP",
+                  "Tropea JE",
+                  "Waugh DS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Yersinia pestis|632"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "O68691",
+                  "O68690"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 57.73,
+                "modified_compound_id": [
+                  "MSE"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Yersinia pestis"
+                ],
+                "pdb_id": "2p58",
+                "prefered_assembly_id": "1",
+                "pubmed_id": "18281060",
+                "release_date": "2008-03-04T01:00:00Z",
+                "release_year": 2008,
+                "resolution": 1.8,
+                "status": "REL",
+                "tax_id": [
+                  632
+                ],
+                "title": "Structure of the Yersinia pestis Type III secretion system needle protein YscF in complex with its chaperones YscE/YscG",
+                "uniprot_accession_best": [
+                  "O68692"
+                ],
+                "uniprot_coverage": [
+                  0.98
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Sun P",
+                  "Tropea JE",
+                  "Austin BP",
+                  "Cherry S",
+                  "Waugh DS"
+                ],
+                "citation_title": "Structural characterization of the Yersinia pestis type III secretion system needle protein YscF in complex with its heterodimeric chaperone YscE/YscG.",
+                "citation_year": 2008,
+                "compound_id": [
+                  "MSE"
+                ],
+                "data_quality": 48.7,
+                "deposition_date": "2007-03-14T01:00:00Z",
+                "entry_author_list": [
+                  "Sun P, Austin BP, Tropea JE, Waugh DS"
+                ],
+                "entry_authors": [
+                  "Sun P",
+                  "Austin BP",
+                  "Tropea JE",
+                  "Waugh DS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Yersinia pestis|632"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "O68692",
+                  "O68691"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 57.73,
+                "modified_compound_id": [
+                  "MSE"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Yersinia pestis"
+                ],
+                "pdb_id": "2p58",
+                "pfam_name": [
+                  "Type_III_YscG"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "18281060",
+                "release_date": "2008-03-04T01:00:00Z",
+                "release_year": 2008,
+                "resolution": 1.8,
+                "status": "REL",
+                "tax_id": [
+                  632
+                ],
+                "title": "Structure of the Yersinia pestis Type III secretion system needle protein YscF in complex with its chaperones YscE/YscG",
+                "uniprot_accession_best": [
+                  "O68690"
+                ],
+                "uniprot_coverage": [
+                  1.0
+                ]
+              },
+              {
+                "assembly_composition": [
+                  "protein/protein complex"
+                ],
+                "citation_authors": [
+                  "Sun P",
+                  "Tropea JE",
+                  "Austin BP",
+                  "Cherry S",
+                  "Waugh DS"
+                ],
+                "citation_title": "Structural characterization of the Yersinia pestis type III secretion system needle protein YscF in complex with its heterodimeric chaperone YscE/YscG.",
+                "citation_year": 2008,
+                "compound_id": [
+                  "MSE"
+                ],
+                "data_quality": 48.7,
+                "deposition_date": "2007-03-14T01:00:00Z",
+                "entry_author_list": [
+                  "Sun P, Austin BP, Tropea JE, Waugh DS"
+                ],
+                "entry_authors": [
+                  "Sun P",
+                  "Austin BP",
+                  "Tropea JE",
+                  "Waugh DS"
+                ],
+                "entry_organism_scientific_name": [
+                  "Yersinia pestis|632"
+                ],
+                "experiment_data_available": [
+                  "y"
+                ],
+                "experimental_method": [
+                  "X-ray diffraction"
+                ],
+                "interacting_uniprot_accession": [
+                  "O68692",
+                  "O68690"
+                ],
+                "journal": "J. Mol. Biol.",
+                "model_quality": 57.73,
+                "modified_compound_id": [
+                  "MSE"
+                ],
+                "molecule_type": "Protein",
+                "organism_scientific_name": [
+                  "Yersinia pestis"
+                ],
+                "pdb_id": "2p58",
+                "pfam_name": [
+                  "T3SS_needle_F"
+                ],
+                "prefered_assembly_id": "1",
+                "pubmed_id": "18281060",
+                "release_date": "2008-03-04T01:00:00Z",
+                "release_year": 2008,
+                "resolution": 1.8,
+                "status": "REL",
+                "tax_id": [
+                  632
+                ],
+                "title": "Structure of the Yersinia pestis Type III secretion system needle protein YscF in complex with its chaperones YscE/YscG",
+                "uniprot_accession_best": [
+                  "O68691"
+                ],
+                "uniprot_coverage": [
+                  0.99
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "xjoin_phmmer": {
+    "num_chains": 10,
+    "num_entries": 10,
+    "external": [
+      {
+        "joinId": "2mex",
+        "doc": {
+          "accuracy": 0.99,
+          "score": 166.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.2e-48,
+          "e_value_ind": 1.4e-48,
+          "e_value_cond": 3.2e-53,
+          "bit_score": 166.362686157227,
+          "species": "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)",
+          "query_sequence": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "query_sequence_start": 1,
+          "query_sequence_end": 80,
+          "target_sequence": "MATPWSGYLDDVSAKFDTGVDNLQTQVTEALDKLAAKPSDPALLAAYQSKLSEYNLYRNAQSNTVKVFKDIDAAIIQNFR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 80,
+          "target_envelope_start": 1,
+          "target_envelope_end": 80,
+          "posterior_probability": "89*****************************************************************************8",
+          "bias": 0.33,
+          "identity_percent": 100.0,
+          "identity_count": 80,
+          "similarity_percent": 100.0,
+          "similarity_count": 80,
+          "match": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "description": "Protein PrgI",
+          "target": "2mex_A"
+        }
+      },
+      {
+        "joinId": "2lpz",
+        "doc": {
+          "accuracy": 0.99,
+          "score": 166.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.2e-48,
+          "e_value_ind": 1.4e-48,
+          "e_value_cond": 3.2e-53,
+          "bit_score": 166.362686157227,
+          "species": "Salmonella typhimurium",
+          "query_sequence": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "query_sequence_start": 1,
+          "query_sequence_end": 80,
+          "target_sequence": "MATPWSGYLDDVSAKFDTGVDNLQTQVTEALDKLAAKPSDPALLAAYQSKLSEYNLYRNAQSNTVKVFKDIDAAIIQNFR",
+          "target_sequence_start": 1,
+          "target_sequence_end": 80,
+          "target_envelope_start": 1,
+          "target_envelope_end": 80,
+          "posterior_probability": "89*****************************************************************************8",
+          "bias": 0.33,
+          "identity_percent": 100.0,
+          "identity_count": 80,
+          "similarity_percent": 100.0,
+          "similarity_count": 80,
+          "match": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "description": "Protein prgI",
+          "target": "2lpz_A"
+        }
+      },
+      {
+        "joinId": "2kv7",
+        "doc": {
+          "accuracy": 0.99,
+          "score": 162.5,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 2.2e-47,
+          "e_value_ind": 2.4e-47,
+          "e_value_cond": 5.8e-52,
+          "bit_score": 162.380294799805,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344",
+          "query_sequence": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "query_sequence_start": 1,
+          "query_sequence_end": 80,
+          "target_sequence": "MATPWSGYLDDVSAKFDTGVDNLQTQVTEALDKLAAKPSDPALLAAYQSKLSEYNLYRNAQSNTAKAFKDIDAAIIQNFR",
+          "target_sequence_start": 4,
+          "target_sequence_end": 83,
+          "target_envelope_start": 4,
+          "target_envelope_end": 83,
+          "posterior_probability": "89*****************************************************************************8",
+          "bias": 0.44,
+          "identity_percent": 97.5,
+          "identity_count": 78,
+          "similarity_percent": 97.5,
+          "similarity_count": 78,
+          "match": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsnt k fkdidaaiiqnfr",
+          "description": "Protein prgI",
+          "target": "2kv7_A"
+        }
+      },
+      {
+        "joinId": "3zqb",
+        "doc": {
+          "accuracy": 0.99,
+          "score": 161.3,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 5.3e-47,
+          "e_value_ind": 5.3e-47,
+          "e_value_cond": 1.3e-51,
+          "bit_score": 161.313491821289,
+          "species": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2",
+          "query_sequence": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "query_sequence_start": 1,
+          "query_sequence_end": 80,
+          "target_sequence": "MATPWSGYLDDVSAKFDTGVDNLQTQVTEALDKLAAKPSDPALLAAYQSKLSEYNLYRNAQSNTVKVFKDIDAAIIQNFR",
+          "target_sequence_start": 4,
+          "target_sequence_end": 83,
+          "target_envelope_start": 4,
+          "target_envelope_end": 83,
+          "posterior_probability": "89*****************************************************************************8",
+          "bias": 0.33,
+          "identity_percent": 100.0,
+          "identity_count": 80,
+          "similarity_percent": 100.0,
+          "similarity_count": 80,
+          "match": "matpwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "description": "PROTEIN PRGI, CELL INVASION PROTEIN SIPD",
+          "target": "3zqb_A"
+        }
+      },
+      {
+        "joinId": "3j0r",
+        "doc": {
+          "accuracy": 0.96,
+          "score": 97.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.1e-26,
+          "e_value_ind": 1.2e-26,
+          "e_value_cond": 2.9e-31,
+          "bit_score": 96.8582534790039,
+          "species": "Shigella flexneri",
+          "query_sequence": "lddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "query_sequence_start": 9,
+          "query_sequence_end": 80,
+          "target_sequence": "LSSLSETFDDGTQTLQGELTLALDKLAKNPSNPQLLAEYQSKLSEYTLYRNAQSNTVKVIKDVDAAIIQNFR",
+          "target_sequence_start": 11,
+          "target_sequence_end": 82,
+          "target_envelope_start": 4,
+          "target_envelope_end": 82,
+          "posterior_probability": "778999*****************************************************************8",
+          "bias": 0.19,
+          "identity_percent": 70.8333333333333,
+          "identity_count": 51,
+          "similarity_percent": 79.1666666666667,
+          "similarity_count": 57,
+          "match": "l  +s  fd g   lq ++t aldkla  ps+p lla yqsklsey lyrnaqsntvkv+kd+daaiiqnfr",
+          "description": "Protein mxiH",
+          "target": "3j0r_A"
+        }
+      },
+      {
+        "joinId": "2v6l",
+        "doc": {
+          "accuracy": 0.96,
+          "score": 97.0,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 1.1e-26,
+          "e_value_ind": 1.3e-26,
+          "e_value_cond": 3e-31,
+          "bit_score": 96.794807434082,
+          "species": "Shigella flexneri",
+          "query_sequence": "lddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "query_sequence_start": 9,
+          "query_sequence_end": 80,
+          "target_sequence": "LSSLSETFDDGTQTLQGELTLALDKLAKNPSNPQLLAEYQSKLSEYTLYRNAQSNTVKVIKDVDAAIIQNFR",
+          "target_sequence_start": 12,
+          "target_sequence_end": 83,
+          "target_envelope_start": 5,
+          "target_envelope_end": 83,
+          "posterior_probability": "778999*****************************************************************8",
+          "bias": 0.19,
+          "identity_percent": 70.8333333333333,
+          "identity_count": 51,
+          "similarity_percent": 79.1666666666667,
+          "similarity_count": 57,
+          "match": "l  +s  fd g   lq ++t aldkla  ps+p lla yqsklsey lyrnaqsntvkv+kd+daaiiqnfr",
+          "description": "MXIH",
+          "target": "2v6l_0"
+        }
+      },
+      {
+        "joinId": "2mme",
+        "doc": {
+          "accuracy": 0.96,
+          "score": 94.6,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 6.2e-26,
+          "e_value_ind": 7.2e-26,
+          "e_value_cond": 1.7e-30,
+          "bit_score": 94.4061050415039,
+          "species": "Shigella flexneri",
+          "query_sequence": "lddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnfr",
+          "query_sequence_start": 9,
+          "query_sequence_end": 80,
+          "target_sequence": "LSSLSETFDDGTQTLQGQLTSALNALAENPSNPQLLAEYQSKLSEYTLYRNAQSNTVKVIKDVDAAIIQNFR",
+          "target_sequence_start": 14,
+          "target_sequence_end": 85,
+          "target_envelope_start": 7,
+          "target_envelope_end": 85,
+          "posterior_probability": "778999*****************************************************************8",
+          "bias": 0.18,
+          "identity_percent": 69.4444444444444,
+          "identity_count": 50,
+          "similarity_percent": 77.7777777777778,
+          "similarity_count": 56,
+          "match": "l  +s  fd g   lq q+t al+ la  ps+p lla yqsklsey lyrnaqsntvkv+kd+daaiiqnfr",
+          "description": "MxiH",
+          "target": "2mme_A"
+        }
+      },
+      {
+        "joinId": "2ca5",
+        "doc": {
+          "accuracy": 0.95,
+          "score": 88.9,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 3.8e-24,
+          "e_value_ind": 4.3e-24,
+          "e_value_cond": 1e-28,
+          "bit_score": 88.7618713378906,
+          "species": "Shigella flexneri",
+          "query_sequence": "lddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqn",
+          "query_sequence_start": 9,
+          "query_sequence_end": 78,
+          "target_sequence": "LSSLSETFDDGTQTLQGELTLALDKLAKNPSNPQLLAEYQSKLSEYTLYRNAQSNTVKVIKDVDAAILEH",
+          "target_sequence_start": 12,
+          "target_sequence_end": 81,
+          "target_envelope_start": 5,
+          "target_envelope_end": 83,
+          "posterior_probability": "778999*************************************************************986",
+          "bias": 0.09,
+          "identity_percent": 65.71428571428571,
+          "identity_count": 46,
+          "similarity_percent": 78.5714285714286,
+          "similarity_count": 55,
+          "match": "l  +s  fd g   lq ++t aldkla  ps+p lla yqsklsey lyrnaqsntvkv+kd+daai+++",
+          "description": "MXIH",
+          "target": "2ca5_A"
+        }
+      },
+      {
+        "joinId": "2g0u",
+        "doc": {
+          "accuracy": 0.97,
+          "score": 75.3,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 7.5e-20,
+          "e_value_ind": 9.2e-20,
+          "e_value_cond": 2.2e-24,
+          "bit_score": 75.0716171264648,
+          "species": "Burkholderia pseudomallei",
+          "query_sequence": "pwsgylddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqn",
+          "query_sequence_start": 4,
+          "query_sequence_end": 78,
+          "target_sequence": "EWSGYLTGIGRAFDDGVKDLNKQLQDAQANLTKNPSDPTALANYQMIMSEYNLYRNAQSSAVKSMKDIDSSILEH",
+          "target_sequence_start": 13,
+          "target_sequence_end": 87,
+          "target_envelope_start": 10,
+          "target_envelope_end": 89,
+          "posterior_probability": "6***********************************************************************986",
+          "bias": 0.09,
+          "identity_percent": 52.0,
+          "identity_count": 39,
+          "similarity_percent": 68.0,
+          "similarity_count": 51,
+          "match": " wsgyl  +   fd gv +l  q+ +a   l   psdp  la yq  +seynlyrnaqs+ vk +kdid++i+++",
+          "description": "type III secretion system needle protein",
+          "target": "2g0u_A"
+        }
+      },
+      {
+        "joinId": "2p58",
+        "doc": {
+          "accuracy": 0.93,
+          "score": 27.8,
+          "if_included": 1,
+          "significance_threshold": 1.0,
+          "e_value": 7.8e-05,
+          "e_value_ind": 9.2e-05,
+          "e_value_cond": 2.2e-09,
+          "bit_score": 27.5653591156006,
+          "species": "Yersinia pestis",
+          "query_sequence": "lddvsakfdtgvdnlqtqvtealdklaakpsdpallaayqsklseynlyrnaqsntvkvfkdidaaiiqnf",
+          "query_sequence_start": 9,
+          "query_sequence_end": 79,
+          "target_sequence": "LDAVAQTLKKPADDANKAVNDSIAALKDKPDNPALLADLQHSINKWSVIYNINSTIVRSMKDLMQGILQKF",
+          "target_sequence_start": 15,
+          "target_sequence_end": 85,
+          "target_envelope_start": 9,
+          "target_envelope_end": 86,
+          "posterior_probability": "677777788889999999**************************************************998",
+          "bias": 0.19,
+          "identity_percent": 30.985915492957698,
+          "identity_count": 22,
+          "similarity_percent": 54.92957746478871,
+          "similarity_count": 39,
+          "match": "ld v+  +    d+    v +++  l  kp +palla  q  ++++++  n  s  v+ +kd+   i+q f",
+          "description": "Putative type III secretion protein YscF",
+          "target": "2p58_B"
+        }
+      }
+    ]
+  }
+}
