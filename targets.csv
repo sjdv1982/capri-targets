@@ -1,0 +1,42 @@
+,authors,classification,date,pdb_code,rejection,status,title
+0,,rejected,2018-09-14,6hna,Unbound coverage is bad for one or more entities,HPUB,
+1,"['Sato-Tomita, A, Park, S-Y, Shibayama, N']",rejected,2018-10-16,6iks,"Trivial templates: ['1bz1', '1ch4', '5ker']",HPUB,Carbonmonoxy human hemoglobin A at 140 K: Laser off
+2,"['Sato-Tomita, A, Park, S-Y, Shibayama, N']",rejected,2018-10-16,6ikv,"Trivial templates: ['1bz1', '1ch4', '5ker']",HPUB,Carbonmonoxy human hemoglobin A at 140 K: Laser on [0-20 min]
+3,"['Sato-Tomita, A, Park, S-Y, Shibayama, N']",rejected,2018-10-17,6il5,"Trivial templates: ['1bz1', '1ch4', '5ker']",HPUB,Carbonmonoxy human hemoglobin A at 140 K: Laser on [200-220 min]
+4,"['Lin, Z, Yang, Z, Ji, Z, Zhang, M']",rejected,2019-02-27,6jjw,Unbound coverage is bad for one or more entities,HPUB,Crystal Structure of KIBRA and PTPN14 complex
+5,"['Yokoyama, H, Mizutani, R, Noguchi, S, Hayashida, N']",rejected,2019-07-02,6kdh,Trivial template: 3ld8,HPUB,Antibody 64M-5 Fab including isoAsp in ligand-free form
+6,"['Yokoyama, H, Mizutani, R, Noguchi, S, Hayashida, N']",rejected,2019-07-02,6kdi,Trivial template: 3ld8,HPUB,Antibody 64M-5 Fab including isoAsp in complex with dT(6-4)T
+7,"['Jialiang, W, Zhijun, W']",rejected,2019-07-03,6ke7,Unbound coverage is bad for one or more entities,HPUB,LovBC
+8,"['Phillips, RS']",rejected,2018-09-27,6mls,Trivial template: 2tpl,HPUB,Citrobacter freundii tyrosine phenol-lyase complexed with 4-hydroxypyridine and aminoacrylate from L-tyrosine
+9,"['Phillips, RS']",rejected,2018-10-04,6mo3,Trivial template: 2tpl,HPUB,Citrobacter freundii tyrosine phenol-lyase complexed with 4-hydroxypyridine and aminoacrylate from L-serine
+10,"['Phillips, RS']",rejected,2018-10-05,6mpd,Trivial template: 2tpl,HPUB,Citrobacter freundii tyrosine phenol-lyase complexed with 4-hydroxypyridine and aminoacrylate from 3-F-L-tyrosine
+11,"['Berry, EA, Huang, L-S']",rejected,2018-11-02,6myo,"Trivial templates: ['4ytp', '1yq3']",HPUB,Avian mitochondrial complex II with flutolanyl bound
+12,"['Berry, EA, Huang, L-S']",rejected,2018-11-02,6myp,"Trivial templates: ['4ytp', '1yq3']",HPUB,Avian mitochondrial complex II with TTFA (thenoyltrifluoroacetone) bound
+13,"['Berry, EA, Huang, L-S']",rejected,2018-11-02,6myq,"Trivial templates: ['4ytp', '1yq3']",HPUB,Avian mitochondrial complex II with ferulenol bound
+14,"['Huang, L-S, Luemmen, P, Berry, EA']",rejected,2018-11-02,6myr,"Trivial templates: ['4ytp', '1yq3']",HPUB,Avian mitochondrial complex II with thiapronil bound
+15,"['Berry, EA, Huang, L-S']",rejected,2018-11-02,6mys,"Trivial templates: ['4ytp', '1yq3']",HPUB,"Avian mitochondrial complex II with Atpenin A5 bound, sidechain outside"
+16,"['Berry, EA, Huang, L-S']",rejected,2018-11-02,6myt,"Trivial templates: ['4ytp', '1yq3']",HPUB,"Avian mitochondrial complex II with Atpenin A5 bound, sidechain in pocket"
+17,"['Berry, EA, Huang, L-S']",rejected,2018-11-02,6myu,"Trivial templates: ['4ytp', '1yq3']",HPUB,Avian mitochondrial complex II crystallized in the presence of HQNO
+18,"['Phillips, RS']",rejected,2019-02-04,6nv8,Trivial template: 2ez1,HPUB,Peerdeuterated tyrosine phenol-lyase from Citrobacter freundii complexed with an aminoacrylate intermediate formed from S-ethyl-L-cysteine and 4-hydroxypyridine
+19,"['Cha, HK, Debs, G']",rejected,2019-04-12,6ojq,"Trivial templates: ['4lnu', '5hny']",HPUB,Monomeric kinesin-1 motor domain in no-nucleotide state bound to GMPCPP-stabilized microtubule
+20,"['Chang, C, Tesar, C, Endres, M, Babnigg, G, Hassan, H, Joachimiak, A, Midwest Center for Structural Genomics (MCSG)']",template-based,2019-04-12,6ok3,,HPUB,Crystal structure of Sel1 repeat protein from Oxalobacter formigenes
+21,"['Syrenne, JT, Mou, TC, Tamborini, L, Pinto, A, Sprang, SR, Hansen, KB']",template-based,2019-05-07,6ovd,,HPUB,"Crystal structure of GluN1/GluN2A NMDA receptor agonist binding domains with glycine and antagonist, 3-ethylphenyl-ACEPC"
+22,"['Syrenne, JT, Mou, TC, Tamborini, L, Pinto, A, Sprang, SR, Hansen, KB']",template-based,2019-05-07,6ove,,HPUB,"Crystal structure of GluN1/GluN2A NMDA receptor agonist binding domains with glycine and antagonist, 4-propylphenyl-ACEPC"
+23,"['Hogle, JM, Filman, DJ, Shah, PNM']",rejected,2019-06-10,6p9o,Trivial template: 1al2,HPUB,Poliovirus 135S-like expanded particle in complex with a monoclonal antibody directed against the N-terminal extension of capsid protein VP1
+24,"['Hogle, JM, Filman, DJ, Shah, PNM']",rejected,2019-06-10,6p9w,Trivial template: 1al2,HPUB,"Poliovirus (Type 1 Mahoney), receptor catalysed 135S particle map"
+25,"['Ward, AB, Murin, CD, Alkutkar, T']",rejected,2019-06-17,6pci,Trivial template: 6dzl,HPUB,EBOV GPdMuc (Makona) in complex with rEBOV-520 and rEBOV-548 Fabs
+26,"['Hogle, JM, Filman, DJ, Shah, PNM']",rejected,2019-07-14,6psz,Trivial template: 1al2,HPUB,"Poliovirus (Type 1 Mahoney), heat-catalysed 135S particle"
+27,"['Keller, GLJ, Arbuiso, A, Baker, BM']",rejected,2019-07-15,6ptb,Trivial template: 1kjm,HPUB,Crystal Structure of ILNAMIAKI peptide bound to HLA-A2
+28,"['Smith, AR, Arbuiso, A, Keller, GLJ, Baker, BM']",rejected,2019-07-15,6pte,Trivial template: 1kjm,HPUB,Crystal Structure of ILNAMITKI peptide bound to HLA-A2
+29,"['Pelc, LA, Koester, SK, Chen, Z, Gistover, N, Di Cera, E']",rejected,2019-07-24,6px5,Trivial template: 3nxp,HPUB,CRYSTAL STRUCTURE OF HUMAN MEIZOTHROMBIN DESF1 MUTANT S195A bound with PPACK
+30,"['Krieger, IV, Sacchettini, JC']",rejected,2019-07-25,6pxe,Unbound coverage is bad for one or more entities,HPUB,"Crystal structure of the complex between periplasmic domains of antiholin RI and holin T from T4 phage, in P21"
+31,"['Frazao, C, Klezin, A, Poell, U']",rejected,2019-01-29,6qkm,Trivial template: 2yav,HPUB,Diallyl trisulfide inhibited sulfur oxygenase reductase
+32,"['Carr, SB, Armstrong, FA, Zhang, L']",rejected,2019-05-13,6rp2,Trivial template: 5a4f,HPUB,Threonine to Cysteine (T225C) variant of E coli hydrogenase-1
+33,,rejected,2019-08-01,6sfl,Trivial template: 3j6d,HPUB,
+34,,rejected,2019-08-01,6sfm,Unbound coverage is bad for one or more entities,HPUB,
+35,,rejected,2019-08-02,6sfy,Trivial template: 3j6d,HPUB,
+36,,rejected,2019-08-02,6sg5,Unbound coverage is bad for one or more entities,HPUB,
+37,,rejected,2019-08-02,6sg7,Unbound coverage is bad for one or more entities,HPUB,
+38,"['Saridakis, E, Helliwell, JR, Govada, L, Chain, B, Morgan, M, Kassen, SC, Chayen, NE']",rejected,2019-08-06,6shg,Trivial template: 1bfo,HPUB,Diffraction data for RoAb13 crystal co-crystallised with PIYDIN and its RoAb13 structure
+39,,rejected,2019-08-14,6sk5,Trivial template: 1rhi,HPUB,
+40,,rejected,2019-08-14,6sk6,"Trivial templates: ['1rhi', '1jew', '1eah']",HPUB,
