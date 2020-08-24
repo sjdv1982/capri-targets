@@ -51,7 +51,7 @@ params = {
     # Comment out parameters with special characters
     #"sort":"phmmer(e_value) asc",
     #"xjoin_phmmer.fl": "*",
-    #"xjoin_phmmer": "true",    
+    #"xjoin_phmmer": "true",
     # "q":"*:*",
     # "fq":b"{!xjoin}xjoin_phmmer",
     # "group.limit":100,
@@ -66,10 +66,10 @@ def get_checksum(seq):
 
 def detect_homologs(seq):
     myparams = params.copy()
-    
+
     # Does not work, special characters
-    #myparams["xjoin_phmmer.external.sequence"] = seq    
-    #request = requests.get(url, params=myparams)  
+    #myparams["xjoin_phmmer.external.sequence"] = seq
+    #request = requests.get(url, params=myparams)
 
     # Do it the hard way...
     s = Session()
@@ -100,8 +100,7 @@ def detect_all_homologs(targets, result_dir):
             homologs_file = os.path.join(result_dir, checksum + ".json")
             if os.path.exists(homologs_file):
                 homologs = json.load(open(homologs_file))
-            else: 
-                return result ###
+            else:
                 homologs = detect_homologs(sequence)
                 json.dump(homologs, open(homologs_file, "w"), sort_keys=False, indent=2)
             curr_result[entity_name] = entity.copy()

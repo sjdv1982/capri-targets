@@ -1,25 +1,1164 @@
 {
-  "6hna": {
+  "6llf": {
     "classification": "rejected",
     "coverage": {
-      "6hna_1": "contiguous",
-      "6hna_2": "bad"
+      "6llf_1": "complete",
+      "6llf_2": "bad"
     },
     "rejection": "Unbound coverage is bad for one or more entities"
   },
-  "6iks": {
+  "6llh": {
     "classification": "rejected",
     "coverage": {
-      "6iks_1": "complete",
-      "6iks_2": "complete"
+      "6llh_1": "complete",
+      "6llh_2": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6scy": {
+    "classification": "template-based",
+    "coverage": {
+      "6scy_1": "complete",
+      "6scy_2": "complete"
     },
     "matches": {
-      "6iks_1": [
+      "6scy_1": [
+        "{\"pdb\": \"5mko\", \"pdb_chain\": \"5mko_A\", \"query_region\": [3, 299], \"target_region\": [3, 292], \"seqid\": 34.1379310344828}"
+      ],
+      "6scy_2": [
+        "{\"pdb\": \"5mko\", \"pdb_chain\": \"5mko_A\", \"query_region\": [3, 299], \"target_region\": [3, 292], \"seqid\": 34.1379310344828}"
+      ]
+    },
+    "templates": [
+      "5mko"
+    ]
+  },
+  "6sd6": {
+    "classification": "rejected",
+    "coverage": {
+      "6sd6_1": "complete",
+      "6sd6_2": "complete"
+    },
+    "matches": {
+      "6sd6_1": [
+        "{\"pdb\": \"3tnd\", \"pdb_chain\": \"3tnd_B\", \"query_region\": [2, 75], \"target_region\": [8, 81], \"seqid\": 98.6486486486487}"
+      ],
+      "6sd6_2": [
+        "{\"pdb\": \"3tnd\", \"pdb_chain\": \"3tnd_A\", \"query_region\": [21, 152], \"target_region\": [1, 132], \"seqid\": 99.24242424242419}"
+      ]
+    },
+    "rejection": "Trivial template: 3tnd"
+  },
+  "6sfl": {
+    "classification": "rejected",
+    "coverage": {
+      "6sfl_1": "complete",
+      "6sfl_2": "complete"
+    },
+    "matches": {
+      "6sfl_1": [
+        "{\"pdb\": \"3j6d\", \"pdb_chain\": \"3j6d_a\", \"query_region\": [1, 252], \"target_region\": [1, 252], \"seqid\": 100.0}"
+      ],
+      "6sfl_2": [
+        "{\"pdb\": \"3j6d\", \"pdb_chain\": \"3j6d_A\", \"query_region\": [1, 392], \"target_region\": [1, 392], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 3j6d"
+  },
+  "6sfm": {
+    "classification": "rejected",
+    "coverage": {
+      "6sfm_1": "complete",
+      "6sfm_2": "bad",
+      "6sfm_3": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6sfy": {
+    "classification": "rejected",
+    "coverage": {
+      "6sfy_1": "complete",
+      "6sfy_2": "complete"
+    },
+    "matches": {
+      "6sfy_1": [
+        "{\"pdb\": \"3j6d\", \"pdb_chain\": \"3j6d_a\", \"query_region\": [1, 252], \"target_region\": [1, 252], \"seqid\": 100.0}"
+      ],
+      "6sfy_2": [
+        "{\"pdb\": \"3j6d\", \"pdb_chain\": \"3j6d_A\", \"query_region\": [1, 392], \"target_region\": [1, 392], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 3j6d"
+  },
+  "6sg5": {
+    "classification": "rejected",
+    "coverage": {
+      "6sg5_1": "complete",
+      "6sg5_2": "complete",
+      "6sg5_3": "complete",
+      "6sg5_4": "bad",
+      "6sg5_5": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6sg7": {
+    "classification": "rejected",
+    "coverage": {
+      "6sg7_1": "complete",
+      "6sg7_2": "bad",
+      "6sg7_3": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6sxi": {
+    "classification": "rejected",
+    "coverage": {
+      "6sxi_1": "complete",
+      "6sxi_2": "complete",
+      "6sxi_3": "complete",
+      "6sxi_4": "complete"
+    },
+    "matches": {
+      "6sxi_1": [
+        "{\"pdb\": \"1seq\", \"pdb_chain\": \"1seq_H\", \"query_region\": [1, 218], \"target_region\": [1, 223], \"seqid\": 71.1009174311927}",
+        "{\"pdb\": \"6ivz\", \"pdb_chain\": \"6ivz_H\", \"query_region\": [1, 115], \"target_region\": [2, 121], \"seqid\": 58.2608695652174}",
+        "{\"pdb\": \"4nkd\", \"pdb_chain\": \"4nkd_A\", \"query_region\": [1, 120], \"target_region\": [1, 124], \"seqid\": 48.3333333333333}",
+        "{\"pdb\": \"6cxc\", \"pdb_chain\": \"6cxc_X\", \"query_region\": [1, 117], \"target_region\": [3, 117], \"seqid\": 40.869565217391305}",
+        "{\"pdb\": \"4ut7\", \"pdb_chain\": \"4ut7_H\", \"query_region\": [1, 119], \"target_region\": [1, 134], \"seqid\": 46.218487394958004}",
+        "{\"pdb\": \"4ffy\", \"pdb_chain\": \"4ffy_H\", \"query_region\": [1, 121], \"target_region\": [1, 121], \"seqid\": 42.1487603305785}"
+      ],
+      "6sxi_2": [
+        "{\"pdb\": \"4ffy\", \"pdb_chain\": \"4ffy_L\", \"query_region\": [1, 113], \"target_region\": [1, 113], \"seqid\": 88.4955752212389}",
+        "{\"pdb\": \"4nkd\", \"pdb_chain\": \"4nkd_B\", \"query_region\": [2, 114], \"target_region\": [7, 120], \"seqid\": 62.8318584070796}",
+        "{\"pdb\": \"6cxc\", \"pdb_chain\": \"6cxc_Y\", \"query_region\": [2, 118], \"target_region\": [4, 116], \"seqid\": 57.5221238938053}",
+        "{\"pdb\": \"1seq\", \"pdb_chain\": \"1seq_L\", \"query_region\": [2, 218], \"target_region\": [2, 213], \"seqid\": 81.1320754716981}",
+        "{\"pdb\": \"4ut7\", \"pdb_chain\": \"4ut7_L\", \"query_region\": [3, 113], \"target_region\": [6, 115], \"seqid\": 46.3636363636364}",
+        "{\"pdb\": \"6ivz\", \"pdb_chain\": \"6ivz_L\", \"query_region\": [2, 112], \"target_region\": [25, 131], \"seqid\": 66.35514018691589}"
+      ],
+      "6sxi_3": [
+        "{\"pdb\": \"4ffy\", \"pdb_chain\": \"4ffy_H\", \"query_region\": [1, 119], \"target_region\": [1, 117], \"seqid\": 71.7948717948718}",
+        "{\"pdb\": \"6cxc\", \"pdb_chain\": \"6cxc_X\", \"query_region\": [1, 119], \"target_region\": [3, 117], \"seqid\": 72.1739130434783}",
+        "{\"pdb\": \"4nkd\", \"pdb_chain\": \"4nkd_A\", \"query_region\": [1, 119], \"target_region\": [1, 121], \"seqid\": 64.7058823529412}",
+        "{\"pdb\": \"1seq\", \"pdb_chain\": \"1seq_H\", \"query_region\": [1, 119], \"target_region\": [1, 122], \"seqid\": 50.4201680672269}",
+        "{\"pdb\": \"4ut7\", \"pdb_chain\": \"4ut7_H\", \"query_region\": [1, 119], \"target_region\": [1, 132], \"seqid\": 49.5798319327731}",
+        "{\"pdb\": \"6ivz\", \"pdb_chain\": \"6ivz_H\", \"query_region\": [1, 117], \"target_region\": [2, 121], \"seqid\": 45.2991452991453}"
+      ],
+      "6sxi_4": [
+        "{\"pdb\": \"6ivz\", \"pdb_chain\": \"6ivz_L\", \"query_region\": [1, 108], \"target_region\": [21, 128], \"seqid\": 67.59259259259261}",
+        "{\"pdb\": \"4nkd\", \"pdb_chain\": \"4nkd_B\", \"query_region\": [3, 108], \"target_region\": [5, 115], \"seqid\": 61.3207547169811}",
+        "{\"pdb\": \"4ffy\", \"pdb_chain\": \"4ffy_L\", \"query_region\": [5, 108], \"target_region\": [2, 109], \"seqid\": 60.576923076923094}",
+        "{\"pdb\": \"1seq\", \"pdb_chain\": \"1seq_L\", \"query_region\": [4, 108], \"target_region\": [1, 104], \"seqid\": 59.615384615384606}",
+        "{\"pdb\": \"4ut7\", \"pdb_chain\": \"4ut7_L\", \"query_region\": [1, 107], \"target_region\": [1, 110], \"seqid\": 48.5981308411215}",
+        "{\"pdb\": \"6cxc\", \"pdb_chain\": \"6cxc_Y\", \"query_region\": [3, 108], \"target_region\": [2, 107], \"seqid\": 88.6792452830189}"
+      ]
+    },
+    "rejection": "Trivial templates: ['1seq', '6ivz', '4nkd', '6cxc', '4ut7', '4ffy']"
+  },
+  "6syo": {
+    "classification": "rejected",
+    "coverage": {
+      "6syo_1": "complete",
+      "6syo_2": "complete"
+    },
+    "matches": {
+      "6syo_1": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_S\", \"query_region\": [1, 298], \"target_region\": [1, 298], \"seqid\": 100.0}"
+      ],
+      "6syo_2": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_L\", \"query_region\": [1, 567], \"target_region\": [1, 567], \"seqid\": 99.8236331569665}"
+      ]
+    },
+    "rejection": "Trivial template: 6en9"
+  },
+  "6syx": {
+    "classification": "rejected",
+    "coverage": {
+      "6syx_1": "complete",
+      "6syx_2": "complete"
+    },
+    "matches": {
+      "6syx_1": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_S\", \"query_region\": [1, 298], \"target_region\": [1, 298], \"seqid\": 100.0}"
+      ],
+      "6syx_2": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_L\", \"query_region\": [1, 567], \"target_region\": [1, 567], \"seqid\": 99.8236331569665}"
+      ]
+    },
+    "rejection": "Trivial template: 6en9"
+  },
+  "6szd": {
+    "classification": "rejected",
+    "coverage": {
+      "6szd_1": "complete",
+      "6szd_2": "complete"
+    },
+    "matches": {
+      "6szd_1": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_S\", \"query_region\": [1, 298], \"target_region\": [1, 298], \"seqid\": 100.0}"
+      ],
+      "6szd_2": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_L\", \"query_region\": [1, 567], \"target_region\": [1, 567], \"seqid\": 99.8236331569665}"
+      ]
+    },
+    "rejection": "Trivial template: 6en9"
+  },
+  "6szk": {
+    "classification": "rejected",
+    "coverage": {
+      "6szk_1": "complete",
+      "6szk_2": "complete"
+    },
+    "matches": {
+      "6szk_1": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_S\", \"query_region\": [1, 298], \"target_region\": [1, 298], \"seqid\": 100.0}"
+      ],
+      "6szk_2": [
+        "{\"pdb\": \"6en9\", \"pdb_chain\": \"6en9_L\", \"query_region\": [1, 567], \"target_region\": [1, 567], \"seqid\": 99.8236331569665}"
+      ]
+    },
+    "rejection": "Trivial template: 6en9"
+  },
+  "6ta5": {
+    "classification": "rejected",
+    "coverage": {
+      "6ta5_1": "complete",
+      "6ta5_2": "complete",
+      "6ta5_3": "complete"
+    },
+    "matches": {
+      "6ta5_1": [
+        "{\"pdb\": \"6iok\", \"pdb_chain\": \"6iok_A\", \"query_region\": [1, 474], \"target_region\": [1, 474], \"seqid\": 100.0}"
+      ],
+      "6ta5_2": [
+        "{\"pdb\": \"6iok\", \"pdb_chain\": \"6iok_I\", \"query_region\": [2, 360], \"target_region\": [4, 362], \"seqid\": 100.0}"
+      ],
+      "6ta5_3": [
+        "{\"pdb\": \"6iok\", \"pdb_chain\": \"6iok_F\", \"query_region\": [1, 1052], \"target_region\": [1, 1054], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 6iok"
+  },
+  "6ta6": {
+    "classification": "rejected",
+    "coverage": {
+      "6ta6_1": "complete",
+      "6ta6_2": "complete",
+      "6ta6_3": "complete"
+    },
+    "matches": {
+      "6ta6_1": [
+        "{\"pdb\": \"6iok\", \"pdb_chain\": \"6iok_A\", \"query_region\": [1, 474], \"target_region\": [1, 474], \"seqid\": 100.0}"
+      ],
+      "6ta6_2": [
+        "{\"pdb\": \"6iok\", \"pdb_chain\": \"6iok_I\", \"query_region\": [2, 360], \"target_region\": [4, 362], \"seqid\": 100.0}"
+      ],
+      "6ta6_3": [
+        "{\"pdb\": \"6iok\", \"pdb_chain\": \"6iok_F\", \"query_region\": [1, 1052], \"target_region\": [1, 1054], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 6iok"
+  },
+  "6tmm": {
+    "classification": "template-based",
+    "coverage": {
+      "6tmm_1": "complete",
+      "6tmm_2": "complete"
+    },
+    "matches": {
+      "6tmm_1": [
+        "{\"pdb\": \"2lwy\", \"pdb_chain\": \"2lwy_A\", \"query_region\": [9, 150], \"target_region\": [4, 137], \"seqid\": 29.1044776119403}"
+      ],
+      "6tmm_2": [
+        "{\"pdb\": \"2lwy\", \"pdb_chain\": \"2lwy_A\", \"query_region\": [9, 150], \"target_region\": [4, 137], \"seqid\": 29.1044776119403}"
+      ]
+    },
+    "templates": [
+      "2lwy"
+    ]
+  },
+  "6upa": {
+    "classification": "rejected",
+    "coverage": {
+      "6upa_1": "complete",
+      "6upa_2": "complete"
+    },
+    "matches": {
+      "6upa_1": [
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [13, 278], \"target_region\": [37, 302], \"seqid\": 67.2932330827068}",
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [1, 278], \"target_region\": [1, 281], \"seqid\": 48.5611510791367}",
+        "{\"pdb\": \"5cyo\", \"pdb_chain\": \"5cyo_A\", \"query_region\": [15, 279], \"target_region\": [2, 272], \"seqid\": 44.905660377358494}",
+        "{\"pdb\": \"2qnr\", \"pdb_chain\": \"2qnr_A\", \"query_region\": [7, 278], \"target_region\": [8, 285], \"seqid\": 44.1176470588235}",
+        "{\"pdb\": \"6ois\", \"pdb_chain\": \"6ois_A\", \"query_region\": [1, 26], \"target_region\": [1, 27], \"seqid\": 57.6923076923077}"
+      ],
+      "6upa_2": [
+        "{\"pdb\": \"2qnr\", \"pdb_chain\": \"2qnr_A\", \"query_region\": [2, 277], \"target_region\": [16, 291], \"seqid\": 98.9130434782609}",
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [2, 271], \"target_region\": [15, 281], \"seqid\": 61.4232209737828}",
+        "{\"pdb\": \"5cyo\", \"pdb_chain\": \"5cyo_A\", \"query_region\": [2, 274], \"target_region\": [2, 274], \"seqid\": 48.7179487179487}",
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [2, 280], \"target_region\": [39, 311], \"seqid\": 45.4212454212454}",
+        "{\"pdb\": \"6ois\", \"pdb_chain\": \"6ois_C\", \"query_region\": [271, 299], \"target_region\": [421, 449], \"seqid\": 86.2068965517241}"
+      ]
+    },
+    "rejection": "Trivial templates: ['4kv9', '6n0b', '5cyo', '2qnr', '6ois']"
+  },
+  "6upq": {
+    "classification": "rejected",
+    "coverage": {
+      "6upq_1": "complete",
+      "6upq_2": "complete"
+    },
+    "matches": {
+      "6upq_1": [
+        "{\"pdb\": \"2qa5\", \"pdb_chain\": \"2qa5_A\", \"query_region\": [2, 274], \"target_region\": [36, 308], \"seqid\": 100.0}",
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [2, 270], \"target_region\": [16, 281], \"seqid\": 61.2781954887218}",
+        "{\"pdb\": \"5cyo\", \"pdb_chain\": \"5cyo_A\", \"query_region\": [2, 273], \"target_region\": [3, 274], \"seqid\": 48.5294117647059}",
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [2, 271], \"target_region\": [40, 303], \"seqid\": 46.2121212121212}"
+      ],
+      "6upq_2": [
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [23, 293], \"target_region\": [36, 306], \"seqid\": 67.89667896678971}",
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [1, 289], \"target_region\": [1, 281], \"seqid\": 48.3985765124555}",
+        "{\"pdb\": \"5cyo\", \"pdb_chain\": \"5cyo_A\", \"query_region\": [27, 291], \"target_region\": [3, 273], \"seqid\": 44.905660377358494}",
+        "{\"pdb\": \"2qa5\", \"pdb_chain\": \"2qa5_A\", \"query_region\": [19, 290], \"target_region\": [28, 305], \"seqid\": 45.2205882352941}"
+      ]
+    },
+    "rejection": "Trivial templates: ['2qa5', '6n0b', '5cyo', '4kv9']"
+  },
+  "6upr": {
+    "classification": "rejected",
+    "coverage": {
+      "6upr_1": "complete",
+      "6upr_2": "complete"
+    },
+    "matches": {
+      "6upr_1": [
+        "{\"pdb\": \"2qa5\", \"pdb_chain\": \"2qa5_A\", \"query_region\": [2, 274], \"target_region\": [36, 308], \"seqid\": 100.0}",
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [2, 270], \"target_region\": [16, 281], \"seqid\": 61.2781954887218}",
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [2, 271], \"target_region\": [40, 303], \"seqid\": 46.2121212121212}"
+      ],
+      "6upr_2": [
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [13, 292], \"target_region\": [29, 308], \"seqid\": 67.8571428571429}",
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [1, 286], \"target_region\": [1, 281], \"seqid\": 50.889679715302506}",
+        "{\"pdb\": \"2qa5\", \"pdb_chain\": \"2qa5_A\", \"query_region\": [17, 289], \"target_region\": [29, 307], \"seqid\": 45.0549450549451}"
+      ]
+    },
+    "rejection": "Trivial templates: ['2qa5', '6n0b', '4kv9']"
+  },
+  "6uqq": {
+    "classification": "rejected",
+    "coverage": {
+      "6uqq_1": "complete",
+      "6uqq_2": "complete"
+    },
+    "matches": {
+      "6uqq_1": [
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [1, 285], \"target_region\": [1, 285], \"seqid\": 100.0}",
+        "{\"pdb\": \"2qa5\", \"pdb_chain\": \"2qa5_A\", \"query_region\": [7, 281], \"target_region\": [27, 304], \"seqid\": 60.363636363636395}",
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [14, 282], \"target_region\": [38, 303], \"seqid\": 46.9924812030075}"
+      ],
+      "6uqq_2": [
+        "{\"pdb\": \"6n0b\", \"pdb_chain\": \"6n0b_C\", \"query_region\": [2, 272], \"target_region\": [15, 281], \"seqid\": 52.059925093633}",
+        "{\"pdb\": \"2qa5\", \"pdb_chain\": \"2qa5_A\", \"query_region\": [2, 276], \"target_region\": [35, 308], \"seqid\": 51.459854014598506}",
+        "{\"pdb\": \"4kv9\", \"pdb_chain\": \"4kv9_A\", \"query_region\": [2, 289], \"target_region\": [39, 319], \"seqid\": 46.9750889679715}"
+      ]
+    },
+    "rejection": "Trivial templates: ['6n0b', '2qa5', '4kv9']"
+  },
+  "6v82": {
+    "classification": "template-based",
+    "coverage": {
+      "6v82_1": "complete",
+      "6v82_2": "complete"
+    },
+    "matches": {
+      "6v82_1": [
+        "{\"pdb\": \"5ey5\", \"pdb_chain\": \"5ey5_A\", \"query_region\": [9, 237], \"target_region\": [14, 243], \"seqid\": 34.934497816593904}",
+        "{\"pdb\": \"5kin\", \"pdb_chain\": \"5kin_A\", \"query_region\": [14, 232], \"target_region\": [20, 238], \"seqid\": 28.310502283105}",
+        "{\"pdb\": \"5tcf\", \"pdb_chain\": \"5tcf_A\", \"query_region\": [13, 238], \"target_region\": [26, 248], \"seqid\": 30.493273542600903}"
+      ],
+      "6v82_2": [
+        "{\"pdb\": \"5ey5\", \"pdb_chain\": \"5ey5_B\", \"query_region\": [8, 388], \"target_region\": [6, 386], \"seqid\": 56.9553805774278}",
+        "{\"pdb\": \"5tcf\", \"pdb_chain\": \"5tcf_B\", \"query_region\": [7, 381], \"target_region\": [24, 398], \"seqid\": 55.4666666666667}",
+        "{\"pdb\": \"5kin\", \"pdb_chain\": \"5kin_B\", \"query_region\": [7, 385], \"target_region\": [14, 393], \"seqid\": 54.6174142480211}"
+      ]
+    },
+    "templates": [
+      "5ey5",
+      "5kin",
+      "5tcf"
+    ]
+  },
+  "6vbg": {
+    "classification": "rejected",
+    "coverage": {
+      "6vbg_1": "complete",
+      "6vbg_2": "complete"
+    },
+    "matches": {
+      "6vbg_1": [
+        "{\"pdb\": \"5gxb\", \"pdb_chain\": \"5gxb_A\", \"query_region\": [1, 417], \"target_region\": [1, 417], \"seqid\": 100.0}"
+      ],
+      "6vbg_2": [
+        "{\"pdb\": \"5gxb\", \"pdb_chain\": \"5gxb_B\", \"query_region\": [1, 121], \"target_region\": [2, 134], \"seqid\": 83.4710743801653}"
+      ]
+    },
+    "rejection": "Trivial template: 5gxb"
+  },
+  "6vek": {
+    "classification": "rejected",
+    "coverage": {
+      "6vek_1": "contiguous",
+      "6vek_2": "complete"
+    },
+    "matches": {
+      "6vek_1": [
+        "{\"pdb\": \"6cp8\", \"pdb_chain\": \"6cp8_A\", \"query_region\": [175, 338], \"target_region\": [1, 163], \"seqid\": 100.0}"
+      ],
+      "6vek_2": [
+        "{\"pdb\": \"6cp8\", \"pdb_chain\": \"6cp8_C\", \"query_region\": [1, 161], \"target_region\": [4, 164], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 6cp8"
+  },
+  "6vm7": {
+    "classification": "rejected",
+    "coverage": {
+      "6vm7_1": "complete",
+      "6vm7_2": "contiguous",
+      "6vm7_3": "bad",
+      "6vm7_4": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6vm8": {
+    "classification": "template-based",
+    "coverage": {
+      "6vm8_1": "complete",
+      "6vm8_2": "complete",
+      "6vm8_3": "contiguous",
+      "6vm8_4": "contiguous"
+    },
+    "matches": {
+      "6vm8_1": [
+        "{\"pdb\": \"5d2l\", \"pdb_chain\": \"5d2l_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 100.0}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 100.0}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 91.6363636363636}",
+        "{\"pdb\": \"3vxm\", \"pdb_chain\": \"3vxm_A\", \"query_region\": [1, 274], \"target_region\": [2, 275], \"seqid\": 90.87591240875909}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [1, 274], \"target_region\": [1, 274], \"seqid\": 89.4160583941606}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 76.3636363636364}",
+        "{\"pdb\": \"1fo0\", \"pdb_chain\": \"1fo0_H\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 72.72727272727269}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 70.9090909090909}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [97, 274], \"target_region\": [11, 188], \"seqid\": 23.033707865168502}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_A\", \"query_region\": [25, 267], \"target_region\": [24, 266], \"seqid\": 22.2222222222222}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [110, 274], \"target_region\": [24, 188], \"seqid\": 24.2424242424242}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [108, 275], \"target_region\": [46, 210], \"seqid\": 26.6666666666667}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [192, 266], \"target_region\": [146, 220], \"seqid\": 24.0}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [174, 275], \"target_region\": [4, 104], \"seqid\": 23.7623762376238}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [195, 267], \"target_region\": [128, 203], \"seqid\": 31.506849315068504}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [179, 275], \"target_region\": [2, 97], \"seqid\": 22.9166666666667}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [195, 272], \"target_region\": [131, 212], \"seqid\": 26.9230769230769}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [180, 275], \"target_region\": [3, 97], \"seqid\": 21.052631578947402}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [197, 274], \"target_region\": [103, 180], \"seqid\": 24.3589743589744}"
+      ],
+      "6vm8_2": [
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [3, 218], \"target_region\": [9, 208], \"seqid\": 32.0}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [2, 243], \"target_region\": [5, 243], \"seqid\": 71.54811715481169}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [2, 243], \"target_region\": [3, 246], \"seqid\": 70.2479338842975}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [3, 149], \"target_region\": [4, 142], \"seqid\": 35.9712230215827}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [2, 242], \"target_region\": [2, 239], \"seqid\": 74.3697478991597}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [4, 215], \"target_region\": [5, 201], \"seqid\": 36.0406091370558}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [2, 243], \"target_region\": [3, 243], \"seqid\": 76.3485477178423}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [2, 243], \"target_region\": [2, 241], \"seqid\": 72.0833333333333}",
+        "{\"pdb\": \"5d2l\", \"pdb_chain\": \"5d2l_J\", \"query_region\": [2, 243], \"target_region\": [4, 245], \"seqid\": 72.31404958677689}",
+        "{\"pdb\": \"3vxm\", \"pdb_chain\": \"3vxm_E\", \"query_region\": [3, 243], \"target_region\": [5, 244], \"seqid\": 70.4166666666667}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [7, 215], \"target_region\": [7, 208], \"seqid\": 32.6732673267327}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [32, 219], \"target_region\": [37, 223], \"seqid\": 26.7379679144385}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [3, 149], \"target_region\": [3, 138], \"seqid\": 35.2941176470588}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [13, 149], \"target_region\": [13, 137], \"seqid\": 33.6}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [2, 243], \"target_region\": [4, 245], \"seqid\": 72.31404958677689}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [3, 243], \"target_region\": [4, 248], \"seqid\": 69.70954356846471}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [14, 149], \"target_region\": [15, 141], \"seqid\": 37.7952755905512}",
+        "{\"pdb\": \"1fo0\", \"pdb_chain\": \"1fo0_B\", \"query_region\": [4, 112], \"target_region\": [5, 112], \"seqid\": 25.925925925925903}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [1, 243], \"target_region\": [1, 242], \"seqid\": 71.0743801652893}"
+      ],
+      "6vm8_3": [
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [4, 205], \"target_region\": [2, 200], \"seqid\": 70.35175879396989}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [5, 208], \"target_region\": [4, 208], \"seqid\": 63.725490196078404}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [12, 203], \"target_region\": [10, 199], \"seqid\": 64.2105263157895}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [3, 142], \"target_region\": [4, 149], \"seqid\": 35.0}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [5, 142], \"target_region\": [4, 152], \"seqid\": 35.5072463768116}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [3, 142], \"target_region\": [3, 151], \"seqid\": 33.571428571428605}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [3, 208], \"target_region\": [2, 207], \"seqid\": 71.8446601941748}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [5, 142], \"target_region\": [3, 147], \"seqid\": 34.7826086956522}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [5, 142], \"target_region\": [3, 148], \"seqid\": 34.7826086956522}",
+        "{\"pdb\": \"5d2l\", \"pdb_chain\": \"5d2l_J\", \"query_region\": [3, 142], \"target_region\": [3, 151], \"seqid\": 35.7142857142857}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [15, 151], \"target_region\": [13, 158], \"seqid\": 33.5766423357664}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [5, 142], \"target_region\": [4, 154], \"seqid\": 32.6086956521739}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [10, 130], \"target_region\": [8, 128], \"seqid\": 30.5785123966942}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [18, 142], \"target_region\": [17, 149], \"seqid\": 32.800000000000004}",
+        "{\"pdb\": \"1fo0\", \"pdb_chain\": \"1fo0_A\", \"query_region\": [4, 112], \"target_region\": [2, 114], \"seqid\": 29.3577981651376}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [20, 143], \"target_region\": [18, 142], \"seqid\": 29.838709677419402}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [21, 147], \"target_region\": [25, 149], \"seqid\": 29.599999999999998}",
+        "{\"pdb\": \"3vxm\", \"pdb_chain\": \"3vxm_E\", \"query_region\": [4, 142], \"target_region\": [4, 150], \"seqid\": 28.776978417266204}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_A\", \"query_region\": [29, 143], \"target_region\": [29, 142], \"seqid\": 28.947368421052598}"
+      ],
+      "6vm8_4": [
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [2, 100], \"target_region\": [9, 107], \"seqid\": 100.0}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [7, 97], \"target_region\": [119, 210], \"seqid\": 32.967032967033}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 32.258064516129}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [4, 96], \"target_region\": [87, 180], \"seqid\": 30.107526881720396}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 33.3333333333333}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [5, 97], \"target_region\": [184, 275], \"seqid\": 31.5217391304348}",
+        "{\"pdb\": \"1fo0\", \"pdb_chain\": \"1fo0_H\", \"query_region\": [6, 97], \"target_region\": [186, 276], \"seqid\": 29.6703296703297}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [2, 100], \"target_region\": [2, 100], \"seqid\": 69.6969696969697}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [3, 97], \"target_region\": [181, 276], \"seqid\": 25.2631578947368}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_A\", \"query_region\": [18, 86], \"target_region\": [153, 222], \"seqid\": 23.1884057971014}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [1, 100], \"target_region\": [1, 100], \"seqid\": 99.0}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_B\", \"query_region\": [3, 99], \"target_region\": [1, 97], \"seqid\": 69.07216494845359}",
+        "{\"pdb\": \"3vxm\", \"pdb_chain\": \"3vxm_A\", \"query_region\": [3, 96], \"target_region\": [181, 275], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [6, 97], \"target_region\": [185, 275], \"seqid\": 26.3736263736264}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [58, 77], \"target_region\": [105, 123], \"seqid\": 31.5789473684211}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [12, 97], \"target_region\": [144, 230], \"seqid\": 25.581395348837198}",
+        "{\"pdb\": \"5d2l\", \"pdb_chain\": \"5d2l_A\", \"query_region\": [58, 77], \"target_region\": [105, 123], \"seqid\": 31.5789473684211}"
+      ]
+    },
+    "templates": [
+      "5d2l",
+      "5c07",
+      "6id4",
+      "3vxm",
+      "5brz",
+      "5w1v",
+      "1fo0",
+      "5wlg",
+      "1zgl",
+      "6cw9",
+      "1ymm",
+      "4p4k",
+      "1zvo",
+      "6avg",
+      "1w72",
+      "4prh",
+      "6rcs",
+      "3rgv",
+      "6mnm"
+    ]
+  },
+  "6vm9": {
+    "classification": "template-based",
+    "coverage": {
+      "6vm9_1": "complete",
+      "6vm9_2": "contiguous",
+      "6vm9_4": "complete",
+      "6vm9_5": "contiguous"
+    },
+    "matches": {
+      "6vm9_1": [
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 100.0}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 91.6363636363636}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [1, 274], \"target_region\": [1, 274], \"seqid\": 89.4160583941606}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 76.3636363636364}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_H\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 72.72727272727269}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 70.9090909090909}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_B\", \"query_region\": [110, 274], \"target_region\": [54, 218], \"seqid\": 26.6666666666667}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_A\", \"query_region\": [99, 274], \"target_region\": [101, 278], \"seqid\": 27.2727272727273}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_B\", \"query_region\": [111, 274], \"target_region\": [25, 188], \"seqid\": 24.390243902439}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [97, 274], \"target_region\": [11, 188], \"seqid\": 23.033707865168502}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_A\", \"query_region\": [25, 267], \"target_region\": [24, 266], \"seqid\": 22.2222222222222}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_H\", \"query_region\": [194, 264], \"target_region\": [135, 205], \"seqid\": 25.352112676056297}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [110, 274], \"target_region\": [24, 188], \"seqid\": 24.2424242424242}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [108, 275], \"target_region\": [46, 210], \"seqid\": 26.6666666666667}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [192, 266], \"target_region\": [146, 220], \"seqid\": 24.0}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [174, 275], \"target_region\": [4, 104], \"seqid\": 23.7623762376238}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_B\", \"query_region\": [178, 275], \"target_region\": [3, 99], \"seqid\": 22.680412371134}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [195, 267], \"target_region\": [128, 203], \"seqid\": 31.506849315068504}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [179, 275], \"target_region\": [2, 97], \"seqid\": 22.9166666666667}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [195, 272], \"target_region\": [131, 212], \"seqid\": 26.9230769230769}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [180, 275], \"target_region\": [3, 97], \"seqid\": 21.052631578947402}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [197, 274], \"target_region\": [103, 180], \"seqid\": 24.3589743589744}"
+      ],
+      "6vm9_2": [
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_B\", \"query_region\": [2, 100], \"target_region\": [4, 102], \"seqid\": 100.0}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [2, 100], \"target_region\": [9, 107], \"seqid\": 100.0}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [7, 97], \"target_region\": [119, 210], \"seqid\": 32.967032967033}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_B\", \"query_region\": [5, 96], \"target_region\": [96, 188], \"seqid\": 34.7826086956522}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 32.258064516129}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [4, 96], \"target_region\": [87, 180], \"seqid\": 30.107526881720396}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_B\", \"query_region\": [15, 97], \"target_region\": [137, 219], \"seqid\": 37.3493975903614}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 33.3333333333333}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [5, 97], \"target_region\": [184, 275], \"seqid\": 31.5217391304348}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_H\", \"query_region\": [6, 97], \"target_region\": [185, 275], \"seqid\": 29.6703296703297}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [2, 100], \"target_region\": [2, 100], \"seqid\": 69.6969696969697}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_H\", \"query_region\": [18, 86], \"target_region\": [136, 205], \"seqid\": 23.1884057971014}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_A\", \"query_region\": [11, 95], \"target_region\": [192, 276], \"seqid\": 27.058823529411804}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [3, 97], \"target_region\": [181, 276], \"seqid\": 25.2631578947368}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_A\", \"query_region\": [18, 86], \"target_region\": [153, 222], \"seqid\": 23.1884057971014}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [1, 100], \"target_region\": [1, 100], \"seqid\": 99.0}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_B\", \"query_region\": [3, 99], \"target_region\": [1, 97], \"seqid\": 69.07216494845359}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [6, 97], \"target_region\": [185, 275], \"seqid\": 26.3736263736264}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [58, 77], \"target_region\": [105, 123], \"seqid\": 31.5789473684211}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [12, 97], \"target_region\": [144, 230], \"seqid\": 25.581395348837198}"
+      ],
+      "6vm9_4": [
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [3, 201], \"target_region\": [1, 199], \"seqid\": 81.4070351758794}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [4, 206], \"target_region\": [3, 208], \"seqid\": 72.4137931034483}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [5, 203], \"target_region\": [3, 200], \"seqid\": 67.1717171717172}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_A\", \"query_region\": [4, 112], \"target_region\": [2, 111], \"seqid\": 49.5412844036697}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [10, 151], \"target_region\": [8, 160], \"seqid\": 34.5070422535211}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [16, 140], \"target_region\": [15, 154], \"seqid\": 35.199999999999996}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [17, 128], \"target_region\": [15, 128], \"seqid\": 32.1428571428571}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_F\", \"query_region\": [4, 140], \"target_region\": [4, 152], \"seqid\": 30.6569343065693}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [17, 140], \"target_region\": [15, 147], \"seqid\": 30.645161290322598}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [17, 140], \"target_region\": [15, 148], \"seqid\": 30.645161290322598}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [12, 140], \"target_region\": [13, 149], \"seqid\": 30.2325581395349}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_F\", \"query_region\": [16, 140], \"target_region\": [14, 148], \"seqid\": 31.2}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_E\", \"query_region\": [14, 140], \"target_region\": [11, 147], \"seqid\": 31.496062992126}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [7, 145], \"target_region\": [11, 149], \"seqid\": 28.776978417266204}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [17, 140], \"target_region\": [16, 149], \"seqid\": 32.258064516129}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [5, 206], \"target_region\": [4, 207], \"seqid\": 65.3465346534653}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [12, 140], \"target_region\": [12, 151], \"seqid\": 30.2325581395349}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [15, 140], \"target_region\": [14, 152], \"seqid\": 29.3650793650794}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_A\", \"query_region\": [20, 151], \"target_region\": [18, 153], \"seqid\": 31.060606060606098}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_L\", \"query_region\": [17, 141], \"target_region\": [17, 144], \"seqid\": 31.2}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [12, 141], \"target_region\": [10, 142], \"seqid\": 32.3076923076923}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_F\", \"query_region\": [6, 118], \"target_region\": [5, 125], \"seqid\": 28.318584070796497}"
+      ],
+      "6vm9_5": [
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_L\", \"query_region\": [4, 213], \"target_region\": [5, 203], \"seqid\": 35.1758793969849}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [3, 216], \"target_region\": [9, 208], \"seqid\": 31.5}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [2, 241], \"target_region\": [5, 243], \"seqid\": 70.71129707112969}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [2, 241], \"target_region\": [3, 246], \"seqid\": 69.1666666666667}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_F\", \"query_region\": [1, 241], \"target_region\": [1, 242], \"seqid\": 71.7842323651452}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [2, 241], \"target_region\": [2, 241], \"seqid\": 72.9166666666667}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [4, 213], \"target_region\": [5, 201], \"seqid\": 35.5329949238579}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_F\", \"query_region\": [3, 241], \"target_region\": [5, 246], \"seqid\": 79.9163179916318}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [3, 147], \"target_region\": [4, 142], \"seqid\": 36.6906474820144}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [2, 241], \"target_region\": [3, 243], \"seqid\": 77.5}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [2, 240], \"target_region\": [2, 239], \"seqid\": 74.7899159663866}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [3, 147], \"target_region\": [3, 138], \"seqid\": 33.8235294117647}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [13, 147], \"target_region\": [13, 137], \"seqid\": 34.4}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [7, 213], \"target_region\": [7, 208], \"seqid\": 31.6831683168317}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_A\", \"query_region\": [3, 111], \"target_region\": [3, 110], \"seqid\": 32.407407407407405}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [32, 217], \"target_region\": [37, 223], \"seqid\": 26.881720430107496}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [2, 241], \"target_region\": [4, 245], \"seqid\": 72.5}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_F\", \"query_region\": [13, 157], \"target_region\": [14, 167], \"seqid\": 26.2068965517241}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_E\", \"query_region\": [3, 241], \"target_region\": [2, 241], \"seqid\": 78.6610878661088}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [3, 241], \"target_region\": [4, 248], \"seqid\": 69.0376569037657}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [14, 147], \"target_region\": [15, 141], \"seqid\": 37.007874015748}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [1, 241], \"target_region\": [1, 242], \"seqid\": 71.7842323651452}"
+      ]
+    },
+    "templates": [
+      "5c07",
+      "6id4",
+      "5brz",
+      "5w1v",
+      "1kj2",
+      "5wlg",
+      "5ks9",
+      "3huj",
+      "1fyt",
+      "1zgl",
+      "6cw9",
+      "1mco",
+      "1ymm",
+      "4p4k",
+      "1zvo",
+      "6avg",
+      "1ypz",
+      "1w72",
+      "4prh",
+      "6rcs",
+      "3rgv",
+      "6mnm"
+    ]
+  },
+  "6vma": {
+    "classification": "template-based",
+    "coverage": {
+      "6vma_1": "complete",
+      "6vma_2": "contiguous",
+      "6vma_3": "complete",
+      "6vma_4": "contiguous"
+    },
+    "matches": {
+      "6vma_1": [
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 100.0}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 91.6363636363636}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [1, 274], \"target_region\": [1, 274], \"seqid\": 89.4160583941606}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 76.3636363636364}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_H\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 72.72727272727269}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 70.9090909090909}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_B\", \"query_region\": [110, 274], \"target_region\": [54, 218], \"seqid\": 26.6666666666667}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_A\", \"query_region\": [99, 274], \"target_region\": [101, 278], \"seqid\": 27.2727272727273}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_B\", \"query_region\": [111, 274], \"target_region\": [25, 188], \"seqid\": 24.390243902439}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [97, 274], \"target_region\": [11, 188], \"seqid\": 23.033707865168502}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_A\", \"query_region\": [25, 267], \"target_region\": [24, 266], \"seqid\": 22.2222222222222}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_H\", \"query_region\": [194, 264], \"target_region\": [135, 205], \"seqid\": 25.352112676056297}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [110, 274], \"target_region\": [24, 188], \"seqid\": 24.2424242424242}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [108, 275], \"target_region\": [46, 210], \"seqid\": 26.6666666666667}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [192, 266], \"target_region\": [146, 220], \"seqid\": 24.0}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [174, 275], \"target_region\": [4, 104], \"seqid\": 23.7623762376238}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_B\", \"query_region\": [178, 275], \"target_region\": [3, 99], \"seqid\": 22.680412371134}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [195, 267], \"target_region\": [128, 203], \"seqid\": 31.506849315068504}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [179, 275], \"target_region\": [2, 97], \"seqid\": 22.9166666666667}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [195, 272], \"target_region\": [131, 212], \"seqid\": 26.9230769230769}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [180, 275], \"target_region\": [3, 97], \"seqid\": 21.052631578947402}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [197, 274], \"target_region\": [103, 180], \"seqid\": 24.3589743589744}"
+      ],
+      "6vma_2": [
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_B\", \"query_region\": [2, 100], \"target_region\": [4, 102], \"seqid\": 100.0}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [2, 100], \"target_region\": [9, 107], \"seqid\": 100.0}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [7, 97], \"target_region\": [119, 210], \"seqid\": 32.967032967033}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_B\", \"query_region\": [5, 96], \"target_region\": [96, 188], \"seqid\": 34.7826086956522}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 32.258064516129}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [4, 96], \"target_region\": [87, 180], \"seqid\": 30.107526881720396}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_B\", \"query_region\": [15, 97], \"target_region\": [137, 219], \"seqid\": 37.3493975903614}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 33.3333333333333}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [5, 97], \"target_region\": [184, 275], \"seqid\": 31.5217391304348}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_H\", \"query_region\": [6, 97], \"target_region\": [185, 275], \"seqid\": 29.6703296703297}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [2, 100], \"target_region\": [2, 100], \"seqid\": 69.6969696969697}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_H\", \"query_region\": [18, 86], \"target_region\": [136, 205], \"seqid\": 23.1884057971014}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_A\", \"query_region\": [11, 95], \"target_region\": [192, 276], \"seqid\": 27.058823529411804}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [3, 97], \"target_region\": [181, 276], \"seqid\": 25.2631578947368}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_A\", \"query_region\": [18, 86], \"target_region\": [153, 222], \"seqid\": 23.1884057971014}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [1, 100], \"target_region\": [1, 100], \"seqid\": 99.0}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_B\", \"query_region\": [3, 99], \"target_region\": [1, 97], \"seqid\": 69.07216494845359}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [6, 97], \"target_region\": [185, 275], \"seqid\": 26.3736263736264}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [58, 77], \"target_region\": [105, 123], \"seqid\": 31.5789473684211}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [12, 97], \"target_region\": [144, 230], \"seqid\": 25.581395348837198}"
+      ],
+      "6vma_3": [
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [3, 201], \"target_region\": [1, 199], \"seqid\": 81.4070351758794}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [4, 206], \"target_region\": [3, 208], \"seqid\": 72.4137931034483}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [5, 203], \"target_region\": [3, 200], \"seqid\": 67.1717171717172}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_A\", \"query_region\": [4, 112], \"target_region\": [2, 111], \"seqid\": 49.5412844036697}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [10, 151], \"target_region\": [8, 160], \"seqid\": 34.5070422535211}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [16, 140], \"target_region\": [15, 154], \"seqid\": 35.199999999999996}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [17, 128], \"target_region\": [15, 128], \"seqid\": 32.1428571428571}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_F\", \"query_region\": [4, 140], \"target_region\": [4, 152], \"seqid\": 30.6569343065693}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [17, 140], \"target_region\": [15, 147], \"seqid\": 30.645161290322598}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [17, 140], \"target_region\": [15, 148], \"seqid\": 30.645161290322598}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [12, 140], \"target_region\": [13, 149], \"seqid\": 30.2325581395349}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_F\", \"query_region\": [16, 140], \"target_region\": [14, 148], \"seqid\": 31.2}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_E\", \"query_region\": [14, 140], \"target_region\": [11, 147], \"seqid\": 31.496062992126}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [7, 145], \"target_region\": [11, 149], \"seqid\": 28.776978417266204}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [17, 140], \"target_region\": [16, 149], \"seqid\": 32.258064516129}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [5, 206], \"target_region\": [4, 207], \"seqid\": 65.3465346534653}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [12, 140], \"target_region\": [12, 151], \"seqid\": 30.2325581395349}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [15, 140], \"target_region\": [14, 152], \"seqid\": 29.3650793650794}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_A\", \"query_region\": [20, 151], \"target_region\": [18, 153], \"seqid\": 31.060606060606098}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_L\", \"query_region\": [17, 141], \"target_region\": [17, 144], \"seqid\": 31.2}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [12, 141], \"target_region\": [10, 142], \"seqid\": 32.3076923076923}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_F\", \"query_region\": [6, 118], \"target_region\": [5, 125], \"seqid\": 28.318584070796497}"
+      ],
+      "6vma_4": [
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_L\", \"query_region\": [4, 213], \"target_region\": [5, 203], \"seqid\": 35.1758793969849}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [3, 216], \"target_region\": [9, 208], \"seqid\": 31.5}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [2, 241], \"target_region\": [5, 243], \"seqid\": 70.71129707112969}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [2, 241], \"target_region\": [3, 246], \"seqid\": 69.1666666666667}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_F\", \"query_region\": [1, 241], \"target_region\": [1, 242], \"seqid\": 71.7842323651452}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [2, 241], \"target_region\": [2, 241], \"seqid\": 72.9166666666667}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [4, 213], \"target_region\": [5, 201], \"seqid\": 35.5329949238579}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_F\", \"query_region\": [3, 241], \"target_region\": [5, 246], \"seqid\": 79.9163179916318}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [3, 147], \"target_region\": [4, 142], \"seqid\": 36.6906474820144}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [2, 241], \"target_region\": [3, 243], \"seqid\": 77.5}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [2, 240], \"target_region\": [2, 239], \"seqid\": 74.7899159663866}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [3, 147], \"target_region\": [3, 138], \"seqid\": 33.8235294117647}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [13, 147], \"target_region\": [13, 137], \"seqid\": 34.4}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [7, 213], \"target_region\": [7, 208], \"seqid\": 31.6831683168317}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_A\", \"query_region\": [3, 111], \"target_region\": [3, 110], \"seqid\": 32.407407407407405}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [32, 217], \"target_region\": [37, 223], \"seqid\": 26.881720430107496}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [2, 241], \"target_region\": [4, 245], \"seqid\": 72.5}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_F\", \"query_region\": [13, 157], \"target_region\": [14, 167], \"seqid\": 26.2068965517241}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_E\", \"query_region\": [3, 241], \"target_region\": [2, 241], \"seqid\": 78.6610878661088}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [3, 241], \"target_region\": [4, 248], \"seqid\": 69.0376569037657}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [14, 147], \"target_region\": [15, 141], \"seqid\": 37.007874015748}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [1, 241], \"target_region\": [1, 242], \"seqid\": 71.7842323651452}"
+      ]
+    },
+    "templates": [
+      "5c07",
+      "6id4",
+      "5brz",
+      "5w1v",
+      "1kj2",
+      "5wlg",
+      "5ks9",
+      "3huj",
+      "1fyt",
+      "1zgl",
+      "6cw9",
+      "1mco",
+      "1ymm",
+      "4p4k",
+      "1zvo",
+      "6avg",
+      "1ypz",
+      "1w72",
+      "4prh",
+      "6rcs",
+      "3rgv",
+      "6mnm"
+    ]
+  },
+  "6vmc": {
+    "classification": "template-based",
+    "coverage": {
+      "6vmc_1": "complete",
+      "6vmc_2": "contiguous",
+      "6vmc_3": "complete",
+      "6vmc_4": "contiguous"
+    },
+    "matches": {
+      "6vmc_1": [
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [3, 201], \"target_region\": [1, 199], \"seqid\": 81.4070351758794}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [4, 206], \"target_region\": [3, 208], \"seqid\": 72.4137931034483}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [5, 203], \"target_region\": [3, 200], \"seqid\": 67.1717171717172}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_A\", \"query_region\": [4, 112], \"target_region\": [2, 111], \"seqid\": 49.5412844036697}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [10, 151], \"target_region\": [8, 160], \"seqid\": 34.5070422535211}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [16, 140], \"target_region\": [15, 154], \"seqid\": 35.199999999999996}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [17, 128], \"target_region\": [15, 128], \"seqid\": 32.1428571428571}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_F\", \"query_region\": [4, 140], \"target_region\": [4, 152], \"seqid\": 30.6569343065693}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [17, 140], \"target_region\": [15, 147], \"seqid\": 30.645161290322598}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [17, 140], \"target_region\": [15, 148], \"seqid\": 30.645161290322598}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [12, 140], \"target_region\": [13, 149], \"seqid\": 30.2325581395349}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_F\", \"query_region\": [16, 140], \"target_region\": [14, 148], \"seqid\": 31.2}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_E\", \"query_region\": [14, 140], \"target_region\": [11, 147], \"seqid\": 31.496062992126}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [7, 145], \"target_region\": [11, 149], \"seqid\": 28.776978417266204}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [17, 140], \"target_region\": [16, 149], \"seqid\": 32.258064516129}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [5, 206], \"target_region\": [4, 207], \"seqid\": 65.3465346534653}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [12, 140], \"target_region\": [12, 151], \"seqid\": 30.2325581395349}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [15, 140], \"target_region\": [14, 152], \"seqid\": 29.3650793650794}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_A\", \"query_region\": [20, 151], \"target_region\": [18, 153], \"seqid\": 31.060606060606098}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_L\", \"query_region\": [17, 141], \"target_region\": [17, 144], \"seqid\": 31.2}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [12, 141], \"target_region\": [10, 142], \"seqid\": 32.3076923076923}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_F\", \"query_region\": [6, 118], \"target_region\": [5, 125], \"seqid\": 28.318584070796497}"
+      ],
+      "6vmc_2": [
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_L\", \"query_region\": [4, 213], \"target_region\": [5, 203], \"seqid\": 35.1758793969849}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [3, 216], \"target_region\": [9, 208], \"seqid\": 31.5}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_E\", \"query_region\": [2, 241], \"target_region\": [5, 243], \"seqid\": 70.71129707112969}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_E\", \"query_region\": [2, 241], \"target_region\": [3, 246], \"seqid\": 69.1666666666667}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_F\", \"query_region\": [1, 241], \"target_region\": [1, 242], \"seqid\": 71.7842323651452}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_E\", \"query_region\": [2, 241], \"target_region\": [2, 241], \"seqid\": 72.9166666666667}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [4, 213], \"target_region\": [5, 201], \"seqid\": 35.5329949238579}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_F\", \"query_region\": [3, 241], \"target_region\": [5, 246], \"seqid\": 79.9163179916318}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_A\", \"query_region\": [3, 147], \"target_region\": [4, 142], \"seqid\": 36.6906474820144}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_E\", \"query_region\": [2, 241], \"target_region\": [3, 243], \"seqid\": 77.5}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_D\", \"query_region\": [2, 240], \"target_region\": [2, 239], \"seqid\": 74.7899159663866}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_D\", \"query_region\": [3, 147], \"target_region\": [3, 138], \"seqid\": 33.8235294117647}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_A\", \"query_region\": [13, 147], \"target_region\": [13, 137], \"seqid\": 34.4}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_D\", \"query_region\": [7, 213], \"target_region\": [7, 208], \"seqid\": 31.6831683168317}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_A\", \"query_region\": [3, 111], \"target_region\": [3, 110], \"seqid\": 32.407407407407405}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [32, 217], \"target_region\": [37, 223], \"seqid\": 26.881720430107496}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_D\", \"query_region\": [2, 241], \"target_region\": [4, 245], \"seqid\": 72.5}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_F\", \"query_region\": [13, 157], \"target_region\": [14, 167], \"seqid\": 26.2068965517241}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_E\", \"query_region\": [3, 241], \"target_region\": [2, 241], \"seqid\": 78.6610878661088}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_E\", \"query_region\": [3, 241], \"target_region\": [4, 248], \"seqid\": 69.0376569037657}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_M\", \"query_region\": [14, 147], \"target_region\": [15, 141], \"seqid\": 37.007874015748}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_D\", \"query_region\": [1, 241], \"target_region\": [1, 242], \"seqid\": 71.7842323651452}"
+      ],
+      "6vmc_3": [
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 100.0}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [1, 275], \"target_region\": [2, 276], \"seqid\": 91.6363636363636}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [1, 274], \"target_region\": [1, 274], \"seqid\": 89.4160583941606}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 76.3636363636364}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_H\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 72.72727272727269}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [1, 275], \"target_region\": [1, 275], \"seqid\": 70.9090909090909}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_B\", \"query_region\": [110, 274], \"target_region\": [54, 218], \"seqid\": 26.6666666666667}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_A\", \"query_region\": [99, 274], \"target_region\": [101, 278], \"seqid\": 27.2727272727273}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_B\", \"query_region\": [111, 274], \"target_region\": [25, 188], \"seqid\": 24.390243902439}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [97, 274], \"target_region\": [11, 188], \"seqid\": 23.033707865168502}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_A\", \"query_region\": [25, 267], \"target_region\": [24, 266], \"seqid\": 22.2222222222222}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_H\", \"query_region\": [194, 264], \"target_region\": [135, 205], \"seqid\": 25.352112676056297}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [110, 274], \"target_region\": [24, 188], \"seqid\": 24.2424242424242}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [108, 275], \"target_region\": [46, 210], \"seqid\": 26.6666666666667}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [192, 266], \"target_region\": [146, 220], \"seqid\": 24.0}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [174, 275], \"target_region\": [4, 104], \"seqid\": 23.7623762376238}",
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_B\", \"query_region\": [178, 275], \"target_region\": [3, 99], \"seqid\": 22.680412371134}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_L\", \"query_region\": [195, 267], \"target_region\": [128, 203], \"seqid\": 31.506849315068504}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [179, 275], \"target_region\": [2, 97], \"seqid\": 22.9166666666667}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_B\", \"query_region\": [195, 272], \"target_region\": [131, 212], \"seqid\": 26.9230769230769}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [180, 275], \"target_region\": [3, 97], \"seqid\": 21.052631578947402}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [197, 274], \"target_region\": [103, 180], \"seqid\": 24.3589743589744}"
+      ],
+      "6vmc_4": [
+        "{\"pdb\": \"1ypz\", \"pdb_chain\": \"1ypz_B\", \"query_region\": [2, 100], \"target_region\": [4, 102], \"seqid\": 100.0}",
+        "{\"pdb\": \"6avg\", \"pdb_chain\": \"6avg_H\", \"query_region\": [2, 100], \"target_region\": [9, 107], \"seqid\": 100.0}",
+        "{\"pdb\": \"4p4k\", \"pdb_chain\": \"4p4k_B\", \"query_region\": [7, 97], \"target_region\": [119, 210], \"seqid\": 32.967032967033}",
+        "{\"pdb\": \"1fyt\", \"pdb_chain\": \"1fyt_B\", \"query_region\": [5, 96], \"target_region\": [96, 188], \"seqid\": 34.7826086956522}",
+        "{\"pdb\": \"1zgl\", \"pdb_chain\": \"1zgl_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 32.258064516129}",
+        "{\"pdb\": \"6mnm\", \"pdb_chain\": \"6mnm_C\", \"query_region\": [4, 96], \"target_region\": [87, 180], \"seqid\": 30.107526881720396}",
+        "{\"pdb\": \"5ks9\", \"pdb_chain\": \"5ks9_B\", \"query_region\": [15, 97], \"target_region\": [137, 219], \"seqid\": 37.3493975903614}",
+        "{\"pdb\": \"1ymm\", \"pdb_chain\": \"1ymm_B\", \"query_region\": [5, 97], \"target_region\": [96, 189], \"seqid\": 33.3333333333333}",
+        "{\"pdb\": \"5wlg\", \"pdb_chain\": \"5wlg_A\", \"query_region\": [5, 97], \"target_region\": [184, 275], \"seqid\": 31.5217391304348}",
+        "{\"pdb\": \"1kj2\", \"pdb_chain\": \"1kj2_H\", \"query_region\": [6, 97], \"target_region\": [185, 275], \"seqid\": 29.6703296703297}",
+        "{\"pdb\": \"3rgv\", \"pdb_chain\": \"3rgv_D\", \"query_region\": [2, 100], \"target_region\": [2, 100], \"seqid\": 69.6969696969697}",
+        "{\"pdb\": \"1mco\", \"pdb_chain\": \"1mco_H\", \"query_region\": [18, 86], \"target_region\": [136, 205], \"seqid\": 23.1884057971014}",
+        "{\"pdb\": \"3huj\", \"pdb_chain\": \"3huj_A\", \"query_region\": [11, 95], \"target_region\": [192, 276], \"seqid\": 27.058823529411804}",
+        "{\"pdb\": \"6id4\", \"pdb_chain\": \"6id4_A\", \"query_region\": [3, 97], \"target_region\": [181, 276], \"seqid\": 25.2631578947368}",
+        "{\"pdb\": \"6rcs\", \"pdb_chain\": \"6rcs_A\", \"query_region\": [18, 86], \"target_region\": [153, 222], \"seqid\": 23.1884057971014}",
+        "{\"pdb\": \"5brz\", \"pdb_chain\": \"5brz_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"4prh\", \"pdb_chain\": \"4prh_B\", \"query_region\": [1, 100], \"target_region\": [1, 100], \"seqid\": 99.0}",
+        "{\"pdb\": \"6cw9\", \"pdb_chain\": \"6cw9_B\", \"query_region\": [3, 99], \"target_region\": [1, 97], \"seqid\": 69.07216494845359}",
+        "{\"pdb\": \"1w72\", \"pdb_chain\": \"1w72_A\", \"query_region\": [3, 96], \"target_region\": [180, 274], \"seqid\": 25.531914893617003}",
+        "{\"pdb\": \"5w1v\", \"pdb_chain\": \"5w1v_A\", \"query_region\": [6, 97], \"target_region\": [185, 275], \"seqid\": 26.3736263736264}",
+        "{\"pdb\": \"5c07\", \"pdb_chain\": \"5c07_A\", \"query_region\": [58, 77], \"target_region\": [105, 123], \"seqid\": 31.5789473684211}",
+        "{\"pdb\": \"1zvo\", \"pdb_chain\": \"1zvo_C\", \"query_region\": [12, 97], \"target_region\": [144, 230], \"seqid\": 25.581395348837198}"
+      ]
+    },
+    "templates": [
+      "5c07",
+      "6mnm",
+      "3rgv",
+      "1kj2",
+      "6id4",
+      "1ymm",
+      "6cw9",
+      "3huj",
+      "5brz",
+      "4p4k",
+      "4prh",
+      "5ks9",
+      "1fyt",
+      "6rcs",
+      "5wlg",
+      "1zgl",
+      "6avg",
+      "5w1v",
+      "1zvo",
+      "1mco",
+      "1w72",
+      "1ypz"
+    ]
+  },
+  "6vy5": {
+    "classification": "template-based",
+    "coverage": {
+      "6vy5_1": "complete",
+      "6vy5_2": "complete",
+      "6vy5_3": "complete"
+    },
+    "matches": {
+      "6vy5_1": [
+        "{\"pdb\": \"6cmg\", \"pdb_chain\": \"6cmg_C\", \"query_region\": [1, 230], \"target_region\": [1, 235], \"seqid\": 71.73913043478261}"
+      ],
+      "6vy5_2": [
+        "{\"pdb\": \"6cmg\", \"pdb_chain\": \"6cmg_C\", \"query_region\": [14, 213], \"target_region\": [14, 235], \"seqid\": 31.0}"
+      ],
+      "6vy5_3": [
+        "{\"pdb\": \"6cmg\", \"pdb_chain\": \"6cmg_A\", \"query_region\": [1, 421], \"target_region\": [8, 428], \"seqid\": 77.1971496437055}"
+      ]
+    },
+    "templates": [
+      "6cmg"
+    ]
+  },
+  "6wat": {
+    "classification": "rejected",
+    "coverage": {
+      "6wat_1": "complete",
+      "6wat_2": "complete",
+      "6wat_3": "complete"
+    },
+    "matches": {
+      "6wat_1": [
+        "{\"pdb\": \"5xfn\", \"pdb_chain\": \"5xfn_A\", \"query_region\": [1, 60], \"target_region\": [4, 63], \"seqid\": 100.0}"
+      ],
+      "6wat_2": [
+        "{\"pdb\": \"5xfn\", \"pdb_chain\": \"5xfn_A\", \"query_region\": [2, 61], \"target_region\": [4, 63], \"seqid\": 100.0}"
+      ],
+      "6wat_3": [
+        "{\"pdb\": \"5xfn\", \"pdb_chain\": \"5xfn_A\", \"query_region\": [1, 59], \"target_region\": [4, 62], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 5xfn"
+  },
+  "6wtg": {
+    "classification": "rejected",
+    "coverage": {
+      "6wtg_1": "complete",
+      "6wtg_2": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6wvq": {
+    "classification": "rejected",
+    "coverage": {
+      "6wvq_1": "complete",
+      "6wvq_2": "complete"
+    },
+    "matches": {
+      "6wvq_1": [
+        "{\"pdb\": \"6o4w\", \"pdb_chain\": \"6o4w_A\", \"query_region\": [1, 538], \"target_region\": [6, 545], \"seqid\": 100.0}"
+      ],
+      "6wvq_2": [
+        "{\"pdb\": \"6o4w\", \"pdb_chain\": \"6o4w_A\", \"query_region\": [1, 534], \"target_region\": [7, 545], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 6o4w"
+  },
+  "6x21": {
+    "classification": "template-based",
+    "coverage": {
+      "6x21_1": "complete",
+      "6x21_2": "complete"
+    },
+    "matches": {
+      "6x21_1": [
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [6, 115], \"target_region\": [3, 112], \"seqid\": 98.1818181818182}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [3, 115], \"target_region\": [3, 113], \"seqid\": 94.59459459459461}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 109], \"target_region\": [1, 113], \"seqid\": 36.697247706422}",
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [10, 110], \"target_region\": [14, 115], \"seqid\": 35.6435643564356}"
+      ],
+      "6x21_2": [
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [9, 115], \"target_region\": [10, 116], \"seqid\": 38.3177570093458}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 118], \"target_region\": [1, 118], \"seqid\": 100.0}",
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [13, 113], \"target_region\": [7, 106], \"seqid\": 35.0}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [12, 112], \"target_region\": [7, 106], \"seqid\": 33.0}"
+      ]
+    },
+    "templates": [
+      "1p97",
+      "5kiz",
+      "3f1n",
+      "2kdk"
+    ]
+  },
+  "6x28": {
+    "classification": "template-based",
+    "coverage": {
+      "6x28_1": "complete",
+      "6x28_2": "complete"
+    },
+    "matches": {
+      "6x28_1": [
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [6, 115], \"target_region\": [3, 112], \"seqid\": 98.1818181818182}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [3, 115], \"target_region\": [3, 113], \"seqid\": 94.59459459459461}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 109], \"target_region\": [1, 113], \"seqid\": 36.697247706422}",
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [10, 110], \"target_region\": [14, 115], \"seqid\": 35.6435643564356}"
+      ],
+      "6x28_2": [
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [9, 115], \"target_region\": [10, 116], \"seqid\": 38.3177570093458}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 118], \"target_region\": [1, 118], \"seqid\": 100.0}",
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [13, 113], \"target_region\": [7, 106], \"seqid\": 35.0}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [12, 112], \"target_region\": [7, 106], \"seqid\": 33.0}"
+      ]
+    },
+    "templates": [
+      "1p97",
+      "5kiz",
+      "3f1n",
+      "2kdk"
+    ]
+  },
+  "6x2h": {
+    "classification": "template-based",
+    "coverage": {
+      "6x2h_1": "complete",
+      "6x2h_2": "complete"
+    },
+    "matches": {
+      "6x2h_1": [
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [6, 115], \"target_region\": [3, 112], \"seqid\": 98.1818181818182}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [3, 115], \"target_region\": [3, 113], \"seqid\": 94.59459459459461}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 109], \"target_region\": [1, 113], \"seqid\": 36.697247706422}",
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [10, 110], \"target_region\": [14, 115], \"seqid\": 35.6435643564356}"
+      ],
+      "6x2h_2": [
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [9, 115], \"target_region\": [10, 116], \"seqid\": 38.3177570093458}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 118], \"target_region\": [1, 118], \"seqid\": 100.0}",
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [13, 113], \"target_region\": [7, 106], \"seqid\": 35.0}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [12, 112], \"target_region\": [7, 106], \"seqid\": 33.0}"
+      ]
+    },
+    "templates": [
+      "1p97",
+      "5kiz",
+      "3f1n",
+      "2kdk"
+    ]
+  },
+  "6x37": {
+    "classification": "template-based",
+    "coverage": {
+      "6x37_1": "complete",
+      "6x37_2": "complete"
+    },
+    "matches": {
+      "6x37_1": [
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [6, 115], \"target_region\": [3, 112], \"seqid\": 98.1818181818182}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [3, 115], \"target_region\": [3, 113], \"seqid\": 94.59459459459461}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 109], \"target_region\": [1, 113], \"seqid\": 36.697247706422}",
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [10, 110], \"target_region\": [14, 115], \"seqid\": 35.6435643564356}"
+      ],
+      "6x37_2": [
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [9, 115], \"target_region\": [10, 116], \"seqid\": 38.3177570093458}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 118], \"target_region\": [1, 118], \"seqid\": 100.0}",
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [13, 113], \"target_region\": [7, 106], \"seqid\": 35.0}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [12, 112], \"target_region\": [7, 106], \"seqid\": 33.0}"
+      ]
+    },
+    "templates": [
+      "1p97",
+      "5kiz",
+      "3f1n",
+      "2kdk"
+    ]
+  },
+  "6x3d": {
+    "classification": "template-based",
+    "coverage": {
+      "6x3d_1": "complete",
+      "6x3d_2": "complete"
+    },
+    "matches": {
+      "6x3d_1": [
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [6, 115], \"target_region\": [3, 112], \"seqid\": 98.1818181818182}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [3, 115], \"target_region\": [3, 113], \"seqid\": 94.59459459459461}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 109], \"target_region\": [1, 113], \"seqid\": 36.697247706422}",
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [10, 110], \"target_region\": [14, 115], \"seqid\": 35.6435643564356}"
+      ],
+      "6x3d_2": [
+        "{\"pdb\": \"2kdk\", \"pdb_chain\": \"2kdk_A\", \"query_region\": [8, 114], \"target_region\": [10, 116], \"seqid\": 38.3177570093458}",
+        "{\"pdb\": \"1p97\", \"pdb_chain\": \"1p97_A\", \"query_region\": [11, 112], \"target_region\": [6, 106], \"seqid\": 34.6534653465347}",
+        "{\"pdb\": \"3f1n\", \"pdb_chain\": \"3f1n_B\", \"query_region\": [1, 117], \"target_region\": [1, 118], \"seqid\": 99.1452991452991}",
+        "{\"pdb\": \"5kiz\", \"pdb_chain\": \"5kiz_A\", \"query_region\": [10, 111], \"target_region\": [6, 106], \"seqid\": 32.6732673267327}"
+      ]
+    },
+    "templates": [
+      "1p97",
+      "5kiz",
+      "3f1n",
+      "2kdk"
+    ]
+  },
+  "6x6u": {
+    "classification": "rejected",
+    "coverage": {
+      "6x6u_1": "complete",
+      "6x6u_2": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6xd9": {
+    "classification": "rejected",
+    "coverage": {
+      "6xd9_1": "complete",
+      "6xd9_2": "complete"
+    },
+    "matches": {
+      "6xd9_1": [
         "{\"pdb\": \"1bz1\", \"pdb_chain\": \"1bz1_A\", \"query_region\": [1, 141], \"target_region\": [2, 142], \"seqid\": 100.0}",
         "{\"pdb\": \"1ch4\", \"pdb_chain\": \"1ch4_A\", \"query_region\": [2, 141], \"target_region\": [3, 146], \"seqid\": 63.5714285714286}",
         "{\"pdb\": \"5ker\", \"pdb_chain\": \"5ker_D\", \"query_region\": [2, 140], \"target_region\": [3, 145], \"seqid\": 45.3237410071942}"
       ],
-      "6iks_2": [
+      "6xd9_2": [
         "{\"pdb\": \"1ch4\", \"pdb_chain\": \"1ch4_A\", \"query_region\": [1, 145], \"target_region\": [1, 145], \"seqid\": 82.7586206896552}",
         "{\"pdb\": \"1bz1\", \"pdb_chain\": \"1bz1_A\", \"query_region\": [3, 145], \"target_region\": [3, 141], \"seqid\": 45.3237410071942}",
         "{\"pdb\": \"5ker\", \"pdb_chain\": \"5ker_D\", \"query_region\": [1, 146], \"target_region\": [1, 146], \"seqid\": 76.7123287671233}"
@@ -27,19 +1166,19 @@
     },
     "rejection": "Trivial templates: ['1bz1', '1ch4', '5ker']"
   },
-  "6ikv": {
+  "6xdt": {
     "classification": "rejected",
     "coverage": {
-      "6ikv_1": "complete",
-      "6ikv_2": "complete"
+      "6xdt_1": "complete",
+      "6xdt_2": "complete"
     },
     "matches": {
-      "6ikv_1": [
+      "6xdt_1": [
         "{\"pdb\": \"1bz1\", \"pdb_chain\": \"1bz1_A\", \"query_region\": [1, 141], \"target_region\": [2, 142], \"seqid\": 100.0}",
         "{\"pdb\": \"1ch4\", \"pdb_chain\": \"1ch4_A\", \"query_region\": [2, 141], \"target_region\": [3, 146], \"seqid\": 63.5714285714286}",
         "{\"pdb\": \"5ker\", \"pdb_chain\": \"5ker_D\", \"query_region\": [2, 140], \"target_region\": [3, 145], \"seqid\": 45.3237410071942}"
       ],
-      "6ikv_2": [
+      "6xdt_2": [
         "{\"pdb\": \"1ch4\", \"pdb_chain\": \"1ch4_A\", \"query_region\": [1, 145], \"target_region\": [1, 145], \"seqid\": 82.7586206896552}",
         "{\"pdb\": \"1bz1\", \"pdb_chain\": \"1bz1_A\", \"query_region\": [3, 145], \"target_region\": [3, 141], \"seqid\": 45.3237410071942}",
         "{\"pdb\": \"5ker\", \"pdb_chain\": \"5ker_D\", \"query_region\": [1, 146], \"target_region\": [1, 146], \"seqid\": 76.7123287671233}"
@@ -47,19 +1186,19 @@
     },
     "rejection": "Trivial templates: ['1bz1', '1ch4', '5ker']"
   },
-  "6il5": {
+  "6xe7": {
     "classification": "rejected",
     "coverage": {
-      "6il5_1": "complete",
-      "6il5_2": "complete"
+      "6xe7_1": "complete",
+      "6xe7_2": "complete"
     },
     "matches": {
-      "6il5_1": [
+      "6xe7_1": [
         "{\"pdb\": \"1bz1\", \"pdb_chain\": \"1bz1_A\", \"query_region\": [1, 141], \"target_region\": [2, 142], \"seqid\": 100.0}",
         "{\"pdb\": \"1ch4\", \"pdb_chain\": \"1ch4_A\", \"query_region\": [2, 141], \"target_region\": [3, 146], \"seqid\": 63.5714285714286}",
         "{\"pdb\": \"5ker\", \"pdb_chain\": \"5ker_D\", \"query_region\": [2, 140], \"target_region\": [3, 145], \"seqid\": 45.3237410071942}"
       ],
-      "6il5_2": [
+      "6xe7_2": [
         "{\"pdb\": \"1ch4\", \"pdb_chain\": \"1ch4_A\", \"query_region\": [1, 145], \"target_region\": [1, 145], \"seqid\": 82.7586206896552}",
         "{\"pdb\": \"1bz1\", \"pdb_chain\": \"1bz1_A\", \"query_region\": [3, 145], \"target_region\": [3, 141], \"seqid\": 45.3237410071942}",
         "{\"pdb\": \"5ker\", \"pdb_chain\": \"5ker_D\", \"query_region\": [1, 146], \"target_region\": [1, 146], \"seqid\": 76.7123287671233}"
@@ -67,43 +1206,627 @@
     },
     "rejection": "Trivial templates: ['1bz1', '1ch4', '5ker']"
   },
-  "6kdh": {
+  "6xod": {
     "classification": "rejected",
     "coverage": {
-      "6kdh_1": "complete",
-      "6kdh_2": "complete"
+      "6xod_1": "bad",
+      "6xod_2": "complete"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6xoy": {
+    "classification": "rejected",
+    "coverage": {
+      "6xoy_1": "complete",
+      "6xoy_2": "complete"
     },
     "matches": {
-      "6kdh_1": [
-        "{\"pdb\": \"3ld8\", \"pdb_chain\": \"3ld8_B\", \"query_region\": [1, 218], \"target_region\": [1, 220], \"seqid\": 69.7247706422018}"
+      "6xoy_1": [
+        "{\"pdb\": \"4hn4\", \"pdb_chain\": \"4hn4_A\", \"query_region\": [1, 268], \"target_region\": [1, 268], \"seqid\": 100.0}"
       ],
-      "6kdh_2": [
-        "{\"pdb\": \"3ld8\", \"pdb_chain\": \"3ld8_C\", \"query_region\": [1, 221], \"target_region\": [1, 221], \"seqid\": 61.9909502262443}"
+      "6xoy_2": [
+        "{\"pdb\": \"4hn4\", \"pdb_chain\": \"4hn4_B\", \"query_region\": [1, 397], \"target_region\": [1, 397], \"seqid\": 100.0}"
       ]
     },
-    "rejection": "Trivial template: 3ld8"
+    "rejection": "Trivial template: 4hn4"
   },
-  "6kdi": {
+  "6xpb": {
     "classification": "rejected",
     "coverage": {
-      "6kdi_1": "complete",
-      "6kdi_2": "complete"
+      "6xpb_1": "complete",
+      "6xpb_2": "complete"
     },
     "matches": {
-      "6kdi_1": [
-        "{\"pdb\": \"3ld8\", \"pdb_chain\": \"3ld8_B\", \"query_region\": [1, 218], \"target_region\": [1, 220], \"seqid\": 69.7247706422018}"
+      "6xpb_1": [
+        "{\"pdb\": \"4gg2\", \"pdb_chain\": \"4gg2_A\", \"query_region\": [1, 353], \"target_region\": [1, 353], \"seqid\": 99.7167138810198}"
       ],
-      "6kdi_2": [
-        "{\"pdb\": \"3ld8\", \"pdb_chain\": \"3ld8_C\", \"query_region\": [1, 221], \"target_region\": [1, 221], \"seqid\": 61.9909502262443}"
+      "6xpb_2": [
+        "{\"pdb\": \"4gg2\", \"pdb_chain\": \"4gg2_B\", \"query_region\": [1, 189], \"target_region\": [1, 189], \"seqid\": 100.0}"
       ]
     },
-    "rejection": "Trivial template: 3ld8"
+    "rejection": "Trivial template: 4gg2"
   },
-  "6ke7": {
+  "6xpc": {
     "classification": "rejected",
     "coverage": {
-      "6ke7_1": "contiguous",
-      "6ke7_2": "bad"
+      "6xpc_1": "complete",
+      "6xpc_2": "complete"
+    },
+    "matches": {
+      "6xpc_1": [
+        "{\"pdb\": \"4gg2\", \"pdb_chain\": \"4gg2_A\", \"query_region\": [1, 353], \"target_region\": [1, 353], \"seqid\": 99.7167138810198}"
+      ],
+      "6xpc_2": [
+        "{\"pdb\": \"4gg2\", \"pdb_chain\": \"4gg2_B\", \"query_region\": [1, 189], \"target_region\": [1, 189], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 4gg2"
+  },
+  "6y75": {
+    "classification": "template-based",
+    "coverage": {
+      "6y75_1": "complete",
+      "6y75_2": "complete"
+    },
+    "matches": {
+      "6y75_1": [
+        "{\"pdb\": \"2lwy\", \"pdb_chain\": \"2lwy_A\", \"query_region\": [6, 147], \"target_region\": [4, 137], \"seqid\": 29.1044776119403}"
+      ],
+      "6y75_2": [
+        "{\"pdb\": \"2lwy\", \"pdb_chain\": \"2lwy_A\", \"query_region\": [6, 147], \"target_region\": [4, 137], \"seqid\": 29.1044776119403}"
+      ]
+    },
+    "templates": [
+      "2lwy"
+    ]
+  },
+  "6ytt": {
+    "classification": "rejected",
+    "coverage": {
+      "6ytt_1": "complete",
+      "6ytt_2": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6yua": {
+    "classification": "rejected",
+    "coverage": {
+      "6yua_1": "complete",
+      "6yua_2": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6yx5": {
+    "classification": "rejected",
+    "coverage": {
+      "6yx5_1": "complete",
+      "6yx5_2": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6yx7": {
+    "classification": "rejected",
+    "coverage": {
+      "6yx7_1": "complete",
+      "6yx7_2": "complete"
+    },
+    "matches": {
+      "6yx7_1": [
+        "{\"pdb\": \"2vjt\", \"pdb_chain\": \"2vjt_B\", \"query_region\": [3, 157], \"target_region\": [5, 158], \"seqid\": 40.9090909090909}"
+      ],
+      "6yx7_2": [
+        "{\"pdb\": \"2vjt\", \"pdb_chain\": \"2vjt_B\", \"query_region\": [1, 161], \"target_region\": [1, 161], \"seqid\": 77.639751552795}"
+      ]
+    },
+    "rejection": "Trivial template: 2vjt"
+  },
+  "6yx8": {
+    "classification": "rejected",
+    "coverage": {
+      "6yx8_1": "complete",
+      "6yx8_2": "complete"
+    },
+    "matches": {
+      "6yx8_1": [
+        "{\"pdb\": \"2vjt\", \"pdb_chain\": \"2vjt_B\", \"query_region\": [3, 157], \"target_region\": [5, 158], \"seqid\": 40.9090909090909}"
+      ],
+      "6yx8_2": [
+        "{\"pdb\": \"2vjt\", \"pdb_chain\": \"2vjt_B\", \"query_region\": [1, 161], \"target_region\": [1, 161], \"seqid\": 77.639751552795}"
+      ]
+    },
+    "rejection": "Trivial template: 2vjt"
+  },
+  "6yy0": {
+    "classification": "rejected",
+    "coverage": {
+      "6yy0_1": "complete",
+      "6yy0_10": "bad",
+      "6yy0_2": "contiguous",
+      "6yy0_3": "bad",
+      "6yy0_4": "bad",
+      "6yy0_5": "bad",
+      "6yy0_6": "bad",
+      "6yy0_7": "bad",
+      "6yy0_8": "bad",
+      "6yy0_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6z1r": {
+    "classification": "rejected",
+    "coverage": {
+      "6z1r_1": "complete",
+      "6z1r_10": "bad",
+      "6z1r_2": "contiguous",
+      "6z1r_3": "bad",
+      "6z1r_4": "bad",
+      "6z1r_5": "bad",
+      "6z1r_6": "bad",
+      "6z1r_7": "bad",
+      "6z1r_8": "bad",
+      "6z1r_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6z1u": {
+    "classification": "rejected",
+    "coverage": {
+      "6z1u_1": "complete",
+      "6z1u_10": "bad",
+      "6z1u_2": "contiguous",
+      "6z1u_3": "bad",
+      "6z1u_4": "bad",
+      "6z1u_5": "bad",
+      "6z1u_6": "bad",
+      "6z1u_7": "bad",
+      "6z1u_8": "bad",
+      "6z1u_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6z8i": {
+    "classification": "rejected",
+    "coverage": {
+      "6z8i_1": "complete",
+      "6z8i_2": "complete"
+    },
+    "matches": {
+      "6z8i_1": [
+        "{\"pdb\": \"5t3r\", \"pdb_chain\": \"5t3r_A\", \"query_region\": [1, 580], \"target_region\": [1, 576], \"seqid\": 100.0}"
+      ],
+      "6z8i_2": [
+        "{\"pdb\": \"5t3r\", \"pdb_chain\": \"5t3r_D\", \"query_region\": [1, 1041], \"target_region\": [1, 1041], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 5t3r"
+  },
+  "6z9a": {
+    "classification": "rejected",
+    "coverage": {
+      "6z9a_1": "complete",
+      "6z9a_2": "complete"
+    },
+    "matches": {
+      "6z9a_1": [
+        "{\"pdb\": \"5t3r\", \"pdb_chain\": \"5t3r_A\", \"query_region\": [1, 580], \"target_region\": [1, 576], \"seqid\": 100.0}"
+      ],
+      "6z9a_2": [
+        "{\"pdb\": \"5t3r\", \"pdb_chain\": \"5t3r_D\", \"query_region\": [1, 1041], \"target_region\": [1, 1041], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 5t3r"
+  },
+  "6zaz": {
+    "classification": "rejected",
+    "coverage": {
+      "6zaz_1": "complete",
+      "6zaz_2": "complete"
+    },
+    "matches": {
+      "6zaz_1": [
+        "{\"pdb\": \"5t3r\", \"pdb_chain\": \"5t3r_A\", \"query_region\": [1, 580], \"target_region\": [1, 576], \"seqid\": 100.0}"
+      ],
+      "6zaz_2": [
+        "{\"pdb\": \"5t3r\", \"pdb_chain\": \"5t3r_D\", \"query_region\": [1, 1041], \"target_region\": [1, 1041], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 5t3r"
+  },
+  "6zbb": {
+    "classification": "rejected",
+    "coverage": {
+      "6zbb_1": "complete",
+      "6zbb_10": "bad",
+      "6zbb_2": "bad",
+      "6zbb_3": "bad",
+      "6zbb_4": "complete",
+      "6zbb_5": "complete",
+      "6zbb_6": "bad",
+      "6zbb_7": "bad",
+      "6zbb_8": "bad",
+      "6zbb_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zg7": {
+    "classification": "rejected",
+    "coverage": {
+      "6zg7_1": "complete",
+      "6zg7_2": "complete",
+      "6zg7_3": "complete",
+      "6zg7_4": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zg8": {
+    "classification": "rejected",
+    "coverage": {
+      "6zg8_1": "complete",
+      "6zg8_2": "complete",
+      "6zg8_3": "complete",
+      "6zg8_4": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zi4": {
+    "classification": "template-based",
+    "coverage": {
+      "6zi4_1": "complete",
+      "6zi4_2": "complete",
+      "6zi4_3": "complete",
+      "6zi4_4": "complete"
+    },
+    "matches": {
+      "6zi4_1": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_C\", \"query_region\": [1, 336], \"target_region\": [1, 336], \"seqid\": 100.0}"
+      ],
+      "6zi4_2": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_H\", \"query_region\": [2, 258], \"target_region\": [2, 258], \"seqid\": 100.0}"
+      ],
+      "6zi4_3": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [19, 262], \"target_region\": [39, 295], \"seqid\": 29.508196721311503}"
+      ],
+      "6zi4_4": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [1, 323], \"target_region\": [1, 323], \"seqid\": 100.0}"
+      ]
+    },
+    "templates": [
+      "1dxr"
+    ]
+  },
+  "6zi5": {
+    "classification": "template-based",
+    "coverage": {
+      "6zi5_1": "complete",
+      "6zi5_2": "complete",
+      "6zi5_3": "complete",
+      "6zi5_4": "complete"
+    },
+    "matches": {
+      "6zi5_1": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_C\", \"query_region\": [1, 336], \"target_region\": [1, 336], \"seqid\": 100.0}"
+      ],
+      "6zi5_2": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_H\", \"query_region\": [2, 258], \"target_region\": [2, 258], \"seqid\": 100.0}"
+      ],
+      "6zi5_3": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [19, 262], \"target_region\": [39, 295], \"seqid\": 29.508196721311503}"
+      ],
+      "6zi5_4": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [1, 323], \"target_region\": [1, 323], \"seqid\": 100.0}"
+      ]
+    },
+    "templates": [
+      "1dxr"
+    ]
+  },
+  "6zi6": {
+    "classification": "template-based",
+    "coverage": {
+      "6zi6_1": "complete",
+      "6zi6_2": "complete",
+      "6zi6_3": "complete",
+      "6zi6_4": "complete"
+    },
+    "matches": {
+      "6zi6_1": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_C\", \"query_region\": [1, 336], \"target_region\": [1, 336], \"seqid\": 100.0}"
+      ],
+      "6zi6_2": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_H\", \"query_region\": [2, 258], \"target_region\": [2, 258], \"seqid\": 100.0}"
+      ],
+      "6zi6_3": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [19, 262], \"target_region\": [39, 295], \"seqid\": 29.508196721311503}"
+      ],
+      "6zi6_4": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [1, 323], \"target_region\": [1, 323], \"seqid\": 100.0}"
+      ]
+    },
+    "templates": [
+      "1dxr"
+    ]
+  },
+  "6zi9": {
+    "classification": "template-based",
+    "coverage": {
+      "6zi9_1": "complete",
+      "6zi9_2": "complete",
+      "6zi9_3": "complete",
+      "6zi9_4": "complete"
+    },
+    "matches": {
+      "6zi9_1": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_C\", \"query_region\": [1, 336], \"target_region\": [1, 336], \"seqid\": 100.0}"
+      ],
+      "6zi9_2": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_H\", \"query_region\": [2, 258], \"target_region\": [2, 258], \"seqid\": 100.0}"
+      ],
+      "6zi9_3": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [19, 262], \"target_region\": [39, 295], \"seqid\": 29.508196721311503}"
+      ],
+      "6zi9_4": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [1, 323], \"target_region\": [1, 323], \"seqid\": 100.0}"
+      ]
+    },
+    "templates": [
+      "1dxr"
+    ]
+  },
+  "6zia": {
+    "classification": "template-based",
+    "coverage": {
+      "6zia_1": "complete",
+      "6zia_2": "complete",
+      "6zia_3": "complete",
+      "6zia_4": "complete"
+    },
+    "matches": {
+      "6zia_1": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_C\", \"query_region\": [1, 336], \"target_region\": [1, 336], \"seqid\": 100.0}"
+      ],
+      "6zia_2": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_H\", \"query_region\": [2, 258], \"target_region\": [2, 258], \"seqid\": 100.0}"
+      ],
+      "6zia_3": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [19, 262], \"target_region\": [39, 295], \"seqid\": 29.508196721311503}"
+      ],
+      "6zia_4": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [1, 323], \"target_region\": [1, 323], \"seqid\": 100.0}"
+      ]
+    },
+    "templates": [
+      "1dxr"
+    ]
+  },
+  "6zid": {
+    "classification": "template-based",
+    "coverage": {
+      "6zid_1": "complete",
+      "6zid_2": "complete",
+      "6zid_3": "complete",
+      "6zid_4": "complete"
+    },
+    "matches": {
+      "6zid_1": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_C\", \"query_region\": [1, 336], \"target_region\": [1, 336], \"seqid\": 100.0}"
+      ],
+      "6zid_2": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_H\", \"query_region\": [2, 258], \"target_region\": [2, 258], \"seqid\": 100.0}"
+      ],
+      "6zid_3": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [19, 262], \"target_region\": [39, 295], \"seqid\": 29.508196721311503}"
+      ],
+      "6zid_4": [
+        "{\"pdb\": \"1dxr\", \"pdb_chain\": \"1dxr_M\", \"query_region\": [1, 323], \"target_region\": [1, 323], \"seqid\": 100.0}"
+      ]
+    },
+    "templates": [
+      "1dxr"
+    ]
+  },
+  "6zik": {
+    "classification": "rejected",
+    "coverage": {
+      "6zik_1": "complete",
+      "6zik_2": "complete",
+      "6zik_3": "complete",
+      "6zik_4": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6ziq": {
+    "classification": "rejected",
+    "coverage": {
+      "6ziq_1": "complete",
+      "6ziq_10": "complete",
+      "6ziq_11": "complete",
+      "6ziq_12": "complete",
+      "6ziq_13": "contiguous",
+      "6ziq_2": "bad",
+      "6ziq_3": "complete",
+      "6ziq_4": "bad",
+      "6ziq_5": "bad",
+      "6ziq_6": "bad",
+      "6ziq_7": "bad",
+      "6ziq_8": "bad",
+      "6ziq_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zit": {
+    "classification": "rejected",
+    "coverage": {
+      "6zit_1": "complete",
+      "6zit_10": "complete",
+      "6zit_11": "complete",
+      "6zit_12": "complete",
+      "6zit_13": "contiguous",
+      "6zit_2": "bad",
+      "6zit_3": "complete",
+      "6zit_4": "bad",
+      "6zit_5": "bad",
+      "6zit_6": "bad",
+      "6zit_7": "bad",
+      "6zit_8": "bad",
+      "6zit_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6ziu": {
+    "classification": "rejected",
+    "coverage": {
+      "6ziu_1": "complete",
+      "6ziu_10": "complete",
+      "6ziu_11": "contiguous",
+      "6ziu_2": "bad",
+      "6ziu_3": "complete",
+      "6ziu_4": "bad",
+      "6ziu_5": "bad",
+      "6ziu_6": "bad",
+      "6ziu_7": "bad",
+      "6ziu_8": "complete",
+      "6ziu_9": "complete"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zlr": {
+    "classification": "rejected",
+    "coverage": {
+      "6zlr_1": "complete",
+      "6zlr_2": "bad",
+      "6zlr_3": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zmr": {
+    "classification": "rejected",
+    "coverage": {
+      "6zmr_1": "complete",
+      "6zmr_10": "bad",
+      "6zmr_2": "bad",
+      "6zmr_3": "bad",
+      "6zmr_4": "complete",
+      "6zmr_5": "complete",
+      "6zmr_6": "bad",
+      "6zmr_7": "bad",
+      "6zmr_8": "bad",
+      "6zmr_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zoe": {
+    "classification": "rejected",
+    "coverage": {
+      "6zoe_1": "complete",
+      "6zoe_2": "complete"
+    },
+    "matches": {
+      "6zoe_1": [
+        "{\"pdb\": \"2j8s\", \"pdb_chain\": \"2j8s_A\", \"query_region\": [1, 1057], \"target_region\": [1, 1055], \"seqid\": 99.9052132701422}"
+      ],
+      "6zoe_2": [
+        "{\"pdb\": \"2j8s\", \"pdb_chain\": \"2j8s_D\", \"query_region\": [1, 169], \"target_region\": [1, 169], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 2j8s"
+  },
+  "6zou": {
+    "classification": "rejected",
+    "coverage": {
+      "6zou_1": "complete",
+      "6zou_10": "bad",
+      "6zou_11": "complete",
+      "6zou_12": "contiguous",
+      "6zou_13": "bad",
+      "6zou_14": "bad",
+      "6zou_2": "complete",
+      "6zou_3": "complete",
+      "6zou_4": "complete",
+      "6zou_5": "complete",
+      "6zou_6": "contiguous",
+      "6zou_7": "complete",
+      "6zou_8": "contiguous",
+      "6zou_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zp6": {
+    "classification": "rejected",
+    "coverage": {
+      "6zp6_1": "complete",
+      "6zp6_10": "bad",
+      "6zp6_11": "complete",
+      "6zp6_12": "contiguous",
+      "6zp6_13": "bad",
+      "6zp6_14": "bad",
+      "6zp6_2": "complete",
+      "6zp6_3": "complete",
+      "6zp6_4": "complete",
+      "6zp6_5": "complete",
+      "6zp6_6": "contiguous",
+      "6zp6_7": "complete",
+      "6zp6_8": "contiguous",
+      "6zp6_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zp8": {
+    "classification": "rejected",
+    "coverage": {
+      "6zp8_1": "complete",
+      "6zp8_10": "bad",
+      "6zp8_11": "complete",
+      "6zp8_12": "contiguous",
+      "6zp8_13": "bad",
+      "6zp8_14": "bad",
+      "6zp8_2": "complete",
+      "6zp8_3": "complete",
+      "6zp8_4": "complete",
+      "6zp8_5": "complete",
+      "6zp8_6": "contiguous",
+      "6zp8_7": "complete",
+      "6zp8_8": "contiguous",
+      "6zp8_9": "bad"
+    },
+    "rejection": "Unbound coverage is bad for one or more entities"
+  },
+  "6zrj": {
+    "classification": "rejected",
+    "coverage": {
+      "6zrj_1": "complete",
+      "6zrj_2": "complete"
+    },
+    "matches": {
+      "6zrj_1": [
+        "{\"pdb\": \"3hbr\", \"pdb_chain\": \"3hbr_A\", \"query_region\": [1, 265], \"target_region\": [1, 265], \"seqid\": 99.62264150943399}"
+      ],
+      "6zrj_2": [
+        "{\"pdb\": \"3hbr\", \"pdb_chain\": \"3hbr_A\", \"query_region\": [1, 265], \"target_region\": [1, 265], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 3hbr"
+  },
+  "6zrp": {
+    "classification": "rejected",
+    "coverage": {
+      "6zrp_1": "complete",
+      "6zrp_2": "complete"
+    },
+    "matches": {
+      "6zrp_1": [
+        "{\"pdb\": \"3hbr\", \"pdb_chain\": \"3hbr_A\", \"query_region\": [1, 265], \"target_region\": [1, 265], \"seqid\": 99.62264150943399}"
+      ],
+      "6zrp_2": [
+        "{\"pdb\": \"3hbr\", \"pdb_chain\": \"3hbr_A\", \"query_region\": [1, 265], \"target_region\": [1, 265], \"seqid\": 100.0}"
+      ]
+    },
+    "rejection": "Trivial template: 3hbr"
+  },
+  "7bui": {
+    "classification": "rejected",
+    "coverage": {
+      "7bui_1": "complete",
+      "7bui_2": "bad"
     },
     "rejection": "Unbound coverage is bad for one or more entities"
   }
